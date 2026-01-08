@@ -6,7 +6,10 @@ import { join } from "path";
 async function bootstrap() {
   const app = await NestFactory.create<NestExpressApplication>(AppModule);
 
-  // Serve static files from the public directory (for Expo generated assets)
+  // Serve static files for Expo generated assets
+  app.useStaticAssets(join(__dirname, "..", "public-expo"));
+
+  // Serve static files for other assets
   app.useStaticAssets(join(__dirname, "..", "public"));
 
   // Enable CORS if needed

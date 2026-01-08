@@ -19,6 +19,10 @@ npm run build
 ## Running
 
 ```bash
+# Copy latest Expo build
+rm -rf ./public-expo
+cp -r ../f1-race-times-app/dist ./public-expo
+
 # Production mode
 npm start
 
