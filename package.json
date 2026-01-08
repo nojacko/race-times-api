@@ -7,8 +7,8 @@
     "build": "tsc",
     "start": "node dist/main.js",
     "dev": "ts-node src/main.ts",
-    "format": "prettier --write \"src/**/*.ts\"",
-    "lint": "eslint \"{src,test}/**/*.ts\" --fix"
+    "format": "prettier --write \"**/*.{ts,js}\"",
+    "lint": "eslint \"**/*.ts\" --fix"
   },
   "author": "",
   "license": "ISC",
