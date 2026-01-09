@@ -8,6 +8,7 @@ NestJS server for serving F1 race times web application with Expo-generated asse
 - Health check endpoint at `/api/v1/_health`
 - Static file serving for Expo-generated web assets
 - CORS enabled
+- OpenAPI 3 documentation with Swagger UI at `/api/docs` (disabled in production)
 
 ## Setup
 
@@ -36,6 +37,8 @@ The server will start on port 3000 (or the PORT environment variable if set).
 
 - `GET /api/v1/_health` - Health check endpoint (returns "200" with status code 200)
 - `/` - Serves static files from the `public` directory
+- `/api` - API root
+- `/api/docs` - Swagger UI (only in non-production)
 
 ## Directory Structure
 
