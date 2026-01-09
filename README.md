@@ -12,20 +12,16 @@ npm run build
 ## Running
 
 ```bash
-# Copy latest Expo build
-rm -rf ./public-expo
-cp -r ../f1-race-times-app/dist ./public-expo
-
-# Update Data
+sh copy-files.sh
 npm run cal:all
-
-# Development mode
 npm run dev
 ```
 
 ## Production
 
 ```bash
+sh copy-files.sh
+npm run build
 npm start
 ```
 
