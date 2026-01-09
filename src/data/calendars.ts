@@ -10,7 +10,7 @@ export const calendars: Calendar[] = [
     file: path.join(VARS.DIR_DATA, "f1-calendar.ics"),
     raceSessionsFile: path.join(VARS.DIR_DATA, "f1-sessions.ts"),
     calendarEventsFile: path.join(VARS.DIR_DATA, "f1-calendar-events.ts"),
-    formula: F1.slug,
+    formulaSlug: F1.slug,
   },
   {
     name: "F2",
@@ -18,7 +18,7 @@ export const calendars: Calendar[] = [
     file: path.join(VARS.DIR_DATA, "f2-calendar.ics"),
     raceSessionsFile: path.join(VARS.DIR_DATA, "f2-sessions.ts"),
     calendarEventsFile: path.join(VARS.DIR_DATA, "f2-calendar-events.ts"),
-    formula: F2.slug,
+    formulaSlug: F2.slug,
   },
 ];
 

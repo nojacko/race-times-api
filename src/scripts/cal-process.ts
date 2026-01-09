@@ -1,7 +1,7 @@
 import * as fs from "fs";
 import * as path from "path";
 import { calendars } from "../data/calendars";
-import { sessionsByFormula, calendarEventsByFormula, racesByFormula } from "../utils/data";
+import { sessionsByFormula, calendarEventsByFormula, racesByFormula, calendarByFormula } from "../utils/data";
 import { formulas } from "../data/formulas";
 import type { CalendarEvent } from "../types/CalendarEvent";
 import type { RaceSession } from "../types/RaceSession";
@@ -33,7 +33,7 @@ function sessionsToTsContent(varName: string, sessions: RaceSession[]): string {
 async function run(): Promise<void> {
   try {
     for (const formula of formulas) {
-      const cal = calendars.find((c) => c.formula === formula.slug);
+      const cal = calendarByFormula(formula.slug);
       if (!cal) {
         console.warn(`No calendar configured for formula ${formula.slug}, skipping.`);
         continue;

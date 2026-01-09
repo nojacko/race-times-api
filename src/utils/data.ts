@@ -24,7 +24,7 @@ export function calendarEventsByFormula(formulaSlug: string): CalendarEvent[] | 
 }
 
 export function calendarByFormula(formulaSlug: string): Calendar | undefined {
-  return calendars.find((c) => c.formula === formulaSlug);
+  return calendars.find((c) => c.formulaSlug === formulaSlug);
 }
 
 export function racesByFormula(formulaSlug: string): Race[] | undefined {

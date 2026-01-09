@@ -4,7 +4,7 @@ export type Calendar = {
   file: string;
   raceSessionsFile: string;
   calendarEventsFile: string;
-  formula: string;
+  formulaSlug: string;
 };
 
 export default Calendar;
