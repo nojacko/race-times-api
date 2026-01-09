@@ -1,18 +1,11 @@
 import * as fs from "fs";
 import * as path from "path";
-import { VARS } from "../vars";
-
-type Calendar = {
-  name: string;
-  url: string;
-  file: string;
-};
+import { VARS, CALENDARS, type Calendar } from "../vars";
 
 function msToMinutes(ms: number): number {
   return Math.round(ms / 1000 / 60);
 }
 async function shouldDownload(cal: Calendar, cacheMs: number): Promise<boolean> {
-    console.log(cal.file);
   if (!fs.existsSync(cal.file)) {
     console.log(`- ${cal.name}: Cache does not exist. Downloading...`);
     return true;
@@ -57,12 +50,7 @@ async function downloadCalendar(cal: Calendar): Promise<void> {
 
 async function run(): Promise<void> {
   try {
-    const calendars: Calendar[] = [
-      { name: "F1", url: VARS.URL_CALENDAR_F1, file: VARS.FILE_CALENDAR_F1 },
-      { name: "F2", url: VARS.URL_CALENDAR_F2, file: VARS.FILE_CALENDAR_F2 },
-    ];
-
-    for (const cal of calendars) {
+    for (const cal of CALENDARS) {
       console.log(`${cal.name} calender`);
       await ensureDir(cal);
       const needs = await shouldDownload(cal, VARS.MS_HOUR);
