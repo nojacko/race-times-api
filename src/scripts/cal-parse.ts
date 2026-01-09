@@ -1,6 +1,7 @@
 import * as fs from "fs";
 import * as path from "path";
 import { calendars } from "../data/calendars";
+import { sessionByFormula } from "../utils/sessions";
 import type { RaceSession } from "../types/RaceSession";
 
 function unfoldLines(raw: string): string[] {
@@ -70,17 +71,22 @@ function parseIcs(content: string): RaceSession[] {
 
     const session: RaceSession = {
       summary: props["SUMMARY"] || "",
-      dtstamp: toIso(props["DTSTAMP"] || "", props["SUMMARY"] || props["UID"]),
-      dtstart: toIso(props["DTSTART"] || "", props["SUMMARY"] || props["UID"]),
-      dtend: toIso(props["DTEND"] || "", props["SUMMARY"] || props["UID"]),
+      // keep original ical values
+      dtstamp: props["DTSTAMP"] || "",
+      dtstart: props["DTSTART"] || "",
+      dtend: props["DTEND"] || "",
+      // ISO start/end for convenience
+      startDateTime: props["DTSTART"] ? toIso(props["DTSTART"], props["SUMMARY"] || props["UID"]) : undefined,
+      endDatetime: props["DTEND"] ? toIso(props["DTEND"], props["SUMMARY"] || props["UID"]) : undefined,
     };
 
     if (props["SEQUENCE"]) session.sequence = props["SEQUENCE"];
     if (props["GEO"]) {
+      session.geo = props["GEO"];
       const [latS, lonS] = props["GEO"].split(";");
       const lat = parseFloat(latS);
       const lon = parseFloat(lonS);
-      if (!Number.isNaN(lat) && !Number.isNaN(lon)) session.geo = { lat, lon };
+      if (!Number.isNaN(lat) && !Number.isNaN(lon)) session.coords = { lat, lon };
     }
     if (props["LOCATION"]) session.location = props["LOCATION"];
     if (props["STATUS"]) session.status = props["STATUS"];
@@ -111,6 +117,27 @@ async function run(): Promise<void> {
 
       const raw = fs.readFileSync(cal.file, "utf8");
       const sessions = parseIcs(raw);
+      // enrich sessions with formulaSlug and sessionTypeSlug
+      const typesForCal = sessionByFormula(cal.formula) || [];
+      if (!typesForCal || typesForCal.length === 0) {
+        console.error(`No session types for formula "${cal.formula}" (calendar: ${cal.name}), skipping.`);
+        continue;
+      }
+      for (const s of sessions) {
+        s.formulaSlug = cal.formula;
+        let matched: string | undefined = undefined;
+        if (s.categories && s.categories.length > 0) {
+          const cats = s.categories.map((c) => c.toLowerCase());
+          for (const t of typesForCal) {
+            if (!t || !t.calCategory) continue;
+            if (cats.includes(t.calCategory.toLowerCase())) {
+              matched = t.slug;
+              break;
+            }
+          }
+        }
+        if (matched) s.sessionTypeSlug = matched;
+      }
       const varName = `${cal.name.toLowerCase()}Sessions`;
       const content = sessionsToTsContent(varName, sessions);
 
