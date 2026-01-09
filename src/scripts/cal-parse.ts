@@ -1,6 +1,6 @@
 import * as fs from "fs";
 import * as path from "path";
-import { CALENDARS } from "../vars";
+import { calendars } from "../data/calendars";
 import type { RaceSession } from "../types/RaceSession";
 
 function unfoldLines(raw: string): string[] {
@@ -103,7 +103,7 @@ function sessionsToTsContent(varName: string, sessions: RaceSession[]): string {
 
 async function run(): Promise<void> {
   try {
-    for (const cal of CALENDARS) {
+    for (const cal of calendars) {
       if (!fs.existsSync(cal.file)) {
         console.warn(`Skipping ${cal.name}: calendar file not found at ${cal.file}`);
         continue;

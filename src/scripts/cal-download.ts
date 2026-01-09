@@ -1,6 +1,8 @@
 import * as fs from "fs";
 import * as path from "path";
-import { VARS, CALENDARS, type Calendar } from "../vars";
+import { VARS } from "../vars";
+import { calendars } from "../data/calendars";
+import type { Calendar } from "../types/Calendar";
 
 function msToMinutes(ms: number): number {
   return Math.round(ms / 1000 / 60);
@@ -50,7 +52,7 @@ async function downloadCalendar(cal: Calendar): Promise<void> {
 
 async function run(): Promise<void> {
   try {
-    for (const cal of CALENDARS) {
+    for (const cal of calendars) {
       console.log(`${cal.name} calender`);
       await ensureDir(cal);
       const needs = await shouldDownload(cal, VARS.MS_HOUR);

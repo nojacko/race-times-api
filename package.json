@@ -10,7 +10,7 @@
     "format": "prettier --write \"**/*.{ts,js}\"",
     "lint": "eslint \"**/*.ts\" --fix",
     "cal:download": "ts-node src/scripts/cal-download.ts",
-    "cal:parse": "ts-node src/scripts/cal-parse.ts"
+    "cal:parse": "ts-node src/scripts/cal-parse.ts && eslint \"src/data/**/*.ts\" --fix"
   },
   "author": "",
   "license": "ISC",
