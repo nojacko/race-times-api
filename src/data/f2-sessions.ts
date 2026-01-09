@@ -7,6 +7,7 @@ export const f2Sessions: RaceSession[] = [
   {
     formulaSlug: "f2",
     sessionTypeSlug: "free-practice",
+    raceSlug: "australian",
     startDateTime: "2025-03-13T23:00:00.000Z",
     endDatetime: "2025-03-13T23:45:00.000Z",
     coords: {
@@ -17,6 +18,7 @@ export const f2Sessions: RaceSession[] = [
   {
     formulaSlug: "f2",
     sessionTypeSlug: "qualifying",
+    raceSlug: "australian",
     startDateTime: "2025-03-14T06:30:00.000Z",
     endDatetime: "2025-03-14T07:00:00.000Z",
     coords: {
@@ -27,6 +29,7 @@ export const f2Sessions: RaceSession[] = [
   {
     formulaSlug: "f2",
     sessionTypeSlug: "sprint",
+    raceSlug: "australian",
     startDateTime: "2025-03-15T03:15:00.000Z",
     endDatetime: "2025-03-15T04:00:00.000Z",
     coords: {
@@ -37,6 +40,7 @@ export const f2Sessions: RaceSession[] = [
   {
     formulaSlug: "f2",
     sessionTypeSlug: "feature",
+    raceSlug: "australian",
     startDateTime: "2025-03-16T00:30:00.000Z",
     endDatetime: "2025-03-16T01:30:00.000Z",
     coords: {
@@ -47,6 +51,7 @@ export const f2Sessions: RaceSession[] = [
   {
     formulaSlug: "f2",
     sessionTypeSlug: "free-practice",
+    raceSlug: "bahrain",
     startDateTime: "2025-04-11T09:05:00.000Z",
     endDatetime: "2025-04-11T09:50:00.000Z",
     coords: {
@@ -57,6 +62,7 @@ export const f2Sessions: RaceSession[] = [
   {
     formulaSlug: "f2",
     sessionTypeSlug: "qualifying",
+    raceSlug: "bahrain",
     startDateTime: "2025-04-11T13:55:00.000Z",
     endDatetime: "2025-04-11T14:25:00.000Z",
     coords: {
@@ -67,6 +73,7 @@ export const f2Sessions: RaceSession[] = [
   {
     formulaSlug: "f2",
     sessionTypeSlug: "sprint",
+    raceSlug: "bahrain",
     startDateTime: "2025-04-12T14:15:00.000Z",
     endDatetime: "2025-04-12T15:00:00.000Z",
     coords: {
@@ -77,6 +84,7 @@ export const f2Sessions: RaceSession[] = [
   {
     formulaSlug: "f2",
     sessionTypeSlug: "feature",
+    raceSlug: "bahrain",
     startDateTime: "2025-04-13T11:25:00.000Z",
     endDatetime: "2025-04-13T12:25:00.000Z",
     coords: {
@@ -87,6 +95,7 @@ export const f2Sessions: RaceSession[] = [
   {
     formulaSlug: "f2",
     sessionTypeSlug: "free-practice",
+    raceSlug: "saudi-arabian",
     startDateTime: "2025-04-18T09:45:00.000Z",
     endDatetime: "2025-04-18T10:30:00.000Z",
     coords: {
@@ -97,6 +106,7 @@ export const f2Sessions: RaceSession[] = [
   {
     formulaSlug: "f2",
     sessionTypeSlug: "qualifying",
+    raceSlug: "saudi-arabian",
     startDateTime: "2025-04-18T15:00:00.000Z",
     endDatetime: "2025-04-18T15:30:00.000Z",
     coords: {
@@ -107,6 +117,7 @@ export const f2Sessions: RaceSession[] = [
   {
     formulaSlug: "f2",
     sessionTypeSlug: "sprint",
+    raceSlug: "saudi-arabian",
     startDateTime: "2025-04-19T15:15:00.000Z",
     endDatetime: "2025-04-19T16:00:00.000Z",
     coords: {
@@ -117,6 +128,7 @@ export const f2Sessions: RaceSession[] = [
   {
     formulaSlug: "f2",
     sessionTypeSlug: "feature",
+    raceSlug: "saudi-arabian",
     startDateTime: "2025-04-20T13:25:00.000Z",
     endDatetime: "2025-04-20T14:25:00.000Z",
     coords: {
@@ -127,6 +139,7 @@ export const f2Sessions: RaceSession[] = [
   {
     formulaSlug: "f2",
     sessionTypeSlug: "free-practice",
+    raceSlug: "emilia-romagna",
     startDateTime: "2025-05-16T09:05:00.000Z",
     endDatetime: "2025-05-16T09:50:00.000Z",
     coords: {
@@ -137,6 +150,7 @@ export const f2Sessions: RaceSession[] = [
   {
     formulaSlug: "f2",
     sessionTypeSlug: "qualifying",
+    raceSlug: "emilia-romagna",
     startDateTime: "2025-05-16T14:00:00.000Z",
     endDatetime: "2025-05-16T14:30:00.000Z",
     coords: {
@@ -147,6 +161,7 @@ export const f2Sessions: RaceSession[] = [
   {
     formulaSlug: "f2",
     sessionTypeSlug: "sprint",
+    raceSlug: "emilia-romagna",
     startDateTime: "2025-05-17T12:15:00.000Z",
     endDatetime: "2025-05-17T13:00:00.000Z",
     coords: {
@@ -157,6 +172,7 @@ export const f2Sessions: RaceSession[] = [
   {
     formulaSlug: "f2",
     sessionTypeSlug: "feature",
+    raceSlug: "emilia-romagna",
     startDateTime: "2025-05-18T08:00:00.000Z",
     endDatetime: "2025-05-18T09:00:00.000Z",
     coords: {
@@ -167,6 +183,7 @@ export const f2Sessions: RaceSession[] = [
   {
     formulaSlug: "f2",
     sessionTypeSlug: "free-practice",
+    raceSlug: "monaco",
     startDateTime: "2025-05-22T13:00:00.000Z",
     endDatetime: "2025-05-22T13:45:00.000Z",
     coords: {
@@ -177,6 +194,7 @@ export const f2Sessions: RaceSession[] = [
   {
     formulaSlug: "f2",
     sessionTypeSlug: "qualifying",
+    raceSlug: "monaco",
     startDateTime: "2025-05-23T13:10:00.000Z",
     endDatetime: "2025-05-23T13:40:00.000Z",
     coords: {
@@ -187,6 +205,7 @@ export const f2Sessions: RaceSession[] = [
   {
     formulaSlug: "f2",
     sessionTypeSlug: "sprint",
+    raceSlug: "monaco",
     startDateTime: "2025-05-24T12:15:00.000Z",
     endDatetime: "2025-05-24T13:00:00.000Z",
     coords: {
@@ -197,6 +216,7 @@ export const f2Sessions: RaceSession[] = [
   {
     formulaSlug: "f2",
     sessionTypeSlug: "feature",
+    raceSlug: "monaco",
     startDateTime: "2025-05-25T07:40:00.000Z",
     endDatetime: "2025-05-25T08:40:00.000Z",
     coords: {
@@ -207,6 +227,7 @@ export const f2Sessions: RaceSession[] = [
   {
     formulaSlug: "f2",
     sessionTypeSlug: "free-practice",
+    raceSlug: "spanish",
     startDateTime: "2025-05-30T09:05:00.000Z",
     endDatetime: "2025-05-30T09:50:00.000Z",
     coords: {
@@ -217,6 +238,7 @@ export const f2Sessions: RaceSession[] = [
   {
     formulaSlug: "f2",
     sessionTypeSlug: "qualifying",
+    raceSlug: "spanish",
     startDateTime: "2025-05-30T13:55:00.000Z",
     endDatetime: "2025-05-30T14:25:00.000Z",
     coords: {
@@ -227,6 +249,7 @@ export const f2Sessions: RaceSession[] = [
   {
     formulaSlug: "f2",
     sessionTypeSlug: "sprint",
+    raceSlug: "spanish",
     startDateTime: "2025-05-31T12:15:00.000Z",
     endDatetime: "2025-05-31T13:00:00.000Z",
     coords: {
@@ -237,6 +260,7 @@ export const f2Sessions: RaceSession[] = [
   {
     formulaSlug: "f2",
     sessionTypeSlug: "feature",
+    raceSlug: "spanish",
     startDateTime: "2025-06-01T08:00:00.000Z",
     endDatetime: "2025-06-01T09:00:00.000Z",
     coords: {
@@ -247,6 +271,7 @@ export const f2Sessions: RaceSession[] = [
   {
     formulaSlug: "f2",
     sessionTypeSlug: "free-practice",
+    raceSlug: "austrian",
     startDateTime: "2025-06-27T09:05:00.000Z",
     endDatetime: "2025-06-27T09:50:00.000Z",
     coords: {
@@ -257,6 +282,7 @@ export const f2Sessions: RaceSession[] = [
   {
     formulaSlug: "f2",
     sessionTypeSlug: "qualifying",
+    raceSlug: "austrian",
     startDateTime: "2025-06-27T13:55:00.000Z",
     endDatetime: "2025-06-27T14:25:00.000Z",
     coords: {
@@ -267,6 +293,7 @@ export const f2Sessions: RaceSession[] = [
   {
     formulaSlug: "f2",
     sessionTypeSlug: "sprint",
+    raceSlug: "austrian",
     startDateTime: "2025-06-28T12:15:00.000Z",
     endDatetime: "2025-06-28T13:00:00.000Z",
     coords: {
@@ -277,6 +304,7 @@ export const f2Sessions: RaceSession[] = [
   {
     formulaSlug: "f2",
     sessionTypeSlug: "feature",
+    raceSlug: "austrian",
     startDateTime: "2025-06-29T08:00:00.000Z",
     endDatetime: "2025-06-29T09:00:00.000Z",
     coords: {
@@ -287,6 +315,7 @@ export const f2Sessions: RaceSession[] = [
   {
     formulaSlug: "f2",
     sessionTypeSlug: "free-practice",
+    raceSlug: "british",
     startDateTime: "2025-07-04T09:00:00.000Z",
     endDatetime: "2025-07-04T09:45:00.000Z",
     coords: {
@@ -297,6 +326,7 @@ export const f2Sessions: RaceSession[] = [
   {
     formulaSlug: "f2",
     sessionTypeSlug: "qualifying",
+    raceSlug: "british",
     startDateTime: "2025-07-04T13:55:00.000Z",
     endDatetime: "2025-07-04T14:25:00.000Z",
     coords: {
@@ -307,6 +337,7 @@ export const f2Sessions: RaceSession[] = [
   {
     formulaSlug: "f2",
     sessionTypeSlug: "sprint",
+    raceSlug: "british",
     startDateTime: "2025-07-05T12:15:00.000Z",
     endDatetime: "2025-07-05T13:00:00.000Z",
     coords: {
@@ -317,6 +348,7 @@ export const f2Sessions: RaceSession[] = [
   {
     formulaSlug: "f2",
     sessionTypeSlug: "feature",
+    raceSlug: "british",
     startDateTime: "2025-07-06T10:05:00.000Z",
     endDatetime: "2025-07-06T11:05:00.000Z",
     coords: {
@@ -327,6 +359,7 @@ export const f2Sessions: RaceSession[] = [
   {
     formulaSlug: "f2",
     sessionTypeSlug: "free-practice",
+    raceSlug: "belgian",
     startDateTime: "2025-07-25T08:10:00.000Z",
     endDatetime: "2025-07-25T08:55:00.000Z",
     coords: {
@@ -337,6 +370,7 @@ export const f2Sessions: RaceSession[] = [
   {
     formulaSlug: "f2",
     sessionTypeSlug: "qualifying",
+    raceSlug: "belgian",
     startDateTime: "2025-07-25T13:00:00.000Z",
     endDatetime: "2025-07-25T13:30:00.000Z",
     coords: {
@@ -347,6 +381,7 @@ export const f2Sessions: RaceSession[] = [
   {
     formulaSlug: "f2",
     sessionTypeSlug: "sprint",
+    raceSlug: "belgian",
     startDateTime: "2025-07-26T11:45:00.000Z",
     endDatetime: "2025-07-26T12:30:00.000Z",
     coords: {
@@ -357,6 +392,7 @@ export const f2Sessions: RaceSession[] = [
   {
     formulaSlug: "f2",
     sessionTypeSlug: "feature",
+    raceSlug: "belgian",
     startDateTime: "2025-07-27T08:00:00.000Z",
     endDatetime: "2025-07-27T09:00:00.000Z",
     coords: {
@@ -367,6 +403,7 @@ export const f2Sessions: RaceSession[] = [
   {
     formulaSlug: "f2",
     sessionTypeSlug: "free-practice",
+    raceSlug: "hungarian",
     startDateTime: "2025-08-01T09:05:00.000Z",
     endDatetime: "2025-08-01T09:50:00.000Z",
     coords: {
@@ -377,6 +414,7 @@ export const f2Sessions: RaceSession[] = [
   {
     formulaSlug: "f2",
     sessionTypeSlug: "qualifying",
+    raceSlug: "hungarian",
     startDateTime: "2025-08-01T13:55:00.000Z",
     endDatetime: "2025-08-01T14:25:00.000Z",
     coords: {
@@ -387,6 +425,7 @@ export const f2Sessions: RaceSession[] = [
   {
     formulaSlug: "f2",
     sessionTypeSlug: "sprint",
+    raceSlug: "hungarian",
     startDateTime: "2025-08-02T12:15:00.000Z",
     endDatetime: "2025-08-02T13:00:00.000Z",
     coords: {
@@ -397,6 +436,7 @@ export const f2Sessions: RaceSession[] = [
   {
     formulaSlug: "f2",
     sessionTypeSlug: "feature",
+    raceSlug: "hungarian",
     startDateTime: "2025-08-03T08:00:00.000Z",
     endDatetime: "2025-08-03T09:00:00.000Z",
     coords: {
@@ -407,6 +447,7 @@ export const f2Sessions: RaceSession[] = [
   {
     formulaSlug: "f2",
     sessionTypeSlug: "free-practice",
+    raceSlug: "italian",
     startDateTime: "2025-09-05T09:00:00.000Z",
     endDatetime: "2025-09-05T09:45:00.000Z",
     coords: {
@@ -417,6 +458,7 @@ export const f2Sessions: RaceSession[] = [
   {
     formulaSlug: "f2",
     sessionTypeSlug: "qualifying",
+    raceSlug: "italian",
     startDateTime: "2025-09-05T13:55:00.000Z",
     endDatetime: "2025-09-05T14:25:00.000Z",
     coords: {
@@ -427,6 +469,7 @@ export const f2Sessions: RaceSession[] = [
   {
     formulaSlug: "f2",
     sessionTypeSlug: "sprint",
+    raceSlug: "italian",
     startDateTime: "2025-09-06T12:15:00.000Z",
     endDatetime: "2025-09-06T13:00:00.000Z",
     coords: {
@@ -437,6 +480,7 @@ export const f2Sessions: RaceSession[] = [
   {
     formulaSlug: "f2",
     sessionTypeSlug: "feature",
+    raceSlug: "italian",
     startDateTime: "2025-09-07T07:45:00.000Z",
     endDatetime: "2025-09-07T08:45:00.000Z",
     coords: {
@@ -447,6 +491,7 @@ export const f2Sessions: RaceSession[] = [
   {
     formulaSlug: "f2",
     sessionTypeSlug: "free-practice",
+    raceSlug: "azerbaijan",
     startDateTime: "2025-09-19T06:00:00.000Z",
     endDatetime: "2025-09-19T06:45:00.000Z",
     coords: {
@@ -457,6 +502,7 @@ export const f2Sessions: RaceSession[] = [
   {
     formulaSlug: "f2",
     sessionTypeSlug: "qualifying",
+    raceSlug: "azerbaijan",
     startDateTime: "2025-09-19T10:00:00.000Z",
     endDatetime: "2025-09-19T10:30:00.000Z",
     coords: {
@@ -467,6 +513,7 @@ export const f2Sessions: RaceSession[] = [
   {
     formulaSlug: "f2",
     sessionTypeSlug: "sprint",
+    raceSlug: "azerbaijan",
     startDateTime: "2025-09-20T10:15:00.000Z",
     endDatetime: "2025-09-20T11:00:00.000Z",
     coords: {
@@ -477,6 +524,7 @@ export const f2Sessions: RaceSession[] = [
   {
     formulaSlug: "f2",
     sessionTypeSlug: "feature",
+    raceSlug: "azerbaijan",
     startDateTime: "2025-09-21T07:00:00.000Z",
     endDatetime: "2025-09-21T08:00:00.000Z",
     coords: {
@@ -487,6 +535,7 @@ export const f2Sessions: RaceSession[] = [
   {
     formulaSlug: "f2",
     sessionTypeSlug: "free-practice",
+    raceSlug: "qatar",
     startDateTime: "2025-11-28T11:05:00.000Z",
     endDatetime: "2025-11-28T11:50:00.000Z",
     coords: {
@@ -497,6 +546,7 @@ export const f2Sessions: RaceSession[] = [
   {
     formulaSlug: "f2",
     sessionTypeSlug: "qualifying",
+    raceSlug: "qatar",
     startDateTime: "2025-11-28T16:10:00.000Z",
     endDatetime: "2025-11-28T16:40:00.000Z",
     coords: {
@@ -507,6 +557,7 @@ export const f2Sessions: RaceSession[] = [
   {
     formulaSlug: "f2",
     sessionTypeSlug: "sprint",
+    raceSlug: "qatar",
     startDateTime: "2025-11-29T16:20:00.000Z",
     endDatetime: "2025-11-29T17:05:00.000Z",
     coords: {
@@ -517,6 +568,7 @@ export const f2Sessions: RaceSession[] = [
   {
     formulaSlug: "f2",
     sessionTypeSlug: "feature",
+    raceSlug: "qatar",
     startDateTime: "2025-11-30T12:00:00.000Z",
     endDatetime: "2025-11-30T13:00:00.000Z",
     coords: {
@@ -527,6 +579,7 @@ export const f2Sessions: RaceSession[] = [
   {
     formulaSlug: "f2",
     sessionTypeSlug: "free-practice",
+    raceSlug: "abu-dhabi",
     startDateTime: "2025-12-05T07:05:00.000Z",
     endDatetime: "2025-12-05T07:50:00.000Z",
     coords: {
@@ -537,6 +590,7 @@ export const f2Sessions: RaceSession[] = [
   {
     formulaSlug: "f2",
     sessionTypeSlug: "qualifying",
+    raceSlug: "abu-dhabi",
     startDateTime: "2025-12-05T11:00:00.000Z",
     endDatetime: "2025-12-05T11:30:00.000Z",
     coords: {
@@ -547,6 +601,7 @@ export const f2Sessions: RaceSession[] = [
   {
     formulaSlug: "f2",
     sessionTypeSlug: "sprint",
+    raceSlug: "abu-dhabi",
     startDateTime: "2025-12-06T12:15:00.000Z",
     endDatetime: "2025-12-06T13:00:00.000Z",
     coords: {
@@ -557,6 +612,7 @@ export const f2Sessions: RaceSession[] = [
   {
     formulaSlug: "f2",
     sessionTypeSlug: "feature",
+    raceSlug: "abu-dhabi",
     startDateTime: "2025-12-07T09:15:00.000Z",
     endDatetime: "2025-12-07T10:15:00.000Z",
     coords: {

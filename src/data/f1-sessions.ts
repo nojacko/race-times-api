@@ -7,6 +7,7 @@ export const f1Sessions: RaceSession[] = [
   {
     formulaSlug: "f1",
     sessionTypeSlug: "free-practice-1",
+    raceSlug: "australian-grand-prix",
     startDateTime: "2026-03-06T01:30:00.000Z",
     endDatetime: "2026-03-06T02:30:00.000Z",
     coords: {
@@ -17,6 +18,7 @@ export const f1Sessions: RaceSession[] = [
   {
     formulaSlug: "f1",
     sessionTypeSlug: "free-practice-2",
+    raceSlug: "australian-grand-prix",
     startDateTime: "2026-03-06T05:00:00.000Z",
     endDatetime: "2026-03-06T06:00:00.000Z",
     coords: {
@@ -27,6 +29,7 @@ export const f1Sessions: RaceSession[] = [
   {
     formulaSlug: "f1",
     sessionTypeSlug: "free-practice-3",
+    raceSlug: "australian-grand-prix",
     startDateTime: "2026-03-07T01:30:00.000Z",
     endDatetime: "2026-03-07T02:30:00.000Z",
     coords: {
@@ -37,6 +40,7 @@ export const f1Sessions: RaceSession[] = [
   {
     formulaSlug: "f1",
     sessionTypeSlug: "qualifying",
+    raceSlug: "australian-grand-prix",
     startDateTime: "2026-03-07T05:00:00.000Z",
     endDatetime: "2026-03-07T06:00:00.000Z",
     coords: {
@@ -47,6 +51,7 @@ export const f1Sessions: RaceSession[] = [
   {
     formulaSlug: "f1",
     sessionTypeSlug: "grand-prix",
+    raceSlug: "australian-grand-prix",
     startDateTime: "2026-03-08T04:00:00.000Z",
     endDatetime: "2026-03-08T06:00:00.000Z",
     coords: {
@@ -57,6 +62,7 @@ export const f1Sessions: RaceSession[] = [
   {
     formulaSlug: "f1",
     sessionTypeSlug: "free-practice-1",
+    raceSlug: "chinese-grand-prix",
     startDateTime: "2026-03-13T03:30:00.000Z",
     endDatetime: "2026-03-13T04:30:00.000Z",
     coords: {
@@ -67,6 +73,7 @@ export const f1Sessions: RaceSession[] = [
   {
     formulaSlug: "f1",
     sessionTypeSlug: "sprint-qualifying",
+    raceSlug: "chinese-grand-prix",
     startDateTime: "2026-03-13T07:30:00.000Z",
     endDatetime: "2026-03-13T08:15:00.000Z",
     coords: {
@@ -77,6 +84,7 @@ export const f1Sessions: RaceSession[] = [
   {
     formulaSlug: "f1",
     sessionTypeSlug: "sprint",
+    raceSlug: "chinese-grand-prix",
     startDateTime: "2026-03-14T03:00:00.000Z",
     endDatetime: "2026-03-14T03:30:00.000Z",
     coords: {
@@ -87,6 +95,7 @@ export const f1Sessions: RaceSession[] = [
   {
     formulaSlug: "f1",
     sessionTypeSlug: "qualifying",
+    raceSlug: "chinese-grand-prix",
     startDateTime: "2026-03-14T07:00:00.000Z",
     endDatetime: "2026-03-14T08:00:00.000Z",
     coords: {
@@ -97,6 +106,7 @@ export const f1Sessions: RaceSession[] = [
   {
     formulaSlug: "f1",
     sessionTypeSlug: "grand-prix",
+    raceSlug: "chinese-grand-prix",
     startDateTime: "2026-03-15T07:00:00.000Z",
     endDatetime: "2026-03-15T09:00:00.000Z",
     coords: {
@@ -107,6 +117,7 @@ export const f1Sessions: RaceSession[] = [
   {
     formulaSlug: "f1",
     sessionTypeSlug: "free-practice-1",
+    raceSlug: "japanese-grand-prix",
     startDateTime: "2026-03-27T02:30:00.000Z",
     endDatetime: "2026-03-27T03:30:00.000Z",
     coords: {
@@ -117,6 +128,7 @@ export const f1Sessions: RaceSession[] = [
   {
     formulaSlug: "f1",
     sessionTypeSlug: "free-practice-2",
+    raceSlug: "japanese-grand-prix",
     startDateTime: "2026-03-27T06:00:00.000Z",
     endDatetime: "2026-03-27T07:00:00.000Z",
     coords: {
@@ -127,6 +139,7 @@ export const f1Sessions: RaceSession[] = [
   {
     formulaSlug: "f1",
     sessionTypeSlug: "free-practice-3",
+    raceSlug: "japanese-grand-prix",
     startDateTime: "2026-03-28T02:30:00.000Z",
     endDatetime: "2026-03-28T03:30:00.000Z",
     coords: {
@@ -137,6 +150,7 @@ export const f1Sessions: RaceSession[] = [
   {
     formulaSlug: "f1",
     sessionTypeSlug: "qualifying",
+    raceSlug: "japanese-grand-prix",
     startDateTime: "2026-03-28T06:00:00.000Z",
     endDatetime: "2026-03-28T07:00:00.000Z",
     coords: {
@@ -147,6 +161,7 @@ export const f1Sessions: RaceSession[] = [
   {
     formulaSlug: "f1",
     sessionTypeSlug: "grand-prix",
+    raceSlug: "japanese-grand-prix",
     startDateTime: "2026-03-29T05:00:00.000Z",
     endDatetime: "2026-03-29T07:00:00.000Z",
     coords: {
@@ -157,6 +172,7 @@ export const f1Sessions: RaceSession[] = [
   {
     formulaSlug: "f1",
     sessionTypeSlug: "free-practice-1",
+    raceSlug: "bahrain-grand-prix",
     startDateTime: "2026-04-10T11:30:00.000Z",
     endDatetime: "2026-04-10T12:30:00.000Z",
     coords: {
@@ -167,6 +183,7 @@ export const f1Sessions: RaceSession[] = [
   {
     formulaSlug: "f1",
     sessionTypeSlug: "free-practice-2",
+    raceSlug: "bahrain-grand-prix",
     startDateTime: "2026-04-10T15:00:00.000Z",
     endDatetime: "2026-04-10T16:00:00.000Z",
     coords: {
@@ -177,6 +194,7 @@ export const f1Sessions: RaceSession[] = [
   {
     formulaSlug: "f1",
     sessionTypeSlug: "free-practice-3",
+    raceSlug: "bahrain-grand-prix",
     startDateTime: "2026-04-11T12:30:00.000Z",
     endDatetime: "2026-04-11T13:30:00.000Z",
     coords: {
@@ -187,6 +205,7 @@ export const f1Sessions: RaceSession[] = [
   {
     formulaSlug: "f1",
     sessionTypeSlug: "qualifying",
+    raceSlug: "bahrain-grand-prix",
     startDateTime: "2026-04-11T16:00:00.000Z",
     endDatetime: "2026-04-11T17:00:00.000Z",
     coords: {
@@ -197,6 +216,7 @@ export const f1Sessions: RaceSession[] = [
   {
     formulaSlug: "f1",
     sessionTypeSlug: "grand-prix",
+    raceSlug: "bahrain-grand-prix",
     startDateTime: "2026-04-12T15:00:00.000Z",
     endDatetime: "2026-04-12T17:00:00.000Z",
     coords: {
@@ -207,6 +227,7 @@ export const f1Sessions: RaceSession[] = [
   {
     formulaSlug: "f1",
     sessionTypeSlug: "free-practice-1",
+    raceSlug: "saudi-arabian-grand-prix",
     startDateTime: "2026-04-17T13:30:00.000Z",
     endDatetime: "2026-04-17T14:30:00.000Z",
     coords: {
@@ -217,6 +238,7 @@ export const f1Sessions: RaceSession[] = [
   {
     formulaSlug: "f1",
     sessionTypeSlug: "free-practice-2",
+    raceSlug: "saudi-arabian-grand-prix",
     startDateTime: "2026-04-17T17:00:00.000Z",
     endDatetime: "2026-04-17T18:00:00.000Z",
     coords: {
@@ -227,6 +249,7 @@ export const f1Sessions: RaceSession[] = [
   {
     formulaSlug: "f1",
     sessionTypeSlug: "free-practice-3",
+    raceSlug: "saudi-arabian-grand-prix",
     startDateTime: "2026-04-18T13:30:00.000Z",
     endDatetime: "2026-04-18T14:30:00.000Z",
     coords: {
@@ -237,6 +260,7 @@ export const f1Sessions: RaceSession[] = [
   {
     formulaSlug: "f1",
     sessionTypeSlug: "qualifying",
+    raceSlug: "saudi-arabian-grand-prix",
     startDateTime: "2026-04-18T17:00:00.000Z",
     endDatetime: "2026-04-18T18:00:00.000Z",
     coords: {
@@ -247,6 +271,7 @@ export const f1Sessions: RaceSession[] = [
   {
     formulaSlug: "f1",
     sessionTypeSlug: "grand-prix",
+    raceSlug: "saudi-arabian-grand-prix",
     startDateTime: "2026-04-19T17:00:00.000Z",
     endDatetime: "2026-04-19T19:00:00.000Z",
     coords: {
@@ -257,6 +282,7 @@ export const f1Sessions: RaceSession[] = [
   {
     formulaSlug: "f1",
     sessionTypeSlug: "free-practice-1",
+    raceSlug: "miami-grand-prix",
     startDateTime: "2026-05-01T16:30:00.000Z",
     endDatetime: "2026-05-01T17:30:00.000Z",
     coords: {
@@ -267,6 +293,7 @@ export const f1Sessions: RaceSession[] = [
   {
     formulaSlug: "f1",
     sessionTypeSlug: "sprint-qualifying",
+    raceSlug: "miami-grand-prix",
     startDateTime: "2026-05-01T20:30:00.000Z",
     endDatetime: "2026-05-01T21:15:00.000Z",
     coords: {
@@ -277,6 +304,7 @@ export const f1Sessions: RaceSession[] = [
   {
     formulaSlug: "f1",
     sessionTypeSlug: "sprint",
+    raceSlug: "miami-grand-prix",
     startDateTime: "2026-05-02T16:00:00.000Z",
     endDatetime: "2026-05-02T16:30:00.000Z",
     coords: {
@@ -287,6 +315,7 @@ export const f1Sessions: RaceSession[] = [
   {
     formulaSlug: "f1",
     sessionTypeSlug: "qualifying",
+    raceSlug: "miami-grand-prix",
     startDateTime: "2026-05-02T20:00:00.000Z",
     endDatetime: "2026-05-02T21:00:00.000Z",
     coords: {
@@ -297,6 +326,7 @@ export const f1Sessions: RaceSession[] = [
   {
     formulaSlug: "f1",
     sessionTypeSlug: "grand-prix",
+    raceSlug: "miami-grand-prix",
     startDateTime: "2026-05-03T20:00:00.000Z",
     endDatetime: "2026-05-03T22:00:00.000Z",
     coords: {
@@ -307,6 +337,7 @@ export const f1Sessions: RaceSession[] = [
   {
     formulaSlug: "f1",
     sessionTypeSlug: "free-practice-1",
+    raceSlug: "canadian-grand-prix",
     startDateTime: "2026-05-22T16:30:00.000Z",
     endDatetime: "2026-05-22T17:30:00.000Z",
     coords: {
@@ -317,6 +348,7 @@ export const f1Sessions: RaceSession[] = [
   {
     formulaSlug: "f1",
     sessionTypeSlug: "sprint-qualifying",
+    raceSlug: "canadian-grand-prix",
     startDateTime: "2026-05-22T20:30:00.000Z",
     endDatetime: "2026-05-22T21:15:00.000Z",
     coords: {
@@ -327,6 +359,7 @@ export const f1Sessions: RaceSession[] = [
   {
     formulaSlug: "f1",
     sessionTypeSlug: "sprint",
+    raceSlug: "canadian-grand-prix",
     startDateTime: "2026-05-23T16:00:00.000Z",
     endDatetime: "2026-05-23T16:30:00.000Z",
     coords: {
@@ -337,6 +370,7 @@ export const f1Sessions: RaceSession[] = [
   {
     formulaSlug: "f1",
     sessionTypeSlug: "qualifying",
+    raceSlug: "canadian-grand-prix",
     startDateTime: "2026-05-23T20:00:00.000Z",
     endDatetime: "2026-05-23T21:00:00.000Z",
     coords: {
@@ -347,6 +381,7 @@ export const f1Sessions: RaceSession[] = [
   {
     formulaSlug: "f1",
     sessionTypeSlug: "grand-prix",
+    raceSlug: "canadian-grand-prix",
     startDateTime: "2026-05-24T20:00:00.000Z",
     endDatetime: "2026-05-24T22:00:00.000Z",
     coords: {
@@ -357,6 +392,7 @@ export const f1Sessions: RaceSession[] = [
   {
     formulaSlug: "f1",
     sessionTypeSlug: "free-practice-1",
+    raceSlug: "monaco-grand-prix",
     startDateTime: "2026-06-05T11:30:00.000Z",
     endDatetime: "2026-06-05T12:30:00.000Z",
     coords: {
@@ -367,6 +403,7 @@ export const f1Sessions: RaceSession[] = [
   {
     formulaSlug: "f1",
     sessionTypeSlug: "free-practice-2",
+    raceSlug: "monaco-grand-prix",
     startDateTime: "2026-06-05T15:00:00.000Z",
     endDatetime: "2026-06-05T16:00:00.000Z",
     coords: {
@@ -377,6 +414,7 @@ export const f1Sessions: RaceSession[] = [
   {
     formulaSlug: "f1",
     sessionTypeSlug: "free-practice-3",
+    raceSlug: "monaco-grand-prix",
     startDateTime: "2026-06-06T10:30:00.000Z",
     endDatetime: "2026-06-06T11:30:00.000Z",
     coords: {
@@ -387,6 +425,7 @@ export const f1Sessions: RaceSession[] = [
   {
     formulaSlug: "f1",
     sessionTypeSlug: "qualifying",
+    raceSlug: "monaco-grand-prix",
     startDateTime: "2026-06-06T14:00:00.000Z",
     endDatetime: "2026-06-06T15:00:00.000Z",
     coords: {
@@ -397,6 +436,7 @@ export const f1Sessions: RaceSession[] = [
   {
     formulaSlug: "f1",
     sessionTypeSlug: "grand-prix",
+    raceSlug: "monaco-grand-prix",
     startDateTime: "2026-06-07T13:00:00.000Z",
     endDatetime: "2026-06-07T15:00:00.000Z",
     coords: {
@@ -407,6 +447,7 @@ export const f1Sessions: RaceSession[] = [
   {
     formulaSlug: "f1",
     sessionTypeSlug: "free-practice-1",
+    raceSlug: "barcelona-catalunya",
     startDateTime: "2026-06-12T11:30:00.000Z",
     endDatetime: "2026-06-12T12:30:00.000Z",
     coords: {
@@ -417,6 +458,7 @@ export const f1Sessions: RaceSession[] = [
   {
     formulaSlug: "f1",
     sessionTypeSlug: "free-practice-2",
+    raceSlug: "barcelona-catalunya",
     startDateTime: "2026-06-12T15:00:00.000Z",
     endDatetime: "2026-06-12T16:00:00.000Z",
     coords: {
@@ -427,6 +469,7 @@ export const f1Sessions: RaceSession[] = [
   {
     formulaSlug: "f1",
     sessionTypeSlug: "free-practice-3",
+    raceSlug: "barcelona-catalunya",
     startDateTime: "2026-06-13T10:30:00.000Z",
     endDatetime: "2026-06-13T11:30:00.000Z",
     coords: {
@@ -437,6 +480,7 @@ export const f1Sessions: RaceSession[] = [
   {
     formulaSlug: "f1",
     sessionTypeSlug: "qualifying",
+    raceSlug: "barcelona-catalunya",
     startDateTime: "2026-06-13T14:00:00.000Z",
     endDatetime: "2026-06-13T15:00:00.000Z",
     coords: {
@@ -447,6 +491,7 @@ export const f1Sessions: RaceSession[] = [
   {
     formulaSlug: "f1",
     sessionTypeSlug: "grand-prix",
+    raceSlug: "barcelona-catalunya",
     startDateTime: "2026-06-14T13:00:00.000Z",
     endDatetime: "2026-06-14T15:00:00.000Z",
     coords: {
@@ -457,6 +502,7 @@ export const f1Sessions: RaceSession[] = [
   {
     formulaSlug: "f1",
     sessionTypeSlug: "free-practice-1",
+    raceSlug: "austrian-grand-prix",
     startDateTime: "2026-06-26T11:30:00.000Z",
     endDatetime: "2026-06-26T12:30:00.000Z",
     coords: {
@@ -467,6 +513,7 @@ export const f1Sessions: RaceSession[] = [
   {
     formulaSlug: "f1",
     sessionTypeSlug: "free-practice-2",
+    raceSlug: "austrian-grand-prix",
     startDateTime: "2026-06-26T15:00:00.000Z",
     endDatetime: "2026-06-26T16:00:00.000Z",
     coords: {
@@ -477,6 +524,7 @@ export const f1Sessions: RaceSession[] = [
   {
     formulaSlug: "f1",
     sessionTypeSlug: "free-practice-3",
+    raceSlug: "austrian-grand-prix",
     startDateTime: "2026-06-27T10:30:00.000Z",
     endDatetime: "2026-06-27T11:30:00.000Z",
     coords: {
@@ -487,6 +535,7 @@ export const f1Sessions: RaceSession[] = [
   {
     formulaSlug: "f1",
     sessionTypeSlug: "qualifying",
+    raceSlug: "austrian-grand-prix",
     startDateTime: "2026-06-27T14:00:00.000Z",
     endDatetime: "2026-06-27T15:00:00.000Z",
     coords: {
@@ -497,6 +546,7 @@ export const f1Sessions: RaceSession[] = [
   {
     formulaSlug: "f1",
     sessionTypeSlug: "grand-prix",
+    raceSlug: "austrian-grand-prix",
     startDateTime: "2026-06-28T13:00:00.000Z",
     endDatetime: "2026-06-28T15:00:00.000Z",
     coords: {
@@ -507,6 +557,7 @@ export const f1Sessions: RaceSession[] = [
   {
     formulaSlug: "f1",
     sessionTypeSlug: "free-practice-1",
+    raceSlug: "british-grand-prix",
     startDateTime: "2026-07-03T11:30:00.000Z",
     endDatetime: "2026-07-03T12:30:00.000Z",
     coords: {
@@ -517,6 +568,7 @@ export const f1Sessions: RaceSession[] = [
   {
     formulaSlug: "f1",
     sessionTypeSlug: "sprint-qualifying",
+    raceSlug: "british-grand-prix",
     startDateTime: "2026-07-03T15:30:00.000Z",
     endDatetime: "2026-07-03T16:15:00.000Z",
     coords: {
@@ -527,6 +579,7 @@ export const f1Sessions: RaceSession[] = [
   {
     formulaSlug: "f1",
     sessionTypeSlug: "sprint",
+    raceSlug: "british-grand-prix",
     startDateTime: "2026-07-04T11:00:00.000Z",
     endDatetime: "2026-07-04T11:30:00.000Z",
     coords: {
@@ -537,6 +590,7 @@ export const f1Sessions: RaceSession[] = [
   {
     formulaSlug: "f1",
     sessionTypeSlug: "qualifying",
+    raceSlug: "british-grand-prix",
     startDateTime: "2026-07-04T15:00:00.000Z",
     endDatetime: "2026-07-04T16:00:00.000Z",
     coords: {
@@ -547,6 +601,7 @@ export const f1Sessions: RaceSession[] = [
   {
     formulaSlug: "f1",
     sessionTypeSlug: "grand-prix",
+    raceSlug: "british-grand-prix",
     startDateTime: "2026-07-05T14:00:00.000Z",
     endDatetime: "2026-07-05T16:00:00.000Z",
     coords: {
@@ -557,6 +612,7 @@ export const f1Sessions: RaceSession[] = [
   {
     formulaSlug: "f1",
     sessionTypeSlug: "free-practice-1",
+    raceSlug: "belgian-grand-prix",
     startDateTime: "2026-07-17T11:30:00.000Z",
     endDatetime: "2026-07-17T12:30:00.000Z",
     coords: {
@@ -567,6 +623,7 @@ export const f1Sessions: RaceSession[] = [
   {
     formulaSlug: "f1",
     sessionTypeSlug: "free-practice-2",
+    raceSlug: "belgian-grand-prix",
     startDateTime: "2026-07-17T15:00:00.000Z",
     endDatetime: "2026-07-17T16:00:00.000Z",
     coords: {
@@ -577,6 +634,7 @@ export const f1Sessions: RaceSession[] = [
   {
     formulaSlug: "f1",
     sessionTypeSlug: "free-practice-3",
+    raceSlug: "belgian-grand-prix",
     startDateTime: "2026-07-18T10:30:00.000Z",
     endDatetime: "2026-07-18T11:30:00.000Z",
     coords: {
@@ -587,6 +645,7 @@ export const f1Sessions: RaceSession[] = [
   {
     formulaSlug: "f1",
     sessionTypeSlug: "qualifying",
+    raceSlug: "belgian-grand-prix",
     startDateTime: "2026-07-18T14:00:00.000Z",
     endDatetime: "2026-07-18T15:00:00.000Z",
     coords: {
@@ -597,6 +656,7 @@ export const f1Sessions: RaceSession[] = [
   {
     formulaSlug: "f1",
     sessionTypeSlug: "grand-prix",
+    raceSlug: "belgian-grand-prix",
     startDateTime: "2026-07-19T13:00:00.000Z",
     endDatetime: "2026-07-19T15:00:00.000Z",
     coords: {
@@ -607,6 +667,7 @@ export const f1Sessions: RaceSession[] = [
   {
     formulaSlug: "f1",
     sessionTypeSlug: "free-practice-1",
+    raceSlug: "hungarian-grand-prix",
     startDateTime: "2026-07-24T11:30:00.000Z",
     endDatetime: "2026-07-24T12:30:00.000Z",
     coords: {
@@ -617,6 +678,7 @@ export const f1Sessions: RaceSession[] = [
   {
     formulaSlug: "f1",
     sessionTypeSlug: "free-practice-2",
+    raceSlug: "hungarian-grand-prix",
     startDateTime: "2026-07-24T15:00:00.000Z",
     endDatetime: "2026-07-24T16:00:00.000Z",
     coords: {
@@ -627,6 +689,7 @@ export const f1Sessions: RaceSession[] = [
   {
     formulaSlug: "f1",
     sessionTypeSlug: "free-practice-3",
+    raceSlug: "hungarian-grand-prix",
     startDateTime: "2026-07-25T10:30:00.000Z",
     endDatetime: "2026-07-25T11:30:00.000Z",
     coords: {
@@ -637,6 +700,7 @@ export const f1Sessions: RaceSession[] = [
   {
     formulaSlug: "f1",
     sessionTypeSlug: "qualifying",
+    raceSlug: "hungarian-grand-prix",
     startDateTime: "2026-07-25T14:00:00.000Z",
     endDatetime: "2026-07-25T15:00:00.000Z",
     coords: {
@@ -647,6 +711,7 @@ export const f1Sessions: RaceSession[] = [
   {
     formulaSlug: "f1",
     sessionTypeSlug: "grand-prix",
+    raceSlug: "hungarian-grand-prix",
     startDateTime: "2026-07-26T13:00:00.000Z",
     endDatetime: "2026-07-26T15:00:00.000Z",
     coords: {
@@ -657,6 +722,7 @@ export const f1Sessions: RaceSession[] = [
   {
     formulaSlug: "f1",
     sessionTypeSlug: "free-practice-1",
+    raceSlug: "dutch-grand-prix",
     startDateTime: "2026-08-21T10:30:00.000Z",
     endDatetime: "2026-08-21T11:30:00.000Z",
     coords: {
@@ -667,6 +733,7 @@ export const f1Sessions: RaceSession[] = [
   {
     formulaSlug: "f1",
     sessionTypeSlug: "sprint-qualifying",
+    raceSlug: "dutch-grand-prix",
     startDateTime: "2026-08-21T14:30:00.000Z",
     endDatetime: "2026-08-21T15:15:00.000Z",
     coords: {
@@ -677,6 +744,7 @@ export const f1Sessions: RaceSession[] = [
   {
     formulaSlug: "f1",
     sessionTypeSlug: "sprint",
+    raceSlug: "dutch-grand-prix",
     startDateTime: "2026-08-22T10:00:00.000Z",
     endDatetime: "2026-08-22T10:30:00.000Z",
     coords: {
@@ -687,6 +755,7 @@ export const f1Sessions: RaceSession[] = [
   {
     formulaSlug: "f1",
     sessionTypeSlug: "qualifying",
+    raceSlug: "dutch-grand-prix",
     startDateTime: "2026-08-22T14:00:00.000Z",
     endDatetime: "2026-08-22T15:00:00.000Z",
     coords: {
@@ -697,6 +766,7 @@ export const f1Sessions: RaceSession[] = [
   {
     formulaSlug: "f1",
     sessionTypeSlug: "grand-prix",
+    raceSlug: "dutch-grand-prix",
     startDateTime: "2026-08-23T13:00:00.000Z",
     endDatetime: "2026-08-23T15:00:00.000Z",
     coords: {
@@ -707,6 +777,7 @@ export const f1Sessions: RaceSession[] = [
   {
     formulaSlug: "f1",
     sessionTypeSlug: "free-practice-1",
+    raceSlug: "italian-grand-prix",
     startDateTime: "2026-09-04T10:30:00.000Z",
     endDatetime: "2026-09-04T11:30:00.000Z",
     coords: {
@@ -717,6 +788,7 @@ export const f1Sessions: RaceSession[] = [
   {
     formulaSlug: "f1",
     sessionTypeSlug: "free-practice-2",
+    raceSlug: "italian-grand-prix",
     startDateTime: "2026-09-04T14:00:00.000Z",
     endDatetime: "2026-09-04T15:00:00.000Z",
     coords: {
@@ -727,6 +799,7 @@ export const f1Sessions: RaceSession[] = [
   {
     formulaSlug: "f1",
     sessionTypeSlug: "free-practice-3",
+    raceSlug: "italian-grand-prix",
     startDateTime: "2026-09-05T10:30:00.000Z",
     endDatetime: "2026-09-05T11:30:00.000Z",
     coords: {
@@ -737,6 +810,7 @@ export const f1Sessions: RaceSession[] = [
   {
     formulaSlug: "f1",
     sessionTypeSlug: "qualifying",
+    raceSlug: "italian-grand-prix",
     startDateTime: "2026-09-05T14:00:00.000Z",
     endDatetime: "2026-09-05T15:00:00.000Z",
     coords: {
@@ -747,6 +821,7 @@ export const f1Sessions: RaceSession[] = [
   {
     formulaSlug: "f1",
     sessionTypeSlug: "grand-prix",
+    raceSlug: "italian-grand-prix",
     startDateTime: "2026-09-06T13:00:00.000Z",
     endDatetime: "2026-09-06T15:00:00.000Z",
     coords: {
@@ -757,6 +832,7 @@ export const f1Sessions: RaceSession[] = [
   {
     formulaSlug: "f1",
     sessionTypeSlug: "free-practice-1",
+    raceSlug: "spanish-grand-prix",
     startDateTime: "2026-09-11T11:30:00.000Z",
     endDatetime: "2026-09-11T12:30:00.000Z",
     coords: {
@@ -767,6 +843,7 @@ export const f1Sessions: RaceSession[] = [
   {
     formulaSlug: "f1",
     sessionTypeSlug: "free-practice-2",
+    raceSlug: "spanish-grand-prix",
     startDateTime: "2026-09-11T15:00:00.000Z",
     endDatetime: "2026-09-11T16:00:00.000Z",
     coords: {
@@ -777,6 +854,7 @@ export const f1Sessions: RaceSession[] = [
   {
     formulaSlug: "f1",
     sessionTypeSlug: "free-practice-3",
+    raceSlug: "spanish-grand-prix",
     startDateTime: "2026-09-12T10:30:00.000Z",
     endDatetime: "2026-09-12T11:30:00.000Z",
     coords: {
@@ -787,6 +865,7 @@ export const f1Sessions: RaceSession[] = [
   {
     formulaSlug: "f1",
     sessionTypeSlug: "qualifying",
+    raceSlug: "spanish-grand-prix",
     startDateTime: "2026-09-12T14:00:00.000Z",
     endDatetime: "2026-09-12T15:00:00.000Z",
     coords: {
@@ -797,6 +876,7 @@ export const f1Sessions: RaceSession[] = [
   {
     formulaSlug: "f1",
     sessionTypeSlug: "grand-prix",
+    raceSlug: "spanish-grand-prix",
     startDateTime: "2026-09-13T13:00:00.000Z",
     endDatetime: "2026-09-13T15:00:00.000Z",
     coords: {
@@ -807,6 +887,7 @@ export const f1Sessions: RaceSession[] = [
   {
     formulaSlug: "f1",
     sessionTypeSlug: "free-practice-1",
+    raceSlug: "azerbaijan-grand-prix",
     startDateTime: "2026-09-24T08:30:00.000Z",
     endDatetime: "2026-09-24T09:30:00.000Z",
     coords: {
@@ -817,6 +898,7 @@ export const f1Sessions: RaceSession[] = [
   {
     formulaSlug: "f1",
     sessionTypeSlug: "free-practice-2",
+    raceSlug: "azerbaijan-grand-prix",
     startDateTime: "2026-09-24T12:00:00.000Z",
     endDatetime: "2026-09-24T13:00:00.000Z",
     coords: {
@@ -827,6 +909,7 @@ export const f1Sessions: RaceSession[] = [
   {
     formulaSlug: "f1",
     sessionTypeSlug: "free-practice-3",
+    raceSlug: "azerbaijan-grand-prix",
     startDateTime: "2026-09-25T08:30:00.000Z",
     endDatetime: "2026-09-25T09:30:00.000Z",
     coords: {
@@ -837,6 +920,7 @@ export const f1Sessions: RaceSession[] = [
   {
     formulaSlug: "f1",
     sessionTypeSlug: "qualifying",
+    raceSlug: "azerbaijan-grand-prix",
     startDateTime: "2026-09-25T12:00:00.000Z",
     endDatetime: "2026-09-25T13:00:00.000Z",
     coords: {
@@ -847,6 +931,7 @@ export const f1Sessions: RaceSession[] = [
   {
     formulaSlug: "f1",
     sessionTypeSlug: "grand-prix",
+    raceSlug: "azerbaijan-grand-prix",
     startDateTime: "2026-09-26T11:00:00.000Z",
     endDatetime: "2026-09-26T13:00:00.000Z",
     coords: {
@@ -857,6 +942,7 @@ export const f1Sessions: RaceSession[] = [
   {
     formulaSlug: "f1",
     sessionTypeSlug: "free-practice-1",
+    raceSlug: "singapore-grand-prix",
     startDateTime: "2026-10-09T09:30:00.000Z",
     endDatetime: "2026-10-09T10:30:00.000Z",
     coords: {
@@ -867,6 +953,7 @@ export const f1Sessions: RaceSession[] = [
   {
     formulaSlug: "f1",
     sessionTypeSlug: "sprint-qualifying",
+    raceSlug: "singapore-grand-prix",
     startDateTime: "2026-10-09T12:30:00.000Z",
     endDatetime: "2026-10-09T13:15:00.000Z",
     coords: {
@@ -877,6 +964,7 @@ export const f1Sessions: RaceSession[] = [
   {
     formulaSlug: "f1",
     sessionTypeSlug: "sprint",
+    raceSlug: "singapore-grand-prix",
     startDateTime: "2026-10-10T09:00:00.000Z",
     endDatetime: "2026-10-10T09:30:00.000Z",
     coords: {
@@ -887,6 +975,7 @@ export const f1Sessions: RaceSession[] = [
   {
     formulaSlug: "f1",
     sessionTypeSlug: "qualifying",
+    raceSlug: "singapore-grand-prix",
     startDateTime: "2026-10-10T13:00:00.000Z",
     endDatetime: "2026-10-10T14:00:00.000Z",
     coords: {
@@ -897,6 +986,7 @@ export const f1Sessions: RaceSession[] = [
   {
     formulaSlug: "f1",
     sessionTypeSlug: "grand-prix",
+    raceSlug: "singapore-grand-prix",
     startDateTime: "2026-10-11T12:00:00.000Z",
     endDatetime: "2026-10-11T14:00:00.000Z",
     coords: {
@@ -907,6 +997,7 @@ export const f1Sessions: RaceSession[] = [
   {
     formulaSlug: "f1",
     sessionTypeSlug: "free-practice-1",
+    raceSlug: "united-states-grand-prix",
     startDateTime: "2026-10-23T17:30:00.000Z",
     endDatetime: "2026-10-23T18:30:00.000Z",
     coords: {
@@ -917,6 +1008,7 @@ export const f1Sessions: RaceSession[] = [
   {
     formulaSlug: "f1",
     sessionTypeSlug: "free-practice-2",
+    raceSlug: "united-states-grand-prix",
     startDateTime: "2026-10-23T21:00:00.000Z",
     endDatetime: "2026-10-23T22:00:00.000Z",
     coords: {
@@ -927,6 +1019,7 @@ export const f1Sessions: RaceSession[] = [
   {
     formulaSlug: "f1",
     sessionTypeSlug: "free-practice-3",
+    raceSlug: "united-states-grand-prix",
     startDateTime: "2026-10-24T17:30:00.000Z",
     endDatetime: "2026-10-24T18:30:00.000Z",
     coords: {
@@ -937,6 +1030,7 @@ export const f1Sessions: RaceSession[] = [
   {
     formulaSlug: "f1",
     sessionTypeSlug: "qualifying",
+    raceSlug: "united-states-grand-prix",
     startDateTime: "2026-10-24T21:00:00.000Z",
     endDatetime: "2026-10-24T22:00:00.000Z",
     coords: {
@@ -947,6 +1041,7 @@ export const f1Sessions: RaceSession[] = [
   {
     formulaSlug: "f1",
     sessionTypeSlug: "grand-prix",
+    raceSlug: "united-states-grand-prix",
     startDateTime: "2026-10-25T20:00:00.000Z",
     endDatetime: "2026-10-25T22:00:00.000Z",
     coords: {
@@ -957,6 +1052,7 @@ export const f1Sessions: RaceSession[] = [
   {
     formulaSlug: "f1",
     sessionTypeSlug: "free-practice-1",
+    raceSlug: "mexico-city-grand-prix",
     startDateTime: "2026-10-30T18:30:00.000Z",
     endDatetime: "2026-10-30T19:30:00.000Z",
     coords: {
@@ -967,6 +1063,7 @@ export const f1Sessions: RaceSession[] = [
   {
     formulaSlug: "f1",
     sessionTypeSlug: "free-practice-2",
+    raceSlug: "mexico-city-grand-prix",
     startDateTime: "2026-10-30T22:00:00.000Z",
     endDatetime: "2026-10-30T23:00:00.000Z",
     coords: {
@@ -977,6 +1074,7 @@ export const f1Sessions: RaceSession[] = [
   {
     formulaSlug: "f1",
     sessionTypeSlug: "free-practice-3",
+    raceSlug: "mexico-city-grand-prix",
     startDateTime: "2026-10-31T17:30:00.000Z",
     endDatetime: "2026-10-31T18:30:00.000Z",
     coords: {
@@ -987,6 +1085,7 @@ export const f1Sessions: RaceSession[] = [
   {
     formulaSlug: "f1",
     sessionTypeSlug: "qualifying",
+    raceSlug: "mexico-city-grand-prix",
     startDateTime: "2026-10-31T21:00:00.000Z",
     endDatetime: "2026-10-31T22:00:00.000Z",
     coords: {
@@ -997,6 +1096,7 @@ export const f1Sessions: RaceSession[] = [
   {
     formulaSlug: "f1",
     sessionTypeSlug: "grand-prix",
+    raceSlug: "mexico-city-grand-prix",
     startDateTime: "2026-11-01T20:00:00.000Z",
     endDatetime: "2026-11-01T22:00:00.000Z",
     coords: {
@@ -1007,6 +1107,7 @@ export const f1Sessions: RaceSession[] = [
   {
     formulaSlug: "f1",
     sessionTypeSlug: "free-practice-1",
+    raceSlug: "brazilian-grand-prix",
     startDateTime: "2026-11-06T15:30:00.000Z",
     endDatetime: "2026-11-06T16:30:00.000Z",
     coords: {
@@ -1017,6 +1118,7 @@ export const f1Sessions: RaceSession[] = [
   {
     formulaSlug: "f1",
     sessionTypeSlug: "free-practice-2",
+    raceSlug: "brazilian-grand-prix",
     startDateTime: "2026-11-06T19:00:00.000Z",
     endDatetime: "2026-11-06T20:00:00.000Z",
     coords: {
@@ -1027,6 +1129,7 @@ export const f1Sessions: RaceSession[] = [
   {
     formulaSlug: "f1",
     sessionTypeSlug: "free-practice-3",
+    raceSlug: "brazilian-grand-prix",
     startDateTime: "2026-11-07T14:30:00.000Z",
     endDatetime: "2026-11-07T15:30:00.000Z",
     coords: {
@@ -1037,6 +1140,7 @@ export const f1Sessions: RaceSession[] = [
   {
     formulaSlug: "f1",
     sessionTypeSlug: "qualifying",
+    raceSlug: "brazilian-grand-prix",
     startDateTime: "2026-11-07T18:00:00.000Z",
     endDatetime: "2026-11-07T19:00:00.000Z",
     coords: {
@@ -1047,6 +1151,7 @@ export const f1Sessions: RaceSession[] = [
   {
     formulaSlug: "f1",
     sessionTypeSlug: "grand-prix",
+    raceSlug: "brazilian-grand-prix",
     startDateTime: "2026-11-08T17:00:00.000Z",
     endDatetime: "2026-11-08T19:00:00.000Z",
     coords: {
@@ -1057,6 +1162,7 @@ export const f1Sessions: RaceSession[] = [
   {
     formulaSlug: "f1",
     sessionTypeSlug: "free-practice-1",
+    raceSlug: "las-vegas-grand-prix",
     startDateTime: "2026-11-20T00:30:00.000Z",
     endDatetime: "2026-11-20T01:30:00.000Z",
     coords: {
@@ -1067,6 +1173,7 @@ export const f1Sessions: RaceSession[] = [
   {
     formulaSlug: "f1",
     sessionTypeSlug: "free-practice-2",
+    raceSlug: "las-vegas-grand-prix",
     startDateTime: "2026-11-20T04:00:00.000Z",
     endDatetime: "2026-11-20T05:00:00.000Z",
     coords: {
@@ -1077,6 +1184,7 @@ export const f1Sessions: RaceSession[] = [
   {
     formulaSlug: "f1",
     sessionTypeSlug: "free-practice-3",
+    raceSlug: "las-vegas-grand-prix",
     startDateTime: "2026-11-21T00:30:00.000Z",
     endDatetime: "2026-11-21T01:30:00.000Z",
     coords: {
@@ -1087,6 +1195,7 @@ export const f1Sessions: RaceSession[] = [
   {
     formulaSlug: "f1",
     sessionTypeSlug: "qualifying",
+    raceSlug: "las-vegas-grand-prix",
     startDateTime: "2026-11-21T04:00:00.000Z",
     endDatetime: "2026-11-21T05:00:00.000Z",
     coords: {
@@ -1097,6 +1206,7 @@ export const f1Sessions: RaceSession[] = [
   {
     formulaSlug: "f1",
     sessionTypeSlug: "grand-prix",
+    raceSlug: "las-vegas-grand-prix",
     startDateTime: "2026-11-22T04:00:00.000Z",
     endDatetime: "2026-11-22T06:00:00.000Z",
     coords: {
@@ -1107,6 +1217,7 @@ export const f1Sessions: RaceSession[] = [
   {
     formulaSlug: "f1",
     sessionTypeSlug: "free-practice-1",
+    raceSlug: "qatar-grand-prix",
     startDateTime: "2026-11-27T13:30:00.000Z",
     endDatetime: "2026-11-27T14:30:00.000Z",
     coords: {
@@ -1117,6 +1228,7 @@ export const f1Sessions: RaceSession[] = [
   {
     formulaSlug: "f1",
     sessionTypeSlug: "free-practice-2",
+    raceSlug: "qatar-grand-prix",
     startDateTime: "2026-11-27T17:00:00.000Z",
     endDatetime: "2026-11-27T18:00:00.000Z",
     coords: {
@@ -1127,6 +1239,7 @@ export const f1Sessions: RaceSession[] = [
   {
     formulaSlug: "f1",
     sessionTypeSlug: "free-practice-3",
+    raceSlug: "qatar-grand-prix",
     startDateTime: "2026-11-28T14:30:00.000Z",
     endDatetime: "2026-11-28T15:30:00.000Z",
     coords: {
@@ -1137,6 +1250,7 @@ export const f1Sessions: RaceSession[] = [
   {
     formulaSlug: "f1",
     sessionTypeSlug: "qualifying",
+    raceSlug: "qatar-grand-prix",
     startDateTime: "2026-11-28T18:00:00.000Z",
     endDatetime: "2026-11-28T19:00:00.000Z",
     coords: {
@@ -1147,6 +1261,7 @@ export const f1Sessions: RaceSession[] = [
   {
     formulaSlug: "f1",
     sessionTypeSlug: "grand-prix",
+    raceSlug: "qatar-grand-prix",
     startDateTime: "2026-11-29T16:00:00.000Z",
     endDatetime: "2026-11-29T18:00:00.000Z",
     coords: {
@@ -1157,6 +1272,7 @@ export const f1Sessions: RaceSession[] = [
   {
     formulaSlug: "f1",
     sessionTypeSlug: "free-practice-1",
+    raceSlug: "abu-dhabi-grand-prix",
     startDateTime: "2026-12-04T09:30:00.000Z",
     endDatetime: "2026-12-04T10:30:00.000Z",
     coords: {
@@ -1167,6 +1283,7 @@ export const f1Sessions: RaceSession[] = [
   {
     formulaSlug: "f1",
     sessionTypeSlug: "free-practice-2",
+    raceSlug: "abu-dhabi-grand-prix",
     startDateTime: "2026-12-04T13:00:00.000Z",
     endDatetime: "2026-12-04T14:00:00.000Z",
     coords: {
@@ -1177,6 +1294,7 @@ export const f1Sessions: RaceSession[] = [
   {
     formulaSlug: "f1",
     sessionTypeSlug: "free-practice-3",
+    raceSlug: "abu-dhabi-grand-prix",
     startDateTime: "2026-12-05T10:30:00.000Z",
     endDatetime: "2026-12-05T11:30:00.000Z",
     coords: {
@@ -1187,6 +1305,7 @@ export const f1Sessions: RaceSession[] = [
   {
     formulaSlug: "f1",
     sessionTypeSlug: "qualifying",
+    raceSlug: "abu-dhabi-grand-prix",
     startDateTime: "2026-12-05T14:00:00.000Z",
     endDatetime: "2026-12-05T15:00:00.000Z",
     coords: {
@@ -1197,6 +1316,7 @@ export const f1Sessions: RaceSession[] = [
   {
     formulaSlug: "f1",
     sessionTypeSlug: "grand-prix",
+    raceSlug: "abu-dhabi-grand-prix",
     startDateTime: "2026-12-06T13:00:00.000Z",
     endDatetime: "2026-12-06T15:00:00.000Z",
     coords: {

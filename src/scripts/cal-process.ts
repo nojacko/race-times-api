@@ -1,7 +1,7 @@
 import * as fs from "fs";
 import * as path from "path";
 import { calendars } from "../data/calendars";
-import { sessionsByFormula, calendarEventsByFormula } from "../utils/data";
+import { sessionsByFormula, calendarEventsByFormula, racesByFormula } from "../utils/data";
 import { formulas } from "../data/formulas";
 import type { CalendarEvent } from "../types/CalendarEvent";
 import type { RaceSession } from "../types/RaceSession";
@@ -44,6 +44,12 @@ async function run(): Promise<void> {
         console.log(`No events for formula ${formula.slug}`);
       }
 
+      const races = racesByFormula(formula.slug) || [];
+      if (!races || races.length === 0) {
+        console.error(`No races for formula "${formula.slug}". Skipping.`);
+        continue;
+      }
+
       const typesForCal = sessionsByFormula(formula.slug) || [];
       if (!typesForCal || typesForCal.length === 0) {
         console.error(`No session types for formula "${formula.slug}". Skipping.`);
@@ -52,14 +58,10 @@ async function run(): Promise<void> {
 
       const sessions: RaceSession[] = [];
       for (const props of events) {
-        const formulaSlug: string | undefined = formula.slug;
-        const startDateTime: string | undefined = props["DTSTART"]
-          ? toIso(props["DTSTART"], props["SUMMARY"] || props["UID"])
-          : undefined;
-        const endDatetime: string | undefined = props["DTEND"]
-          ? toIso(props["DTEND"], props["SUMMARY"] || props["UID"])
-          : undefined;
-        let coords: { lat: number; lon: number } | undefined = undefined;
+        const formulaSlug: string = formula.slug;
+        const startDateTime: string = props["DTSTART"] ? toIso(props["DTSTART"], props["SUMMARY"] || props["UID"]) : "";
+        const endDatetime: string = props["DTEND"] ? toIso(props["DTEND"], props["SUMMARY"] || props["UID"]) : "";
+        let coords: { lat: number; lon: number } = { lat: 0, lon: 0 };
 
         if (props["GEO"]) {
           const [latS, lonS] = (props["GEO"] || "").split(";");
@@ -69,7 +71,8 @@ async function run(): Promise<void> {
         }
 
         // enrich
-        let sessionTypeSlug: string | undefined = undefined;
+        let sessionTypeSlug: string = "";
+        let raceSlug: string = "";
         const cats = props["CATEGORIES"] ? props["CATEGORIES"].split(",").map((c) => c.trim().toLowerCase()) : [];
         if (cats.length > 0) {
           for (const t of typesForCal) {
@@ -81,15 +84,45 @@ async function run(): Promise<void> {
           }
         }
 
+        const summary = (props["SUMMARY"] || "").toLowerCase();
+        if (summary && races && races.length > 0) {
+          for (const r of races) {
+            if (!r || !r.name) continue;
+            if (summary.includes(r.name.toLowerCase())) {
+              raceSlug = r.slug;
+              break;
+            }
+          }
+        }
+
         const session: RaceSession = {
           formulaSlug,
           sessionTypeSlug,
+          raceSlug,
           startDateTime,
           endDatetime,
           coords,
         };
 
         sessions.push(session);
+      }
+
+      // validate: every attribute on each session must be a non-empty string
+      const invalidSessions = sessions.filter((s) => {
+        for (const k of Object.keys(s)) {
+          const v = (s as any)[k];
+          if (k === "coords") {
+            if (isNaN(v.lat) || isNaN(v.lon) || !Number.isFinite(v.lat) || !Number.isFinite(v.lon)) return true;
+          } else {
+            if (typeof v !== "string" || v.length === 0) return true;
+          }
+        }
+        return false;
+      });
+      if (invalidSessions.length > 0) {
+        for (const bad of invalidSessions) {
+          console.error("Invalid session (missing/empty string attribute):", bad);
+        }
       }
 
       const outPath = cal.raceSessionsFile;
