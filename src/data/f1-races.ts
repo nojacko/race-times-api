@@ -10,6 +10,7 @@ export const f1Races: Race[] = [
       lat: -37.8373,
       lon: 144.9666,
     },
+    timeZone: "Australia/Melbourne",
   },
   {
     slug: "chinese-grand-prix",
@@ -20,6 +21,7 @@ export const f1Races: Race[] = [
       lat: 31.3807,
       lon: 121.2498,
     },
+    timeZone: "Asia/Shanghai",
   },
   {
     slug: "japanese-grand-prix",
@@ -30,6 +32,7 @@ export const f1Races: Race[] = [
       lat: 35.3689,
       lon: 138.9256,
     },
+    timeZone: "Asia/Tokyo",
   },
   {
     slug: "bahrain-grand-prix",
@@ -40,6 +43,7 @@ export const f1Races: Race[] = [
       lat: 26.037,
       lon: 50.5112,
     },
+    timeZone: "Asia/Bahrain",
   },
   {
     slug: "saudi-arabian-grand-prix",
@@ -50,6 +54,7 @@ export const f1Races: Race[] = [
       lat: 21.485811,
       lon: 39.192505,
     },
+    timeZone: "Asia/Riyadh",
   },
   {
     slug: "miami-grand-prix",
@@ -60,6 +65,7 @@ export const f1Races: Race[] = [
       lat: 25.957764,
       lon: -80.238835,
     },
+    timeZone: "America/New_York",
   },
   {
     slug: "canadian-grand-prix",
@@ -70,6 +76,7 @@ export const f1Races: Race[] = [
       lat: 45.5034,
       lon: -73.5267,
     },
+    timeZone: "America/Toronto",
   },
   {
     slug: "monaco-grand-prix",
@@ -80,6 +87,7 @@ export const f1Races: Race[] = [
       lat: 43.7338,
       lon: 7.4215,
     },
+    timeZone: "Europe/Monaco",
   },
   {
     slug: "barcelona-catalunya",
@@ -90,6 +98,7 @@ export const f1Races: Race[] = [
       lat: 41.5638,
       lon: 2.2585,
     },
+    timeZone: "Europe/Madrid",
   },
   {
     slug: "austrian-grand-prix",
@@ -100,6 +109,7 @@ export const f1Races: Race[] = [
       lat: 47.2225,
       lon: 14.7607,
     },
+    timeZone: "Europe/Vienna",
   },
   {
     slug: "british-grand-prix",
@@ -110,6 +120,7 @@ export const f1Races: Race[] = [
       lat: 52.0706,
       lon: -1.0174,
     },
+    timeZone: "Europe/London",
   },
   {
     slug: "belgian-grand-prix",
@@ -120,6 +131,7 @@ export const f1Races: Race[] = [
       lat: 50.444,
       lon: 5.9687,
     },
+    timeZone: "Europe/Brussels",
   },
   {
     slug: "hungarian-grand-prix",
@@ -130,6 +142,7 @@ export const f1Races: Race[] = [
       lat: 47.583,
       lon: 19.2526,
     },
+    timeZone: "Europe/Budapest",
   },
   {
     slug: "dutch-grand-prix",
@@ -140,6 +153,7 @@ export const f1Races: Race[] = [
       lat: 52.388408,
       lon: 4.547122,
     },
+    timeZone: "Europe/Amsterdam",
   },
   {
     slug: "italian-grand-prix",
@@ -150,6 +164,7 @@ export const f1Races: Race[] = [
       lat: 45.6169,
       lon: 9.2825,
     },
+    timeZone: "Europe/Rome",
   },
   {
     slug: "spanish-grand-prix",
@@ -160,6 +175,7 @@ export const f1Races: Race[] = [
       lat: 40.4168,
       lon: -3.7038,
     },
+    timeZone: "Europe/Madrid",
   },
   {
     slug: "azerbaijan-grand-prix",
@@ -170,6 +186,7 @@ export const f1Races: Race[] = [
       lat: 40.3699,
       lon: 49.8433,
     },
+    timeZone: "Asia/Baku",
   },
   {
     slug: "singapore-grand-prix",
@@ -180,6 +197,7 @@ export const f1Races: Race[] = [
       lat: 1.2857,
       lon: 103.8575,
     },
+    timeZone: "Asia/Singapore",
   },
   {
     slug: "united-states-grand-prix",
@@ -190,6 +208,7 @@ export const f1Races: Race[] = [
       lat: 30.1328,
       lon: -97.6411,
     },
+    timeZone: "America/Chicago",
   },
   {
     slug: "mexico-city-grand-prix",
@@ -200,6 +219,7 @@ export const f1Races: Race[] = [
       lat: 19.4028,
       lon: -99.0986,
     },
+    timeZone: "America/Mexico_City",
   },
   {
     slug: "brazilian-grand-prix",
@@ -210,6 +230,7 @@ export const f1Races: Race[] = [
       lat: -23.7014,
       lon: -46.6969,
     },
+    timeZone: "America/Sao_Paulo",
   },
   {
     slug: "las-vegas-grand-prix",
@@ -220,6 +241,7 @@ export const f1Races: Race[] = [
       lat: 36.166747,
       lon: -115.148708,
     },
+    timeZone: "America/Los_Angeles",
   },
   {
     slug: "qatar-grand-prix",
@@ -230,6 +252,7 @@ export const f1Races: Race[] = [
       lat: 25.490292,
       lon: 51.45303,
     },
+    timeZone: "Asia/Qatar",
   },
   {
     slug: "abu-dhabi-grand-prix",
@@ -240,6 +263,7 @@ export const f1Races: Race[] = [
       lat: 24.4821,
       lon: 54.3482,
     },
+    timeZone: "Asia/Dubai",
   },
 ];
 

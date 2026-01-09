@@ -10,6 +10,7 @@ export const f2Races: Race[] = [
       lat: -37.8373,
       lon: 144.9666,
     },
+    timeZone: "Australia/Melbourne",
   },
   {
     slug: "bahrain",
@@ -20,6 +21,7 @@ export const f2Races: Race[] = [
       lat: 26.037,
       lon: 50.5112,
     },
+    timeZone: "Asia/Bahrain",
   },
   {
     slug: "saudi-arabian",
@@ -30,6 +32,7 @@ export const f2Races: Race[] = [
       lat: 21.485811,
       lon: 39.192505,
     },
+    timeZone: "Asia/Riyadh",
   },
   {
     slug: "emilia-romagna",
@@ -40,6 +43,7 @@ export const f2Races: Race[] = [
       lat: 44.344576,
       lon: 11.713808,
     },
+    timeZone: "Europe/Rome",
   },
   {
     slug: "monaco",
@@ -50,6 +54,7 @@ export const f2Races: Race[] = [
       lat: 43.7338,
       lon: 7.4215,
     },
+    timeZone: "Europe/Monaco",
   },
   {
     slug: "spanish",
@@ -60,6 +65,7 @@ export const f2Races: Race[] = [
       lat: 41.5638,
       lon: 2.2585,
     },
+    timeZone: "Europe/Madrid",
   },
   {
     slug: "austrian",
@@ -70,6 +76,7 @@ export const f2Races: Race[] = [
       lat: 47.2225,
       lon: 14.7607,
     },
+    timeZone: "Europe/Vienna",
   },
   {
     slug: "british",
@@ -80,6 +87,7 @@ export const f2Races: Race[] = [
       lat: 52.0706,
       lon: -1.0174,
     },
+    timeZone: "Europe/London",
   },
   {
     slug: "belgian",
@@ -90,6 +98,7 @@ export const f2Races: Race[] = [
       lat: 50.444,
       lon: 5.9687,
     },
+    timeZone: "Europe/Brussels",
   },
   {
     slug: "hungarian",
@@ -100,6 +109,7 @@ export const f2Races: Race[] = [
       lat: 47.583,
       lon: 19.2526,
     },
+    timeZone: "Europe/Budapest",
   },
   {
     slug: "italian",
@@ -110,6 +120,7 @@ export const f2Races: Race[] = [
       lat: 45.6169,
       lon: 9.2825,
     },
+    timeZone: "Europe/Rome",
   },
   {
     slug: "azerbaijan",
@@ -120,6 +131,7 @@ export const f2Races: Race[] = [
       lat: 40.3699,
       lon: 49.8433,
     },
+    timeZone: "Asia/Baku",
   },
   {
     slug: "qatar",
@@ -130,6 +142,7 @@ export const f2Races: Race[] = [
       lat: 25.490292,
       lon: 51.45303,
     },
+    timeZone: "Asia/Qatar",
   },
   {
     slug: "abu-dhabi",
@@ -140,6 +153,7 @@ export const f2Races: Race[] = [
       lat: 24.4821,
       lon: 54.3482,
     },
+    timeZone: "Asia/Dubai",
   },
 ];
 

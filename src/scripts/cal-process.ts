@@ -105,7 +105,7 @@ async function run(): Promise<void> {
         };
 
         let isBad = false;
-         for (const k of Object.keys(session)) {
+        for (const k of Object.keys(session)) {
           const v = (session as any)[k];
           if (k === "coords") {
             if (isNaN(v.lat) || isNaN(v.lon) || !Number.isFinite(v.lat) || !Number.isFinite(v.lon)) {
