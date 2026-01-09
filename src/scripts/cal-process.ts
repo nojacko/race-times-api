@@ -1,8 +1,8 @@
 import * as fs from "fs";
 import * as path from "path";
-import { pathToFileURL } from "url";
 import { calendars } from "../data/calendars";
-import { sessionByFormula } from "../utils/sessions";
+import { sessionsByFormula, calendarEventsByFormula } from "../utils/data";
+import { formulas } from "../data/formulas";
 import type { CalendarEvent } from "../types/CalendarEvent";
 import type { RaceSession } from "../types/RaceSession";
 
@@ -32,64 +32,62 @@ function sessionsToTsContent(varName: string, sessions: RaceSession[]): string {
 
 async function run(): Promise<void> {
   try {
-    for (const cal of calendars) {
-      if (!cal.calendarEventsFile) {
-        console.warn(`No calendarEventsFile configured for ${cal.name}, skipping.`);
+    for (const formula of formulas) {
+      const cal = calendars.find((c) => c.formula === formula.slug);
+      if (!cal) {
+        console.warn(`No calendar configured for formula ${formula.slug}, skipping.`);
         continue;
       }
-      if (!fs.existsSync(cal.calendarEventsFile)) {
-        console.warn(`Skipping ${cal.name}: calendar events file not found at ${cal.calendarEventsFile}`);
-        continue;
-      }
-      const varName = `${cal.name.toLowerCase()}CalendarEvents`;
-      let mod: any;
-      try {
-        // Use require so this works under ts-node (CommonJS execution)
-        mod = require(path.resolve(cal.calendarEventsFile as string));
-      } catch (err) {
-        console.error(`Failed to load calendar events file ${cal.calendarEventsFile}:`, err);
-        continue;
-      }
-      const events: CalendarEvent[] = (mod && mod[varName]) || [];
 
+      const events: CalendarEvent[] = calendarEventsByFormula(formula.slug) || [];
       if (!events || events.length === 0) {
-        console.log(`No events in ${cal.calendarEventsFile}`);
+        console.log(`No events for formula ${formula.slug}`);
       }
 
-      const typesForCal = sessionByFormula(cal.formula) || [];
+      const typesForCal = sessionsByFormula(formula.slug) || [];
       if (!typesForCal || typesForCal.length === 0) {
-        console.error(`No session types for formula "${cal.formula}" (calendar: ${cal.name}), skipping.`);
+        console.error(`No session types for formula "${formula.slug}". Skipping.`);
         continue;
       }
 
       const sessions: RaceSession[] = [];
       for (const props of events) {
-        const session: RaceSession = {
-          startDateTime: props["DTSTART"] ? toIso(props["DTSTART"], props["SUMMARY"] || props["UID"]) : undefined,
-          endDatetime: props["DTEND"] ? toIso(props["DTEND"], props["SUMMARY"] || props["UID"]) : undefined,
-        };
+        const formulaSlug: string | undefined = formula.slug;
+        const startDateTime: string | undefined = props["DTSTART"]
+          ? toIso(props["DTSTART"], props["SUMMARY"] || props["UID"])
+          : undefined;
+        const endDatetime: string | undefined = props["DTEND"]
+          ? toIso(props["DTEND"], props["SUMMARY"] || props["UID"])
+          : undefined;
+        let coords: { lat: number; lon: number } | undefined = undefined;
 
         if (props["GEO"]) {
           const [latS, lonS] = (props["GEO"] || "").split(";");
           const lat = parseFloat(latS as string);
           const lon = parseFloat(lonS as string);
-          if (!Number.isNaN(lat) && !Number.isNaN(lon)) session.coords = { lat, lon };
+          if (!Number.isNaN(lat) && !Number.isNaN(lon)) coords = { lat, lon };
         }
 
         // enrich
-        session.formulaSlug = cal.formula;
-        let matched: string | undefined = undefined;
+        let sessionTypeSlug: string | undefined = undefined;
         const cats = props["CATEGORIES"] ? props["CATEGORIES"].split(",").map((c) => c.trim().toLowerCase()) : [];
         if (cats.length > 0) {
           for (const t of typesForCal) {
             if (!t || !t.calCategory) continue;
             if (cats.includes(t.calCategory.toLowerCase())) {
-              matched = t.slug;
+              sessionTypeSlug = t.slug;
               break;
             }
           }
         }
-        if (matched) session.sessionTypeSlug = matched;
+
+        const session: RaceSession = {
+          formulaSlug,
+          sessionTypeSlug,
+          startDateTime,
+          endDatetime,
+          coords,
+        };
 
         sessions.push(session);
       }

@@ -3,7 +3,7 @@ export type Calendar = {
   url: string;
   file: string;
   raceSessionsFile: string;
-  calendarEventsFile?: string;
+  calendarEventsFile: string;
   formula: string;
 };
 

@@ -19,6 +19,7 @@ cp -r ../f1-race-times-app/dist ./public-expo
 # Update Data
 npm run cal:download
 npm run cal:parse
+npm run cal:process
 
 # Development mode
 npm run dev

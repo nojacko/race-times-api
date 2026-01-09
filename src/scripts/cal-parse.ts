@@ -1,7 +1,6 @@
 import * as fs from "fs";
 import * as path from "path";
 import { calendars } from "../data/calendars";
-import { VARS } from "../vars";
 import type { CalendarEvent } from "../types/CalendarEvent";
 
 function unfoldLines(raw: string): string[] {
@@ -80,7 +79,7 @@ async function run(): Promise<void> {
       const varName = `${cal.name.toLowerCase()}CalendarEvents`;
       const content = eventsToTsContent(varName, events);
 
-      const outPath = cal.calendarEventsFile || path.join(VARS.DIR_DATA, `${cal.name.toLowerCase()}-calendar-events.ts`);
+      const outPath = cal.calendarEventsFile;
       const outDir = path.dirname(outPath);
       if (!fs.existsSync(outDir)) fs.mkdirSync(outDir, { recursive: true });
 
