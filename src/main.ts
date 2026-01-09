@@ -3,7 +3,7 @@ import { NestExpressApplication } from "@nestjs/platform-express";
 import { AppModule } from "./app.module";
 import { join } from "path";
 import { SwaggerModule, DocumentBuilder } from "@nestjs/swagger";
-import { VARS } from "./vars";
+import { STR } from "./vars";
 
 async function bootstrap() {
   const app = await NestFactory.create<NestExpressApplication>(AppModule);
@@ -21,8 +21,8 @@ async function bootstrap() {
   const isProduction = process.env.NODE_ENV === "production";
   if (!isProduction) {
     const config = new DocumentBuilder()
-      .setTitle(`${VARS.DOMAIN} API`)
-      .setDescription(`OpenAPI documentation for the ${VARS.DOMAIN} API`)
+      .setTitle(`${STR.DOMAIN} API`)
+      .setDescription(`OpenAPI documentation for the ${STR.DOMAIN} API`)
       .setVersion("1.0.0")
       .build();
 
