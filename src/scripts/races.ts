@@ -13,24 +13,23 @@ const racesMap: Record<string, Race[]> = {
 };
 
 async function main() {
-    const destDir = path.join(VARS.DIR_ROOT, "public", "flags");
-    await fs.mkdir(destDir, { recursive: true });
+  const destDir = path.join(VARS.DIR_ROOT, "public", "flags");
+  await fs.mkdir(destDir, { recursive: true });
 
-    // clear existing files in the destDir by listing and deleting individual files
-    try {
-      const entries = await fs.readdir(destDir);
-      for (const entry of entries) {
-        const p = path.join(destDir, entry);
-        try {
-          await fs.unlink(p);
-        } catch (e) {
-          // ignore unlink errors for non-file entries or permission issues
-        }
+  // clear existing files in the destDir by listing and deleting individual files
+  try {
+    const entries = await fs.readdir(destDir);
+    for (const entry of entries) {
+      const p = path.join(destDir, entry);
+      try {
+        await fs.unlink(p);
+      } catch (e) {
+        // ignore unlink errors for non-file entries or permission issues
       }
-    } catch (e) {
-      // if readdir fails, ignore and continue (dir may not exist yet)
     }
-
+  } catch (e) {
+    // if readdir fails, ignore and continue (dir may not exist yet)
+  }
 
   for (const formula of formulas) {
     const races = racesMap[formula.slug];
@@ -38,7 +37,7 @@ async function main() {
       console.log(`No races for ${formula.slug}, skipping.`);
       continue;
     } else {
-      console.log(`Copying ${formula.slug} flags...`)
+      console.log(`Copying ${formula.slug} flags...`);
     }
 
     for (const race of races) {
