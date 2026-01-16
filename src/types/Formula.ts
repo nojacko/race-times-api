@@ -6,4 +6,6 @@ export interface Formula {
   primaryColor?: string;
   logoBgColor?: string;
   logoTextColor?: string;
+  initials?: string;
+  nameLong?: string;
 }
