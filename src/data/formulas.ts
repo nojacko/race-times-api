@@ -1,4 +1,4 @@
-import { Formula } from "../types/Formula";
+import type { Formula } from "../types/Formula";
 
 export const F1: Formula = {
   slug: "f1",
@@ -36,5 +36,3 @@ export const F1_ACADEMY: Formula = {
 };
 
 export const formulas: Formula[] = [F1, F2, F3, FORMULA_E, F1_ACADEMY];
-
-export default formulas;

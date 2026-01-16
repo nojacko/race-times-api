@@ -6,5 +6,3 @@ export type Calendar = {
   calendarEventsFile: string;
   formulaSlug: string;
 };
-
-export default Calendar;

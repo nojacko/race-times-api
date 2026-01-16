@@ -11,5 +11,3 @@ export interface CalendarEvent {
   UID?: string;
   [key: string]: string | undefined;
 }
-
-export default CalendarEvent;

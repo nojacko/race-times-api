@@ -1,6 +1,5 @@
 import * as fs from "fs";
 import * as path from "path";
-import { calendars } from "../data/calendars";
 import { sessionsByFormula, calendarEventsByFormula, racesByFormula, calendarByFormula } from "../utils/data";
 import { formulas } from "../data/formulas";
 import type { CalendarEvent } from "../types/CalendarEvent";
