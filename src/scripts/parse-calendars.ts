@@ -19,6 +19,7 @@ function buildSession(
   year: number,
   calendarKey: string,
   timeZone: string,
+  errors: string[],
 ): CalendarSession {
   const parseDateTime = (day: string, month: string, time: string | null) => {
     if (!day || !month || !time) return "";
@@ -36,18 +37,27 @@ function buildSession(
       { year, month: monthNum, day: dayNum, hour: parseInt(hh, 10), minute: parseInt(mm, 10) },
       { zone: timeZone },
     );
-    return dt.isValid ? dt.toISO() : "";
+    return dt.isValid ? dt.toISO() : null;
   };
 
   const startDt = parseDateTime(s.day, s.month, s.startTime);
   const endDt = parseDateTime(s.day, s.month, s.endTime);
 
   const startDateTime = startDt ? DateTime.fromISO(startDt, { zone: timeZone }).toUTC().toISO() : "";
-  const endDateTime = endDt ? DateTime.fromISO(endDt, { zone: timeZone }).toUTC().toISO() : "";
+  const endDateTime = endDt ? DateTime.fromISO(endDt, { zone: timeZone }).toUTC().toISO() : null;
   const localStartTime = startDt ? DateTime.fromISO(startDt, { zone: timeZone }).toISO() : "";
-  const localEndTime = endDt ? DateTime.fromISO(endDt, { zone: timeZone }).toISO() : "";
+  const localEndTime = endDt ? DateTime.fromISO(endDt, { zone: timeZone }).toISO() : null;
 
   const sessionSlug = slugify(s.name);
+
+  // report missing date/time values to the shared errors array
+  const sessionId = `${calendarKey} => ${rawEvent.slug} => ${sessionSlug || `#${i}`}`;
+  if (!startDateTime) {
+    errors.push(`missing startDateTime: ${sessionId}`);
+  }
+  if (!localStartTime) {
+    errors.push(`missing localStartTime: ${sessionId}`);
+  }
 
   return {
     key: slugsJoin(calendarKey, rawEvent.slug, sessionSlug),
@@ -96,10 +106,12 @@ function buildEvent(
   errors: string[],
 ): CalendarEvent | null {
   const typeRaw = (raw.type || "").toString().trim();
-  let eventType: CalendarEventType = "testing";
+  let eventType: CalendarEventType;
   let round = 0;
 
-  if (/^ROUND\b/i.test(typeRaw)) {
+  if (/^TESTING\b/i.test(typeRaw)) {
+    eventType = "testing";
+  } else if (/^ROUND\b/i.test(typeRaw)) {
     eventType = "round";
     const m = typeRaw.match(/ROUND\s*(\d+)/i);
     round = m ? parseInt(m[1], 10) || 0 : 0;
@@ -108,13 +120,19 @@ function buildEvent(
   const circuitSlug = getCircuitSlug(formula.slug, raw.slug);
   const circuit = circuitSlug ? getCircuit(circuitSlug) : undefined;
   const eventName = raw.nameShort || raw.slug || "(unknown)";
+  const errorData = `${eventName} => ${circuitSlug}`;
   if (!circuit) {
-    errors.push(`missing circuit: ${eventName} => ${circuitSlug || "(unknown)"}`);
+    errors.push(`missing circuit: ${errorData}`);
     return null;
   }
 
   if (!circuit.timeZone) {
-    errors.push(`missing timeZone: ${circuit.slug}`);
+    errors.push(`missing timeZone: ${errorData}`);
+    return null;
+  }
+
+  if (!eventType) {
+    errors.push(`invalid eventType: ${errorData}`);
     return null;
   }
 
@@ -141,7 +159,7 @@ function buildEvent(
       const rawContent = fs.readFileSync(eventRawPath, "utf8");
       const eventRaw = JSON.parse(rawContent) as EventRaw;
       if (Array.isArray(eventRaw.data)) {
-        event.sessions = eventRaw.data.map((s, i) => buildSession(s, i, raw, formula, year, calendarKey, circuit.timeZone));
+        event.sessions = eventRaw.data.map((s, i) => buildSession(s, i, raw, formula, year, calendarKey, circuit.timeZone, errors));
       }
     }
   } catch (e) {

@@ -9,9 +9,9 @@ export interface CalendarSession {
   eventSlug: string;
   name: string;
   startDateTime: string;
-  endDateTime: string;
+  endDateTime: string | null;
   localStartTime: string;
-  localEndTime: string;
+  localEndTime: string | null;
   slug: string;
 }
 
