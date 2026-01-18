@@ -24,6 +24,7 @@ export interface CalendarEvent {
   circuitSlug: CircuitSlug;
   url: string;
   nameFull: string;
+  nameMedium: string;
   nameShort: string;
   displayDate: string;
   eventType: CalendarEventType;

@@ -13,16 +13,29 @@
     console.error("Failed to click Track time button", e);
   }
 
-  const titleEl = document.querySelector("h1");
-  const nameFull = titleEl ? titleEl.textContent.trim() : null;
-  const rawTitle = document.title ? document.title.trim() : null;
-  const truncated = rawTitle ? rawTitle.split(",")[0].trim() : null;
-  const nameMedium = truncated ? truncated.replace(/\b\d{4}\s*-\s*F1 Race$/i, "").trim() : null;
+  const h1El = document.querySelector("h1");
+  const nameFull = h1El ? h1El.textContent.trim() : null;
+  const docTitle = document.title ? document.title.trim() : null;
+  let nameMedium = docTitle ? docTitle.split(",")[0].trim() : null;
+  nameMedium = nameMedium ? nameMedium.replace(/\b\d{4}\s*-\s*F1 Race$/i, "").trim() : null;
 
   const data = [];
   const url = window.location.href;
   const parts = url.split("/").filter(Boolean);
   const slug = parts.length ? parts[parts.length - 1] : null;
+
+  // For pre-season pages, ensure nameMedium uses 'Pre-season Test ' prefix
+  if (slug && slug.startsWith("pre-season") && nameMedium) {
+    nameMedium = nameMedium.replace(/\bTest\s+/i, "Pre-season Test ");
+  }
+
+  if (slug && slug.startsWith("pre-season") && docTitle) {
+    const parts = docTitle.split("-");
+    const last = parts.length ? parts[parts.length - 1].trim() : null;
+    if (last) {
+      nameMedium = last.replace(/\bTest\s+/i, "Pre-season Test ");
+    }
+  }
 
   const list = document.querySelector("ul.grid");
   if (list) {

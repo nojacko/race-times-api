@@ -10,7 +10,8 @@ export interface EventRaw {
   url: string;
   updatedAt: string;
   slug: string;
-  title: string;
+  nameFull: string;
+  nameMedium: string;
   data: EventSessionRaw[];
 }
 

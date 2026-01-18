@@ -144,6 +144,7 @@ function buildEvent(
     circuitSlug: circuit.slug,
     url: raw.url || "",
     nameFull: raw.nameFull || "",
+    nameMedium: raw.nameMedium ?? "",
     nameShort: raw.nameShort ?? "",
     displayDate: raw.displayDate ?? "",
     eventType,
@@ -158,8 +159,17 @@ function buildEvent(
     if (fs.existsSync(eventRawPath)) {
       const rawContent = fs.readFileSync(eventRawPath, "utf8");
       const eventRaw = JSON.parse(rawContent) as EventRaw;
+      event.nameMedium = eventRaw.nameMedium;
       if (Array.isArray(eventRaw.data)) {
         event.sessions = eventRaw.data.map((s, i) => buildSession(s, i, raw, formula, year, calendarKey, circuit.timeZone, errors));
+      }
+    } else {
+      try {
+        fs.mkdirSync(path.dirname(eventRawPath), { recursive: true });
+        fs.writeFileSync(eventRawPath, "{}", "utf8");
+        console.log(`- ${year}: created missing raw event file for ${raw.slug}`);
+      } catch (err) {
+        console.warn(`Failed to create missing event raw file ${eventRawPath}:`, err);
       }
     }
   } catch (e) {
