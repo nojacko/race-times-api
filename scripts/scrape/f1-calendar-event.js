@@ -49,6 +49,6 @@
 
   const meta = { url, slug, title };
   const out = window._UTILS.wrapData(data, meta);
-  window._UTILS.showOverlayJson(out);
+  window._UTILS.showOverlayJson(out, `${slug}.json`);
   return out;
 })();

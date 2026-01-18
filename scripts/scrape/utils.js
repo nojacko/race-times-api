@@ -5,7 +5,7 @@
  */
 (function () {
   window._UTILS = {
-    showOverlayJson: function (data) {
+    showOverlayJson: function (data, filename) {
       const overlayId = "scrape_overlay";
       const existing = document.getElementById(overlayId);
       if (existing) existing.remove();
@@ -17,7 +17,7 @@
         left: "0",
         width: "100%",
         height: "100%",
-        background: "rgba(0,0,0,0.6)",
+        background: "rgba(0,0,0,0.9)",
         display: "flex",
         alignItems: "center",
         justifyContent: "center",
@@ -52,6 +52,22 @@
         color: "#000",
       });
 
+      let copyFileBtn;
+      if (filename) {
+        copyFileBtn = document.createElement("button");
+        copyFileBtn.type = "button";
+        copyFileBtn.textContent = `Copy ${filename}`;
+        Object.assign(copyFileBtn.style, {
+          padding: "8px 12px",
+          fontSize: "13px",
+          borderRadius: "6px",
+          border: "none",
+          cursor: "pointer",
+          background: "#fff",
+          color: "#000",
+        });
+      }
+
       const closeBtn = document.createElement("button");
       closeBtn.type = "button";
       closeBtn.textContent = "Close";
@@ -85,6 +101,7 @@
       // prevent overlay clicks when interacting with textarea or controls
       ta.addEventListener("click", (e) => e.stopPropagation());
       ta.addEventListener("mousedown", (e) => e.stopPropagation());
+      if (copyFileBtn) copyFileBtn.addEventListener("click", (e) => e.stopPropagation());
       copyBtn.addEventListener("click", (e) => e.stopPropagation());
       closeBtn.addEventListener("click", (e) => e.stopPropagation());
 
@@ -93,27 +110,37 @@
         if (overlay.parentNode) overlay.parentNode.removeChild(overlay);
       }
 
-      // copy handler
-      copyBtn.addEventListener("click", async () => {
-        try {
-          await navigator.clipboard.writeText(JSON.stringify(data, null, 2));
-          const prev = copyBtn.textContent;
-          copyBtn.textContent = "Copied!";
-          setTimeout(() => {
-            copyBtn.textContent = prev;
-          }, 1500);
-        } catch (err) {
-          copyBtn.textContent = "Copy failed";
-          setTimeout(() => {
-            copyBtn.textContent = "Copy JSON";
-          }, 1500);
-        }
-      });
+      // generic copy button setup: wires stopPropagation + clipboard copy + temporary label
+      function setupCopyButton(btn, getText, defaultLabel) {
+        if (!btn) return;
+        btn.addEventListener("click", (e) => e.stopPropagation());
+        btn.addEventListener("click", async () => {
+          try {
+            await navigator.clipboard.writeText(typeof getText === "function" ? getText() : getText);
+            const prev = btn.textContent;
+            btn.textContent = "Copied!";
+            setTimeout(() => {
+              btn.textContent = prev || defaultLabel;
+            }, 1500);
+          } catch (err) {
+            const prev = btn.textContent;
+            btn.textContent = "Copy failed";
+            setTimeout(() => {
+              btn.textContent = prev || defaultLabel;
+            }, 1500);
+          }
+        });
+      }
+
+      // attach generic copy handlers
+      setupCopyButton(copyBtn, () => JSON.stringify(data, null, 2), "Copy JSON");
+      if (copyFileBtn) setupCopyButton(copyFileBtn, () => filename, `Copy ${filename}`);
 
       closeBtn.addEventListener("click", () => {
         closeOverlay();
       });
 
+      if (copyFileBtn) controls.appendChild(copyFileBtn);
       controls.appendChild(copyBtn);
       controls.appendChild(closeBtn);
       container.appendChild(ta);
@@ -124,7 +151,7 @@
     wrapData: function (data, meta) {
       return {
         url: window.location.href,
-        updateAt: new Date().toISOString(),
+        updatedAt: new Date().toISOString(),
         ...(meta || {}),
         data,
       };

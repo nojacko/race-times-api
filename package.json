@@ -10,7 +10,7 @@
     "format": "prettier --write \"**/*.{ts,js}\"",
     "lint": "eslint \"**/*.ts\" --fix",
     "update:races": "ts-node src/scripts/races.ts",
-    "data:parse": "ts-node src/scripts/parse-data.ts"
+    "data:parse-calendars": "ts-node src/scripts/parse-calendars.ts"
   },
   "author": "",
   "license": "ISC",

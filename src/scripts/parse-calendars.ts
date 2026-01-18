@@ -4,7 +4,7 @@ import { VARS } from "../vars";
 import { formulas } from "../data/formulas";
 import type { Formula } from "../types/Formula";
 import type { CalendarRaw } from "../types/CalendarRaw";
-import type { Calendar, CalendarEvent } from "../types/Calendar";
+import type { Calendar, CalendarEvent, CalendarEventType } from "../types/Calendar";
 
 function writeCalendar(slug: string, year: number, calendar: Calendar) {
   const targetDir = path.join(VARS.DIR_DATA, slug, String(year));
@@ -32,7 +32,7 @@ function writeCalendar(slug: string, year: number, calendar: Calendar) {
 
 function buildEvent(raw: any, formula: Formula, year: number, calendarKey: string, calendarRaw: CalendarRaw): CalendarEvent {
   const typeRaw = (raw.type || "").toString().trim();
-  let eventType: "testing" | "round" = "testing";
+  let eventType: CalendarEventType = "testing";
   let round = 0;
 
   if (/^ROUND\b/i.test(typeRaw)) {
@@ -52,12 +52,15 @@ function buildEvent(raw: any, formula: Formula, year: number, calendarKey: strin
     displayDate: raw.displayDate ?? "",
     eventType,
     round,
+    sessions: [],
+    updatedAt: calendarRaw.updatedAt,
   };
 
   return event;
 }
 
 formulas.forEach((formula: Formula) => {
+  if (!formula.active) return;
   console.log(formula.name);
 
   if (Array.isArray(formula.years) && formula.years.length) {
