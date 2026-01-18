@@ -11,7 +11,7 @@
     "lint": "eslint \"**/*.ts\" --fix",
     "update:races": "ts-node src/scripts/races.ts",
     "data:parse-calendars": "ts-node src/scripts/parse-calendars.ts",
-    "data:parse-events": "ts-node src/scripts/parse-calendar-events.ts"
+    "misc:update-mappings": "ts-node src/scripts/update-mappings.ts"
   },
   "author": "",
   "license": "ISC",
