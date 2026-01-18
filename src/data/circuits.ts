@@ -1,4 +1,4 @@
-import type { Circuit } from "src/types/Circuit";
+import type { Circuit } from "../types/Circuit";
 
 export const circuits: Circuit[] = [
   {
