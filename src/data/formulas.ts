@@ -10,6 +10,8 @@ export const F1: Formula = {
   logoBgColor: "#15151e",
   logoTextColor: "#E10600",
   initials: "F1",
+  years: [2026],
+  url: "https://www.formula1.com",
 };
 
 export const F2: Formula = {
@@ -22,6 +24,7 @@ export const F2: Formula = {
   logoBgColor: "#023A5F",
   logoTextColor: "#ffffff",
   initials: "F2",
+  url: "https://www.fiaformula2.com",
 };
 
 export const F3: Formula = {
@@ -34,6 +37,7 @@ export const F3: Formula = {
   logoBgColor: "#666666",
   logoTextColor: "#ffffff",
   initials: "F3",
+  url: "https://www.fiaformula3.com",
 };
 
 export const FORMULA_E: Formula = {
@@ -46,6 +50,7 @@ export const FORMULA_E: Formula = {
   logoBgColor: "#0000ff",
   logoTextColor: "#ffffff",
   initials: "FE",
+  url: "https://fiaformulae.com",
 };
 
 export const F1_ACADEMY: Formula = {
@@ -58,6 +63,7 @@ export const F1_ACADEMY: Formula = {
   logoBgColor: "#0083d3",
   logoTextColor: "#ffffff",
   initials: "F1",
+  url: "https://www.f1academy.com",
 };
 
 export const formulas: Formula[] = [F1, F2, F3, FORMULA_E, F1_ACADEMY];

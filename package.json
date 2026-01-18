@@ -9,7 +9,8 @@
     "dev": "ts-node src/main.ts",
     "format": "prettier --write \"**/*.{ts,js}\"",
     "lint": "eslint \"**/*.ts\" --fix",
-    "update:races": "ts-node src/scripts/races.ts"
+    "update:races": "ts-node src/scripts/races.ts",
+    "data:parse": "ts-node src/scripts/parse-data.ts"
   },
   "author": "",
   "license": "ISC",

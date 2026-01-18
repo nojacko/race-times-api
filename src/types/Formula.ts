@@ -1,6 +1,7 @@
 export interface Formula {
   slug: string;
   name: string;
+  url: string;
   trademarks: string;
   active: boolean;
   primaryColor?: string;
@@ -8,4 +9,5 @@ export interface Formula {
   logoTextColor?: string;
   initials?: string;
   nameLong?: string;
+  years?: number[];
 }
