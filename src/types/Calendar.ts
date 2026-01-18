@@ -1,3 +1,5 @@
+import type { CircuitSlug } from "./Circuit";
+
 export type CalendarEventType = "testing" | "round";
 
 export interface CalendarSession {
@@ -20,6 +22,7 @@ export interface CalendarEvent {
   slug: string;
   url: string;
   fullName: string;
+  circuitSlug: CircuitSlug;
   shortName: string;
   displayDate: string;
   eventType: CalendarEventType;
@@ -33,6 +36,6 @@ export interface Calendar {
   year: number;
   url: string;
   title: string;
-  data: CalendarEvent[];
+  calendarEvents: CalendarEvent[];
   updatedAt: string;
 }

@@ -65,7 +65,7 @@ formulas.forEach((formula: Formula) => {
 
   if (Array.isArray(formula.years) && formula.years.length) {
     formula.years.forEach((year) => {
-      const calendarJsonPath = path.join(VARS.DIR_DATA, formula.slug, String(year), "calendar.json");
+      const calendarJsonPath = path.join(VARS.DIR_DATA, formula.slug, String(year), "calendar-raw.json");
 
       if (fs.existsSync(calendarJsonPath)) {
         try {
@@ -80,19 +80,19 @@ formulas.forEach((formula: Formula) => {
             year: calendarRaw.year,
             url: calendarRaw.url,
             title: calendarRaw.title,
-            data: (calendarRaw.data || []).map((e: any) => {
+            calendarEvents: (calendarRaw.data || []).map((e: any) => {
               return buildEvent(e, formula, year, calendarKey, calendarRaw);
             }),
             updatedAt: calendarRaw.updatedAt,
           };
 
-          console.log(`- ${year}: calendar.json loaded`);
+          console.log(`- ${year}: calendar-raw.json loaded`);
           writeCalendar(formula.slug, year, transformed);
         } catch (err) {
-          console.log(`- ${year}: calendar.json loaded but failed to parse`);
+          console.log(`- ${year}: calendar-raw.json loaded but failed to parse`);
         }
       } else {
-        console.log(`- ${year}: calendar.json missing`);
+        console.log(`- ${year}: calendar-raw.json missing`);
       }
     });
   } else {

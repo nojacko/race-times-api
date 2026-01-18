@@ -35,7 +35,7 @@
     const year = yearMatch ? parseInt(yearMatch[1]) : null;
     const meta = { title, year };
     const out = window._UTILS.wrapData(data, meta);
-    window._UTILS.showOverlayJson(out, "calendar.json");
+    window._UTILS.showOverlayJson(out, "calendar-raw.json");
     return out;
   }
 
