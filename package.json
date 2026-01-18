@@ -8,10 +8,7 @@
     "start": "node dist/main.js",
     "dev": "ts-node src/main.ts",
     "format": "prettier --write \"**/*.{ts,js}\"",
-    "lint": "eslint \"**/*.ts\" --fix",
-    "update:races": "ts-node src/scripts/races.ts",
-    "data:parse-calendars": "ts-node src/scripts/parse-calendars.ts",
-    "misc:update-mappings": "ts-node src/scripts/update-mappings.ts"
+    "lint": "eslint \"**/*.ts\" --fix"
   },
   "author": "",
   "license": "ISC",
