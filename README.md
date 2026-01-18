@@ -19,6 +19,8 @@ npx ts-node src/scripts/parse-calendars.ts; npm run format;
 npx ts-node src/scripts/update-mappings.ts
 npx ts-node src/scripts/update-flags.ts
 npm run format
+
+sh scripts/copy-files.sh
 ```
 
 ## Running
