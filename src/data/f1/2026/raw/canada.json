@@ -1,0 +1,43 @@
+{
+  "url": "https://www.formula1.com/en/racing/2026/canada",
+  "updatedAt": "2026-01-18T14:34:26.264Z",
+  "slug": "canada",
+  "title": "FORMULA 1 LENOVO GRAND PRIX DU CANADA 2026",
+  "data": [
+    {
+      "day": "22",
+      "month": "May",
+      "name": "Practice 1",
+      "startTime": "12:30",
+      "endTime": "13:30"
+    },
+    {
+      "day": "22",
+      "month": "May",
+      "name": "Sprint Qualifying",
+      "startTime": "16:30",
+      "endTime": "17:14"
+    },
+    {
+      "day": "23",
+      "month": "May",
+      "name": "Sprint",
+      "startTime": "12:00",
+      "endTime": "13:00"
+    },
+    {
+      "day": "23",
+      "month": "May",
+      "name": "Qualifying",
+      "startTime": "16:00",
+      "endTime": "17:00"
+    },
+    {
+      "day": "24",
+      "month": "May",
+      "name": "Race",
+      "startTime": "16:00",
+      "endTime": null
+    }
+  ]
+}

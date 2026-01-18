@@ -14,7 +14,10 @@
   }
 
   const titleEl = document.querySelector("h1");
-  const title = titleEl ? titleEl.textContent.trim() : null;
+  const nameFull = titleEl ? titleEl.textContent.trim() : null;
+  const rawTitle = document.title ? document.title.trim() : null;
+  const truncated = rawTitle ? rawTitle.split(",")[0].trim() : null;
+  const nameMedium = truncated ? truncated.replace(/\b\d{4}\s*-\s*F1 Race$/i, "").trim() : null;
 
   const data = [];
   const url = window.location.href;
@@ -47,7 +50,7 @@
     });
   }
 
-  const meta = { url, slug, title };
+  const meta = { url, slug, nameFull, nameMedium };
   const out = window._UTILS.wrapData(data, meta);
   window._UTILS.showOverlayJson(out, `${slug}.json`);
   return out;

@@ -18,14 +18,14 @@
     const slug = parts.length ? parts[parts.length - 1] : null;
 
     const fullSpan = a.querySelector('span[class*="typography-module_body-xs-semibold__Fyfwn"]');
-    const fullName = fullSpan ? fullSpan.textContent.trim() : null;
+    const nameFull = fullSpan ? fullSpan.textContent.trim() : null;
     const shortP = a.querySelector("p.typography-module_display-xl-bold__Gyl5W");
-    const shortName = shortP ? shortP.textContent.trim() : null;
+    const nameShort = shortP ? shortP.textContent.trim() : null;
     const dateSpan = a.querySelector("span.typography-module_technical-m-bold__JDsxP");
     const displayDate = dateSpan ? dateSpan.textContent.trim() : null;
     const typeSpan = a.querySelector("span.typography-module_body-2-xs-bold__M03Ei");
     const type = typeSpan ? typeSpan.textContent.trim() : null;
-    return { url, slug, fullName, shortName, displayDate, type };
+    return { url, slug, nameFull, nameShort, displayDate, type };
   });
 
   if (data.length) {
@@ -35,7 +35,7 @@
     const year = yearMatch ? parseInt(yearMatch[1]) : null;
     const meta = { title, year };
     const out = window._UTILS.wrapData(data, meta);
-    window._UTILS.showOverlayJson(out, "calendar-raw.json");
+    window._UTILS.showOverlayJson(out, "calendar.json");
     return out;
   }
 

@@ -7,208 +7,208 @@
     {
       "url": "https://www.formula1.com/en/racing/2026/pre-season-testing-1",
       "slug": "pre-season-testing-1",
-      "fullName": "FORMULA 1 ARAMCO PRE-SEASON TESTING 1 2026",
-      "shortName": "Bahrain",
+      "nameFull": "FORMULA 1 ARAMCO PRE-SEASON TESTING 1 2026",
+      "nameShort": "Bahrain",
       "displayDate": "11 - 13 Feb",
       "type": "TESTING"
     },
     {
       "url": "https://www.formula1.com/en/racing/2026/pre-season-testing-2",
       "slug": "pre-season-testing-2",
-      "fullName": "FORMULA 1 ARAMCO PRE-SEASON TESTING 2 2026",
-      "shortName": "Sakhir",
+      "nameFull": "FORMULA 1 ARAMCO PRE-SEASON TESTING 2 2026",
+      "nameShort": "Sakhir",
       "displayDate": "18 - 20 Feb",
       "type": "TESTING"
     },
     {
       "url": "https://www.formula1.com/en/racing/2026/australia",
       "slug": "australia",
-      "fullName": "FORMULA 1 QATAR AIRWAYS AUSTRALIAN GRAND PRIX 2026",
-      "shortName": "Australia",
+      "nameFull": "FORMULA 1 QATAR AIRWAYS AUSTRALIAN GRAND PRIX 2026",
+      "nameShort": "Australia",
       "displayDate": "06 - 08 Mar",
       "type": "ROUND 1"
     },
     {
       "url": "https://www.formula1.com/en/racing/2026/china",
       "slug": "china",
-      "fullName": "FORMULA 1 HEINEKEN CHINESE GRAND PRIX 2026",
-      "shortName": "China",
+      "nameFull": "FORMULA 1 HEINEKEN CHINESE GRAND PRIX 2026",
+      "nameShort": "China",
       "displayDate": "13 - 15 Mar",
       "type": "ROUND 2"
     },
     {
       "url": "https://www.formula1.com/en/racing/2026/japan",
       "slug": "japan",
-      "fullName": "FORMULA 1 ARAMCO JAPANESE GRAND PRIX 2026",
-      "shortName": "Japan",
+      "nameFull": "FORMULA 1 ARAMCO JAPANESE GRAND PRIX 2026",
+      "nameShort": "Japan",
       "displayDate": "27 - 29 Mar",
       "type": "ROUND 3"
     },
     {
       "url": "https://www.formula1.com/en/racing/2026/bahrain",
       "slug": "bahrain",
-      "fullName": "FORMULA 1 GULF AIR BAHRAIN GRAND PRIX 2026",
-      "shortName": "Bahrain",
+      "nameFull": "FORMULA 1 GULF AIR BAHRAIN GRAND PRIX 2026",
+      "nameShort": "Bahrain",
       "displayDate": "10 - 12 Apr",
       "type": "ROUND 4"
     },
     {
       "url": "https://www.formula1.com/en/racing/2026/saudi-arabia",
       "slug": "saudi-arabia",
-      "fullName": "FORMULA 1 STC SAUDI ARABIAN GRAND PRIX 2026",
-      "shortName": "Saudi Arabia",
+      "nameFull": "FORMULA 1 STC SAUDI ARABIAN GRAND PRIX 2026",
+      "nameShort": "Saudi Arabia",
       "displayDate": "17 - 19 Apr",
       "type": "ROUND 5"
     },
     {
       "url": "https://www.formula1.com/en/racing/2026/miami",
       "slug": "miami",
-      "fullName": "FORMULA 1 CRYPTO.COM MIAMI GRAND PRIX 2026",
-      "shortName": "Miami",
+      "nameFull": "FORMULA 1 CRYPTO.COM MIAMI GRAND PRIX 2026",
+      "nameShort": "Miami",
       "displayDate": "01 - 03 May",
       "type": "ROUND 6"
     },
     {
       "url": "https://www.formula1.com/en/racing/2026/canada",
       "slug": "canada",
-      "fullName": "FORMULA 1 LENOVO GRAND PRIX DU CANADA 2026",
-      "shortName": "Canada",
+      "nameFull": "FORMULA 1 LENOVO GRAND PRIX DU CANADA 2026",
+      "nameShort": "Canada",
       "displayDate": "22 - 24 May",
       "type": "ROUND 7"
     },
     {
       "url": "https://www.formula1.com/en/racing/2026/monaco",
       "slug": "monaco",
-      "fullName": "FORMULA 1 LOUIS VUITTON GRAND PRIX DE MONACO 2026",
-      "shortName": "Monaco",
+      "nameFull": "FORMULA 1 LOUIS VUITTON GRAND PRIX DE MONACO 2026",
+      "nameShort": "Monaco",
       "displayDate": "05 - 07 Jun",
       "type": "ROUND 8"
     },
     {
       "url": "https://www.formula1.com/en/racing/2026/barcelona-catalunya",
       "slug": "barcelona-catalunya",
-      "fullName": "FORMULA 1 MSC CRUISES GRAN PREMIO DE BARCELONA-CATALUNYA 2026",
-      "shortName": "Barcelona-Catalunya",
+      "nameFull": "FORMULA 1 MSC CRUISES GRAN PREMIO DE BARCELONA-CATALUNYA 2026",
+      "nameShort": "Barcelona-Catalunya",
       "displayDate": "12 - 14 Jun",
       "type": "ROUND 9"
     },
     {
       "url": "https://www.formula1.com/en/racing/2026/austria",
       "slug": "austria",
-      "fullName": "FORMULA 1 LENOVO AUSTRIAN GRAND PRIX 2026",
-      "shortName": "Austria",
+      "nameFull": "FORMULA 1 LENOVO AUSTRIAN GRAND PRIX 2026",
+      "nameShort": "Austria",
       "displayDate": "26 - 28 Jun",
       "type": "ROUND 10"
     },
     {
       "url": "https://www.formula1.com/en/racing/2026/great-britain",
       "slug": "great-britain",
-      "fullName": "FORMULA 1 PIRELLI BRITISH GRAND PRIX 2026",
-      "shortName": "Great Britain",
+      "nameFull": "FORMULA 1 PIRELLI BRITISH GRAND PRIX 2026",
+      "nameShort": "Great Britain",
       "displayDate": "03 - 05 Jul",
       "type": "ROUND 11"
     },
     {
       "url": "https://www.formula1.com/en/racing/2026/belgium",
       "slug": "belgium",
-      "fullName": "FORMULA 1 BELGIAN GRAND PRIX 2026",
-      "shortName": "Belgium",
+      "nameFull": "FORMULA 1 BELGIAN GRAND PRIX 2026",
+      "nameShort": "Belgium",
       "displayDate": "17 - 19 Jul",
       "type": "ROUND 12"
     },
     {
       "url": "https://www.formula1.com/en/racing/2026/hungary",
       "slug": "hungary",
-      "fullName": "FORMULA 1 AWS HUNGARIAN GRAND PRIX 2026",
-      "shortName": "Hungary",
+      "nameFull": "FORMULA 1 AWS HUNGARIAN GRAND PRIX 2026",
+      "nameShort": "Hungary",
       "displayDate": "24 - 26 Jul",
       "type": "ROUND 13"
     },
     {
       "url": "https://www.formula1.com/en/racing/2026/netherlands",
       "slug": "netherlands",
-      "fullName": "FORMULA 1 HEINEKEN DUTCH GRAND PRIX 2026",
-      "shortName": "Netherlands",
+      "nameFull": "FORMULA 1 HEINEKEN DUTCH GRAND PRIX 2026",
+      "nameShort": "Netherlands",
       "displayDate": "21 - 23 Aug",
       "type": "ROUND 14"
     },
     {
       "url": "https://www.formula1.com/en/racing/2026/italy",
       "slug": "italy",
-      "fullName": "FORMULA 1 PIRELLI GRAN PREMIO D’ITALIA 2026",
-      "shortName": "Italy",
+      "nameFull": "FORMULA 1 PIRELLI GRAN PREMIO D’ITALIA 2026",
+      "nameShort": "Italy",
       "displayDate": "04 - 06 Sep",
       "type": "ROUND 15"
     },
     {
       "url": "https://www.formula1.com/en/racing/2026/spain",
       "slug": "spain",
-      "fullName": "FORMULA 1 TAG HEUER GRAN PREMIO DE ESPAÑA 2026",
-      "shortName": "Spain",
+      "nameFull": "FORMULA 1 TAG HEUER GRAN PREMIO DE ESPAÑA 2026",
+      "nameShort": "Spain",
       "displayDate": "11 - 13 Sep",
       "type": "ROUND 16"
     },
     {
       "url": "https://www.formula1.com/en/racing/2026/azerbaijan",
       "slug": "azerbaijan",
-      "fullName": "FORMULA 1 QATAR AIRWAYS AZERBAIJAN GRAND PRIX 2026",
-      "shortName": "Azerbaijan",
+      "nameFull": "FORMULA 1 QATAR AIRWAYS AZERBAIJAN GRAND PRIX 2026",
+      "nameShort": "Azerbaijan",
       "displayDate": "24 - 26 Sep",
       "type": "ROUND 17"
     },
     {
       "url": "https://www.formula1.com/en/racing/2026/singapore",
       "slug": "singapore",
-      "fullName": "FORMULA 1 SINGAPORE AIRLINES SINGAPORE GRAND PRIX 2026",
-      "shortName": "Singapore",
+      "nameFull": "FORMULA 1 SINGAPORE AIRLINES SINGAPORE GRAND PRIX 2026",
+      "nameShort": "Singapore",
       "displayDate": "09 - 11 Oct",
       "type": "ROUND 18"
     },
     {
       "url": "https://www.formula1.com/en/racing/2026/united-states",
       "slug": "united-states",
-      "fullName": "FORMULA 1 MSC CRUISES UNITED STATES GRAND PRIX 2026",
-      "shortName": "United States",
+      "nameFull": "FORMULA 1 MSC CRUISES UNITED STATES GRAND PRIX 2026",
+      "nameShort": "United States",
       "displayDate": "23 - 25 Oct",
       "type": "ROUND 19"
     },
     {
       "url": "https://www.formula1.com/en/racing/2026/mexico",
       "slug": "mexico",
-      "fullName": "FORMULA 1 GRAN PREMIO DE LA CIUDAD DE MÉXICO 2026",
-      "shortName": "Mexico",
+      "nameFull": "FORMULA 1 GRAN PREMIO DE LA CIUDAD DE MÉXICO 2026",
+      "nameShort": "Mexico",
       "displayDate": "30 Oct - 01 Nov",
       "type": "ROUND 20"
     },
     {
       "url": "https://www.formula1.com/en/racing/2026/brazil",
       "slug": "brazil",
-      "fullName": "FORMULA 1 MSC CRUISES GRANDE PRÊMIO DE SÃO PAULO 2026",
-      "shortName": "Brazil",
+      "nameFull": "FORMULA 1 MSC CRUISES GRANDE PRÊMIO DE SÃO PAULO 2026",
+      "nameShort": "Brazil",
       "displayDate": "06 - 08 Nov",
       "type": "ROUND 21"
     },
     {
       "url": "https://www.formula1.com/en/racing/2026/las-vegas",
       "slug": "las-vegas",
-      "fullName": "FORMULA 1 HEINEKEN LAS VEGAS GRAND PRIX 2026",
-      "shortName": "Las Vegas",
+      "nameFull": "FORMULA 1 HEINEKEN LAS VEGAS GRAND PRIX 2026",
+      "nameShort": "Las Vegas",
       "displayDate": "19 - 21 Nov",
       "type": "ROUND 22"
     },
     {
       "url": "https://www.formula1.com/en/racing/2026/qatar",
       "slug": "qatar",
-      "fullName": "FORMULA 1 QATAR AIRWAYS QATAR GRAND PRIX 2026",
-      "shortName": "Qatar",
+      "nameFull": "FORMULA 1 QATAR AIRWAYS QATAR GRAND PRIX 2026",
+      "nameShort": "Qatar",
       "displayDate": "27 - 29 Nov",
       "type": "ROUND 23"
     },
     {
       "url": "https://www.formula1.com/en/racing/2026/united-arab-emirates",
       "slug": "united-arab-emirates",
-      "fullName": "FORMULA 1 ETIHAD AIRWAYS ABU DHABI GRAND PRIX 2026",
-      "shortName": "Abu Dhabi",
+      "nameFull": "FORMULA 1 ETIHAD AIRWAYS ABU DHABI GRAND PRIX 2026",
+      "nameShort": "Abu Dhabi",
       "displayDate": "04 - 06 Dec",
       "type": "ROUND 24"
     }

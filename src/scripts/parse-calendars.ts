@@ -5,6 +5,7 @@ import { formulas } from "../data/formulas";
 import type { Formula } from "../types/Formula";
 import type { CalendarRaw } from "../types/CalendarRaw";
 import type { Calendar, CalendarEvent, CalendarEventType } from "../types/Calendar";
+import { getCircuitSlug } from "../utils/circuit-map";
 
 function writeCalendar(slug: string, year: number, calendar: Calendar) {
   const targetDir = path.join(VARS.DIR_DATA, slug, String(year));
@@ -46,9 +47,10 @@ function buildEvent(raw: any, formula: Formula, year: number, calendarKey: strin
     formulaSlug: formula.slug,
     year,
     slug: raw.slug,
+    circuitSlug: getCircuitSlug(formula.slug, raw.slug),
     url: raw.url || "",
-    fullName: raw.fullName || "",
-    shortName: raw.shortName ?? "",
+    nameFull: raw.nameFull || "",
+    nameShort: raw.nameShort ?? "",
     displayDate: raw.displayDate ?? "",
     eventType,
     round,
@@ -65,7 +67,7 @@ formulas.forEach((formula: Formula) => {
 
   if (Array.isArray(formula.years) && formula.years.length) {
     formula.years.forEach((year) => {
-      const calendarJsonPath = path.join(VARS.DIR_DATA, formula.slug, String(year), "calendar-raw.json");
+      const calendarJsonPath = path.join(VARS.DIR_DATA, formula.slug, String(year), "raw", "calendar.json");
 
       if (fs.existsSync(calendarJsonPath)) {
         try {
@@ -86,13 +88,13 @@ formulas.forEach((formula: Formula) => {
             updatedAt: calendarRaw.updatedAt,
           };
 
-          console.log(`- ${year}: calendar-raw.json loaded`);
+          console.log(`- ${year}: calendar.json loaded`);
           writeCalendar(formula.slug, year, transformed);
         } catch (err) {
-          console.log(`- ${year}: calendar-raw.json loaded but failed to parse`);
+          console.log(`- ${year}: calendar.json loaded but failed to parse`);
         }
       } else {
-        console.log(`- ${year}: calendar-raw.json missing`);
+        console.log(`- ${year}: calendar.json missing`);
       }
     });
   } else {

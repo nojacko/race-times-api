@@ -1,8 +1,8 @@
 export interface CalendarEventRaw {
   url: string;
   slug: string;
-  fullName: string;
-  shortName: string;
+  nameFull: string;
+  nameShort: string;
   displayDate: string;
   type: string;
 }

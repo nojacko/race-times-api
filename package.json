@@ -10,7 +10,8 @@
     "format": "prettier --write \"**/*.{ts,js}\"",
     "lint": "eslint \"**/*.ts\" --fix",
     "update:races": "ts-node src/scripts/races.ts",
-    "data:parse-calendars": "ts-node src/scripts/parse-calendars.ts"
+    "data:parse-calendars": "ts-node src/scripts/parse-calendars.ts",
+    "data:parse-events": "ts-node src/scripts/parse-calendar-events.ts"
   },
   "author": "",
   "license": "ISC",
@@ -19,6 +20,7 @@
     "@nestjs/core": "^11.1.11",
     "@nestjs/platform-express": "^11.1.11",
     "@nestjs/swagger": "^11.2.4",
+    "luxon": "^3.7.2",
     "reflect-metadata": "^0.2.2",
     "rxjs": "^7.8.2",
     "swagger-ui-express": "^5.0.1"

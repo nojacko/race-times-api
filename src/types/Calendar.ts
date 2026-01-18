@@ -20,10 +20,10 @@ export interface CalendarEvent {
   formulaSlug: string;
   year: number;
   slug: string;
-  url: string;
-  fullName: string;
   circuitSlug: CircuitSlug;
-  shortName: string;
+  url: string;
+  nameFull: string;
+  nameShort: string;
   displayDate: string;
   eventType: CalendarEventType;
   round: number;
