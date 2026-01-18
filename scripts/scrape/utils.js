@@ -5,6 +5,9 @@
  */
 (function () {
   window._UTILS = {
+    wait: function (ms) {
+      return new Promise((res) => setTimeout(res, ms));
+    },
     showOverlayJson: function (data, filename) {
       const overlayId = "scrape_overlay";
       const existing = document.getElementById(overlayId);

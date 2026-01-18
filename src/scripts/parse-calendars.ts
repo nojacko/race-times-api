@@ -11,6 +11,25 @@ import type { CalendarRaw } from "../types/CalendarRaw";
 import type { Calendar, CalendarEvent, CalendarEventType, CalendarSession } from "../types/Calendar";
 import { getCircuitSlug } from "../utils/circuit-map";
 
+function parseDateTime(day: string, month: string, time: string | null, year: number, timeZone: string): string | null {
+  if (!day || !month || !time) return "";
+  const dayNum = parseInt(day, 10);
+  const [hh = "0", mm = "0"] = time.split(":");
+
+  // try to parse month name to number using Luxon, fallback to Date
+  let monthNum = DateTime.fromFormat(month, "LLLL").month;
+  if (!monthNum) {
+    const tmp = new Date(`${month} 1, ${year}`);
+    monthNum = isNaN(tmp.getTime()) ? 1 : tmp.getMonth() + 1;
+  }
+
+  const dt = DateTime.fromObject(
+    { year, month: monthNum, day: dayNum, hour: parseInt(hh, 10), minute: parseInt(mm, 10) },
+    { zone: timeZone },
+  );
+  return dt.isValid ? dt.toISO() : null;
+}
+
 function buildSession(
   s: any,
   i: number,
@@ -21,32 +40,22 @@ function buildSession(
   timeZone: string,
   errors: string[],
 ): CalendarSession {
-  const parseDateTime = (day: string, month: string, time: string | null) => {
-    if (!day || !month || !time) return "";
-    const dayNum = parseInt(day, 10);
-    const [hh = "0", mm = "0"] = time.split(":");
+  const dateOpts = { zone: timeZone };
 
-    // try to parse month name to number using Luxon, fallback to Date
-    let monthNum = DateTime.fromFormat(month, "LLLL").month;
-    if (!monthNum) {
-      const tmp = new Date(`${month} 1, ${year}`);
-      monthNum = isNaN(tmp.getTime()) ? 1 : tmp.getMonth() + 1;
-    }
+  const startDt = parseDateTime(s.day, s.month, s.startTime, year, timeZone);
+  const endDt = parseDateTime(s.day, s.month, s.endTime, year, timeZone);
 
-    const dt = DateTime.fromObject(
-      { year, month: monthNum, day: dayNum, hour: parseInt(hh, 10), minute: parseInt(mm, 10) },
-      { zone: timeZone },
-    );
-    return dt.isValid ? dt.toISO() : null;
-  };
+  const startDateTime = startDt ? DateTime.fromISO(startDt, dateOpts).toUTC().toISO() : null;
+  let endDateTime = endDt ? DateTime.fromISO(endDt, dateOpts).toUTC().toISO() : null;
+  const localStartTime = startDt ? DateTime.fromISO(startDt, dateOpts).toISO() : null;
+  let localEndTime = endDt ? DateTime.fromISO(endDt, dateOpts).toISO() : null;
 
-  const startDt = parseDateTime(s.day, s.month, s.startTime);
-  const endDt = parseDateTime(s.day, s.month, s.endTime);
-
-  const startDateTime = startDt ? DateTime.fromISO(startDt, { zone: timeZone }).toUTC().toISO() : "";
-  const endDateTime = endDt ? DateTime.fromISO(endDt, { zone: timeZone }).toUTC().toISO() : null;
-  const localStartTime = startDt ? DateTime.fromISO(startDt, { zone: timeZone }).toISO() : "";
-  const localEndTime = endDt ? DateTime.fromISO(endDt, { zone: timeZone }).toISO() : null;
+  // if end times are missing but start exists, default end = start + 2 hours
+  if (startDt && (!endDateTime || !localEndTime)) {
+    const endLocal = DateTime.fromISO(startDt, dateOpts).plus({ hours: 2 });
+    if (!localEndTime) localEndTime = endLocal.toISO();
+    if (!endDateTime) endDateTime = endLocal.toUTC().toISO();
+  }
 
   const sessionSlug = slugify(s.name);
 
