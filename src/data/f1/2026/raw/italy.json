@@ -1,0 +1,44 @@
+{
+  "url": "https://www.formula1.com/en/racing/2026/italy",
+  "updatedAt": "2026-01-18T18:35:35.868Z",
+  "slug": "italy",
+  "nameFull": "FORMULA 1 PIRELLI GRAN PREMIO D’ITALIA 2026",
+  "nameMedium": "Italian Grand Prix",
+  "data": [
+    {
+      "day": "04",
+      "month": "Sep",
+      "name": "Practice 1",
+      "startTime": "11:30",
+      "endTime": "12:30"
+    },
+    {
+      "day": "04",
+      "month": "Sep",
+      "name": "Practice 2",
+      "startTime": "15:00",
+      "endTime": "16:00"
+    },
+    {
+      "day": "05",
+      "month": "Sep",
+      "name": "Practice 3",
+      "startTime": "11:30",
+      "endTime": "12:30"
+    },
+    {
+      "day": "05",
+      "month": "Sep",
+      "name": "Qualifying",
+      "startTime": "15:00",
+      "endTime": "16:00"
+    },
+    {
+      "day": "06",
+      "month": "Sep",
+      "name": "Race",
+      "startTime": "14:00",
+      "endTime": null
+    }
+  ]
+}

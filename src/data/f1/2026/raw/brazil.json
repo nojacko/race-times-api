@@ -1,0 +1,44 @@
+{
+  "url": "https://www.formula1.com/en/racing/2026/brazil",
+  "updatedAt": "2026-01-18T18:37:31.223Z",
+  "slug": "brazil",
+  "nameFull": "FORMULA 1 MSC CRUISES GRANDE PRÊMIO DE SÃO PAULO 2026",
+  "nameMedium": "Sao Paulo Grand Prix 2026",
+  "data": [
+    {
+      "day": "06",
+      "month": "Nov",
+      "name": "Practice 1",
+      "startTime": "15:30",
+      "endTime": "16:30"
+    },
+    {
+      "day": "06",
+      "month": "Nov",
+      "name": "Practice 2",
+      "startTime": "19:00",
+      "endTime": "20:00"
+    },
+    {
+      "day": "07",
+      "month": "Nov",
+      "name": "Practice 3",
+      "startTime": "14:30",
+      "endTime": "15:30"
+    },
+    {
+      "day": "07",
+      "month": "Nov",
+      "name": "Qualifying",
+      "startTime": "18:00",
+      "endTime": "19:00"
+    },
+    {
+      "day": "08",
+      "month": "Nov",
+      "name": "Race",
+      "startTime": "17:00",
+      "endTime": null
+    }
+  ]
+}

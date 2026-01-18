@@ -1,0 +1,44 @@
+{
+  "url": "https://www.formula1.com/en/racing/2026/spain",
+  "updatedAt": "2026-01-18T18:35:56.634Z",
+  "slug": "spain",
+  "nameFull": "FORMULA 1 TAG HEUER GRAN PREMIO DE ESPAÑA 2026",
+  "nameMedium": "Spanish Grand Prix",
+  "data": [
+    {
+      "day": "11",
+      "month": "Sep",
+      "name": "Practice 1",
+      "startTime": "12:30",
+      "endTime": "13:30"
+    },
+    {
+      "day": "11",
+      "month": "Sep",
+      "name": "Practice 2",
+      "startTime": "16:00",
+      "endTime": "17:00"
+    },
+    {
+      "day": "12",
+      "month": "Sep",
+      "name": "Practice 3",
+      "startTime": "11:30",
+      "endTime": "12:30"
+    },
+    {
+      "day": "12",
+      "month": "Sep",
+      "name": "Qualifying",
+      "startTime": "15:00",
+      "endTime": "16:00"
+    },
+    {
+      "day": "13",
+      "month": "Sep",
+      "name": "Race",
+      "startTime": "14:00",
+      "endTime": null
+    }
+  ]
+}

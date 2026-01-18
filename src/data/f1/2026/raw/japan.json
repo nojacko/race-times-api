@@ -1,0 +1,44 @@
+{
+  "url": "https://www.formula1.com/en/racing/2026/japan",
+  "updatedAt": "2026-01-18T18:31:40.828Z",
+  "slug": "japan",
+  "nameFull": "FORMULA 1 ARAMCO JAPANESE GRAND PRIX 2026",
+  "nameMedium": "Japanese Grand Prix",
+  "data": [
+    {
+      "day": "27",
+      "month": "Mar",
+      "name": "Practice 1",
+      "startTime": "02:30",
+      "endTime": "03:30"
+    },
+    {
+      "day": "27",
+      "month": "Mar",
+      "name": "Practice 2",
+      "startTime": "06:00",
+      "endTime": "07:00"
+    },
+    {
+      "day": "28",
+      "month": "Mar",
+      "name": "Practice 3",
+      "startTime": "02:30",
+      "endTime": "03:30"
+    },
+    {
+      "day": "28",
+      "month": "Mar",
+      "name": "Qualifying",
+      "startTime": "06:00",
+      "endTime": "07:00"
+    },
+    {
+      "day": "29",
+      "month": "Mar",
+      "name": "Race",
+      "startTime": "06:00",
+      "endTime": null
+    }
+  ]
+}

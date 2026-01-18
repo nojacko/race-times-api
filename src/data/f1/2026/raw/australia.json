@@ -1,0 +1,44 @@
+{
+  "url": "https://www.formula1.com/en/racing/2026/australia",
+  "updatedAt": "2026-01-18T18:21:28.571Z",
+  "slug": "australia",
+  "nameFull": "FORMULA 1 QATAR AIRWAYS AUSTRALIAN GRAND PRIX 2026",
+  "nameMedium": "Australian Grand Prix",
+  "data": [
+    {
+      "day": "06",
+      "month": "Mar",
+      "name": "Practice 1",
+      "startTime": "01:30",
+      "endTime": "02:30"
+    },
+    {
+      "day": "06",
+      "month": "Mar",
+      "name": "Practice 2",
+      "startTime": "05:00",
+      "endTime": "06:00"
+    },
+    {
+      "day": "07",
+      "month": "Mar",
+      "name": "Practice 3",
+      "startTime": "01:30",
+      "endTime": "02:30"
+    },
+    {
+      "day": "07",
+      "month": "Mar",
+      "name": "Qualifying",
+      "startTime": "05:00",
+      "endTime": "06:00"
+    },
+    {
+      "day": "08",
+      "month": "Mar",
+      "name": "Race",
+      "startTime": "04:00",
+      "endTime": null
+    }
+  ]
+}

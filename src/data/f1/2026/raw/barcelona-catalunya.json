@@ -1,0 +1,44 @@
+{
+  "url": "https://www.formula1.com/en/racing/2026/barcelona-catalunya",
+  "updatedAt": "2026-01-18T18:33:49.446Z",
+  "slug": "barcelona-catalunya",
+  "nameFull": "FORMULA 1 MSC CRUISES GRAN PREMIO DE BARCELONA-CATALUNYA 2026",
+  "nameMedium": "Barcelona-Catalunya Grand Prix",
+  "data": [
+    {
+      "day": "12",
+      "month": "Jun",
+      "name": "Practice 1",
+      "startTime": "12:30",
+      "endTime": "13:30"
+    },
+    {
+      "day": "12",
+      "month": "Jun",
+      "name": "Practice 2",
+      "startTime": "16:00",
+      "endTime": "17:00"
+    },
+    {
+      "day": "13",
+      "month": "Jun",
+      "name": "Practice 3",
+      "startTime": "11:30",
+      "endTime": "12:30"
+    },
+    {
+      "day": "13",
+      "month": "Jun",
+      "name": "Qualifying",
+      "startTime": "15:00",
+      "endTime": "16:00"
+    },
+    {
+      "day": "14",
+      "month": "Jun",
+      "name": "Race",
+      "startTime": "14:00",
+      "endTime": null
+    }
+  ]
+}

@@ -1,0 +1,44 @@
+{
+  "url": "https://www.formula1.com/en/racing/2026/belgium",
+  "updatedAt": "2026-01-18T18:34:55.770Z",
+  "slug": "belgium",
+  "nameFull": "FORMULA 1 BELGIAN GRAND PRIX 2026",
+  "nameMedium": "Belgian Grand Prix",
+  "data": [
+    {
+      "day": "17",
+      "month": "Jul",
+      "name": "Practice 1",
+      "startTime": "12:30",
+      "endTime": "13:30"
+    },
+    {
+      "day": "17",
+      "month": "Jul",
+      "name": "Practice 2",
+      "startTime": "16:00",
+      "endTime": "17:00"
+    },
+    {
+      "day": "18",
+      "month": "Jul",
+      "name": "Practice 3",
+      "startTime": "11:30",
+      "endTime": "12:30"
+    },
+    {
+      "day": "18",
+      "month": "Jul",
+      "name": "Qualifying",
+      "startTime": "15:00",
+      "endTime": "16:00"
+    },
+    {
+      "day": "19",
+      "month": "Jul",
+      "name": "Race",
+      "startTime": "14:00",
+      "endTime": null
+    }
+  ]
+}

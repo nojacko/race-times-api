@@ -1,0 +1,44 @@
+{
+  "url": "https://www.formula1.com/en/racing/2026/united-states",
+  "updatedAt": "2026-01-18T18:36:50.451Z",
+  "slug": "united-states",
+  "nameFull": "FORMULA 1 MSC CRUISES UNITED STATES GRAND PRIX 2026",
+  "nameMedium": "United States Grand Prix",
+  "data": [
+    {
+      "day": "23",
+      "month": "Oct",
+      "name": "Practice 1",
+      "startTime": "18:30",
+      "endTime": "19:30"
+    },
+    {
+      "day": "23",
+      "month": "Oct",
+      "name": "Practice 2",
+      "startTime": "22:00",
+      "endTime": "23:00"
+    },
+    {
+      "day": "24",
+      "month": "Oct",
+      "name": "Practice 3",
+      "startTime": "18:30",
+      "endTime": "19:30"
+    },
+    {
+      "day": "24",
+      "month": "Oct",
+      "name": "Qualifying",
+      "startTime": "22:00",
+      "endTime": "23:00"
+    },
+    {
+      "day": "25",
+      "month": "Oct",
+      "name": "Race",
+      "startTime": "20:00",
+      "endTime": null
+    }
+  ]
+}

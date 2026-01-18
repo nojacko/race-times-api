@@ -1,0 +1,44 @@
+{
+  "url": "https://www.formula1.com/en/racing/2026/saudi-arabia",
+  "updatedAt": "2026-01-18T18:32:44.112Z",
+  "slug": "saudi-arabia",
+  "nameFull": "FORMULA 1 STC SAUDI ARABIAN GRAND PRIX 2026",
+  "nameMedium": "Saudi Arabian Grand Prix",
+  "data": [
+    {
+      "day": "17",
+      "month": "Apr",
+      "name": "Practice 1",
+      "startTime": "14:30",
+      "endTime": "15:30"
+    },
+    {
+      "day": "17",
+      "month": "Apr",
+      "name": "Practice 2",
+      "startTime": "18:00",
+      "endTime": "19:00"
+    },
+    {
+      "day": "18",
+      "month": "Apr",
+      "name": "Practice 3",
+      "startTime": "14:30",
+      "endTime": "15:30"
+    },
+    {
+      "day": "18",
+      "month": "Apr",
+      "name": "Qualifying",
+      "startTime": "18:00",
+      "endTime": "19:00"
+    },
+    {
+      "day": "19",
+      "month": "Apr",
+      "name": "Race",
+      "startTime": "18:00",
+      "endTime": null
+    }
+  ]
+}

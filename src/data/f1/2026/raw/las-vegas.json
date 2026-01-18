@@ -1,0 +1,44 @@
+{
+  "url": "https://www.formula1.com/en/racing/2026/las-vegas",
+  "updatedAt": "2026-01-18T18:37:46.287Z",
+  "slug": "las-vegas",
+  "nameFull": "FORMULA 1 HEINEKEN LAS VEGAS GRAND PRIX 2026",
+  "nameMedium": "Las Vegas Grand Prix",
+  "data": [
+    {
+      "day": "20",
+      "month": "Nov",
+      "name": "Practice 1",
+      "startTime": "00:30",
+      "endTime": "01:30"
+    },
+    {
+      "day": "20",
+      "month": "Nov",
+      "name": "Practice 2",
+      "startTime": "04:00",
+      "endTime": "05:00"
+    },
+    {
+      "day": "21",
+      "month": "Nov",
+      "name": "Practice 3",
+      "startTime": "00:30",
+      "endTime": "01:30"
+    },
+    {
+      "day": "21",
+      "month": "Nov",
+      "name": "Qualifying",
+      "startTime": "04:00",
+      "endTime": "05:00"
+    },
+    {
+      "day": "22",
+      "month": "Nov",
+      "name": "Race",
+      "startTime": "04:00",
+      "endTime": null
+    }
+  ]
+}

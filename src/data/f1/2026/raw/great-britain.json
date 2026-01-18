@@ -1,0 +1,44 @@
+{
+  "url": "https://www.formula1.com/en/racing/2026/great-britain",
+  "updatedAt": "2026-01-18T18:34:43.314Z",
+  "slug": "great-britain",
+  "nameFull": "FORMULA 1 PIRELLI BRITISH GRAND PRIX 2026",
+  "nameMedium": "British Grand Prix",
+  "data": [
+    {
+      "day": "03",
+      "month": "Jul",
+      "name": "Practice 1",
+      "startTime": "12:30",
+      "endTime": "13:30"
+    },
+    {
+      "day": "03",
+      "month": "Jul",
+      "name": "Sprint Qualifying",
+      "startTime": "16:30",
+      "endTime": "17:14"
+    },
+    {
+      "day": "04",
+      "month": "Jul",
+      "name": "Sprint",
+      "startTime": "12:00",
+      "endTime": "13:00"
+    },
+    {
+      "day": "04",
+      "month": "Jul",
+      "name": "Qualifying",
+      "startTime": "16:00",
+      "endTime": "17:00"
+    },
+    {
+      "day": "05",
+      "month": "Jul",
+      "name": "Race",
+      "startTime": "15:00",
+      "endTime": null
+    }
+  ]
+}
