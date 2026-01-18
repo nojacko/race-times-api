@@ -1,11 +1,67 @@
 import * as fs from "fs";
 import * as path from "path";
 import { VARS } from "../vars";
+import { slugify, slugsJoin } from "../utils/strings";
+import { DateTime } from "luxon";
+import { getCircuit } from "../data/circuits";
+import type { EventRaw } from "../types/EventRaw";
 import { formulas } from "../data/formulas";
 import type { Formula } from "../types/Formula";
 import type { CalendarRaw } from "../types/CalendarRaw";
-import type { Calendar, CalendarEvent, CalendarEventType } from "../types/Calendar";
+import type { Calendar, CalendarEvent, CalendarEventType, CalendarSession } from "../types/Calendar";
 import { getCircuitSlug } from "../utils/circuit-map";
+
+function buildSession(
+  s: any,
+  i: number,
+  rawEvent: any,
+  formula: Formula,
+  year: number,
+  calendarKey: string,
+  timeZone: string,
+): CalendarSession {
+  const parseDateTime = (day: string, month: string, time: string | null) => {
+    if (!day || !month || !time) return "";
+    const dayNum = parseInt(day, 10);
+    const [hh = "0", mm = "0"] = time.split(":");
+
+    // try to parse month name to number using Luxon, fallback to Date
+    let monthNum = DateTime.fromFormat(month, "LLLL").month;
+    if (!monthNum) {
+      const tmp = new Date(`${month} 1, ${year}`);
+      monthNum = isNaN(tmp.getTime()) ? 1 : tmp.getMonth() + 1;
+    }
+
+    const dt = DateTime.fromObject(
+      { year, month: monthNum, day: dayNum, hour: parseInt(hh, 10), minute: parseInt(mm, 10) },
+      { zone: timeZone },
+    );
+    return dt.isValid ? dt.toISO() : "";
+  };
+
+  const startDt = parseDateTime(s.day, s.month, s.startTime);
+  const endDt = parseDateTime(s.day, s.month, s.endTime);
+
+  const startDateTime = startDt ? DateTime.fromISO(startDt, { zone: timeZone }).toUTC().toISO() : "";
+  const endDateTime = endDt ? DateTime.fromISO(endDt, { zone: timeZone }).toUTC().toISO() : "";
+  const localStartTime = startDt ? DateTime.fromISO(startDt, { zone: timeZone }).toISO() : "";
+  const localEndTime = endDt ? DateTime.fromISO(endDt, { zone: timeZone }).toISO() : "";
+
+  const sessionSlug = slugify(s.name);
+
+  return {
+    key: slugsJoin(calendarKey, rawEvent.slug, sessionSlug),
+    formulaSlug: formula.slug,
+    year,
+    eventSlug: rawEvent.slug,
+    slug: sessionSlug,
+    name: s.name,
+    startDateTime,
+    endDateTime,
+    localStartTime,
+    localEndTime,
+  };
+}
 
 function writeCalendar(slug: string, year: number, calendar: Calendar) {
   const targetDir = path.join(VARS.DIR_DATA, slug, String(year));
@@ -31,7 +87,14 @@ function writeCalendar(slug: string, year: number, calendar: Calendar) {
   console.log(`- ${year}: calendar.ts written`);
 }
 
-function buildEvent(raw: any, formula: Formula, year: number, calendarKey: string, calendarRaw: CalendarRaw): CalendarEvent {
+function buildEvent(
+  raw: any,
+  formula: Formula,
+  year: number,
+  calendarKey: string,
+  calendarRaw: CalendarRaw,
+  errors: string[],
+): CalendarEvent | null {
   const typeRaw = (raw.type || "").toString().trim();
   let eventType: CalendarEventType = "testing";
   let round = 0;
@@ -42,12 +105,25 @@ function buildEvent(raw: any, formula: Formula, year: number, calendarKey: strin
     round = m ? parseInt(m[1], 10) || 0 : 0;
   }
 
+  const circuitSlug = getCircuitSlug(formula.slug, raw.slug);
+  const circuit = circuitSlug ? getCircuit(circuitSlug) : undefined;
+  const eventName = raw.nameShort || raw.slug || "(unknown)";
+  if (!circuit) {
+    errors.push(`missing circuit: ${eventName} => ${circuitSlug || "(unknown)"}`);
+    return null;
+  }
+
+  if (!circuit.timeZone) {
+    errors.push(`missing timeZone: ${circuit.slug}`);
+    return null;
+  }
+
   const event: CalendarEvent = {
     key: `${calendarKey}_${raw.slug}`,
     formulaSlug: formula.slug,
     year,
     slug: raw.slug,
-    circuitSlug: getCircuitSlug(formula.slug, raw.slug),
+    circuitSlug: circuit.slug,
     url: raw.url || "",
     nameFull: raw.nameFull || "",
     nameShort: raw.nameShort ?? "",
@@ -58,46 +134,75 @@ function buildEvent(raw: any, formula: Formula, year: number, calendarKey: strin
     updatedAt: calendarRaw.updatedAt,
   };
 
+  // attempt to load raw event file (`<eventSlug>.json`) from the raw dir
+  try {
+    const eventRawPath = path.join(VARS.DIR_DATA, formula.slug, String(year), "raw", `${raw.slug}.json`);
+    if (fs.existsSync(eventRawPath)) {
+      const rawContent = fs.readFileSync(eventRawPath, "utf8");
+      const eventRaw = JSON.parse(rawContent) as EventRaw;
+      if (Array.isArray(eventRaw.data)) {
+        event.sessions = eventRaw.data.map((s, i) => buildSession(s, i, raw, formula, year, calendarKey, circuit.timeZone));
+      }
+    }
+  } catch (e) {
+    // if anything fails, leave sessions empty
+    console.warn(`Failed to load event raw for ${raw.slug}:`, e);
+  }
+
   return event;
 }
 
-formulas.forEach((formula: Formula) => {
-  if (!formula.active) return;
-  console.log(formula.name);
+function parseCalendar(): void {
+  formulas.forEach((formula: Formula) => {
+    if (!formula.active) return;
+    console.log(formula.name);
 
-  if (Array.isArray(formula.years) && formula.years.length) {
-    formula.years.forEach((year) => {
-      const calendarJsonPath = path.join(VARS.DIR_DATA, formula.slug, String(year), "raw", "calendar.json");
+    if (Array.isArray(formula.years) && formula.years.length) {
+      formula.years.forEach((year) => {
+        const calendarJsonPath = path.join(VARS.DIR_DATA, formula.slug, String(year), "raw", "calendar.json");
 
-      if (fs.existsSync(calendarJsonPath)) {
-        try {
-          const raw = fs.readFileSync(calendarJsonPath, "utf8");
-          const calendarRaw = JSON.parse(raw) as CalendarRaw;
+        if (fs.existsSync(calendarJsonPath)) {
+          try {
+            const raw = fs.readFileSync(calendarJsonPath, "utf8");
+            const calendarRaw = JSON.parse(raw) as CalendarRaw;
 
-          const calendarKey = `${formula.slug}_${year}`;
+            const calendarKey = `${formula.slug}_${year}`;
 
-          const transformed: Calendar = {
-            key: calendarKey,
-            formulaSlug: formula.slug,
-            year: calendarRaw.year,
-            url: calendarRaw.url,
-            title: calendarRaw.title,
-            calendarEvents: (calendarRaw.data || []).map((e: any) => {
-              return buildEvent(e, formula, year, calendarKey, calendarRaw);
-            }),
-            updatedAt: calendarRaw.updatedAt,
-          };
+            const errors: string[] = [];
+            const events = (calendarRaw.data || [])
+              .map((e: any) => {
+                const ev = buildEvent(e, formula, year, calendarKey, calendarRaw, errors);
+                return ev;
+              })
+              .filter((ev): ev is CalendarEvent => !!ev);
 
-          console.log(`- ${year}: calendar.json loaded`);
-          writeCalendar(formula.slug, year, transformed);
-        } catch (err) {
-          console.log(`- ${year}: calendar.json loaded but failed to parse`);
+            const transformed: Calendar = {
+              key: calendarKey,
+              formulaSlug: formula.slug,
+              year: calendarRaw.year,
+              url: calendarRaw.url,
+              title: calendarRaw.title,
+              calendarEvents: events,
+              updatedAt: calendarRaw.updatedAt,
+            };
+
+            console.log(`- ${year}: calendar.json loaded`);
+            if (errors.length) {
+              console.log(`- ${year}: issues found:`);
+              errors.forEach((m) => console.log(`  - ${m}`));
+            }
+            writeCalendar(formula.slug, year, transformed);
+          } catch (err) {
+            console.log(`- ${year}: calendar.json loaded but failed to parse`);
+          }
+        } else {
+          console.log(`- ${year}: calendar.json missing`);
         }
-      } else {
-        console.log(`- ${year}: calendar.json missing`);
-      }
-    });
-  } else {
-    console.log("- no years defined");
-  }
-});
+      });
+    } else {
+      console.log("- no years defined");
+    }
+  });
+}
+
+parseCalendar();

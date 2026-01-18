@@ -8,9 +8,10 @@ export interface CalendarSession {
   year: number;
   eventSlug: string;
   name: string;
-  track: string;
   startDateTime: string;
   endDateTime: string;
+  localStartTime: string;
+  localEndTime: string;
   slug: string;
 }
 

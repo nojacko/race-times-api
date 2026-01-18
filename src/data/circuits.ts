@@ -194,3 +194,8 @@ export const circuits: Circuit[] = [
     timeZone: "Asia/Dubai",
   },
 ];
+
+export function getCircuit(slug: string): Circuit | undefined {
+  if (!slug) return undefined;
+  return circuits.find((c) => c.slug === slug);
+}
