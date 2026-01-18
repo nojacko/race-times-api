@@ -16,6 +16,7 @@ npm run build
 ```bash
 npx ts-node src/scripts/parse-calendars.ts
 npx ts-node src/scripts/update-mappings.ts
+npx ts-node src/scripts/update-flags.ts
 npm run format
 ```
 

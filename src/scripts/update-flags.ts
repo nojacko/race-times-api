@@ -1,16 +1,7 @@
 import * as fs from "fs/promises";
 import * as path from "path";
 import { VARS } from "../vars";
-import { formulas } from "../data/formulas";
-import f1Races from "../data/f1-races";
-import f2Races from "../data/f2-races";
-
-type Race = { slug: string; country?: string };
-
-const racesMap: Record<string, Race[]> = {
-  f1: f1Races,
-  f2: f2Races,
-};
+import { circuits } from "../data/circuits";
 
 async function main() {
   const destDir = path.join(VARS.DIR_ROOT, "public", "flags");
@@ -31,36 +22,28 @@ async function main() {
     // if readdir fails, ignore and continue (dir may not exist yet)
   }
 
-  for (const formula of formulas) {
-    const races = racesMap[formula.slug];
-    if (!races || !races.length) {
-      console.log(`No races for ${formula.slug}, skipping.`);
-      continue;
-    } else {
-      console.log(`Copying ${formula.slug} flags...`);
-    }
+  // gather unique country codes from circuits
+  const countries = new Set<string>();
+  for (const c of circuits) {
+    const country = (c.country || "").toLowerCase();
+    if (country) countries.add(country);
+  }
 
-    for (const race of races) {
-      const country = (race.country || "").toLowerCase();
-      if (!country) continue;
-
+  if (countries.size === 0) {
+    console.log("No country codes found in circuits, nothing to copy.");
+  } else {
+    console.log(`Copying flags for ${countries.size} countries...`);
+    for (const country of countries) {
       const src = path.join(VARS.DIR_ROOT, "node_modules", "circle-flags", "flags", `${country}.svg`);
       const dest = path.join(destDir, `${country}.svg`);
 
       try {
         await fs.copyFile(src, dest);
       } catch (err: any) {
-        console.warn(`Could not copy flag for ${race.slug} (${country}): ${err.message}`);
+        console.warn(`Could not copy flag for ${country}: ${err.message}`);
       }
     }
   }
 }
 
-if (require.main === module) {
-  main().catch((err) => {
-    console.error(err);
-    process.exit(1);
-  });
-}
-
-export default main;
+main();

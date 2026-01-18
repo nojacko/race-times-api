@@ -7,40 +7,48 @@ DIR_SCRIPT="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"
 
 # Copy files
 header "Copy Files"
-pwd
 
 # Ensure dirs
 echo "- Ensuring target directory exists"
 mkdir -p "$DIR_WEB/src/lib/data"
+mkdir -p "$DIR_WEB/src/lib/data/f1/2026"
 mkdir -p "$DIR_WEB/src/lib/types"
+
+# copy helper: copy src to dest (file or directory) if src exists, otherwise warn
+copy_if_exists() {
+	local src="$1"
+	local dest="$2"
+	if [ -f "$src" ]; then
+		cp "$src" "$dest"
+	else
+		echo "🔴 Warning: $src not found, skipping"
+	fi
+}
 
 # Copy files
 echo "- Copying data to $DIR_WEB/src/lib/data"
 data_files=(
     "formulas.ts"
+    "circuits.ts"
 )
 
 for f in "${data_files[@]}"; do
-	src="$DIR_API/src/data/$f"
-	if [ -f "$src" ]; then
-		cp "$src" "$DIR_WEB/src/lib/data/"
-	else
-		echo "🔴 Warning: $src not found, skipping"
-	fi
+	copy_if_exists "$DIR_API/src/data/$f" "$DIR_WEB/src/lib/data/"
 done
+
+# Manual Calendar Copying
+copy_if_exists "$DIR_API/src/data/f1/2026/calendar.ts" "$DIR_WEB/src/lib/data/f1/2026/calendar.ts"
 
 echo "- Copying types to $DIR_WEB/src/lib/types"
 type_files=(
 	"Formula.ts"
+	"Calendar.ts"
+	"Circuit.ts"
 )
 
+
 for tf in "${type_files[@]}"; do
-	tsrc="$DIR_API/src/types/$tf"
-	if [ -f "$tsrc" ]; then
-		cp "$tsrc" "$DIR_WEB/src/lib/types/"
-	else
-		echo "🔴 Warning: $tsrc not found, skipping"
-	fi
+	copy_if_exists "$DIR_API/src/types/$tf" "$DIR_WEB/src/lib/types/"
 done
 
 echo "- Copying public flags to $DIR_WEB/static"
