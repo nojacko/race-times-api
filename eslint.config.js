@@ -20,7 +20,7 @@ module.exports = [
     },
     plugins: {
       "@typescript-eslint": require("@typescript-eslint/eslint-plugin"),
-      prettier: prettier,
+      "prettier": prettier,
     },
     rules: {
       ...prettierConfig.rules,
