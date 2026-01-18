@@ -9,7 +9,6 @@ export interface CalendarEvent {
   displayDate: string;
   eventType: "testing" | "round";
   round: number;
-  updatedAt: string;
 }
 
 export interface Calendar {

@@ -9,7 +9,7 @@ export interface CalendarEventRaw {
 
 export interface CalendarRaw {
   url: string;
-  updateAt: string;
+  updatedAt: string;
   title: string;
   year: number;
   data: CalendarEventRaw[];

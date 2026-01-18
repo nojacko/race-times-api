@@ -30,6 +30,33 @@ function writeCalendar(slug: string, year: number, calendar: Calendar) {
   console.log(`- ${year}: calendar.ts written`);
 }
 
+function buildEvent(raw: any, formula: Formula, year: number, calendarKey: string, calendarRaw: CalendarRaw): CalendarEvent {
+  const typeRaw = (raw.type || "").toString().trim();
+  let eventType: "testing" | "round" = "testing";
+  let round = 0;
+
+  if (/^ROUND\b/i.test(typeRaw)) {
+    eventType = "round";
+    const m = typeRaw.match(/ROUND\s*(\d+)/i);
+    round = m ? parseInt(m[1], 10) || 0 : 0;
+  }
+
+  const event: CalendarEvent = {
+    key: `${calendarKey}_${raw.slug}`,
+    formulaSlug: formula.slug,
+    year,
+    slug: raw.slug,
+    url: raw.url || "",
+    fullName: raw.fullName || "",
+    shortName: raw.shortName ?? "",
+    displayDate: raw.displayDate ?? "",
+    eventType,
+    round,
+  };
+
+  return event;
+}
+
 formulas.forEach((formula: Formula) => {
   console.log(formula.name);
 
@@ -51,36 +78,9 @@ formulas.forEach((formula: Formula) => {
             url: calendarRaw.url,
             title: calendarRaw.title,
             data: (calendarRaw.data || []).map((e: any) => {
-              const typeRaw = (e.type || "").toString().trim();
-              let eventType: "testing" | "round" = "testing";
-              let round = 0;
-
-              if (/^TESTING$/i.test(typeRaw)) {
-                eventType = "testing";
-                round = 0;
-              } else if (/^ROUND\b/i.test(typeRaw)) {
-                eventType = "round";
-                const m = typeRaw.match(/ROUND\s*(\d+)/i);
-                round = m ? parseInt(m[1], 10) || 0 : 0;
-              }
-
-              const event: CalendarEvent = {
-                key: `${calendarKey}_${e.slug}`,
-                formulaSlug: formula.slug,
-                year,
-                slug: e.slug,
-                url: e.url || "",
-                fullName: e.fullName || "",
-                shortName: e.shortName ?? "",
-                displayDate: e.displayDate ?? "",
-                eventType,
-                round,
-                updatedAt: calendarRaw.updateAt,
-              };
-
-              return event;
+              return buildEvent(e, formula, year, calendarKey, calendarRaw);
             }),
-            updatedAt: calendarRaw.updateAt,
+            updatedAt: calendarRaw.updatedAt,
           };
 
           console.log(`- ${year}: calendar.json loaded`);
