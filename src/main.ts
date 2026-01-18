@@ -8,9 +8,6 @@ import { STR } from "./vars";
 async function bootstrap() {
   const app = await NestFactory.create<NestExpressApplication>(AppModule);
 
-  // Serve static files for Expo generated assets
-  app.useStaticAssets(join(__dirname, "..", "public-expo"));
-
   // Serve static files for other assets
   app.useStaticAssets(join(__dirname, "..", "public"));
 

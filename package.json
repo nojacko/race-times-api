@@ -9,10 +9,6 @@
     "dev": "ts-node src/main.ts",
     "format": "prettier --write \"**/*.{ts,js}\"",
     "lint": "eslint \"**/*.ts\" --fix",
-    "cal:all": "npm run cal:download; npm run cal:parse; npm run cal:process",
-    "cal:download": "ts-node src/scripts/cal-download.ts",
-    "cal:parse": "ts-node src/scripts/cal-parse.ts && eslint \"src/data/**/*.ts\" --fix",
-    "cal:process": "ts-node src/scripts/cal-process.ts && eslint \"src/data/**/*.ts\" --fix",
     "update:races": "ts-node src/scripts/races.ts"
   },
   "author": "",

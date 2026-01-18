@@ -17,12 +17,6 @@ mkdir -p "$DIR_WEB/src/lib/types"
 # Copy files
 echo "- Copying data to $DIR_WEB/src/lib/data"
 data_files=(
-	"f1-races.ts"
-	"f1-session-types.ts"
-	"f1-sessions.ts"
-	"f2-races.ts"
-	"f2-session-types.ts"
-	"f2-sessions.ts"
     "formulas.ts"
 )
 
@@ -36,7 +30,9 @@ for f in "${data_files[@]}"; do
 done
 
 echo "- Copying types to $DIR_WEB/src/lib/types"
-type_files=("Race.ts" "RaceSession.ts" "RaceSessionType.ts" "Formula.ts")
+type_files=(
+	"Formula.ts"
+)
 
 for tf in "${type_files[@]}"; do
 	tsrc="$DIR_API/src/types/$tf"
