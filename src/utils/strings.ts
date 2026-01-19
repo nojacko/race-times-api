@@ -9,5 +9,5 @@ export function slugsJoin(...parts: string[]): string {
 
 export function slugify(input: string): string {
   if (!input) return "";
-  return deburr(kebabCase(input)).toLowerCase();
+  return kebabCase(deburr(input)).toLowerCase();
 }

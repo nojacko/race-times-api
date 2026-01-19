@@ -72,3 +72,7 @@ export function getFormula(slug: string): Formula | undefined {
   if (!slug) return undefined;
   return formulas.find((f) => f.slug === slug);
 }
+
+export function getFormulasActive(): Formula[] {
+  return formulas.filter((f) => f.active);
+}

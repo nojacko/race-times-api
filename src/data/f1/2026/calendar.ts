@@ -1,15 +1,13 @@
 // AUTO-GENERATED: do not edit
-import type { Calendar } from "../../../types/Calendar";
+import type { RaceCal } from "../../../types/RaceCal";
 
-export const f1Calendar2026: Calendar = {
-  key: "f1_2026",
+export const f1Calendar2026: RaceCal = {
   formulaSlug: "f1",
   year: 2026,
   url: "https://www.formula1.com/en/racing/2026",
   title: "2026 FIA FORMULA ONE WORLD CHAMPIONSHIP™ RACE CALENDAR",
-  calendarEvents: [
+  raceEvents: [
     {
-      key: "f1_2026_pre-season-testing-1",
       formulaSlug: "f1",
       year: 2026,
       slug: "pre-season-testing-1",
@@ -23,46 +21,42 @@ export const f1Calendar2026: Calendar = {
       round: 0,
       sessions: [
         {
-          key: "f1_2026_pre-season-testing-1_day-1",
           formulaSlug: "f1",
           year: 2026,
           eventSlug: "pre-season-testing-1",
           slug: "day-1",
           name: "Day 1",
-          startDateTime: "2026-02-11T07:00:00.000Z",
-          endDateTime: "2026-02-11T16:00:00.000Z",
-          localStartTime: "2026-02-11T10:00:00.000+03:00",
-          localEndTime: "2026-02-11T19:00:00.000+03:00",
+          startDateTime: "2026-02-11T04:00:00.000Z",
+          endDateTime: "2026-02-11T13:00:00.000Z",
+          localStartTime: "2026-02-11T07:00:00.000+03:00",
+          localEndTime: "2026-02-11T16:00:00.000+03:00",
         },
         {
-          key: "f1_2026_pre-season-testing-1_day-2",
           formulaSlug: "f1",
           year: 2026,
           eventSlug: "pre-season-testing-1",
           slug: "day-2",
           name: "Day 2",
-          startDateTime: "2026-02-12T07:00:00.000Z",
-          endDateTime: "2026-02-12T16:00:00.000Z",
-          localStartTime: "2026-02-12T10:00:00.000+03:00",
-          localEndTime: "2026-02-12T19:00:00.000+03:00",
+          startDateTime: "2026-02-12T04:00:00.000Z",
+          endDateTime: "2026-02-12T13:00:00.000Z",
+          localStartTime: "2026-02-12T07:00:00.000+03:00",
+          localEndTime: "2026-02-12T16:00:00.000+03:00",
         },
         {
-          key: "f1_2026_pre-season-testing-1_day-3",
           formulaSlug: "f1",
           year: 2026,
           eventSlug: "pre-season-testing-1",
           slug: "day-3",
           name: "Day 3",
-          startDateTime: "2026-02-13T07:00:00.000Z",
-          endDateTime: "2026-02-13T16:00:00.000Z",
-          localStartTime: "2026-02-13T10:00:00.000+03:00",
-          localEndTime: "2026-02-13T19:00:00.000+03:00",
+          startDateTime: "2026-02-13T04:00:00.000Z",
+          endDateTime: "2026-02-13T13:00:00.000Z",
+          localStartTime: "2026-02-13T07:00:00.000+03:00",
+          localEndTime: "2026-02-13T16:00:00.000+03:00",
         },
       ],
       updatedAt: "2026-01-18T14:12:22.157Z",
     },
     {
-      key: "f1_2026_pre-season-testing-2",
       formulaSlug: "f1",
       year: 2026,
       slug: "pre-season-testing-2",
@@ -76,7 +70,6 @@ export const f1Calendar2026: Calendar = {
       round: 0,
       sessions: [
         {
-          key: "f1_2026_pre-season-testing-2_day-1",
           formulaSlug: "f1",
           year: 2026,
           eventSlug: "pre-season-testing-2",
@@ -88,7 +81,6 @@ export const f1Calendar2026: Calendar = {
           localEndTime: "2026-02-18T16:00:00.000+03:00",
         },
         {
-          key: "f1_2026_pre-season-testing-2_day-2",
           formulaSlug: "f1",
           year: 2026,
           eventSlug: "pre-season-testing-2",
@@ -100,7 +92,6 @@ export const f1Calendar2026: Calendar = {
           localEndTime: "2026-02-19T16:00:00.000+03:00",
         },
         {
-          key: "f1_2026_pre-season-testing-2_day-3",
           formulaSlug: "f1",
           year: 2026,
           eventSlug: "pre-season-testing-2",
@@ -115,7 +106,6 @@ export const f1Calendar2026: Calendar = {
       updatedAt: "2026-01-18T14:12:22.157Z",
     },
     {
-      key: "f1_2026_australia",
       formulaSlug: "f1",
       year: 2026,
       slug: "australia",
@@ -129,7 +119,6 @@ export const f1Calendar2026: Calendar = {
       round: 1,
       sessions: [
         {
-          key: "f1_2026_australia_practice-1",
           formulaSlug: "f1",
           year: 2026,
           eventSlug: "australia",
@@ -141,7 +130,6 @@ export const f1Calendar2026: Calendar = {
           localEndTime: "2026-03-06T02:30:00.000+11:00",
         },
         {
-          key: "f1_2026_australia_practice-2",
           formulaSlug: "f1",
           year: 2026,
           eventSlug: "australia",
@@ -153,7 +141,6 @@ export const f1Calendar2026: Calendar = {
           localEndTime: "2026-03-06T06:00:00.000+11:00",
         },
         {
-          key: "f1_2026_australia_practice-3",
           formulaSlug: "f1",
           year: 2026,
           eventSlug: "australia",
@@ -165,7 +152,6 @@ export const f1Calendar2026: Calendar = {
           localEndTime: "2026-03-07T02:30:00.000+11:00",
         },
         {
-          key: "f1_2026_australia_qualifying",
           formulaSlug: "f1",
           year: 2026,
           eventSlug: "australia",
@@ -177,7 +163,6 @@ export const f1Calendar2026: Calendar = {
           localEndTime: "2026-03-07T06:00:00.000+11:00",
         },
         {
-          key: "f1_2026_australia_race",
           formulaSlug: "f1",
           year: 2026,
           eventSlug: "australia",
@@ -192,7 +177,6 @@ export const f1Calendar2026: Calendar = {
       updatedAt: "2026-01-18T14:12:22.157Z",
     },
     {
-      key: "f1_2026_china",
       formulaSlug: "f1",
       year: 2026,
       slug: "china",
@@ -206,7 +190,6 @@ export const f1Calendar2026: Calendar = {
       round: 2,
       sessions: [
         {
-          key: "f1_2026_china_practice-1",
           formulaSlug: "f1",
           year: 2026,
           eventSlug: "china",
@@ -218,7 +201,6 @@ export const f1Calendar2026: Calendar = {
           localEndTime: "2026-03-13T12:30:00.000+08:00",
         },
         {
-          key: "f1_2026_china_sprint-qualifying",
           formulaSlug: "f1",
           year: 2026,
           eventSlug: "china",
@@ -230,7 +212,6 @@ export const f1Calendar2026: Calendar = {
           localEndTime: "2026-03-13T16:14:00.000+08:00",
         },
         {
-          key: "f1_2026_china_sprint",
           formulaSlug: "f1",
           year: 2026,
           eventSlug: "china",
@@ -242,7 +223,6 @@ export const f1Calendar2026: Calendar = {
           localEndTime: "2026-03-14T12:00:00.000+08:00",
         },
         {
-          key: "f1_2026_china_qualifying",
           formulaSlug: "f1",
           year: 2026,
           eventSlug: "china",
@@ -254,7 +234,6 @@ export const f1Calendar2026: Calendar = {
           localEndTime: "2026-03-14T16:00:00.000+08:00",
         },
         {
-          key: "f1_2026_china_race",
           formulaSlug: "f1",
           year: 2026,
           eventSlug: "china",
@@ -269,7 +248,6 @@ export const f1Calendar2026: Calendar = {
       updatedAt: "2026-01-18T14:12:22.157Z",
     },
     {
-      key: "f1_2026_japan",
       formulaSlug: "f1",
       year: 2026,
       slug: "japan",
@@ -283,7 +261,6 @@ export const f1Calendar2026: Calendar = {
       round: 3,
       sessions: [
         {
-          key: "f1_2026_japan_practice-1",
           formulaSlug: "f1",
           year: 2026,
           eventSlug: "japan",
@@ -295,7 +272,6 @@ export const f1Calendar2026: Calendar = {
           localEndTime: "2026-03-27T03:30:00.000+09:00",
         },
         {
-          key: "f1_2026_japan_practice-2",
           formulaSlug: "f1",
           year: 2026,
           eventSlug: "japan",
@@ -307,7 +283,6 @@ export const f1Calendar2026: Calendar = {
           localEndTime: "2026-03-27T07:00:00.000+09:00",
         },
         {
-          key: "f1_2026_japan_practice-3",
           formulaSlug: "f1",
           year: 2026,
           eventSlug: "japan",
@@ -319,7 +294,6 @@ export const f1Calendar2026: Calendar = {
           localEndTime: "2026-03-28T03:30:00.000+09:00",
         },
         {
-          key: "f1_2026_japan_qualifying",
           formulaSlug: "f1",
           year: 2026,
           eventSlug: "japan",
@@ -331,7 +305,6 @@ export const f1Calendar2026: Calendar = {
           localEndTime: "2026-03-28T07:00:00.000+09:00",
         },
         {
-          key: "f1_2026_japan_race",
           formulaSlug: "f1",
           year: 2026,
           eventSlug: "japan",
@@ -346,7 +319,6 @@ export const f1Calendar2026: Calendar = {
       updatedAt: "2026-01-18T14:12:22.157Z",
     },
     {
-      key: "f1_2026_bahrain",
       formulaSlug: "f1",
       year: 2026,
       slug: "bahrain",
@@ -360,7 +332,6 @@ export const f1Calendar2026: Calendar = {
       round: 4,
       sessions: [
         {
-          key: "f1_2026_bahrain_practice-1",
           formulaSlug: "f1",
           year: 2026,
           eventSlug: "bahrain",
@@ -372,7 +343,6 @@ export const f1Calendar2026: Calendar = {
           localEndTime: "2026-04-10T13:30:00.000+03:00",
         },
         {
-          key: "f1_2026_bahrain_practice-2",
           formulaSlug: "f1",
           year: 2026,
           eventSlug: "bahrain",
@@ -384,7 +354,6 @@ export const f1Calendar2026: Calendar = {
           localEndTime: "2026-04-10T17:00:00.000+03:00",
         },
         {
-          key: "f1_2026_bahrain_practice-3",
           formulaSlug: "f1",
           year: 2026,
           eventSlug: "bahrain",
@@ -396,7 +365,6 @@ export const f1Calendar2026: Calendar = {
           localEndTime: "2026-04-11T14:30:00.000+03:00",
         },
         {
-          key: "f1_2026_bahrain_qualifying",
           formulaSlug: "f1",
           year: 2026,
           eventSlug: "bahrain",
@@ -408,7 +376,6 @@ export const f1Calendar2026: Calendar = {
           localEndTime: "2026-04-11T18:00:00.000+03:00",
         },
         {
-          key: "f1_2026_bahrain_race",
           formulaSlug: "f1",
           year: 2026,
           eventSlug: "bahrain",
@@ -423,7 +390,6 @@ export const f1Calendar2026: Calendar = {
       updatedAt: "2026-01-18T14:12:22.157Z",
     },
     {
-      key: "f1_2026_saudi-arabia",
       formulaSlug: "f1",
       year: 2026,
       slug: "saudi-arabia",
@@ -437,7 +403,6 @@ export const f1Calendar2026: Calendar = {
       round: 5,
       sessions: [
         {
-          key: "f1_2026_saudi-arabia_practice-1",
           formulaSlug: "f1",
           year: 2026,
           eventSlug: "saudi-arabia",
@@ -449,7 +414,6 @@ export const f1Calendar2026: Calendar = {
           localEndTime: "2026-04-17T15:30:00.000+03:00",
         },
         {
-          key: "f1_2026_saudi-arabia_practice-2",
           formulaSlug: "f1",
           year: 2026,
           eventSlug: "saudi-arabia",
@@ -461,7 +425,6 @@ export const f1Calendar2026: Calendar = {
           localEndTime: "2026-04-17T19:00:00.000+03:00",
         },
         {
-          key: "f1_2026_saudi-arabia_practice-3",
           formulaSlug: "f1",
           year: 2026,
           eventSlug: "saudi-arabia",
@@ -473,7 +436,6 @@ export const f1Calendar2026: Calendar = {
           localEndTime: "2026-04-18T15:30:00.000+03:00",
         },
         {
-          key: "f1_2026_saudi-arabia_qualifying",
           formulaSlug: "f1",
           year: 2026,
           eventSlug: "saudi-arabia",
@@ -485,7 +447,6 @@ export const f1Calendar2026: Calendar = {
           localEndTime: "2026-04-18T19:00:00.000+03:00",
         },
         {
-          key: "f1_2026_saudi-arabia_race",
           formulaSlug: "f1",
           year: 2026,
           eventSlug: "saudi-arabia",
@@ -500,7 +461,6 @@ export const f1Calendar2026: Calendar = {
       updatedAt: "2026-01-18T14:12:22.157Z",
     },
     {
-      key: "f1_2026_miami",
       formulaSlug: "f1",
       year: 2026,
       slug: "miami",
@@ -514,7 +474,6 @@ export const f1Calendar2026: Calendar = {
       round: 6,
       sessions: [
         {
-          key: "f1_2026_miami_practice-1",
           formulaSlug: "f1",
           year: 2026,
           eventSlug: "miami",
@@ -526,7 +485,6 @@ export const f1Calendar2026: Calendar = {
           localEndTime: "2026-05-01T18:30:00.000-04:00",
         },
         {
-          key: "f1_2026_miami_sprint-qualifying",
           formulaSlug: "f1",
           year: 2026,
           eventSlug: "miami",
@@ -538,7 +496,6 @@ export const f1Calendar2026: Calendar = {
           localEndTime: "2026-05-01T22:14:00.000-04:00",
         },
         {
-          key: "f1_2026_miami_sprint",
           formulaSlug: "f1",
           year: 2026,
           eventSlug: "miami",
@@ -550,7 +507,6 @@ export const f1Calendar2026: Calendar = {
           localEndTime: "2026-05-02T18:00:00.000-04:00",
         },
         {
-          key: "f1_2026_miami_qualifying",
           formulaSlug: "f1",
           year: 2026,
           eventSlug: "miami",
@@ -562,7 +518,6 @@ export const f1Calendar2026: Calendar = {
           localEndTime: "2026-05-02T22:00:00.000-04:00",
         },
         {
-          key: "f1_2026_miami_race",
           formulaSlug: "f1",
           year: 2026,
           eventSlug: "miami",
@@ -577,7 +532,6 @@ export const f1Calendar2026: Calendar = {
       updatedAt: "2026-01-18T14:12:22.157Z",
     },
     {
-      key: "f1_2026_canada",
       formulaSlug: "f1",
       year: 2026,
       slug: "canada",
@@ -591,7 +545,6 @@ export const f1Calendar2026: Calendar = {
       round: 7,
       sessions: [
         {
-          key: "f1_2026_canada_practice-1",
           formulaSlug: "f1",
           year: 2026,
           eventSlug: "canada",
@@ -603,7 +556,6 @@ export const f1Calendar2026: Calendar = {
           localEndTime: "2026-05-22T18:30:00.000-04:00",
         },
         {
-          key: "f1_2026_canada_sprint-qualifying",
           formulaSlug: "f1",
           year: 2026,
           eventSlug: "canada",
@@ -615,7 +567,6 @@ export const f1Calendar2026: Calendar = {
           localEndTime: "2026-05-22T22:14:00.000-04:00",
         },
         {
-          key: "f1_2026_canada_sprint",
           formulaSlug: "f1",
           year: 2026,
           eventSlug: "canada",
@@ -627,7 +578,6 @@ export const f1Calendar2026: Calendar = {
           localEndTime: "2026-05-23T18:00:00.000-04:00",
         },
         {
-          key: "f1_2026_canada_qualifying",
           formulaSlug: "f1",
           year: 2026,
           eventSlug: "canada",
@@ -639,7 +589,6 @@ export const f1Calendar2026: Calendar = {
           localEndTime: "2026-05-23T22:00:00.000-04:00",
         },
         {
-          key: "f1_2026_canada_race",
           formulaSlug: "f1",
           year: 2026,
           eventSlug: "canada",
@@ -654,7 +603,6 @@ export const f1Calendar2026: Calendar = {
       updatedAt: "2026-01-18T14:12:22.157Z",
     },
     {
-      key: "f1_2026_monaco",
       formulaSlug: "f1",
       year: 2026,
       slug: "monaco",
@@ -668,7 +616,6 @@ export const f1Calendar2026: Calendar = {
       round: 8,
       sessions: [
         {
-          key: "f1_2026_monaco_practice-1",
           formulaSlug: "f1",
           year: 2026,
           eventSlug: "monaco",
@@ -680,7 +627,6 @@ export const f1Calendar2026: Calendar = {
           localEndTime: "2026-06-05T13:30:00.000+02:00",
         },
         {
-          key: "f1_2026_monaco_practice-2",
           formulaSlug: "f1",
           year: 2026,
           eventSlug: "monaco",
@@ -692,7 +638,6 @@ export const f1Calendar2026: Calendar = {
           localEndTime: "2026-06-05T17:00:00.000+02:00",
         },
         {
-          key: "f1_2026_monaco_practice-3",
           formulaSlug: "f1",
           year: 2026,
           eventSlug: "monaco",
@@ -704,7 +649,6 @@ export const f1Calendar2026: Calendar = {
           localEndTime: "2026-06-06T12:30:00.000+02:00",
         },
         {
-          key: "f1_2026_monaco_qualifying",
           formulaSlug: "f1",
           year: 2026,
           eventSlug: "monaco",
@@ -716,7 +660,6 @@ export const f1Calendar2026: Calendar = {
           localEndTime: "2026-06-06T16:00:00.000+02:00",
         },
         {
-          key: "f1_2026_monaco_race",
           formulaSlug: "f1",
           year: 2026,
           eventSlug: "monaco",
@@ -731,7 +674,6 @@ export const f1Calendar2026: Calendar = {
       updatedAt: "2026-01-18T14:12:22.157Z",
     },
     {
-      key: "f1_2026_barcelona-catalunya",
       formulaSlug: "f1",
       year: 2026,
       slug: "barcelona-catalunya",
@@ -745,7 +687,6 @@ export const f1Calendar2026: Calendar = {
       round: 9,
       sessions: [
         {
-          key: "f1_2026_barcelona-catalunya_practice-1",
           formulaSlug: "f1",
           year: 2026,
           eventSlug: "barcelona-catalunya",
@@ -757,7 +698,6 @@ export const f1Calendar2026: Calendar = {
           localEndTime: "2026-06-12T13:30:00.000+02:00",
         },
         {
-          key: "f1_2026_barcelona-catalunya_practice-2",
           formulaSlug: "f1",
           year: 2026,
           eventSlug: "barcelona-catalunya",
@@ -769,7 +709,6 @@ export const f1Calendar2026: Calendar = {
           localEndTime: "2026-06-12T17:00:00.000+02:00",
         },
         {
-          key: "f1_2026_barcelona-catalunya_practice-3",
           formulaSlug: "f1",
           year: 2026,
           eventSlug: "barcelona-catalunya",
@@ -781,7 +720,6 @@ export const f1Calendar2026: Calendar = {
           localEndTime: "2026-06-13T12:30:00.000+02:00",
         },
         {
-          key: "f1_2026_barcelona-catalunya_qualifying",
           formulaSlug: "f1",
           year: 2026,
           eventSlug: "barcelona-catalunya",
@@ -793,7 +731,6 @@ export const f1Calendar2026: Calendar = {
           localEndTime: "2026-06-13T16:00:00.000+02:00",
         },
         {
-          key: "f1_2026_barcelona-catalunya_race",
           formulaSlug: "f1",
           year: 2026,
           eventSlug: "barcelona-catalunya",
@@ -808,7 +745,6 @@ export const f1Calendar2026: Calendar = {
       updatedAt: "2026-01-18T14:12:22.157Z",
     },
     {
-      key: "f1_2026_austria",
       formulaSlug: "f1",
       year: 2026,
       slug: "austria",
@@ -822,70 +758,64 @@ export const f1Calendar2026: Calendar = {
       round: 10,
       sessions: [
         {
-          key: "f1_2026_austria_practice-1",
           formulaSlug: "f1",
           year: 2026,
           eventSlug: "austria",
           slug: "practice-1",
           name: "Practice 1",
-          startDateTime: "2026-06-26T11:30:00.000Z",
-          endDateTime: "2026-06-26T12:30:00.000Z",
-          localStartTime: "2026-06-26T13:30:00.000+02:00",
-          localEndTime: "2026-06-26T14:30:00.000+02:00",
+          startDateTime: "2026-06-26T10:30:00.000Z",
+          endDateTime: "2026-06-26T11:30:00.000Z",
+          localStartTime: "2026-06-26T12:30:00.000+02:00",
+          localEndTime: "2026-06-26T13:30:00.000+02:00",
         },
         {
-          key: "f1_2026_austria_practice-2",
           formulaSlug: "f1",
           year: 2026,
           eventSlug: "austria",
           slug: "practice-2",
           name: "Practice 2",
-          startDateTime: "2026-06-26T15:00:00.000Z",
-          endDateTime: "2026-06-26T16:00:00.000Z",
-          localStartTime: "2026-06-26T17:00:00.000+02:00",
-          localEndTime: "2026-06-26T18:00:00.000+02:00",
+          startDateTime: "2026-06-26T14:00:00.000Z",
+          endDateTime: "2026-06-26T15:00:00.000Z",
+          localStartTime: "2026-06-26T16:00:00.000+02:00",
+          localEndTime: "2026-06-26T17:00:00.000+02:00",
         },
         {
-          key: "f1_2026_austria_practice-3",
           formulaSlug: "f1",
           year: 2026,
           eventSlug: "austria",
           slug: "practice-3",
           name: "Practice 3",
-          startDateTime: "2026-06-27T10:30:00.000Z",
-          endDateTime: "2026-06-27T11:30:00.000Z",
-          localStartTime: "2026-06-27T12:30:00.000+02:00",
-          localEndTime: "2026-06-27T13:30:00.000+02:00",
+          startDateTime: "2026-06-27T09:30:00.000Z",
+          endDateTime: "2026-06-27T10:30:00.000Z",
+          localStartTime: "2026-06-27T11:30:00.000+02:00",
+          localEndTime: "2026-06-27T12:30:00.000+02:00",
         },
         {
-          key: "f1_2026_austria_qualifying",
           formulaSlug: "f1",
           year: 2026,
           eventSlug: "austria",
           slug: "qualifying",
           name: "Qualifying",
-          startDateTime: "2026-06-27T14:00:00.000Z",
-          endDateTime: "2026-06-27T15:00:00.000Z",
-          localStartTime: "2026-06-27T16:00:00.000+02:00",
-          localEndTime: "2026-06-27T17:00:00.000+02:00",
+          startDateTime: "2026-06-27T13:00:00.000Z",
+          endDateTime: "2026-06-27T14:00:00.000Z",
+          localStartTime: "2026-06-27T15:00:00.000+02:00",
+          localEndTime: "2026-06-27T16:00:00.000+02:00",
         },
         {
-          key: "f1_2026_austria_race",
           formulaSlug: "f1",
           year: 2026,
           eventSlug: "austria",
           slug: "race",
           name: "Race",
-          startDateTime: "2026-06-28T13:00:00.000Z",
-          endDateTime: "2026-06-28T15:00:00.000Z",
-          localStartTime: "2026-06-28T15:00:00.000+02:00",
-          localEndTime: "2026-06-28T17:00:00.000+02:00",
+          startDateTime: "2026-06-28T12:00:00.000Z",
+          endDateTime: "2026-06-28T14:00:00.000Z",
+          localStartTime: "2026-06-28T14:00:00.000+02:00",
+          localEndTime: "2026-06-28T16:00:00.000+02:00",
         },
       ],
       updatedAt: "2026-01-18T14:12:22.157Z",
     },
     {
-      key: "f1_2026_great-britain",
       formulaSlug: "f1",
       year: 2026,
       slug: "great-britain",
@@ -899,7 +829,6 @@ export const f1Calendar2026: Calendar = {
       round: 11,
       sessions: [
         {
-          key: "f1_2026_great-britain_practice-1",
           formulaSlug: "f1",
           year: 2026,
           eventSlug: "great-britain",
@@ -911,7 +840,6 @@ export const f1Calendar2026: Calendar = {
           localEndTime: "2026-07-03T13:30:00.000+01:00",
         },
         {
-          key: "f1_2026_great-britain_sprint-qualifying",
           formulaSlug: "f1",
           year: 2026,
           eventSlug: "great-britain",
@@ -923,7 +851,6 @@ export const f1Calendar2026: Calendar = {
           localEndTime: "2026-07-03T17:14:00.000+01:00",
         },
         {
-          key: "f1_2026_great-britain_sprint",
           formulaSlug: "f1",
           year: 2026,
           eventSlug: "great-britain",
@@ -935,7 +862,6 @@ export const f1Calendar2026: Calendar = {
           localEndTime: "2026-07-04T13:00:00.000+01:00",
         },
         {
-          key: "f1_2026_great-britain_qualifying",
           formulaSlug: "f1",
           year: 2026,
           eventSlug: "great-britain",
@@ -947,7 +873,6 @@ export const f1Calendar2026: Calendar = {
           localEndTime: "2026-07-04T17:00:00.000+01:00",
         },
         {
-          key: "f1_2026_great-britain_race",
           formulaSlug: "f1",
           year: 2026,
           eventSlug: "great-britain",
@@ -962,7 +887,6 @@ export const f1Calendar2026: Calendar = {
       updatedAt: "2026-01-18T14:12:22.157Z",
     },
     {
-      key: "f1_2026_belgium",
       formulaSlug: "f1",
       year: 2026,
       slug: "belgium",
@@ -976,7 +900,6 @@ export const f1Calendar2026: Calendar = {
       round: 12,
       sessions: [
         {
-          key: "f1_2026_belgium_practice-1",
           formulaSlug: "f1",
           year: 2026,
           eventSlug: "belgium",
@@ -988,7 +911,6 @@ export const f1Calendar2026: Calendar = {
           localEndTime: "2026-07-17T13:30:00.000+02:00",
         },
         {
-          key: "f1_2026_belgium_practice-2",
           formulaSlug: "f1",
           year: 2026,
           eventSlug: "belgium",
@@ -1000,7 +922,6 @@ export const f1Calendar2026: Calendar = {
           localEndTime: "2026-07-17T17:00:00.000+02:00",
         },
         {
-          key: "f1_2026_belgium_practice-3",
           formulaSlug: "f1",
           year: 2026,
           eventSlug: "belgium",
@@ -1012,7 +933,6 @@ export const f1Calendar2026: Calendar = {
           localEndTime: "2026-07-18T12:30:00.000+02:00",
         },
         {
-          key: "f1_2026_belgium_qualifying",
           formulaSlug: "f1",
           year: 2026,
           eventSlug: "belgium",
@@ -1024,7 +944,6 @@ export const f1Calendar2026: Calendar = {
           localEndTime: "2026-07-18T16:00:00.000+02:00",
         },
         {
-          key: "f1_2026_belgium_race",
           formulaSlug: "f1",
           year: 2026,
           eventSlug: "belgium",
@@ -1039,7 +958,6 @@ export const f1Calendar2026: Calendar = {
       updatedAt: "2026-01-18T14:12:22.157Z",
     },
     {
-      key: "f1_2026_hungary",
       formulaSlug: "f1",
       year: 2026,
       slug: "hungary",
@@ -1053,7 +971,6 @@ export const f1Calendar2026: Calendar = {
       round: 13,
       sessions: [
         {
-          key: "f1_2026_hungary_practice-1",
           formulaSlug: "f1",
           year: 2026,
           eventSlug: "hungary",
@@ -1065,7 +982,6 @@ export const f1Calendar2026: Calendar = {
           localEndTime: "2026-07-24T13:30:00.000+02:00",
         },
         {
-          key: "f1_2026_hungary_practice-2",
           formulaSlug: "f1",
           year: 2026,
           eventSlug: "hungary",
@@ -1077,7 +993,6 @@ export const f1Calendar2026: Calendar = {
           localEndTime: "2026-07-24T17:00:00.000+02:00",
         },
         {
-          key: "f1_2026_hungary_practice-3",
           formulaSlug: "f1",
           year: 2026,
           eventSlug: "hungary",
@@ -1089,7 +1004,6 @@ export const f1Calendar2026: Calendar = {
           localEndTime: "2026-07-25T12:30:00.000+02:00",
         },
         {
-          key: "f1_2026_hungary_qualifying",
           formulaSlug: "f1",
           year: 2026,
           eventSlug: "hungary",
@@ -1101,7 +1015,6 @@ export const f1Calendar2026: Calendar = {
           localEndTime: "2026-07-25T16:00:00.000+02:00",
         },
         {
-          key: "f1_2026_hungary_race",
           formulaSlug: "f1",
           year: 2026,
           eventSlug: "hungary",
@@ -1116,7 +1029,6 @@ export const f1Calendar2026: Calendar = {
       updatedAt: "2026-01-18T14:12:22.157Z",
     },
     {
-      key: "f1_2026_netherlands",
       formulaSlug: "f1",
       year: 2026,
       slug: "netherlands",
@@ -1130,7 +1042,6 @@ export const f1Calendar2026: Calendar = {
       round: 14,
       sessions: [
         {
-          key: "f1_2026_netherlands_practice-1",
           formulaSlug: "f1",
           year: 2026,
           eventSlug: "netherlands",
@@ -1142,7 +1053,6 @@ export const f1Calendar2026: Calendar = {
           localEndTime: "2026-08-21T12:30:00.000+02:00",
         },
         {
-          key: "f1_2026_netherlands_sprint-qualifying",
           formulaSlug: "f1",
           year: 2026,
           eventSlug: "netherlands",
@@ -1154,7 +1064,6 @@ export const f1Calendar2026: Calendar = {
           localEndTime: "2026-08-21T16:14:00.000+02:00",
         },
         {
-          key: "f1_2026_netherlands_sprint",
           formulaSlug: "f1",
           year: 2026,
           eventSlug: "netherlands",
@@ -1166,7 +1075,6 @@ export const f1Calendar2026: Calendar = {
           localEndTime: "2026-08-22T12:00:00.000+02:00",
         },
         {
-          key: "f1_2026_netherlands_qualifying",
           formulaSlug: "f1",
           year: 2026,
           eventSlug: "netherlands",
@@ -1178,7 +1086,6 @@ export const f1Calendar2026: Calendar = {
           localEndTime: "2026-08-22T16:00:00.000+02:00",
         },
         {
-          key: "f1_2026_netherlands_race",
           formulaSlug: "f1",
           year: 2026,
           eventSlug: "netherlands",
@@ -1193,7 +1100,6 @@ export const f1Calendar2026: Calendar = {
       updatedAt: "2026-01-18T14:12:22.157Z",
     },
     {
-      key: "f1_2026_italy",
       formulaSlug: "f1",
       year: 2026,
       slug: "italy",
@@ -1207,7 +1113,6 @@ export const f1Calendar2026: Calendar = {
       round: 15,
       sessions: [
         {
-          key: "f1_2026_italy_practice-1",
           formulaSlug: "f1",
           year: 2026,
           eventSlug: "italy",
@@ -1219,7 +1124,6 @@ export const f1Calendar2026: Calendar = {
           localEndTime: "2026-09-04T12:30:00.000+02:00",
         },
         {
-          key: "f1_2026_italy_practice-2",
           formulaSlug: "f1",
           year: 2026,
           eventSlug: "italy",
@@ -1231,7 +1135,6 @@ export const f1Calendar2026: Calendar = {
           localEndTime: "2026-09-04T16:00:00.000+02:00",
         },
         {
-          key: "f1_2026_italy_practice-3",
           formulaSlug: "f1",
           year: 2026,
           eventSlug: "italy",
@@ -1243,7 +1146,6 @@ export const f1Calendar2026: Calendar = {
           localEndTime: "2026-09-05T12:30:00.000+02:00",
         },
         {
-          key: "f1_2026_italy_qualifying",
           formulaSlug: "f1",
           year: 2026,
           eventSlug: "italy",
@@ -1255,7 +1157,6 @@ export const f1Calendar2026: Calendar = {
           localEndTime: "2026-09-05T16:00:00.000+02:00",
         },
         {
-          key: "f1_2026_italy_race",
           formulaSlug: "f1",
           year: 2026,
           eventSlug: "italy",
@@ -1270,7 +1171,6 @@ export const f1Calendar2026: Calendar = {
       updatedAt: "2026-01-18T14:12:22.157Z",
     },
     {
-      key: "f1_2026_spain",
       formulaSlug: "f1",
       year: 2026,
       slug: "spain",
@@ -1284,7 +1184,6 @@ export const f1Calendar2026: Calendar = {
       round: 16,
       sessions: [
         {
-          key: "f1_2026_spain_practice-1",
           formulaSlug: "f1",
           year: 2026,
           eventSlug: "spain",
@@ -1296,7 +1195,6 @@ export const f1Calendar2026: Calendar = {
           localEndTime: "2026-09-11T13:30:00.000+02:00",
         },
         {
-          key: "f1_2026_spain_practice-2",
           formulaSlug: "f1",
           year: 2026,
           eventSlug: "spain",
@@ -1308,7 +1206,6 @@ export const f1Calendar2026: Calendar = {
           localEndTime: "2026-09-11T17:00:00.000+02:00",
         },
         {
-          key: "f1_2026_spain_practice-3",
           formulaSlug: "f1",
           year: 2026,
           eventSlug: "spain",
@@ -1320,7 +1217,6 @@ export const f1Calendar2026: Calendar = {
           localEndTime: "2026-09-12T12:30:00.000+02:00",
         },
         {
-          key: "f1_2026_spain_qualifying",
           formulaSlug: "f1",
           year: 2026,
           eventSlug: "spain",
@@ -1332,7 +1228,6 @@ export const f1Calendar2026: Calendar = {
           localEndTime: "2026-09-12T16:00:00.000+02:00",
         },
         {
-          key: "f1_2026_spain_race",
           formulaSlug: "f1",
           year: 2026,
           eventSlug: "spain",
@@ -1347,7 +1242,6 @@ export const f1Calendar2026: Calendar = {
       updatedAt: "2026-01-18T14:12:22.157Z",
     },
     {
-      key: "f1_2026_azerbaijan",
       formulaSlug: "f1",
       year: 2026,
       slug: "azerbaijan",
@@ -1361,7 +1255,6 @@ export const f1Calendar2026: Calendar = {
       round: 17,
       sessions: [
         {
-          key: "f1_2026_azerbaijan_practice-1",
           formulaSlug: "f1",
           year: 2026,
           eventSlug: "azerbaijan",
@@ -1373,7 +1266,6 @@ export const f1Calendar2026: Calendar = {
           localEndTime: "2026-09-24T10:30:00.000+04:00",
         },
         {
-          key: "f1_2026_azerbaijan_practice-2",
           formulaSlug: "f1",
           year: 2026,
           eventSlug: "azerbaijan",
@@ -1385,7 +1277,6 @@ export const f1Calendar2026: Calendar = {
           localEndTime: "2026-09-24T14:00:00.000+04:00",
         },
         {
-          key: "f1_2026_azerbaijan_practice-3",
           formulaSlug: "f1",
           year: 2026,
           eventSlug: "azerbaijan",
@@ -1397,7 +1288,6 @@ export const f1Calendar2026: Calendar = {
           localEndTime: "2026-09-25T10:30:00.000+04:00",
         },
         {
-          key: "f1_2026_azerbaijan_qualifying",
           formulaSlug: "f1",
           year: 2026,
           eventSlug: "azerbaijan",
@@ -1409,7 +1299,6 @@ export const f1Calendar2026: Calendar = {
           localEndTime: "2026-09-25T14:00:00.000+04:00",
         },
         {
-          key: "f1_2026_azerbaijan_race",
           formulaSlug: "f1",
           year: 2026,
           eventSlug: "azerbaijan",
@@ -1424,7 +1313,6 @@ export const f1Calendar2026: Calendar = {
       updatedAt: "2026-01-18T14:12:22.157Z",
     },
     {
-      key: "f1_2026_singapore",
       formulaSlug: "f1",
       year: 2026,
       slug: "singapore",
@@ -1438,7 +1326,6 @@ export const f1Calendar2026: Calendar = {
       round: 18,
       sessions: [
         {
-          key: "f1_2026_singapore_practice-1",
           formulaSlug: "f1",
           year: 2026,
           eventSlug: "singapore",
@@ -1450,7 +1337,6 @@ export const f1Calendar2026: Calendar = {
           localEndTime: "2026-10-09T11:30:00.000+08:00",
         },
         {
-          key: "f1_2026_singapore_sprint-qualifying",
           formulaSlug: "f1",
           year: 2026,
           eventSlug: "singapore",
@@ -1462,7 +1348,6 @@ export const f1Calendar2026: Calendar = {
           localEndTime: "2026-10-09T14:14:00.000+08:00",
         },
         {
-          key: "f1_2026_singapore_sprint",
           formulaSlug: "f1",
           year: 2026,
           eventSlug: "singapore",
@@ -1474,7 +1359,6 @@ export const f1Calendar2026: Calendar = {
           localEndTime: "2026-10-10T11:00:00.000+08:00",
         },
         {
-          key: "f1_2026_singapore_qualifying",
           formulaSlug: "f1",
           year: 2026,
           eventSlug: "singapore",
@@ -1486,7 +1370,6 @@ export const f1Calendar2026: Calendar = {
           localEndTime: "2026-10-10T15:00:00.000+08:00",
         },
         {
-          key: "f1_2026_singapore_race",
           formulaSlug: "f1",
           year: 2026,
           eventSlug: "singapore",
@@ -1501,7 +1384,6 @@ export const f1Calendar2026: Calendar = {
       updatedAt: "2026-01-18T14:12:22.157Z",
     },
     {
-      key: "f1_2026_united-states",
       formulaSlug: "f1",
       year: 2026,
       slug: "united-states",
@@ -1515,7 +1397,6 @@ export const f1Calendar2026: Calendar = {
       round: 19,
       sessions: [
         {
-          key: "f1_2026_united-states_practice-1",
           formulaSlug: "f1",
           year: 2026,
           eventSlug: "united-states",
@@ -1527,7 +1408,6 @@ export const f1Calendar2026: Calendar = {
           localEndTime: "2026-10-23T19:30:00.000-05:00",
         },
         {
-          key: "f1_2026_united-states_practice-2",
           formulaSlug: "f1",
           year: 2026,
           eventSlug: "united-states",
@@ -1539,7 +1419,6 @@ export const f1Calendar2026: Calendar = {
           localEndTime: "2026-10-23T23:00:00.000-05:00",
         },
         {
-          key: "f1_2026_united-states_practice-3",
           formulaSlug: "f1",
           year: 2026,
           eventSlug: "united-states",
@@ -1551,7 +1430,6 @@ export const f1Calendar2026: Calendar = {
           localEndTime: "2026-10-24T19:30:00.000-05:00",
         },
         {
-          key: "f1_2026_united-states_qualifying",
           formulaSlug: "f1",
           year: 2026,
           eventSlug: "united-states",
@@ -1563,7 +1441,6 @@ export const f1Calendar2026: Calendar = {
           localEndTime: "2026-10-24T23:00:00.000-05:00",
         },
         {
-          key: "f1_2026_united-states_race",
           formulaSlug: "f1",
           year: 2026,
           eventSlug: "united-states",
@@ -1578,7 +1455,6 @@ export const f1Calendar2026: Calendar = {
       updatedAt: "2026-01-18T14:12:22.157Z",
     },
     {
-      key: "f1_2026_mexico",
       formulaSlug: "f1",
       year: 2026,
       slug: "mexico",
@@ -1592,7 +1468,6 @@ export const f1Calendar2026: Calendar = {
       round: 20,
       sessions: [
         {
-          key: "f1_2026_mexico_practice-1",
           formulaSlug: "f1",
           year: 2026,
           eventSlug: "mexico",
@@ -1604,7 +1479,6 @@ export const f1Calendar2026: Calendar = {
           localEndTime: "2026-10-30T19:30:00.000-06:00",
         },
         {
-          key: "f1_2026_mexico_practice-2",
           formulaSlug: "f1",
           year: 2026,
           eventSlug: "mexico",
@@ -1616,7 +1490,6 @@ export const f1Calendar2026: Calendar = {
           localEndTime: "2026-10-30T23:00:00.000-06:00",
         },
         {
-          key: "f1_2026_mexico_practice-3",
           formulaSlug: "f1",
           year: 2026,
           eventSlug: "mexico",
@@ -1628,7 +1501,6 @@ export const f1Calendar2026: Calendar = {
           localEndTime: "2026-10-31T18:30:00.000-06:00",
         },
         {
-          key: "f1_2026_mexico_qualifying",
           formulaSlug: "f1",
           year: 2026,
           eventSlug: "mexico",
@@ -1640,7 +1512,6 @@ export const f1Calendar2026: Calendar = {
           localEndTime: "2026-10-31T22:00:00.000-06:00",
         },
         {
-          key: "f1_2026_mexico_race",
           formulaSlug: "f1",
           year: 2026,
           eventSlug: "mexico",
@@ -1655,7 +1526,6 @@ export const f1Calendar2026: Calendar = {
       updatedAt: "2026-01-18T14:12:22.157Z",
     },
     {
-      key: "f1_2026_brazil",
       formulaSlug: "f1",
       year: 2026,
       slug: "brazil",
@@ -1669,7 +1539,6 @@ export const f1Calendar2026: Calendar = {
       round: 21,
       sessions: [
         {
-          key: "f1_2026_brazil_practice-1",
           formulaSlug: "f1",
           year: 2026,
           eventSlug: "brazil",
@@ -1681,7 +1550,6 @@ export const f1Calendar2026: Calendar = {
           localEndTime: "2026-11-06T16:30:00.000-03:00",
         },
         {
-          key: "f1_2026_brazil_practice-2",
           formulaSlug: "f1",
           year: 2026,
           eventSlug: "brazil",
@@ -1693,7 +1561,6 @@ export const f1Calendar2026: Calendar = {
           localEndTime: "2026-11-06T20:00:00.000-03:00",
         },
         {
-          key: "f1_2026_brazil_practice-3",
           formulaSlug: "f1",
           year: 2026,
           eventSlug: "brazil",
@@ -1705,7 +1572,6 @@ export const f1Calendar2026: Calendar = {
           localEndTime: "2026-11-07T15:30:00.000-03:00",
         },
         {
-          key: "f1_2026_brazil_qualifying",
           formulaSlug: "f1",
           year: 2026,
           eventSlug: "brazil",
@@ -1717,7 +1583,6 @@ export const f1Calendar2026: Calendar = {
           localEndTime: "2026-11-07T19:00:00.000-03:00",
         },
         {
-          key: "f1_2026_brazil_race",
           formulaSlug: "f1",
           year: 2026,
           eventSlug: "brazil",
@@ -1732,7 +1597,6 @@ export const f1Calendar2026: Calendar = {
       updatedAt: "2026-01-18T14:12:22.157Z",
     },
     {
-      key: "f1_2026_las-vegas",
       formulaSlug: "f1",
       year: 2026,
       slug: "las-vegas",
@@ -1746,7 +1610,6 @@ export const f1Calendar2026: Calendar = {
       round: 22,
       sessions: [
         {
-          key: "f1_2026_las-vegas_practice-1",
           formulaSlug: "f1",
           year: 2026,
           eventSlug: "las-vegas",
@@ -1758,7 +1621,6 @@ export const f1Calendar2026: Calendar = {
           localEndTime: "2026-11-20T01:30:00.000-08:00",
         },
         {
-          key: "f1_2026_las-vegas_practice-2",
           formulaSlug: "f1",
           year: 2026,
           eventSlug: "las-vegas",
@@ -1770,7 +1632,6 @@ export const f1Calendar2026: Calendar = {
           localEndTime: "2026-11-20T05:00:00.000-08:00",
         },
         {
-          key: "f1_2026_las-vegas_practice-3",
           formulaSlug: "f1",
           year: 2026,
           eventSlug: "las-vegas",
@@ -1782,7 +1643,6 @@ export const f1Calendar2026: Calendar = {
           localEndTime: "2026-11-21T01:30:00.000-08:00",
         },
         {
-          key: "f1_2026_las-vegas_qualifying",
           formulaSlug: "f1",
           year: 2026,
           eventSlug: "las-vegas",
@@ -1794,7 +1654,6 @@ export const f1Calendar2026: Calendar = {
           localEndTime: "2026-11-21T05:00:00.000-08:00",
         },
         {
-          key: "f1_2026_las-vegas_race",
           formulaSlug: "f1",
           year: 2026,
           eventSlug: "las-vegas",
@@ -1809,7 +1668,6 @@ export const f1Calendar2026: Calendar = {
       updatedAt: "2026-01-18T14:12:22.157Z",
     },
     {
-      key: "f1_2026_qatar",
       formulaSlug: "f1",
       year: 2026,
       slug: "qatar",
@@ -1823,7 +1681,6 @@ export const f1Calendar2026: Calendar = {
       round: 23,
       sessions: [
         {
-          key: "f1_2026_qatar_practice-1",
           formulaSlug: "f1",
           year: 2026,
           eventSlug: "qatar",
@@ -1835,7 +1692,6 @@ export const f1Calendar2026: Calendar = {
           localEndTime: "2026-11-27T14:30:00.000+03:00",
         },
         {
-          key: "f1_2026_qatar_practice-2",
           formulaSlug: "f1",
           year: 2026,
           eventSlug: "qatar",
@@ -1847,7 +1703,6 @@ export const f1Calendar2026: Calendar = {
           localEndTime: "2026-11-27T18:00:00.000+03:00",
         },
         {
-          key: "f1_2026_qatar_practice-3",
           formulaSlug: "f1",
           year: 2026,
           eventSlug: "qatar",
@@ -1859,7 +1714,6 @@ export const f1Calendar2026: Calendar = {
           localEndTime: "2026-11-28T15:30:00.000+03:00",
         },
         {
-          key: "f1_2026_qatar_qualifying",
           formulaSlug: "f1",
           year: 2026,
           eventSlug: "qatar",
@@ -1871,7 +1725,6 @@ export const f1Calendar2026: Calendar = {
           localEndTime: "2026-11-28T19:00:00.000+03:00",
         },
         {
-          key: "f1_2026_qatar_race",
           formulaSlug: "f1",
           year: 2026,
           eventSlug: "qatar",
@@ -1886,7 +1739,6 @@ export const f1Calendar2026: Calendar = {
       updatedAt: "2026-01-18T14:12:22.157Z",
     },
     {
-      key: "f1_2026_united-arab-emirates",
       formulaSlug: "f1",
       year: 2026,
       slug: "united-arab-emirates",
@@ -1900,7 +1752,6 @@ export const f1Calendar2026: Calendar = {
       round: 24,
       sessions: [
         {
-          key: "f1_2026_united-arab-emirates_practice-1",
           formulaSlug: "f1",
           year: 2026,
           eventSlug: "united-arab-emirates",
@@ -1912,7 +1763,6 @@ export const f1Calendar2026: Calendar = {
           localEndTime: "2026-12-04T10:30:00.000+04:00",
         },
         {
-          key: "f1_2026_united-arab-emirates_practice-2",
           formulaSlug: "f1",
           year: 2026,
           eventSlug: "united-arab-emirates",
@@ -1924,7 +1774,6 @@ export const f1Calendar2026: Calendar = {
           localEndTime: "2026-12-04T14:00:00.000+04:00",
         },
         {
-          key: "f1_2026_united-arab-emirates_practice-3",
           formulaSlug: "f1",
           year: 2026,
           eventSlug: "united-arab-emirates",
@@ -1936,7 +1785,6 @@ export const f1Calendar2026: Calendar = {
           localEndTime: "2026-12-05T11:30:00.000+04:00",
         },
         {
-          key: "f1_2026_united-arab-emirates_qualifying",
           formulaSlug: "f1",
           year: 2026,
           eventSlug: "united-arab-emirates",
@@ -1948,7 +1796,6 @@ export const f1Calendar2026: Calendar = {
           localEndTime: "2026-12-05T15:00:00.000+04:00",
         },
         {
-          key: "f1_2026_united-arab-emirates_race",
           formulaSlug: "f1",
           year: 2026,
           eventSlug: "united-arab-emirates",
