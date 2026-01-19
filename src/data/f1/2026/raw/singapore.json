@@ -1,44 +1,39 @@
 {
   "url": "https://www.formula1.com/en/racing/2026/singapore",
-  "updatedAt": "2026-01-18T18:36:22.396Z",
+  "updatedAt": "2026-01-19T14:47:14.320Z",
   "slug": "singapore",
   "nameFull": "FORMULA 1 SINGAPORE AIRLINES SINGAPORE GRAND PRIX 2026",
   "nameMedium": "Singapore Grand Prix",
   "data": [
     {
-      "day": "09",
-      "month": "Oct",
       "name": "Practice 1",
-      "startTime": "10:30",
-      "endTime": "11:30"
+      "localDate": "2026-10-09",
+      "localStartTime": "17:30",
+      "localEndTime": "18:30"
     },
     {
-      "day": "09",
-      "month": "Oct",
       "name": "Sprint Qualifying",
-      "startTime": "13:30",
-      "endTime": "14:14"
+      "localDate": "2026-10-09",
+      "localStartTime": "20:30",
+      "localEndTime": "21:14"
     },
     {
-      "day": "10",
-      "month": "Oct",
       "name": "Sprint",
-      "startTime": "10:00",
-      "endTime": "11:00"
+      "localDate": "2026-10-10",
+      "localStartTime": "17:00",
+      "localEndTime": "18:00"
     },
     {
-      "day": "10",
-      "month": "Oct",
       "name": "Qualifying",
-      "startTime": "14:00",
-      "endTime": "15:00"
+      "localDate": "2026-10-10",
+      "localStartTime": "21:00",
+      "localEndTime": "22:00"
     },
     {
-      "day": "11",
-      "month": "Oct",
       "name": "Race",
-      "startTime": "13:00",
-      "endTime": null
+      "localDate": "2026-10-11",
+      "localStartTime": "20:00",
+      "localEndTime": null
     }
   ]
 }

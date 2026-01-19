@@ -1,44 +1,39 @@
 {
   "url": "https://www.formula1.com/en/racing/2026/australia",
-  "updatedAt": "2026-01-18T18:21:28.571Z",
+  "updatedAt": "2026-01-19T14:43:04.830Z",
   "slug": "australia",
   "nameFull": "FORMULA 1 QATAR AIRWAYS AUSTRALIAN GRAND PRIX 2026",
   "nameMedium": "Australian Grand Prix",
   "data": [
     {
-      "day": "06",
-      "month": "Mar",
       "name": "Practice 1",
-      "startTime": "01:30",
-      "endTime": "02:30"
+      "localDate": "2026-03-06",
+      "localStartTime": "12:30",
+      "localEndTime": "13:30"
     },
     {
-      "day": "06",
-      "month": "Mar",
       "name": "Practice 2",
-      "startTime": "05:00",
-      "endTime": "06:00"
+      "localDate": "2026-03-06",
+      "localStartTime": "16:00",
+      "localEndTime": "17:00"
     },
     {
-      "day": "07",
-      "month": "Mar",
       "name": "Practice 3",
-      "startTime": "01:30",
-      "endTime": "02:30"
+      "localDate": "2026-03-07",
+      "localStartTime": "12:30",
+      "localEndTime": "13:30"
     },
     {
-      "day": "07",
-      "month": "Mar",
       "name": "Qualifying",
-      "startTime": "05:00",
-      "endTime": "06:00"
+      "localDate": "2026-03-07",
+      "localStartTime": "16:00",
+      "localEndTime": "17:00"
     },
     {
-      "day": "08",
-      "month": "Mar",
       "name": "Race",
-      "startTime": "04:00",
-      "endTime": null
+      "localDate": "2026-03-08",
+      "localStartTime": "15:00",
+      "localEndTime": null
     }
   ]
 }

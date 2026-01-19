@@ -1,44 +1,39 @@
 {
   "url": "https://www.formula1.com/en/racing/2026/netherlands",
-  "updatedAt": "2026-01-18T18:35:21.072Z",
+  "updatedAt": "2026-01-19T14:46:22.131Z",
   "slug": "netherlands",
   "nameFull": "FORMULA 1 HEINEKEN DUTCH GRAND PRIX 2026",
   "nameMedium": "Dutch Grand Prix",
   "data": [
     {
-      "day": "21",
-      "month": "Aug",
       "name": "Practice 1",
-      "startTime": "11:30",
-      "endTime": "12:30"
+      "localDate": "2026-08-21",
+      "localStartTime": "12:30",
+      "localEndTime": "13:30"
     },
     {
-      "day": "21",
-      "month": "Aug",
       "name": "Sprint Qualifying",
-      "startTime": "15:30",
-      "endTime": "16:14"
+      "localDate": "2026-08-21",
+      "localStartTime": "16:30",
+      "localEndTime": "17:14"
     },
     {
-      "day": "22",
-      "month": "Aug",
       "name": "Sprint",
-      "startTime": "11:00",
-      "endTime": "12:00"
+      "localDate": "2026-08-22",
+      "localStartTime": "12:00",
+      "localEndTime": "13:00"
     },
     {
-      "day": "22",
-      "month": "Aug",
       "name": "Qualifying",
-      "startTime": "15:00",
-      "endTime": "16:00"
+      "localDate": "2026-08-22",
+      "localStartTime": "16:00",
+      "localEndTime": "17:00"
     },
     {
-      "day": "23",
-      "month": "Aug",
       "name": "Race",
-      "startTime": "14:00",
-      "endTime": null
+      "localDate": "2026-08-23",
+      "localStartTime": "15:00",
+      "localEndTime": null
     }
   ]
 }

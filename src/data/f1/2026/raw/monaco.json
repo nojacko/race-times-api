@@ -1,44 +1,39 @@
 {
   "url": "https://www.formula1.com/en/racing/2026/monaco",
-  "updatedAt": "2026-01-18T18:33:35.421Z",
+  "updatedAt": "2026-01-19T14:44:47.582Z",
   "slug": "monaco",
   "nameFull": "FORMULA 1 LOUIS VUITTON GRAND PRIX DE MONACO 2026",
   "nameMedium": "Monaco Grand Prix",
   "data": [
     {
-      "day": "05",
-      "month": "Jun",
       "name": "Practice 1",
-      "startTime": "12:30",
-      "endTime": "13:30"
+      "localDate": "2026-06-05",
+      "localStartTime": "13:30",
+      "localEndTime": "14:30"
     },
     {
-      "day": "05",
-      "month": "Jun",
       "name": "Practice 2",
-      "startTime": "16:00",
-      "endTime": "17:00"
+      "localDate": "2026-06-05",
+      "localStartTime": "17:00",
+      "localEndTime": "18:00"
     },
     {
-      "day": "06",
-      "month": "Jun",
       "name": "Practice 3",
-      "startTime": "11:30",
-      "endTime": "12:30"
+      "localDate": "2026-06-06",
+      "localStartTime": "12:30",
+      "localEndTime": "13:30"
     },
     {
-      "day": "06",
-      "month": "Jun",
       "name": "Qualifying",
-      "startTime": "15:00",
-      "endTime": "16:00"
+      "localDate": "2026-06-06",
+      "localStartTime": "16:00",
+      "localEndTime": "17:00"
     },
     {
-      "day": "07",
-      "month": "Jun",
       "name": "Race",
-      "startTime": "14:00",
-      "endTime": null
+      "localDate": "2026-06-07",
+      "localStartTime": "15:00",
+      "localEndTime": null
     }
   ]
 }

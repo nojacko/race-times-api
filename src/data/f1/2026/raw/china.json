@@ -1,44 +1,39 @@
 {
   "url": "https://www.formula1.com/en/racing/2026/china",
-  "updatedAt": "2026-01-18T18:31:28.788Z",
+  "updatedAt": "2026-01-19T14:43:18.733Z",
   "slug": "china",
   "nameFull": "FORMULA 1 HEINEKEN CHINESE GRAND PRIX 2026",
   "nameMedium": "Chinese Grand Prix",
   "data": [
     {
-      "day": "13",
-      "month": "Mar",
       "name": "Practice 1",
-      "startTime": "11:30",
-      "endTime": "12:30"
+      "localDate": "2026-03-13",
+      "localStartTime": "11:30",
+      "localEndTime": "12:30"
     },
     {
-      "day": "13",
-      "month": "Mar",
       "name": "Sprint Qualifying",
-      "startTime": "15:30",
-      "endTime": "16:14"
+      "localDate": "2026-03-13",
+      "localStartTime": "15:30",
+      "localEndTime": "16:14"
     },
     {
-      "day": "14",
-      "month": "Mar",
       "name": "Sprint",
-      "startTime": "11:00",
-      "endTime": "12:00"
+      "localDate": "2026-03-14",
+      "localStartTime": "11:00",
+      "localEndTime": "12:00"
     },
     {
-      "day": "14",
-      "month": "Mar",
       "name": "Qualifying",
-      "startTime": "15:00",
-      "endTime": "16:00"
+      "localDate": "2026-03-14",
+      "localStartTime": "15:00",
+      "localEndTime": "16:00"
     },
     {
-      "day": "15",
-      "month": "Mar",
       "name": "Race",
-      "startTime": "15:00",
-      "endTime": null
+      "localDate": "2026-03-15",
+      "localStartTime": "15:00",
+      "localEndTime": null
     }
   ]
 }

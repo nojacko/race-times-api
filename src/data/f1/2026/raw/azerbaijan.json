@@ -1,44 +1,39 @@
 {
   "url": "https://www.formula1.com/en/racing/2026/azerbaijan",
-  "updatedAt": "2026-01-18T18:36:10.166Z",
+  "updatedAt": "2026-01-19T14:47:01.407Z",
   "slug": "azerbaijan",
   "nameFull": "FORMULA 1 QATAR AIRWAYS AZERBAIJAN GRAND PRIX 2026",
   "nameMedium": "Azerbaijan Grand Prix",
   "data": [
     {
-      "day": "24",
-      "month": "Sep",
       "name": "Practice 1",
-      "startTime": "09:30",
-      "endTime": "10:30"
+      "localDate": "2026-09-24",
+      "localStartTime": "12:30",
+      "localEndTime": "13:30"
     },
     {
-      "day": "24",
-      "month": "Sep",
       "name": "Practice 2",
-      "startTime": "13:00",
-      "endTime": "14:00"
+      "localDate": "2026-09-24",
+      "localStartTime": "16:00",
+      "localEndTime": "17:00"
     },
     {
-      "day": "25",
-      "month": "Sep",
       "name": "Practice 3",
-      "startTime": "09:30",
-      "endTime": "10:30"
+      "localDate": "2026-09-25",
+      "localStartTime": "12:30",
+      "localEndTime": "13:30"
     },
     {
-      "day": "25",
-      "month": "Sep",
       "name": "Qualifying",
-      "startTime": "13:00",
-      "endTime": "14:00"
+      "localDate": "2026-09-25",
+      "localStartTime": "16:00",
+      "localEndTime": "17:00"
     },
     {
-      "day": "26",
-      "month": "Sep",
       "name": "Race",
-      "startTime": "12:00",
-      "endTime": null
+      "localDate": "2026-09-26",
+      "localStartTime": "15:00",
+      "localEndTime": null
     }
   ]
 }

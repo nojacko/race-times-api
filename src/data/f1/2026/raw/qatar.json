@@ -1,44 +1,39 @@
 {
   "url": "https://www.formula1.com/en/racing/2026/qatar",
-  "updatedAt": "2026-01-18T18:37:57.771Z",
+  "updatedAt": "2026-01-19T14:48:12.389Z",
   "slug": "qatar",
   "nameFull": "FORMULA 1 QATAR AIRWAYS QATAR GRAND PRIX 2026",
   "nameMedium": "Qatar Grand Prix",
   "data": [
     {
-      "day": "27",
-      "month": "Nov",
       "name": "Practice 1",
-      "startTime": "13:30",
-      "endTime": "14:30"
+      "localDate": "2026-11-27",
+      "localStartTime": "16:30",
+      "localEndTime": "17:30"
     },
     {
-      "day": "27",
-      "month": "Nov",
       "name": "Practice 2",
-      "startTime": "17:00",
-      "endTime": "18:00"
+      "localDate": "2026-11-27",
+      "localStartTime": "20:00",
+      "localEndTime": "21:00"
     },
     {
-      "day": "28",
-      "month": "Nov",
       "name": "Practice 3",
-      "startTime": "14:30",
-      "endTime": "15:30"
+      "localDate": "2026-11-28",
+      "localStartTime": "17:30",
+      "localEndTime": "18:30"
     },
     {
-      "day": "28",
-      "month": "Nov",
       "name": "Qualifying",
-      "startTime": "18:00",
-      "endTime": "19:00"
+      "localDate": "2026-11-28",
+      "localStartTime": "21:00",
+      "localEndTime": "22:00"
     },
     {
-      "day": "29",
-      "month": "Nov",
       "name": "Race",
-      "startTime": "16:00",
-      "endTime": null
+      "localDate": "2026-11-29",
+      "localStartTime": "19:00",
+      "localEndTime": null
     }
   ]
 }

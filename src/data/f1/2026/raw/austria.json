@@ -1,44 +1,39 @@
 {
   "url": "https://www.formula1.com/en/racing/2026/austria",
-  "updatedAt": "2026-01-18T18:34:06.853Z",
+  "updatedAt": "2026-01-19T14:45:22.433Z",
   "slug": "austria",
   "nameFull": "FORMULA 1 LENOVO AUSTRIAN GRAND PRIX 2026",
   "nameMedium": "Austrian Grand Prix",
   "data": [
     {
-      "day": "26",
-      "month": "Jun",
       "name": "Practice 1",
-      "startTime": "12:30",
-      "endTime": "13:30"
+      "localDate": "2026-06-26",
+      "localStartTime": "13:30",
+      "localEndTime": "14:30"
     },
     {
-      "day": "26",
-      "month": "Jun",
       "name": "Practice 2",
-      "startTime": "16:00",
-      "endTime": "17:00"
+      "localDate": "2026-06-26",
+      "localStartTime": "17:00",
+      "localEndTime": "18:00"
     },
     {
-      "day": "27",
-      "month": "Jun",
       "name": "Practice 3",
-      "startTime": "11:30",
-      "endTime": "12:30"
+      "localDate": "2026-06-27",
+      "localStartTime": "12:30",
+      "localEndTime": "13:30"
     },
     {
-      "day": "27",
-      "month": "Jun",
       "name": "Qualifying",
-      "startTime": "15:00",
-      "endTime": "16:00"
+      "localDate": "2026-06-27",
+      "localStartTime": "16:00",
+      "localEndTime": "17:00"
     },
     {
-      "day": "28",
-      "month": "Jun",
       "name": "Race",
-      "startTime": "14:00",
-      "endTime": null
+      "localDate": "2026-06-28",
+      "localStartTime": "15:00",
+      "localEndTime": null
     }
   ]
 }

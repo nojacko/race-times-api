@@ -1,44 +1,39 @@
 {
   "url": "https://www.formula1.com/en/racing/2026/mexico",
-  "updatedAt": "2026-01-18T18:37:09.397Z",
+  "updatedAt": "2026-01-19T14:47:40.799Z",
   "slug": "mexico",
   "nameFull": "FORMULA 1 GRAN PREMIO DE LA CIUDAD DE MÉXICO 2026",
   "nameMedium": "Mexico City Grand Prix",
   "data": [
     {
-      "day": "30",
-      "month": "Oct",
       "name": "Practice 1",
-      "startTime": "18:30",
-      "endTime": "19:30"
+      "localDate": "2026-10-30",
+      "localStartTime": "12:30",
+      "localEndTime": "13:30"
     },
     {
-      "day": "30",
-      "month": "Oct",
       "name": "Practice 2",
-      "startTime": "22:00",
-      "endTime": "23:00"
+      "localDate": "2026-10-30",
+      "localStartTime": "16:00",
+      "localEndTime": "17:00"
     },
     {
-      "day": "31",
-      "month": "Oct",
       "name": "Practice 3",
-      "startTime": "17:30",
-      "endTime": "18:30"
+      "localDate": "2026-10-31",
+      "localStartTime": "11:30",
+      "localEndTime": "12:30"
     },
     {
-      "day": "31",
-      "month": "Oct",
       "name": "Qualifying",
-      "startTime": "21:00",
-      "endTime": "22:00"
+      "localDate": "2026-10-31",
+      "localStartTime": "15:00",
+      "localEndTime": "16:00"
     },
     {
-      "day": "01",
-      "month": "Nov",
       "name": "Race",
-      "startTime": "20:00",
-      "endTime": null
+      "localDate": "2026-11-01",
+      "localStartTime": "14:00",
+      "localEndTime": null
     }
   ]
 }

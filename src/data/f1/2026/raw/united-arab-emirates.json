@@ -1,44 +1,39 @@
 {
   "url": "https://www.formula1.com/en/racing/2026/united-arab-emirates",
-  "updatedAt": "2026-01-18T18:38:10.422Z",
+  "updatedAt": "2026-01-19T14:48:23.890Z",
   "slug": "united-arab-emirates",
   "nameFull": "FORMULA 1 ETIHAD AIRWAYS ABU DHABI GRAND PRIX 2026",
   "nameMedium": "Abu Dhabi Grand Prix",
   "data": [
     {
-      "day": "04",
-      "month": "Dec",
       "name": "Practice 1",
-      "startTime": "09:30",
-      "endTime": "10:30"
+      "localDate": "2026-12-04",
+      "localStartTime": "13:30",
+      "localEndTime": "14:30"
     },
     {
-      "day": "04",
-      "month": "Dec",
       "name": "Practice 2",
-      "startTime": "13:00",
-      "endTime": "14:00"
+      "localDate": "2026-12-04",
+      "localStartTime": "17:00",
+      "localEndTime": "18:00"
     },
     {
-      "day": "05",
-      "month": "Dec",
       "name": "Practice 3",
-      "startTime": "10:30",
-      "endTime": "11:30"
+      "localDate": "2026-12-05",
+      "localStartTime": "14:30",
+      "localEndTime": "15:30"
     },
     {
-      "day": "05",
-      "month": "Dec",
       "name": "Qualifying",
-      "startTime": "14:00",
-      "endTime": "15:00"
+      "localDate": "2026-12-05",
+      "localStartTime": "18:00",
+      "localEndTime": "19:00"
     },
     {
-      "day": "06",
-      "month": "Dec",
       "name": "Race",
-      "startTime": "13:00",
-      "endTime": null
+      "localDate": "2026-12-06",
+      "localStartTime": "17:00",
+      "localEndTime": null
     }
   ]
 }

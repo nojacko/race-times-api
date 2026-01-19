@@ -1,44 +1,39 @@
 {
   "url": "https://www.formula1.com/en/racing/2026/bahrain",
-  "updatedAt": "2026-01-18T18:32:26.505Z",
+  "updatedAt": "2026-01-19T14:43:48.958Z",
   "slug": "bahrain",
   "nameFull": "FORMULA 1 GULF AIR BAHRAIN GRAND PRIX 2026",
   "nameMedium": "Bahrain Grand Prix",
   "data": [
     {
-      "day": "10",
-      "month": "Apr",
       "name": "Practice 1",
-      "startTime": "12:30",
-      "endTime": "13:30"
+      "localDate": "2026-04-10",
+      "localStartTime": "14:30",
+      "localEndTime": "15:30"
     },
     {
-      "day": "10",
-      "month": "Apr",
       "name": "Practice 2",
-      "startTime": "16:00",
-      "endTime": "17:00"
+      "localDate": "2026-04-10",
+      "localStartTime": "18:00",
+      "localEndTime": "19:00"
     },
     {
-      "day": "11",
-      "month": "Apr",
       "name": "Practice 3",
-      "startTime": "13:30",
-      "endTime": "14:30"
+      "localDate": "2026-04-11",
+      "localStartTime": "15:30",
+      "localEndTime": "16:30"
     },
     {
-      "day": "11",
-      "month": "Apr",
       "name": "Qualifying",
-      "startTime": "17:00",
-      "endTime": "18:00"
+      "localDate": "2026-04-11",
+      "localStartTime": "19:00",
+      "localEndTime": "20:00"
     },
     {
-      "day": "12",
-      "month": "Apr",
       "name": "Race",
-      "startTime": "16:00",
-      "endTime": null
+      "localDate": "2026-04-12",
+      "localStartTime": "18:00",
+      "localEndTime": null
     }
   ]
 }

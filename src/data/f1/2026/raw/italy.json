@@ -1,44 +1,39 @@
 {
   "url": "https://www.formula1.com/en/racing/2026/italy",
-  "updatedAt": "2026-01-18T18:35:35.868Z",
+  "updatedAt": "2026-01-19T14:46:35.011Z",
   "slug": "italy",
   "nameFull": "FORMULA 1 PIRELLI GRAN PREMIO D’ITALIA 2026",
   "nameMedium": "Italian Grand Prix",
   "data": [
     {
-      "day": "04",
-      "month": "Sep",
       "name": "Practice 1",
-      "startTime": "11:30",
-      "endTime": "12:30"
+      "localDate": "2026-09-04",
+      "localStartTime": "12:30",
+      "localEndTime": "13:30"
     },
     {
-      "day": "04",
-      "month": "Sep",
       "name": "Practice 2",
-      "startTime": "15:00",
-      "endTime": "16:00"
+      "localDate": "2026-09-04",
+      "localStartTime": "16:00",
+      "localEndTime": "17:00"
     },
     {
-      "day": "05",
-      "month": "Sep",
       "name": "Practice 3",
-      "startTime": "11:30",
-      "endTime": "12:30"
+      "localDate": "2026-09-05",
+      "localStartTime": "12:30",
+      "localEndTime": "13:30"
     },
     {
-      "day": "05",
-      "month": "Sep",
       "name": "Qualifying",
-      "startTime": "15:00",
-      "endTime": "16:00"
+      "localDate": "2026-09-05",
+      "localStartTime": "16:00",
+      "localEndTime": "17:00"
     },
     {
-      "day": "06",
-      "month": "Sep",
       "name": "Race",
-      "startTime": "14:00",
-      "endTime": null
+      "localDate": "2026-09-06",
+      "localStartTime": "15:00",
+      "localEndTime": null
     }
   ]
 }
