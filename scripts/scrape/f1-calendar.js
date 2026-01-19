@@ -1,8 +1,3 @@
-/**
- * Paste this into Firefox's console.
- * https://www.formula1.com/en/racing/2026
- */
-
 (function () {
   const nodes = Array.from(document.querySelectorAll('main a.group[href^="/en/racing/2026/"]'));
   const data = nodes.map((a) => {

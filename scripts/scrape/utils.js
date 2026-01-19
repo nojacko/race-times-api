@@ -1,12 +1,32 @@
-/**
- * Utility to show a fullscreen overlay with formatted JSON in a textarea.
- * Paste this into the console before running other scripts so `showOverlayJson`
- * is available globally.
- */
 (function () {
+  // Inject Deps
+  const script = document.createElement("script");
+  script.src = "https://cdn.jsdelivr.net/npm/lodash@4.17.21/lodash.min.js";
+  document.head.appendChild(script);
+
+  // Luxon for date utilities
+  const luxonScript = document.createElement("script");
+  luxonScript.src = "https://cdn.jsdelivr.net/npm/luxon@3/build/global/luxon.min.js";
+  document.head.appendChild(luxonScript);
+
+  // Functions
   window._UTILS = {
     wait: function (ms) {
       return new Promise((res) => setTimeout(res, ms));
+    },
+    slugify: function (str) {
+      if (!window._) {
+        throw new Error("lodash not yet loaded, cannot slugify");
+      }
+      return window._.chain(str).deburr().kebabCase().toLower().value();
+    },
+    wrapData: function (data, meta) {
+      return {
+        url: window.location.href,
+        updatedAt: new Date().toISOString(),
+        ...(meta || {}),
+        data,
+      };
     },
     showOverlayJson: function (data, filename) {
       const overlayId = "scrape_overlay";
@@ -59,7 +79,7 @@
       if (filename) {
         copyFileBtn = document.createElement("button");
         copyFileBtn.type = "button";
-        copyFileBtn.textContent = `Copy ${filename}`;
+        copyFileBtn.textContent = `Copy "${filename}"`;
         Object.assign(copyFileBtn.style, {
           padding: "8px 12px",
           fontSize: "13px",
@@ -150,14 +170,6 @@
       container.appendChild(controls);
       overlay.appendChild(container);
       document.body.appendChild(overlay);
-    },
-    wrapData: function (data, meta) {
-      return {
-        url: window.location.href,
-        updatedAt: new Date().toISOString(),
-        ...(meta || {}),
-        data,
-      };
     },
   };
 })();

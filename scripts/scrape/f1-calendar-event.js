@@ -1,7 +1,3 @@
-/**
- * Paste this into Firefox's console on an individual event page.
- */
-
 (async function () {
   // Attempt to click the "Track time" button if present
   try {
