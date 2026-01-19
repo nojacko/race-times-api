@@ -2,6 +2,7 @@ import type { CircuitSlug } from "src/types/Circuit";
 import { slugsJoin } from "./strings";
 
 export const raceToCircuit: { [key: string]: CircuitSlug } = {
+  // F1
   "f1_pre-season-testing-1": "bahrain-international-circuit",
   "f1_pre-season-testing-2": "bahrain-international-circuit",
   "f1_australia": "albert-park-circuit",
@@ -28,9 +29,27 @@ export const raceToCircuit: { [key: string]: CircuitSlug } = {
   "f1_las-vegas": "las-vegas-strip",
   "f1_qatar": "lusail-international-circuit",
   "f1_united-arab-emirates": "yas-marina-circuit",
+  // F2
+  "f2_melbourne": "albert-park-circuit",
+  "f2_sakhir": "bahrain-international-circuit",
+  "f2_jeddah": "jeddah-corniche-circuit",
+  "f2_monaco": "circuit-de-monaco",
+  "f2_barcelona": "bahrain-international-circuit",
+  "f2_spielberg": "red-bull-ring",
+  "f2_silverstone": "silverstone-circuit",
+  "f2_spa-francorchamps": "circuit-de-spa-francorchamps",
+  "f2_budapest": "hungaroring",
+  "f2_monza": "autodromo-nazionale-monza",
+  "f2_madrid": "circuito-de-madring",
+  "f2_baku": "baku-city-circuit",
+  "f2_lusail": "lusail-international-circuit",
+  "f2_yas-island": "yas-marina-circuit",
 };
 
-export function getCircuitSlug(formulaSlug: string, eventSlug: string): CircuitSlug | undefined {
-  const key = slugsJoin(formulaSlug, eventSlug);
+export function getCircuitKey(formulaSlug: string, eventSlug: string): string {
+  return slugsJoin(formulaSlug, eventSlug);
+}
+
+export function getCircuitSlug(key: string): CircuitSlug | undefined {
   return raceToCircuit[key];
 }

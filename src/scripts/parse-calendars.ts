@@ -1,17 +1,17 @@
 import * as fs from "fs";
 import * as path from "path";
 import { VARS } from "../vars";
-import { slugify, slugsJoin } from "../utils/strings";
+import { slugify } from "../utils/strings";
 import { DateTime } from "luxon";
 import { getCircuit } from "../data/circuits";
 import type { EventRaw } from "../types/EventRaw";
-import { formulas } from "../data/formulas";
+import { getFormulasActive } from "../data/formulas";
 import type { Formula } from "../types/Formula";
 import type { CalendarRaw } from "../types/CalendarRaw";
 import type { RaceCal } from "../types/RaceCal";
 import type { RaceEvent, CalendarEventType } from "../types/RaceEvent";
 import type { RaceEventSession } from "../types/RaceEventSession";
-import { getCircuitSlug } from "../utils/circuit-map";
+import { getCircuitKey, getCircuitSlug } from "../utils/circuit-map";
 
 const calendarFilename = "_calendar.json";
 
@@ -121,18 +121,19 @@ function buildEvent(
   let eventType: CalendarEventType;
   let round = 0;
 
-  if (/^TESTING\b/i.test(typeRaw)) {
+  if (/^testing\b/i.test(typeRaw)) {
     eventType = "testing";
-  } else if (/^ROUND\b/i.test(typeRaw)) {
+  } else if (/^round\b/i.test(typeRaw)) {
     eventType = "round";
-    const m = typeRaw.match(/ROUND\s*(\d+)/i);
+    const m = typeRaw.match(/round\s*(\d+)/i);
     round = m ? parseInt(m[1], 10) || 0 : 0;
   }
 
-  const circuitSlug = getCircuitSlug(formula.slug, raw.slug);
+  const circuitKey = getCircuitKey(formula.slug, raw.slug);
+  const circuitSlug = getCircuitSlug(circuitKey);
   const circuit = circuitSlug ? getCircuit(circuitSlug) : undefined;
   const eventName = raw.nameShort || raw.slug || "(unknown)";
-  const errorData = `${eventName} => ${circuitSlug}`;
+  const errorData = `${eventName} - "${circuitKey}": "${circuitSlug || ""}",`;
   if (!circuit) {
     errors.push(`missing circuit: ${errorData}`);
     return null;
@@ -192,8 +193,8 @@ function buildEvent(
 }
 
 function parseCalendar(): void {
+  const formulas = getFormulasActive();
   formulas.forEach((formula: Formula) => {
-    if (!formula.active) return;
     console.log(formula.name);
 
     if (Array.isArray(formula.years) && formula.years.length) {
@@ -231,14 +232,14 @@ function parseCalendar(): void {
             }
             writeCalendar(formula.slug, year, transformed);
           } catch (err) {
-            console.log(`- ${year}: ${calendarFilename} loaded but failed to parse`);
+            console.warn(`- ${year}: ${calendarFilename} loaded but failed to parse`);
           }
         } else {
-          console.log(`- ${year}: ${calendarFilename} missing`);
+          console.warn(`- ${year}: ${calendarFilename} missing`);
         }
       });
     } else {
-      console.log("- no years defined");
+      console.warn("- no years defined");
     }
   });
 }
