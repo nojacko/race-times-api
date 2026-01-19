@@ -59,3 +59,13 @@ npm start
   - Helper scripts (e.g. `scripts/copy-files.sh`)
 - `scripts/scrape`
   - Scraping scripts
+
+## Misc
+
+### Sources
+
+- <https://www.formula1.com/en/racing.html>
+- <https://www.fiaformula2.com/Calendar>
+- <https://www.fiaformula3.com/Calendar>
+- <https://www.fiaformulae.com/en/calendar>
+- <https://www.f1academy.com/Racing-Series/Calendar>
