@@ -42,7 +42,9 @@ copy_if_exists "$DIR_API/src/data/f1/2026/calendar.ts" "$DIR_WEB/src/lib/data/f1
 echo "- Copying types to $DIR_WEB/src/lib/types"
 type_files=(
 	"Formula.ts"
-	"Calendar.ts"
+	"RaceCal.ts"
+	"RaceEvent.ts"
+	"RaceEventSession.ts"
 	"Circuit.ts"
 )
 

@@ -8,7 +8,9 @@ import type { EventRaw } from "../types/EventRaw";
 import { formulas } from "../data/formulas";
 import type { Formula } from "../types/Formula";
 import type { CalendarRaw } from "../types/CalendarRaw";
-import type { Calendar, CalendarEvent, CalendarEventType, CalendarSession } from "../types/Calendar";
+import type { RaceCal } from "../types/RaceCal";
+import type { RaceEvent, CalendarEventType } from "../types/RaceEvent";
+import type { RaceEventSession } from "../types/RaceEventSession";
 import { getCircuitSlug } from "../utils/circuit-map";
 
 function parseDateTime(day: string, month: string, time: string | null, year: number, timeZone: string): string | null {
@@ -39,7 +41,7 @@ function buildSession(
   calendarKey: string,
   timeZone: string,
   errors: string[],
-): CalendarSession {
+): RaceEventSession {
   const dateOpts = { zone: timeZone };
 
   const startDt = parseDateTime(s.day, s.month, s.startTime, year, timeZone);
@@ -69,7 +71,6 @@ function buildSession(
   }
 
   return {
-    key: slugsJoin(calendarKey, rawEvent.slug, sessionSlug),
     formulaSlug: formula.slug,
     year,
     eventSlug: rawEvent.slug,
@@ -82,12 +83,12 @@ function buildSession(
   };
 }
 
-function writeCalendar(slug: string, year: number, calendar: Calendar) {
+function writeCalendar(slug: string, year: number, calendar: RaceCal) {
   const targetDir = path.join(VARS.DIR_DATA, slug, String(year));
   fs.mkdirSync(targetDir, { recursive: true });
 
   // compute relative import path from the generated file to the types file
-  const typesPathAbsolute = path.join(__dirname, "..", "types", "Calendar");
+  const typesPathAbsolute = path.join(__dirname, "..", "types", "RaceCal");
   let typesImportPath = path.relative(targetDir, typesPathAbsolute).replace(/\\/g, "/");
   if (!typesImportPath.startsWith(".")) typesImportPath = `./${typesImportPath}`;
 
@@ -98,8 +99,8 @@ function writeCalendar(slug: string, year: number, calendar: Calendar) {
   const exportIdent = `${safeSlug}Calendar${year}`;
 
   const content = [
-    `// AUTO-GENERATED: do not edit\nimport type { Calendar } from "${typesImportPath}";`,
-    `export const ${exportIdent}: Calendar = ${JSON.stringify(calendar, null, 2)};`,
+    `// AUTO-GENERATED: do not edit\nimport type { RaceCal } from "${typesImportPath}";`,
+    `export const ${exportIdent}: RaceCal = ${JSON.stringify(calendar, null, 2)};`,
   ];
 
   fs.writeFileSync(outPath, content.join("\n\n"), "utf8");
@@ -113,7 +114,7 @@ function buildEvent(
   calendarKey: string,
   calendarRaw: CalendarRaw,
   errors: string[],
-): CalendarEvent | null {
+): RaceEvent | null {
   const typeRaw = (raw.type || "").toString().trim();
   let eventType: CalendarEventType;
   let round = 0;
@@ -145,8 +146,7 @@ function buildEvent(
     return null;
   }
 
-  const event: CalendarEvent = {
-    key: `${calendarKey}_${raw.slug}`,
+  const event: RaceEvent = {
     formulaSlug: formula.slug,
     year,
     slug: raw.slug,
@@ -211,15 +211,14 @@ function parseCalendar(): void {
                 const ev = buildEvent(e, formula, year, calendarKey, calendarRaw, errors);
                 return ev;
               })
-              .filter((ev): ev is CalendarEvent => !!ev);
+              .filter((ev): ev is RaceEvent => !!ev);
 
-            const transformed: Calendar = {
-              key: calendarKey,
+            const transformed: RaceCal = {
               formulaSlug: formula.slug,
               year: calendarRaw.year,
               url: calendarRaw.url,
               title: calendarRaw.title,
-              calendarEvents: events,
+              raceEvents: events,
               updatedAt: calendarRaw.updatedAt,
             };
 

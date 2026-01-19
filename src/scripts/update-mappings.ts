@@ -6,7 +6,7 @@ import { slugsJoin } from "../utils/strings";
 const updated: Record<string, string> = { ...raceToCircuit };
 
 // Add any missing events from the calendar
-for (const ev of f1Calendar2026.calendarEvents) {
+for (const ev of f1Calendar2026.raceEvents) {
   const key = slugsJoin(ev.formulaSlug, ev.slug);
   if (updated[key] === undefined) {
     updated[key] = "";

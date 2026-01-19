@@ -67,3 +67,8 @@ export const F1_ACADEMY: Formula = {
 };
 
 export const formulas: Formula[] = [F1, F2, F3, FORMULA_E, F1_ACADEMY];
+
+export function getFormula(slug: string): Formula | undefined {
+  if (!slug) return undefined;
+  return formulas.find((f) => f.slug === slug);
+}
