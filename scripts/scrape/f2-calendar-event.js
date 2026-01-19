@@ -63,16 +63,16 @@
     const matchedDate = scheduleDates.find((d) => {
       return d.toFormat("cccc").toLowerCase() == weekdayLowercase;
     });
-    let dayNum = matchedDate ? String(matchedDate.day).padStart(2, "0"): "";
+    let dayNum = matchedDate ? String(matchedDate.day).padStart(2, "0") : "";
     let month = matchedDate ? matchedDate.toFormat("LLL") : "";
 
     // Compute start and end times
-    let startTime = "TBC";
-    let endTime = "TBC";
+    let localStartTime = "TBC";
+    let localEndTime = "TBC";
     if (!tbc) {
       const m = timeText.match(/^(\d{1,2}):(\d{2})$/);
       if (m) {
-        startTime = m;
+        localStartTime = m;
       }
     }
 
@@ -85,16 +85,15 @@
       localDate = `${yearFromH1}-${monthNum}-${dayNum}`;
     }
 
-    data.push({ name, startTime, endTime, localDate });
+    data.push({ name, localDate, localStartTime, localEndTime });
   });
 
   const meta = {
     url: window.location.href,
     slug,
     nameFull: nameFull || "",
-    nameMedium: nameMedium || ""
+    nameMedium: nameMedium || "",
   };
   const out = window._UTILS.wrapData(data, meta);
   window._UTILS.showOverlayJson(out, `${slug}.json`);
-  return out;
 })();

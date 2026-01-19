@@ -32,7 +32,7 @@
     const meta = { title, year };
     const out = window._UTILS.wrapData(data, meta);
     window._UTILS.showOverlayJson(out, "_calendar.json");
-    return out;
+    return;
   }
 
   console.error("FAILED!");

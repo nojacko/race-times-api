@@ -20,6 +20,11 @@
   let nameMedium = docTitle ? docTitle.split(",")[0].trim() : null;
   nameMedium = nameMedium ? nameMedium.replace(/\b\d{4}\s*-\s*F1 Race$/i, "").trim() : null;
 
+  // Extract year for localDate (YYYY-MM-DD)
+  const yearFromTitle = docTitle ? (docTitle.match(/\b(\d{4})\b/)?.[1] ?? null) : null;
+  const yearFromH1 = h1El ? (h1El.textContent.match(/\b(\d{4})\b/)?.[1] ?? null) : null;
+  const year = yearFromTitle || yearFromH1;
+
   const data = [];
   const url = window.location.href;
   const parts = url.split("/").filter(Boolean);
@@ -57,15 +62,27 @@
       const month = monthSpan ? monthSpan.textContent.trim() : null;
 
       const times = timeContainer ? Array.from(timeContainer.querySelectorAll("time")) : [];
-      const startTime = times[0] ? times[0].textContent.trim() : null;
-      const endTime = times[1] ? times[1].textContent.trim() : null;
+      const localStartTime = times[0] ? times[0].textContent.trim() : null;
+      const localEndTime = times[1] ? times[1].textContent.trim() : null;
 
-      data.push({ day, month, name, startTime, endTime });
+      // Build localDate using Luxon: YYYY-MM-DD
+      let localDate = null;
+      try {
+        if (year && month && day) {
+          const dt = window.luxon.DateTime.fromFormat(`${year}-${month}-${day.padStart(2, "0")}`, "yyyy-LLL-dd");
+          if (dt.isValid) {
+            localDate = dt.toISODate();
+          }
+        }
+      } catch (_) {
+        // leave localDate as null if parsing fails
+      }
+
+      data.push({ name, localDate, localStartTime, localEndTime });
     });
   }
 
   const meta = { url, slug, nameFull, nameMedium };
   const out = window._UTILS.wrapData(data, meta);
   window._UTILS.showOverlayJson(out, `${slug}.json`);
-  return out;
 })();
