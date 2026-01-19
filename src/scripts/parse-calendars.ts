@@ -13,6 +13,8 @@ import type { RaceEvent, CalendarEventType } from "../types/RaceEvent";
 import type { RaceEventSession } from "../types/RaceEventSession";
 import { getCircuitSlug } from "../utils/circuit-map";
 
+const calendarFilename = "_calendar.json";
+
 function parseDateTime(day: string, month: string, time: string | null, year: number, timeZone: string): string | null {
   if (!day || !month || !time) return "";
   const dayNum = parseInt(day, 10);
@@ -196,7 +198,7 @@ function parseCalendar(): void {
 
     if (Array.isArray(formula.years) && formula.years.length) {
       formula.years.forEach((year) => {
-        const calendarJsonPath = path.join(VARS.DIR_DATA, formula.slug, String(year), "raw", "calendar.json");
+        const calendarJsonPath = path.join(VARS.DIR_DATA, formula.slug, String(year), "raw", calendarFilename);
 
         if (fs.existsSync(calendarJsonPath)) {
           try {
@@ -222,17 +224,17 @@ function parseCalendar(): void {
               updatedAt: calendarRaw.updatedAt,
             };
 
-            console.log(`- ${year}: calendar.json loaded`);
+            console.log(`- ${year}: ${calendarFilename} loaded`);
             if (errors.length) {
               console.log(`- ${year}: issues found:`);
               errors.forEach((m) => console.log(`  - ${m}`));
             }
             writeCalendar(formula.slug, year, transformed);
           } catch (err) {
-            console.log(`- ${year}: calendar.json loaded but failed to parse`);
+            console.log(`- ${year}: ${calendarFilename} loaded but failed to parse`);
           }
         } else {
-          console.log(`- ${year}: calendar.json missing`);
+          console.log(`- ${year}: ${calendarFilename} missing`);
         }
       });
     } else {
