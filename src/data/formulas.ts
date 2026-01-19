@@ -24,6 +24,7 @@ export const F2: Formula = {
   logoBgColor: "#023A5F",
   logoTextColor: "#ffffff",
   initials: "F2",
+  years: [2026],
   url: "https://www.fiaformula2.com",
 };
 

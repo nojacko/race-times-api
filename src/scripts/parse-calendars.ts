@@ -4,10 +4,10 @@ import { VARS } from "../vars";
 import { slugify } from "../utils/strings";
 import { DateTime } from "luxon";
 import { getCircuit } from "../data/circuits";
-import type { EventRaw } from "../types/EventRaw";
+import type { RawRaceEvent } from "../types/RawRaceEvent";
 import { getFormulasActive } from "../data/formulas";
 import type { Formula } from "../types/Formula";
-import type { CalendarRaw } from "../types/CalendarRaw";
+import type { RawRaceCal } from "../types/RawRaceCal";
 import type { RaceCal } from "../types/RaceCal";
 import type { RaceEvent, CalendarEventType } from "../types/RaceEvent";
 import type { RaceEventSession } from "../types/RaceEventSession";
@@ -44,21 +44,29 @@ function buildSession(
   timeZone: string,
   errors: string[],
 ): RaceEventSession {
-  const dateOpts = { zone: timeZone };
+  // Check if times are TBC
+  const startTimeTBC = s.localStartTime === "TBC" || !s.localStartTime;
+  const endTimeTBC = s.localEndTime === "TBC" || !s.localEndTime;
+  const tbc = startTimeTBC || endTimeTBC;
 
-  const startDt = parseDateTime(s.day, s.month, s.startTime, year, timeZone);
-  const endDt = parseDateTime(s.day, s.month, s.endTime, year, timeZone);
+  // Use 12:00 as default for TBC times
+  const startTime = startTimeTBC ? "12:00" : s.localStartTime;
+  const endTime = endTimeTBC ? "12:00" : s.localEndTime;
 
-  const startDateTime = startDt ? DateTime.fromISO(startDt, dateOpts).toUTC().toISO() : null;
-  let endDateTime = endDt ? DateTime.fromISO(endDt, dateOpts).toUTC().toISO() : null;
-  const localStartTime = startDt ? DateTime.fromISO(startDt, dateOpts).toISO() : null;
-  let localEndTime = endDt ? DateTime.fromISO(endDt, dateOpts).toISO() : null;
+  // Parse localDate and times using Luxon
+  const startDt = DateTime.fromFormat(`${s.localDate} ${startTime}`, "yyyy-MM-dd HH:mm", { zone: timeZone });
+  const endDt = DateTime.fromFormat(`${s.localDate} ${endTime}`, "yyyy-MM-dd HH:mm", { zone: timeZone });
+
+  let startDateTime = startDt.isValid ? startDt.toUTC().toISO() : null;
+  let endDateTime = endDt.isValid ? endDt.toUTC().toISO() : null;
+  let localStartTime = startDt.isValid ? startDt.toISO() : null;
+  let localEndTime = endDt.isValid ? endDt.toISO() : null;
 
   // if end times are missing but start exists, default end = start + 2 hours
-  if (startDt && (!endDateTime || !localEndTime)) {
-    const endLocal = DateTime.fromISO(startDt, dateOpts).plus({ hours: 2 });
-    if (!localEndTime) localEndTime = endLocal.toISO();
-    if (!endDateTime) endDateTime = endLocal.toUTC().toISO();
+  if (startDateTime && !endDateTime) {
+    const endLocal = startDt.plus({ hours: 2 });
+    localEndTime = endLocal.toISO();
+    endDateTime = endLocal.toUTC().toISO();
   }
 
   const sessionSlug = slugify(s.name);
@@ -82,6 +90,7 @@ function buildSession(
     endDateTime,
     localStartTime,
     localEndTime,
+    tbc: tbc,
   };
 }
 
@@ -114,7 +123,7 @@ function buildEvent(
   formula: Formula,
   year: number,
   calendarKey: string,
-  calendarRaw: CalendarRaw,
+  calendarRaw: RawRaceCal,
   errors: string[],
 ): RaceEvent | null {
   const typeRaw = (raw.type || "").toString().trim();
@@ -170,7 +179,7 @@ function buildEvent(
     const eventRawPath = path.join(VARS.DIR_DATA, formula.slug, String(year), "raw", `${raw.slug}.json`);
     if (fs.existsSync(eventRawPath)) {
       const rawContent = fs.readFileSync(eventRawPath, "utf8");
-      const eventRaw = JSON.parse(rawContent) as EventRaw;
+      const eventRaw = JSON.parse(rawContent) as RawRaceEvent;
       event.nameMedium = eventRaw.nameMedium;
       if (Array.isArray(eventRaw.data)) {
         event.sessions = eventRaw.data.map((s, i) => buildSession(s, i, raw, formula, year, calendarKey, circuit.timeZone, errors));
@@ -204,7 +213,7 @@ function parseCalendar(): void {
         if (fs.existsSync(calendarJsonPath)) {
           try {
             const raw = fs.readFileSync(calendarJsonPath, "utf8");
-            const calendarRaw = JSON.parse(raw) as CalendarRaw;
+            const calendarRaw = JSON.parse(raw) as RawRaceCal;
 
             const calendarKey = `${formula.slug}_${year}`;
 

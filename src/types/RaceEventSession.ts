@@ -8,4 +8,5 @@ export interface RaceEventSession {
   localStartTime: string;
   localEndTime: string;
   slug: string;
+  tbc: boolean;
 }
