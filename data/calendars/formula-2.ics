@@ -1,0 +1,1334 @@
+BEGIN:VCALENDAR
+PRODID:-//E-DIARY//E-DIARY 1.0//EN
+VERSION:2.0
+METHOD:PUBLISH
+X-WR-CALNAME:Formula 2
+X-Built-On-Cache-Miss:true
+BEGIN:VEVENT
+LAST-MODIFIED:20260119T121351Z
+DTSTAMP:20260119T121351Z
+LOCATION:Belgium
+X-ECAL-SCHEDULE:642bc08b75bca3000d6b659a
+DTSTART;VALUE=DATE:20260717
+DTEND;VALUE=DATE:20260718
+SUMMARY:🏎️ FIA FORMULA 2: The Championship Belgium 2026 (TBC)
+TRANSP:TRANSPARENT
+SEQUENCE:0
+UID:696a734d647d150002e15ca6
+PRIORITY:5
+X-MICROSOFT-CDO-IMPORTANCE:1
+CLASS:PUBLIC
+DESCRIPTION:Follow all the action on F1 TV and fiaformula2.com\n\nThe date 
+ and time of this event are to be confirmed.\n\nFollow on the go with F1 TV\
+ nhttps://cal.f2fia.com/f/2b7Gm8/3nNvp\n\nVisit the Race Hub\nhttps://cal.f2
+ fia.com/f/2b7Gm9/3nNvp\n\nFree sign up to F1 Unlocked\nhttps://cal.f2fia.co
+ m/f/2b7Gmb/3nNvp\n\nManage my ECAL\nhttps://cal.f2fia.com/f/2b7Gmf/3nNvp\n\
+ n
+BEGIN:VALARM
+TRIGGER:-PT30M
+ACTION:DISPLAY
+DESCRIPTION:Reminder
+END:VALARM
+BEGIN:VALARM
+TRIGGER:-PT5M
+ACTION:DISPLAY
+DESCRIPTION:Reminder
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+LAST-MODIFIED:20260119T121351Z
+DTSTAMP:20260119T121351Z
+LOCATION:Great Britain
+X-ECAL-SCHEDULE:642bc08b75bca3000d6b659a
+DTSTART;VALUE=DATE:20260705
+DTEND;VALUE=DATE:20260706
+SUMMARY:🏎️ FIA FORMULA 2: The Championship Great Britain 2026 (TBC)
+TRANSP:TRANSPARENT
+SEQUENCE:0
+UID:696a734d647d150002e15ca5
+PRIORITY:5
+X-MICROSOFT-CDO-IMPORTANCE:1
+CLASS:PUBLIC
+DESCRIPTION:Follow all the action on F1 TV and fiaformula2.com\n\nThe date 
+ and time of this event are to be confirmed.\n\nFollow on the go with F1 TV\
+ nhttps://cal.f2fia.com/f/2b7Gmg/3nNvp\n\nVisit the Race Hub\nhttps://cal.f2
+ fia.com/f/2b7Gmh/3nNvp\n\nFree sign up to F1 Unlocked\nhttps://cal.f2fia.co
+ m/f/2b7Gmj/3nNvp\n\nManage my ECAL\nhttps://cal.f2fia.com/f/2b7Gmm/3nNvp\n\
+ n
+BEGIN:VALARM
+TRIGGER:-PT30M
+ACTION:DISPLAY
+DESCRIPTION:Reminder
+END:VALARM
+BEGIN:VALARM
+TRIGGER:-PT5M
+ACTION:DISPLAY
+DESCRIPTION:Reminder
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+LAST-MODIFIED:20260119T121351Z
+DTSTAMP:20260119T121351Z
+LOCATION:Great Britain
+X-ECAL-SCHEDULE:642bc08b75bca3000d6b659a
+DTSTART;VALUE=DATE:20260704
+DTEND;VALUE=DATE:20260705
+SUMMARY:🏎️ FIA FORMULA 2: The Championship Great Britain 2026 (TBC)
+TRANSP:TRANSPARENT
+SEQUENCE:0
+UID:696a734d647d150002e15ca4
+PRIORITY:5
+X-MICROSOFT-CDO-IMPORTANCE:1
+CLASS:PUBLIC
+DESCRIPTION:Follow all the action on F1 TV and fiaformula2.com\n\nThe date 
+ and time of this event are to be confirmed.\n\nFollow on the go with F1 TV\
+ nhttps://cal.f2fia.com/f/2b7Gmn/3nNvp\n\nVisit the Race Hub\nhttps://cal.f2
+ fia.com/f/2b7Gmp/3nNvp\n\nFree sign up to F1 Unlocked\nhttps://cal.f2fia.co
+ m/f/2b7Gmq/3nNvp\n\nManage my ECAL\nhttps://cal.f2fia.com/f/2b7Gmt/3nNvp\n\
+ n
+BEGIN:VALARM
+TRIGGER:-PT30M
+ACTION:DISPLAY
+DESCRIPTION:Reminder
+END:VALARM
+BEGIN:VALARM
+TRIGGER:-PT5M
+ACTION:DISPLAY
+DESCRIPTION:Reminder
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+LAST-MODIFIED:20260119T121351Z
+DTSTAMP:20260119T121351Z
+LOCATION:Great Britain
+X-ECAL-SCHEDULE:642bc08b75bca3000d6b659a
+DTSTART;VALUE=DATE:20260703
+DTEND;VALUE=DATE:20260704
+SUMMARY:🏎️ FIA FORMULA 2: The Championship Great Britain 2026 (TBC)
+TRANSP:TRANSPARENT
+SEQUENCE:0
+UID:696a734d647d150002e15ca3
+PRIORITY:5
+X-MICROSOFT-CDO-IMPORTANCE:1
+CLASS:PUBLIC
+DESCRIPTION:Follow all the action on F1 TV and fiaformula2.com\n\nThe date 
+ and time of this event are to be confirmed.\n\nFollow on the go with F1 TV\
+ nhttps://cal.f2fia.com/f/2b7Gmv/3nNvp\n\nVisit the Race Hub\nhttps://cal.f2
+ fia.com/f/2b7Gmw/3nNvp\n\nFree sign up to F1 Unlocked\nhttps://cal.f2fia.co
+ m/f/2b7Gmx/3nNvp\n\nManage my ECAL\nhttps://cal.f2fia.com/f/2b7GmB/3nNvp\n\
+ n
+BEGIN:VALARM
+TRIGGER:-PT30M
+ACTION:DISPLAY
+DESCRIPTION:Reminder
+END:VALARM
+BEGIN:VALARM
+TRIGGER:-PT5M
+ACTION:DISPLAY
+DESCRIPTION:Reminder
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+LAST-MODIFIED:20260119T121351Z
+DTSTAMP:20260119T121351Z
+LOCATION:Austria
+X-ECAL-SCHEDULE:642bc08b75bca3000d6b659a
+DTSTART;VALUE=DATE:20260628
+DTEND;VALUE=DATE:20260629
+SUMMARY:🏎️ FIA FORMULA 2: The Championship Austria 2026 (TBC)
+TRANSP:TRANSPARENT
+SEQUENCE:0
+UID:696a734d647d150002e15ca2
+PRIORITY:5
+X-MICROSOFT-CDO-IMPORTANCE:1
+CLASS:PUBLIC
+DESCRIPTION:Follow all the action on F1 TV and fiaformula2.com\n\nThe date 
+ and time of this event are to be confirmed.\n\nFollow on the go with F1 TV\
+ nhttps://cal.f2fia.com/f/2b7GmC/3nNvp\n\nVisit the Race Hub\nhttps://cal.f2
+ fia.com/f/2b7GmD/3nNvp\n\nFree sign up to F1 Unlocked\nhttps://cal.f2fia.co
+ m/f/2b7GmF/3nNvp\n\nManage my ECAL\nhttps://cal.f2fia.com/f/2b7GmJ/3nNvp\n\
+ n
+BEGIN:VALARM
+TRIGGER:-PT30M
+ACTION:DISPLAY
+DESCRIPTION:Reminder
+END:VALARM
+BEGIN:VALARM
+TRIGGER:-PT5M
+ACTION:DISPLAY
+DESCRIPTION:Reminder
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+LAST-MODIFIED:20260119T121351Z
+DTSTAMP:20260119T121351Z
+LOCATION:Austria
+X-ECAL-SCHEDULE:642bc08b75bca3000d6b659a
+DTSTART;VALUE=DATE:20260627
+DTEND;VALUE=DATE:20260628
+SUMMARY:🏎️ FIA FORMULA 2: The Championship Austria 2026 (TBC)
+TRANSP:TRANSPARENT
+SEQUENCE:0
+UID:696a734d647d150002e15ca1
+PRIORITY:5
+X-MICROSOFT-CDO-IMPORTANCE:1
+CLASS:PUBLIC
+DESCRIPTION:Follow all the action on F1 TV and fiaformula2.com\n\nThe date 
+ and time of this event are to be confirmed.\n\nFollow on the go with F1 TV\
+ nhttps://cal.f2fia.com/f/2b7GmK/3nNvp\n\nVisit the Race Hub\nhttps://cal.f2
+ fia.com/f/2b7GmL/3nNvp\n\nFree sign up to F1 Unlocked\nhttps://cal.f2fia.co
+ m/f/2b7GmM/3nNvp\n\nManage my ECAL\nhttps://cal.f2fia.com/f/2b7GmQ/3nNvp\n\
+ n
+BEGIN:VALARM
+TRIGGER:-PT30M
+ACTION:DISPLAY
+DESCRIPTION:Reminder
+END:VALARM
+BEGIN:VALARM
+TRIGGER:-PT5M
+ACTION:DISPLAY
+DESCRIPTION:Reminder
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+LAST-MODIFIED:20260119T121351Z
+DTSTAMP:20260119T121351Z
+LOCATION:Austria
+X-ECAL-SCHEDULE:642bc08b75bca3000d6b659a
+DTSTART;VALUE=DATE:20260626
+DTEND;VALUE=DATE:20260627
+SUMMARY:🏎️ FIA FORMULA 2: The Championship Austria 2026 (TBC)
+TRANSP:TRANSPARENT
+SEQUENCE:0
+UID:696a734d647d150002e15ca0
+PRIORITY:5
+X-MICROSOFT-CDO-IMPORTANCE:1
+CLASS:PUBLIC
+DESCRIPTION:Follow all the action on F1 TV and fiaformula2.com\n\nThe date 
+ and time of this event are to be confirmed.\n\nFollow on the go with F1 TV\
+ nhttps://cal.f2fia.com/f/2b7GmR/3nNvp\n\nVisit the Race Hub\nhttps://cal.f2
+ fia.com/f/2b7GmS/3nNvp\n\nFree sign up to F1 Unlocked\nhttps://cal.f2fia.co
+ m/f/2b7GmT/3nNvp\n\nManage my ECAL\nhttps://cal.f2fia.com/f/2b7GmX/3nNvp\n\
+ n
+BEGIN:VALARM
+TRIGGER:-PT30M
+ACTION:DISPLAY
+DESCRIPTION:Reminder
+END:VALARM
+BEGIN:VALARM
+TRIGGER:-PT5M
+ACTION:DISPLAY
+DESCRIPTION:Reminder
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+LAST-MODIFIED:20260119T121351Z
+DTSTAMP:20260119T121351Z
+LOCATION:Barcelona
+X-ECAL-SCHEDULE:642bc08b75bca3000d6b659a
+DTSTART;VALUE=DATE:20260614
+DTEND;VALUE=DATE:20260615
+SUMMARY:🏎️ FIA FORMULA 2: The Championship Barcelona 2026 (TBC)
+TRANSP:TRANSPARENT
+SEQUENCE:0
+UID:696a734d647d150002e15c9f
+PRIORITY:5
+X-MICROSOFT-CDO-IMPORTANCE:1
+CLASS:PUBLIC
+DESCRIPTION:Follow all the action on F1 TV and fiaformula2.com\n\nThe date 
+ and time of this event are to be confirmed.\n\nFollow on the go with F1 TV\
+ nhttps://cal.f2fia.com/f/2b7GmY/3nNvp\n\nVisit the Race Hub\nhttps://cal.f2
+ fia.com/f/2b7GmZ/3nNvp\n\nFree sign up to F1 Unlocked\nhttps://cal.f2fia.co
+ m/f/2b7Gn1/3nNvp\n\nManage my ECAL\nhttps://cal.f2fia.com/f/2b7Gn4/3nNvp\n\
+ n
+BEGIN:VALARM
+TRIGGER:-PT30M
+ACTION:DISPLAY
+DESCRIPTION:Reminder
+END:VALARM
+BEGIN:VALARM
+TRIGGER:-PT5M
+ACTION:DISPLAY
+DESCRIPTION:Reminder
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+LAST-MODIFIED:20260119T121351Z
+DTSTAMP:20260119T121351Z
+LOCATION:Barcelona
+X-ECAL-SCHEDULE:642bc08b75bca3000d6b659a
+DTSTART;VALUE=DATE:20260613
+DTEND;VALUE=DATE:20260614
+SUMMARY:🏎️ FIA FORMULA 2: The Championship Barcelona 2026 (TBC)
+TRANSP:TRANSPARENT
+SEQUENCE:0
+UID:696a734d647d150002e15c9e
+PRIORITY:5
+X-MICROSOFT-CDO-IMPORTANCE:1
+CLASS:PUBLIC
+DESCRIPTION:Follow all the action on F1 TV and fiaformula2.com\n\nThe date 
+ and time of this event are to be confirmed.\n\nFollow on the go with F1 TV\
+ nhttps://cal.f2fia.com/f/2b7Gn5/3nNvp\n\nVisit the Race Hub\nhttps://cal.f2
+ fia.com/f/2b7Gn6/3nNvp\n\nFree sign up to F1 Unlocked\nhttps://cal.f2fia.co
+ m/f/2b7Gn7/3nNvp\n\nManage my ECAL\nhttps://cal.f2fia.com/f/2b7Gnb/3nNvp\n\
+ n
+BEGIN:VALARM
+TRIGGER:-PT30M
+ACTION:DISPLAY
+DESCRIPTION:Reminder
+END:VALARM
+BEGIN:VALARM
+TRIGGER:-PT5M
+ACTION:DISPLAY
+DESCRIPTION:Reminder
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+LAST-MODIFIED:20260119T121351Z
+DTSTAMP:20260119T121351Z
+LOCATION:Barcelona
+X-ECAL-SCHEDULE:642bc08b75bca3000d6b659a
+DTSTART;VALUE=DATE:20260612
+DTEND;VALUE=DATE:20260613
+SUMMARY:🏎️ FIA FORMULA 2: The Championship Barcelona 2026 (TBC)
+TRANSP:TRANSPARENT
+SEQUENCE:0
+UID:696a734d647d150002e15c9d
+PRIORITY:5
+X-MICROSOFT-CDO-IMPORTANCE:1
+CLASS:PUBLIC
+DESCRIPTION:Follow all the action on F1 TV and fiaformula2.com\n\nThe date 
+ and time of this event are to be confirmed.\n\nFollow on the go with F1 TV\
+ nhttps://cal.f2fia.com/f/2b7Gnc/3nNvp\n\nVisit the Race Hub\nhttps://cal.f2
+ fia.com/f/2b7Gnd/3nNvp\n\nFree sign up to F1 Unlocked\nhttps://cal.f2fia.co
+ m/f/2b7Gnf/3nNvp\n\nManage my ECAL\nhttps://cal.f2fia.com/f/2b7Gnj/3nNvp\n\
+ n
+BEGIN:VALARM
+TRIGGER:-PT30M
+ACTION:DISPLAY
+DESCRIPTION:Reminder
+END:VALARM
+BEGIN:VALARM
+TRIGGER:-PT5M
+ACTION:DISPLAY
+DESCRIPTION:Reminder
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+LAST-MODIFIED:20260119T121351Z
+DTSTAMP:20260119T121351Z
+LOCATION:Spain
+X-ECAL-SCHEDULE:642bc08b75bca3000d6b659a
+DTSTART;VALUE=DATE:20260912
+DTEND;VALUE=DATE:20260913
+SUMMARY:🏎️ FIA FORMULA 2: The Championship Spain 2026 (TBC)
+TRANSP:TRANSPARENT
+SEQUENCE:0
+UID:696a734d647d150002e15cb0
+PRIORITY:5
+X-MICROSOFT-CDO-IMPORTANCE:1
+CLASS:PUBLIC
+DESCRIPTION:Follow all the action on F1 TV and fiaformula2.com\n\nThe date 
+ and time of this event are to be confirmed.\n\nFollow on the go with F1 TV\
+ nhttps://cal.f2fia.com/f/2b7Gnk/3nNvp\n\nVisit the Race Hub\nhttps://cal.f2
+ fia.com/f/2b7Gnl/3nNvp\n\nFree sign up to F1 Unlocked\nhttps://cal.f2fia.co
+ m/f/2b7Gnm/3nNvp\n\nManage my ECAL\nhttps://cal.f2fia.com/f/2b7Gnq/3nNvp\n\
+ n
+BEGIN:VALARM
+TRIGGER:-PT30M
+ACTION:DISPLAY
+DESCRIPTION:Reminder
+END:VALARM
+BEGIN:VALARM
+TRIGGER:-PT5M
+ACTION:DISPLAY
+DESCRIPTION:Reminder
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+LAST-MODIFIED:20260119T121351Z
+DTSTAMP:20260119T121351Z
+LOCATION:Spain
+X-ECAL-SCHEDULE:642bc08b75bca3000d6b659a
+DTSTART;VALUE=DATE:20260911
+DTEND;VALUE=DATE:20260912
+SUMMARY:🏎️ FIA FORMULA 2: The Championship Spain 2026 (TBC)
+TRANSP:TRANSPARENT
+SEQUENCE:0
+UID:696a734d647d150002e15caf
+PRIORITY:5
+X-MICROSOFT-CDO-IMPORTANCE:1
+CLASS:PUBLIC
+DESCRIPTION:Follow all the action on F1 TV and fiaformula2.com\n\nThe date 
+ and time of this event are to be confirmed.\n\nFollow on the go with F1 TV\
+ nhttps://cal.f2fia.com/f/2b7Gnr/3nNvp\n\nVisit the Race Hub\nhttps://cal.f2
+ fia.com/f/2b7Gns/3nNvp\n\nFree sign up to F1 Unlocked\nhttps://cal.f2fia.co
+ m/f/2b7Gnt/3nNvp\n\nManage my ECAL\nhttps://cal.f2fia.com/f/2b7Gnx/3nNvp\n\
+ n
+BEGIN:VALARM
+TRIGGER:-PT30M
+ACTION:DISPLAY
+DESCRIPTION:Reminder
+END:VALARM
+BEGIN:VALARM
+TRIGGER:-PT5M
+ACTION:DISPLAY
+DESCRIPTION:Reminder
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+LAST-MODIFIED:20260119T121351Z
+DTSTAMP:20260119T121351Z
+LOCATION:Italy
+X-ECAL-SCHEDULE:642bc08b75bca3000d6b659a
+DTSTART;VALUE=DATE:20260906
+DTEND;VALUE=DATE:20260907
+SUMMARY:🏎️ FIA FORMULA 2: The Championship Italy 2026 (TBC)
+TRANSP:TRANSPARENT
+SEQUENCE:0
+UID:696a734d647d150002e15cae
+PRIORITY:5
+X-MICROSOFT-CDO-IMPORTANCE:1
+CLASS:PUBLIC
+DESCRIPTION:Follow all the action on F1 TV and fiaformula2.com\n\nThe date 
+ and time of this event are to be confirmed.\n\nFollow on the go with F1 TV\
+ nhttps://cal.f2fia.com/f/2b7Gny/3nNvp\n\nVisit the Race Hub\nhttps://cal.f2
+ fia.com/f/2b7Gnz/3nNvp\n\nFree sign up to F1 Unlocked\nhttps://cal.f2fia.co
+ m/f/2b7GnB/3nNvp\n\nManage my ECAL\nhttps://cal.f2fia.com/f/2b7GnF/3nNvp\n\
+ n
+BEGIN:VALARM
+TRIGGER:-PT30M
+ACTION:DISPLAY
+DESCRIPTION:Reminder
+END:VALARM
+BEGIN:VALARM
+TRIGGER:-PT5M
+ACTION:DISPLAY
+DESCRIPTION:Reminder
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+LAST-MODIFIED:20260119T121351Z
+DTSTAMP:20260119T121351Z
+LOCATION:Italy
+X-ECAL-SCHEDULE:642bc08b75bca3000d6b659a
+DTSTART;VALUE=DATE:20260905
+DTEND;VALUE=DATE:20260906
+SUMMARY:🏎️ FIA FORMULA 2: The Championship Italy 2026 (TBC)
+TRANSP:TRANSPARENT
+SEQUENCE:0
+UID:696a734d647d150002e15cad
+PRIORITY:5
+X-MICROSOFT-CDO-IMPORTANCE:1
+CLASS:PUBLIC
+DESCRIPTION:Follow all the action on F1 TV and fiaformula2.com\n\nThe date 
+ and time of this event are to be confirmed.\n\nFollow on the go with F1 TV\
+ nhttps://cal.f2fia.com/f/2b7GnG/3nNvp\n\nVisit the Race Hub\nhttps://cal.f2
+ fia.com/f/2b7GnH/3nNvp\n\nFree sign up to F1 Unlocked\nhttps://cal.f2fia.co
+ m/f/2b7GnJ/3nNvp\n\nManage my ECAL\nhttps://cal.f2fia.com/f/2b7GnM/3nNvp\n\
+ n
+BEGIN:VALARM
+TRIGGER:-PT30M
+ACTION:DISPLAY
+DESCRIPTION:Reminder
+END:VALARM
+BEGIN:VALARM
+TRIGGER:-PT5M
+ACTION:DISPLAY
+DESCRIPTION:Reminder
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+LAST-MODIFIED:20260119T121351Z
+DTSTAMP:20260119T121351Z
+LOCATION:Italy
+X-ECAL-SCHEDULE:642bc08b75bca3000d6b659a
+DTSTART;VALUE=DATE:20260904
+DTEND;VALUE=DATE:20260905
+SUMMARY:🏎️ FIA FORMULA 2: The Championship Italy 2026 (TBC)
+TRANSP:TRANSPARENT
+SEQUENCE:0
+UID:696a734d647d150002e15cac
+PRIORITY:5
+X-MICROSOFT-CDO-IMPORTANCE:1
+CLASS:PUBLIC
+DESCRIPTION:Follow all the action on F1 TV and fiaformula2.com\n\nThe date 
+ and time of this event are to be confirmed.\n\nFollow on the go with F1 TV\
+ nhttps://cal.f2fia.com/f/2b7GnN/3nNvp\n\nVisit the Race Hub\nhttps://cal.f2
+ fia.com/f/2b7GnP/3nNvp\n\nFree sign up to F1 Unlocked\nhttps://cal.f2fia.co
+ m/f/2b7GnQ/3nNvp\n\nManage my ECAL\nhttps://cal.f2fia.com/f/2b7GnT/3nNvp\n\
+ n
+BEGIN:VALARM
+TRIGGER:-PT30M
+ACTION:DISPLAY
+DESCRIPTION:Reminder
+END:VALARM
+BEGIN:VALARM
+TRIGGER:-PT5M
+ACTION:DISPLAY
+DESCRIPTION:Reminder
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+LAST-MODIFIED:20260119T121351Z
+DTSTAMP:20260119T121351Z
+LOCATION:Hungary
+X-ECAL-SCHEDULE:642bc08b75bca3000d6b659a
+DTSTART;VALUE=DATE:20260726
+DTEND;VALUE=DATE:20260727
+SUMMARY:🏎️ FIA FORMULA 2: The Championship Hungary 2026 (TBC)
+TRANSP:TRANSPARENT
+SEQUENCE:0
+UID:696a734d647d150002e15cab
+PRIORITY:5
+X-MICROSOFT-CDO-IMPORTANCE:1
+CLASS:PUBLIC
+DESCRIPTION:Follow all the action on F1 TV and fiaformula2.com\n\nThe date 
+ and time of this event are to be confirmed.\n\nFollow on the go with F1 TV\
+ nhttps://cal.f2fia.com/f/2b7GnV/3nNvp\n\nVisit the Race Hub\nhttps://cal.f2
+ fia.com/f/2b7GnW/3nNvp\n\nFree sign up to F1 Unlocked\nhttps://cal.f2fia.co
+ m/f/2b7GnX/3nNvp\n\nManage my ECAL\nhttps://cal.f2fia.com/f/2b7Gp1/3nNvp\n\
+ n
+BEGIN:VALARM
+TRIGGER:-PT30M
+ACTION:DISPLAY
+DESCRIPTION:Reminder
+END:VALARM
+BEGIN:VALARM
+TRIGGER:-PT5M
+ACTION:DISPLAY
+DESCRIPTION:Reminder
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+LAST-MODIFIED:20260119T121351Z
+DTSTAMP:20260119T121351Z
+LOCATION:Hungary
+X-ECAL-SCHEDULE:642bc08b75bca3000d6b659a
+DTSTART;VALUE=DATE:20260725
+DTEND;VALUE=DATE:20260726
+SUMMARY:🏎️ FIA FORMULA 2: The Championship Hungary 2026 (TBC)
+TRANSP:TRANSPARENT
+SEQUENCE:0
+UID:696a734d647d150002e15caa
+PRIORITY:5
+X-MICROSOFT-CDO-IMPORTANCE:1
+CLASS:PUBLIC
+DESCRIPTION:Follow all the action on F1 TV and fiaformula2.com\n\nThe date 
+ and time of this event are to be confirmed.\n\nFollow on the go with F1 TV\
+ nhttps://cal.f2fia.com/f/2b7Gp2/3nNvp\n\nVisit the Race Hub\nhttps://cal.f2
+ fia.com/f/2b7Gp3/3nNvp\n\nFree sign up to F1 Unlocked\nhttps://cal.f2fia.co
+ m/f/2b7Gp4/3nNvp\n\nManage my ECAL\nhttps://cal.f2fia.com/f/2b7Gp7/3nNvp\n\
+ n
+BEGIN:VALARM
+TRIGGER:-PT30M
+ACTION:DISPLAY
+DESCRIPTION:Reminder
+END:VALARM
+BEGIN:VALARM
+TRIGGER:-PT5M
+ACTION:DISPLAY
+DESCRIPTION:Reminder
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+LAST-MODIFIED:20260119T121351Z
+DTSTAMP:20260119T121351Z
+LOCATION:Hungary
+X-ECAL-SCHEDULE:642bc08b75bca3000d6b659a
+DTSTART;VALUE=DATE:20260724
+DTEND;VALUE=DATE:20260725
+SUMMARY:🏎️ FIA FORMULA 2: The Championship Hungary 2026 (TBC)
+TRANSP:TRANSPARENT
+SEQUENCE:0
+UID:696a734d647d150002e15ca9
+PRIORITY:5
+X-MICROSOFT-CDO-IMPORTANCE:1
+CLASS:PUBLIC
+DESCRIPTION:Follow all the action on F1 TV and fiaformula2.com\n\nThe date 
+ and time of this event are to be confirmed.\n\nFollow on the go with F1 TV\
+ nhttps://cal.f2fia.com/f/2b7Gp8/3nNvp\n\nVisit the Race Hub\nhttps://cal.f2
+ fia.com/f/2b7Gp9/3nNvp\n\nFree sign up to F1 Unlocked\nhttps://cal.f2fia.co
+ m/f/2b7Gpb/3nNvp\n\nManage my ECAL\nhttps://cal.f2fia.com/f/2b7Gpf/3nNvp\n\
+ n
+BEGIN:VALARM
+TRIGGER:-PT30M
+ACTION:DISPLAY
+DESCRIPTION:Reminder
+END:VALARM
+BEGIN:VALARM
+TRIGGER:-PT5M
+ACTION:DISPLAY
+DESCRIPTION:Reminder
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+LAST-MODIFIED:20260119T121351Z
+DTSTAMP:20260119T121351Z
+LOCATION:Belgium
+X-ECAL-SCHEDULE:642bc08b75bca3000d6b659a
+DTSTART;VALUE=DATE:20260719
+DTEND;VALUE=DATE:20260720
+SUMMARY:🏎️ FIA FORMULA 2: The Championship Belgium 2026 (TBC)
+TRANSP:TRANSPARENT
+SEQUENCE:0
+UID:696a734d647d150002e15ca8
+PRIORITY:5
+X-MICROSOFT-CDO-IMPORTANCE:1
+CLASS:PUBLIC
+DESCRIPTION:Follow all the action on F1 TV and fiaformula2.com\n\nThe date 
+ and time of this event are to be confirmed.\n\nFollow on the go with F1 TV\
+ nhttps://cal.f2fia.com/f/2b7Gpg/3nNvp\n\nVisit the Race Hub\nhttps://cal.f2
+ fia.com/f/2b7Gph/3nNvp\n\nFree sign up to F1 Unlocked\nhttps://cal.f2fia.co
+ m/f/2b7Gpj/3nNvp\n\nManage my ECAL\nhttps://cal.f2fia.com/f/2b7Gpm/3nNvp\n\
+ n
+BEGIN:VALARM
+TRIGGER:-PT30M
+ACTION:DISPLAY
+DESCRIPTION:Reminder
+END:VALARM
+BEGIN:VALARM
+TRIGGER:-PT5M
+ACTION:DISPLAY
+DESCRIPTION:Reminder
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+LAST-MODIFIED:20260119T121351Z
+DTSTAMP:20260119T121351Z
+LOCATION:Belgium
+X-ECAL-SCHEDULE:642bc08b75bca3000d6b659a
+DTSTART;VALUE=DATE:20260718
+DTEND;VALUE=DATE:20260719
+SUMMARY:🏎️ FIA FORMULA 2: The Championship Belgium 2026 (TBC)
+TRANSP:TRANSPARENT
+SEQUENCE:0
+UID:696a734d647d150002e15ca7
+PRIORITY:5
+X-MICROSOFT-CDO-IMPORTANCE:1
+CLASS:PUBLIC
+DESCRIPTION:Follow all the action on F1 TV and fiaformula2.com\n\nThe date 
+ and time of this event are to be confirmed.\n\nFollow on the go with F1 TV\
+ nhttps://cal.f2fia.com/f/2b7Gpn/3nNvp\n\nVisit the Race Hub\nhttps://cal.f2
+ fia.com/f/2b7Gpp/3nNvp\n\nFree sign up to F1 Unlocked\nhttps://cal.f2fia.co
+ m/f/2b7Gpq/3nNvp\n\nManage my ECAL\nhttps://cal.f2fia.com/f/2b7Gpt/3nNvp\n\
+ n
+BEGIN:VALARM
+TRIGGER:-PT30M
+ACTION:DISPLAY
+DESCRIPTION:Reminder
+END:VALARM
+BEGIN:VALARM
+TRIGGER:-PT5M
+ACTION:DISPLAY
+DESCRIPTION:Reminder
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+LAST-MODIFIED:20260119T121351Z
+DTSTAMP:20260119T121351Z
+LOCATION:Abu Dhabi
+X-ECAL-SCHEDULE:642bc08b75bca3000d6b659a
+DTSTART;VALUE=DATE:20261206
+DTEND;VALUE=DATE:20261207
+SUMMARY:🏎️ FIA FORMULA 2: The Championship Abu Dhabi 2026 (TBC)
+TRANSP:TRANSPARENT
+SEQUENCE:0
+UID:696a734d647d150002e15cba
+PRIORITY:5
+X-MICROSOFT-CDO-IMPORTANCE:1
+CLASS:PUBLIC
+DESCRIPTION:Follow all the action on F1 TV and fiaformula2.com\n\nThe date 
+ and time of this event are to be confirmed.\n\nFollow on the go with F1 TV\
+ nhttps://cal.f2fia.com/f/2b7GkN/3nNvp\n\nVisit the Race Hub\nhttps://cal.f2
+ fia.com/f/2b7GkP/3nNvp\n\nFree sign up to F1 Unlocked\nhttps://cal.f2fia.co
+ m/f/2b7GkQ/3nNvp\n\nManage my ECAL\nhttps://cal.f2fia.com/f/2b7GkT/3nNvp\n\
+ n
+BEGIN:VALARM
+TRIGGER:-PT30M
+ACTION:DISPLAY
+DESCRIPTION:Reminder
+END:VALARM
+BEGIN:VALARM
+TRIGGER:-PT5M
+ACTION:DISPLAY
+DESCRIPTION:Reminder
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+LAST-MODIFIED:20260119T121351Z
+DTSTAMP:20260119T121351Z
+LOCATION:Abu Dhabi
+X-ECAL-SCHEDULE:642bc08b75bca3000d6b659a
+DTSTART;VALUE=DATE:20261205
+DTEND;VALUE=DATE:20261206
+SUMMARY:🏎️ FIA FORMULA 2: The Championship Abu Dhabi 2026 (TBC)
+TRANSP:TRANSPARENT
+SEQUENCE:0
+UID:696a734d647d150002e15cb9
+PRIORITY:5
+X-MICROSOFT-CDO-IMPORTANCE:1
+CLASS:PUBLIC
+DESCRIPTION:Follow all the action on F1 TV and fiaformula2.com\n\nThe date 
+ and time of this event are to be confirmed.\n\nFollow on the go with F1 TV\
+ nhttps://cal.f2fia.com/f/2b7GkV/3nNvp\n\nVisit the Race Hub\nhttps://cal.f2
+ fia.com/f/2b7GkW/3nNvp\n\nFree sign up to F1 Unlocked\nhttps://cal.f2fia.co
+ m/f/2b7GkX/3nNvp\n\nManage my ECAL\nhttps://cal.f2fia.com/f/2b7Gl1/3nNvp\n\
+ n
+BEGIN:VALARM
+TRIGGER:-PT30M
+ACTION:DISPLAY
+DESCRIPTION:Reminder
+END:VALARM
+BEGIN:VALARM
+TRIGGER:-PT5M
+ACTION:DISPLAY
+DESCRIPTION:Reminder
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+LAST-MODIFIED:20260119T121351Z
+DTSTAMP:20260119T121351Z
+LOCATION:Abu Dhabi
+X-ECAL-SCHEDULE:642bc08b75bca3000d6b659a
+DTSTART;VALUE=DATE:20261204
+DTEND;VALUE=DATE:20261205
+SUMMARY:🏎️ FIA FORMULA 2: The Championship Abu Dhabi 2026 (TBC)
+TRANSP:TRANSPARENT
+SEQUENCE:0
+UID:696a734d647d150002e15cb8
+PRIORITY:5
+X-MICROSOFT-CDO-IMPORTANCE:1
+CLASS:PUBLIC
+DESCRIPTION:Follow all the action on F1 TV and fiaformula2.com\n\nThe date 
+ and time of this event are to be confirmed.\n\nFollow on the go with F1 TV\
+ nhttps://cal.f2fia.com/f/2b7Gl2/3nNvp\n\nVisit the Race Hub\nhttps://cal.f2
+ fia.com/f/2b7Gl3/3nNvp\n\nFree sign up to F1 Unlocked\nhttps://cal.f2fia.co
+ m/f/2b7Gl4/3nNvp\n\nManage my ECAL\nhttps://cal.f2fia.com/f/2b7Gl7/3nNvp\n\
+ n
+BEGIN:VALARM
+TRIGGER:-PT30M
+ACTION:DISPLAY
+DESCRIPTION:Reminder
+END:VALARM
+BEGIN:VALARM
+TRIGGER:-PT5M
+ACTION:DISPLAY
+DESCRIPTION:Reminder
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+LAST-MODIFIED:20260119T121351Z
+DTSTAMP:20260119T121351Z
+LOCATION:Qatar
+X-ECAL-SCHEDULE:642bc08b75bca3000d6b659a
+DTSTART;VALUE=DATE:20261129
+DTEND;VALUE=DATE:20261130
+SUMMARY:🏎️ FIA FORMULA 2: The Championship Qatar 2026 (TBC)
+TRANSP:TRANSPARENT
+SEQUENCE:0
+UID:696a734d647d150002e15cb7
+PRIORITY:5
+X-MICROSOFT-CDO-IMPORTANCE:1
+CLASS:PUBLIC
+DESCRIPTION:Follow all the action on F1 TV and fiaformula2.com\n\nThe date 
+ and time of this event are to be confirmed.\n\nFollow on the go with F1 TV\
+ nhttps://cal.f2fia.com/f/2b7Gl8/3nNvp\n\nVisit the Race Hub\nhttps://cal.f2
+ fia.com/f/2b7Gl9/3nNvp\n\nFree sign up to F1 Unlocked\nhttps://cal.f2fia.co
+ m/f/2b7Glb/3nNvp\n\nManage my ECAL\nhttps://cal.f2fia.com/f/2b7Glf/3nNvp\n\
+ n
+BEGIN:VALARM
+TRIGGER:-PT30M
+ACTION:DISPLAY
+DESCRIPTION:Reminder
+END:VALARM
+BEGIN:VALARM
+TRIGGER:-PT5M
+ACTION:DISPLAY
+DESCRIPTION:Reminder
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+LAST-MODIFIED:20260119T121351Z
+DTSTAMP:20260119T121351Z
+LOCATION:Qatar
+X-ECAL-SCHEDULE:642bc08b75bca3000d6b659a
+DTSTART;VALUE=DATE:20261128
+DTEND;VALUE=DATE:20261129
+SUMMARY:🏎️ FIA FORMULA 2: The Championship Qatar 2026 (TBC)
+TRANSP:TRANSPARENT
+SEQUENCE:0
+UID:696a734d647d150002e15cb6
+PRIORITY:5
+X-MICROSOFT-CDO-IMPORTANCE:1
+CLASS:PUBLIC
+DESCRIPTION:Follow all the action on F1 TV and fiaformula2.com\n\nThe date 
+ and time of this event are to be confirmed.\n\nFollow on the go with F1 TV\
+ nhttps://cal.f2fia.com/f/2b7Glg/3nNvp\n\nVisit the Race Hub\nhttps://cal.f2
+ fia.com/f/2b7Glh/3nNvp\n\nFree sign up to F1 Unlocked\nhttps://cal.f2fia.co
+ m/f/2b7Glj/3nNvp\n\nManage my ECAL\nhttps://cal.f2fia.com/f/2b7Glm/3nNvp\n\
+ n
+BEGIN:VALARM
+TRIGGER:-PT30M
+ACTION:DISPLAY
+DESCRIPTION:Reminder
+END:VALARM
+BEGIN:VALARM
+TRIGGER:-PT5M
+ACTION:DISPLAY
+DESCRIPTION:Reminder
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+LAST-MODIFIED:20260119T121351Z
+DTSTAMP:20260119T121351Z
+LOCATION:Qatar
+X-ECAL-SCHEDULE:642bc08b75bca3000d6b659a
+DTSTART;VALUE=DATE:20261127
+DTEND;VALUE=DATE:20261128
+SUMMARY:🏎️ FIA FORMULA 2: The Championship Qatar 2026 (TBC)
+TRANSP:TRANSPARENT
+SEQUENCE:0
+UID:696a734d647d150002e15cb5
+PRIORITY:5
+X-MICROSOFT-CDO-IMPORTANCE:1
+CLASS:PUBLIC
+DESCRIPTION:Follow all the action on F1 TV and fiaformula2.com\n\nThe date 
+ and time of this event are to be confirmed.\n\nFollow on the go with F1 TV\
+ nhttps://cal.f2fia.com/f/2b7Gln/3nNvp\n\nVisit the Race Hub\nhttps://cal.f2
+ fia.com/f/2b7Glp/3nNvp\n\nFree sign up to F1 Unlocked\nhttps://cal.f2fia.co
+ m/f/2b7Glq/3nNvp\n\nManage my ECAL\nhttps://cal.f2fia.com/f/2b7Glt/3nNvp\n\
+ n
+BEGIN:VALARM
+TRIGGER:-PT30M
+ACTION:DISPLAY
+DESCRIPTION:Reminder
+END:VALARM
+BEGIN:VALARM
+TRIGGER:-PT5M
+ACTION:DISPLAY
+DESCRIPTION:Reminder
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+LAST-MODIFIED:20260119T121351Z
+DTSTAMP:20260119T121351Z
+LOCATION:Azerbaijan
+X-ECAL-SCHEDULE:642bc08b75bca3000d6b659a
+DTSTART;VALUE=DATE:20260926
+DTEND;VALUE=DATE:20260927
+SUMMARY:🏎️ FIA FORMULA 2: The Championship Azerbaijan 2026 (TBC)
+TRANSP:TRANSPARENT
+SEQUENCE:0
+UID:696a734d647d150002e15cb4
+PRIORITY:5
+X-MICROSOFT-CDO-IMPORTANCE:1
+CLASS:PUBLIC
+DESCRIPTION:Follow all the action on F1 TV and fiaformula2.com\n\nThe date 
+ and time of this event are to be confirmed.\n\nFollow on the go with F1 TV\
+ nhttps://cal.f2fia.com/f/2b7Glv/3nNvp\n\nVisit the Race Hub\nhttps://cal.f2
+ fia.com/f/2b7Glw/3nNvp\n\nFree sign up to F1 Unlocked\nhttps://cal.f2fia.co
+ m/f/2b7Glx/3nNvp\n\nManage my ECAL\nhttps://cal.f2fia.com/f/2b7GlB/3nNvp\n\
+ n
+BEGIN:VALARM
+TRIGGER:-PT30M
+ACTION:DISPLAY
+DESCRIPTION:Reminder
+END:VALARM
+BEGIN:VALARM
+TRIGGER:-PT5M
+ACTION:DISPLAY
+DESCRIPTION:Reminder
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+LAST-MODIFIED:20260119T121351Z
+DTSTAMP:20260119T121351Z
+LOCATION:Azerbaijan
+X-ECAL-SCHEDULE:642bc08b75bca3000d6b659a
+DTSTART;VALUE=DATE:20260925
+DTEND;VALUE=DATE:20260926
+SUMMARY:🏎️ FIA FORMULA 2: The Championship Azerbaijan 2026 (TBC)
+TRANSP:TRANSPARENT
+SEQUENCE:0
+UID:696a734d647d150002e15cb3
+PRIORITY:5
+X-MICROSOFT-CDO-IMPORTANCE:1
+CLASS:PUBLIC
+DESCRIPTION:Follow all the action on F1 TV and fiaformula2.com\n\nThe date 
+ and time of this event are to be confirmed.\n\nFollow on the go with F1 TV\
+ nhttps://cal.f2fia.com/f/2b7GlC/3nNvp\n\nVisit the Race Hub\nhttps://cal.f2
+ fia.com/f/2b7GlD/3nNvp\n\nFree sign up to F1 Unlocked\nhttps://cal.f2fia.co
+ m/f/2b7GlF/3nNvp\n\nManage my ECAL\nhttps://cal.f2fia.com/f/2b7GlJ/3nNvp\n\
+ n
+BEGIN:VALARM
+TRIGGER:-PT30M
+ACTION:DISPLAY
+DESCRIPTION:Reminder
+END:VALARM
+BEGIN:VALARM
+TRIGGER:-PT5M
+ACTION:DISPLAY
+DESCRIPTION:Reminder
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+LAST-MODIFIED:20260119T121351Z
+DTSTAMP:20260119T121351Z
+LOCATION:Azerbaijan
+X-ECAL-SCHEDULE:642bc08b75bca3000d6b659a
+DTSTART;VALUE=DATE:20260924
+DTEND;VALUE=DATE:20260925
+SUMMARY:🏎️ FIA FORMULA 2: The Championship Azerbaijan 2026 (TBC)
+TRANSP:TRANSPARENT
+SEQUENCE:0
+UID:696a734d647d150002e15cb2
+PRIORITY:5
+X-MICROSOFT-CDO-IMPORTANCE:1
+CLASS:PUBLIC
+DESCRIPTION:Follow all the action on F1 TV and fiaformula2.com\n\nThe date 
+ and time of this event are to be confirmed.\n\nFollow on the go with F1 TV\
+ nhttps://cal.f2fia.com/f/2b7GlK/3nNvp\n\nVisit the Race Hub\nhttps://cal.f2
+ fia.com/f/2b7GlL/3nNvp\n\nFree sign up to F1 Unlocked\nhttps://cal.f2fia.co
+ m/f/2b7GlM/3nNvp\n\nManage my ECAL\nhttps://cal.f2fia.com/f/2b7GlQ/3nNvp\n\
+ n
+BEGIN:VALARM
+TRIGGER:-PT30M
+ACTION:DISPLAY
+DESCRIPTION:Reminder
+END:VALARM
+BEGIN:VALARM
+TRIGGER:-PT5M
+ACTION:DISPLAY
+DESCRIPTION:Reminder
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+LAST-MODIFIED:20260119T121351Z
+DTSTAMP:20260119T121351Z
+LOCATION:Spain
+X-ECAL-SCHEDULE:642bc08b75bca3000d6b659a
+DTSTART;VALUE=DATE:20260913
+DTEND;VALUE=DATE:20260914
+SUMMARY:🏎️ FIA FORMULA 2: The Championship Spain 2026 (TBC)
+TRANSP:TRANSPARENT
+SEQUENCE:0
+UID:696a734d647d150002e15cb1
+PRIORITY:5
+X-MICROSOFT-CDO-IMPORTANCE:1
+CLASS:PUBLIC
+DESCRIPTION:Follow all the action on F1 TV and fiaformula2.com\n\nThe date 
+ and time of this event are to be confirmed.\n\nFollow on the go with F1 TV\
+ nhttps://cal.f2fia.com/f/2b7GlR/3nNvp\n\nVisit the Race Hub\nhttps://cal.f2
+ fia.com/f/2b7GlS/3nNvp\n\nFree sign up to F1 Unlocked\nhttps://cal.f2fia.co
+ m/f/2b7GlT/3nNvp\n\nManage my ECAL\nhttps://cal.f2fia.com/f/2b7GlX/3nNvp\n\
+ n
+BEGIN:VALARM
+TRIGGER:-PT30M
+ACTION:DISPLAY
+DESCRIPTION:Reminder
+END:VALARM
+BEGIN:VALARM
+TRIGGER:-PT5M
+ACTION:DISPLAY
+DESCRIPTION:Reminder
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+LAST-MODIFIED:20260119T121351Z
+DTSTAMP:20260119T121351Z
+LOCATION:Monaco
+X-ECAL-SCHEDULE:642bc08b75bca3000d6b659a
+DTSTART;VALUE=DATE:20260607
+DTEND;VALUE=DATE:20260608
+SUMMARY:🏎️ FIA FORMULA 2: The Championship Monaco 2026 (TBC)
+TRANSP:TRANSPARENT
+SEQUENCE:0
+UID:696a734d647d150002e15c9c
+PRIORITY:5
+X-MICROSOFT-CDO-IMPORTANCE:1
+CLASS:PUBLIC
+DESCRIPTION:Follow all the action on F1 TV and fiaformula2.com\n\nThe date 
+ and time of this event are to be confirmed.\n\nFollow on the go with F1 TV\
+ nhttps://cal.f2fia.com/f/2b7Gpv/3nNvp\n\nVisit the Race Hub\nhttps://cal.f2
+ fia.com/f/2b7Gpw/3nNvp\n\nFree sign up to F1 Unlocked\nhttps://cal.f2fia.co
+ m/f/2b7Gpx/3nNvp\n\nManage my ECAL\nhttps://cal.f2fia.com/f/2b7GpB/3nNvp\n\
+ n
+BEGIN:VALARM
+TRIGGER:-PT30M
+ACTION:DISPLAY
+DESCRIPTION:Reminder
+END:VALARM
+BEGIN:VALARM
+TRIGGER:-PT5M
+ACTION:DISPLAY
+DESCRIPTION:Reminder
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+LAST-MODIFIED:20260119T121351Z
+DTSTAMP:20260119T121351Z
+LOCATION:Monaco
+X-ECAL-SCHEDULE:642bc08b75bca3000d6b659a
+DTSTART;VALUE=DATE:20260606
+DTEND;VALUE=DATE:20260607
+SUMMARY:🏎️ FIA FORMULA 2: The Championship Monaco 2026 (TBC)
+TRANSP:TRANSPARENT
+SEQUENCE:0
+UID:696a734d647d150002e15c9b
+PRIORITY:5
+X-MICROSOFT-CDO-IMPORTANCE:1
+CLASS:PUBLIC
+DESCRIPTION:Follow all the action on F1 TV and fiaformula2.com\n\nThe date 
+ and time of this event are to be confirmed.\n\nFollow on the go with F1 TV\
+ nhttps://cal.f2fia.com/f/2b7GpC/3nNvp\n\nVisit the Race Hub\nhttps://cal.f2
+ fia.com/f/2b7GpD/3nNvp\n\nFree sign up to F1 Unlocked\nhttps://cal.f2fia.co
+ m/f/2b7GpF/3nNvp\n\nManage my ECAL\nhttps://cal.f2fia.com/f/2b7GpJ/3nNvp\n\
+ n
+BEGIN:VALARM
+TRIGGER:-PT30M
+ACTION:DISPLAY
+DESCRIPTION:Reminder
+END:VALARM
+BEGIN:VALARM
+TRIGGER:-PT5M
+ACTION:DISPLAY
+DESCRIPTION:Reminder
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+LAST-MODIFIED:20260119T121351Z
+DTSTAMP:20260119T121351Z
+LOCATION:Monaco
+X-ECAL-SCHEDULE:642bc08b75bca3000d6b659a
+DTSTART;VALUE=DATE:20260605
+DTEND;VALUE=DATE:20260606
+SUMMARY:🏎️ FIA FORMULA 2: The Championship Monaco 2026 (TBC)
+TRANSP:TRANSPARENT
+SEQUENCE:0
+UID:696a734d647d150002e15c9a
+PRIORITY:5
+X-MICROSOFT-CDO-IMPORTANCE:1
+CLASS:PUBLIC
+DESCRIPTION:Follow all the action on F1 TV and fiaformula2.com\n\nThe date 
+ and time of this event are to be confirmed.\n\nFollow on the go with F1 TV\
+ nhttps://cal.f2fia.com/f/2b7GpK/3nNvp\n\nVisit the Race Hub\nhttps://cal.f2
+ fia.com/f/2b7GpL/3nNvp\n\nFree sign up to F1 Unlocked\nhttps://cal.f2fia.co
+ m/f/2b7GpM/3nNvp\n\nManage my ECAL\nhttps://cal.f2fia.com/f/2b7GpQ/3nNvp\n\
+ n
+BEGIN:VALARM
+TRIGGER:-PT30M
+ACTION:DISPLAY
+DESCRIPTION:Reminder
+END:VALARM
+BEGIN:VALARM
+TRIGGER:-PT5M
+ACTION:DISPLAY
+DESCRIPTION:Reminder
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+LAST-MODIFIED:20260119T121351Z
+DTSTAMP:20260119T121351Z
+LOCATION:Saudi
+X-ECAL-SCHEDULE:642bc08b75bca3000d6b659a
+DTSTART;VALUE=DATE:20260419
+DTEND;VALUE=DATE:20260420
+SUMMARY:🏎️ FIA FORMULA 2: The Championship Saudi 2026 (TBC)
+TRANSP:TRANSPARENT
+SEQUENCE:0
+UID:696a734d647d150002e15c99
+PRIORITY:5
+X-MICROSOFT-CDO-IMPORTANCE:1
+CLASS:PUBLIC
+DESCRIPTION:Follow all the action on F1 TV and fiaformula2.com\n\nThe date 
+ and time of this event are to be confirmed.\n\nFollow on the go with F1 TV\
+ nhttps://cal.f2fia.com/f/2b7GpT/3nNvp\n\nVisit the Race Hub\nhttps://cal.f2
+ fia.com/f/2b7GpW/3nNvp\n\nFree sign up to F1 Unlocked\nhttps://cal.f2fia.co
+ m/f/2b7GpX/3nNvp\n\nManage my ECAL\nhttps://cal.f2fia.com/f/2b7Gq1/3nNvp\n\
+ n
+BEGIN:VALARM
+TRIGGER:-PT30M
+ACTION:DISPLAY
+DESCRIPTION:Reminder
+END:VALARM
+BEGIN:VALARM
+TRIGGER:-PT5M
+ACTION:DISPLAY
+DESCRIPTION:Reminder
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+LAST-MODIFIED:20260119T121351Z
+DTSTAMP:20260119T121351Z
+LOCATION:Saudi
+X-ECAL-SCHEDULE:642bc08b75bca3000d6b659a
+DTSTART;VALUE=DATE:20260418
+DTEND;VALUE=DATE:20260419
+SUMMARY:🏎️ FIA FORMULA 2: The Championship Saudi 2026 (TBC)
+TRANSP:TRANSPARENT
+SEQUENCE:0
+UID:696a734d647d150002e15c98
+PRIORITY:5
+X-MICROSOFT-CDO-IMPORTANCE:1
+CLASS:PUBLIC
+DESCRIPTION:Follow all the action on F1 TV and fiaformula2.com\n\nThe date 
+ and time of this event are to be confirmed.\n\nFollow on the go with F1 TV\
+ nhttps://cal.f2fia.com/f/2b7Gq2/3nNvp\n\nVisit the Race Hub\nhttps://cal.f2
+ fia.com/f/2b7Gq3/3nNvp\n\nFree sign up to F1 Unlocked\nhttps://cal.f2fia.co
+ m/f/2b7Gq4/3nNvp\n\nManage my ECAL\nhttps://cal.f2fia.com/f/2b7Gq7/3nNvp\n\
+ n
+BEGIN:VALARM
+TRIGGER:-PT30M
+ACTION:DISPLAY
+DESCRIPTION:Reminder
+END:VALARM
+BEGIN:VALARM
+TRIGGER:-PT5M
+ACTION:DISPLAY
+DESCRIPTION:Reminder
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+LAST-MODIFIED:20260119T121351Z
+DTSTAMP:20260119T121351Z
+LOCATION:Saudi
+X-ECAL-SCHEDULE:642bc08b75bca3000d6b659a
+DTSTART;VALUE=DATE:20260417
+DTEND;VALUE=DATE:20260418
+SUMMARY:🏎️ FIA FORMULA 2: The Championship Saudi 2026 (TBC)
+TRANSP:TRANSPARENT
+SEQUENCE:0
+UID:696a734d647d150002e15c97
+PRIORITY:5
+X-MICROSOFT-CDO-IMPORTANCE:1
+CLASS:PUBLIC
+DESCRIPTION:Follow all the action on F1 TV and fiaformula2.com\n\nThe date 
+ and time of this event are to be confirmed.\n\nFollow on the go with F1 TV\
+ nhttps://cal.f2fia.com/f/2b7Gq8/3nNvp\n\nVisit the Race Hub\nhttps://cal.f2
+ fia.com/f/2b7Gq9/3nNvp\n\nFree sign up to F1 Unlocked\nhttps://cal.f2fia.co
+ m/f/2b7Gqb/3nNvp\n\nManage my ECAL\nhttps://cal.f2fia.com/f/2b7Gqf/3nNvp\n\
+ n
+BEGIN:VALARM
+TRIGGER:-PT30M
+ACTION:DISPLAY
+DESCRIPTION:Reminder
+END:VALARM
+BEGIN:VALARM
+TRIGGER:-PT5M
+ACTION:DISPLAY
+DESCRIPTION:Reminder
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+LAST-MODIFIED:20260119T121351Z
+DTSTAMP:20260119T121351Z
+LOCATION:Bahrain
+X-ECAL-SCHEDULE:642bc08b75bca3000d6b659a
+DTSTART;VALUE=DATE:20260412
+DTEND;VALUE=DATE:20260413
+SUMMARY:🏎️ FIA FORMULA 2: The Championship Bahrain 2026 (TBC)
+TRANSP:TRANSPARENT
+SEQUENCE:0
+UID:696a734d647d150002e15c96
+PRIORITY:5
+X-MICROSOFT-CDO-IMPORTANCE:1
+CLASS:PUBLIC
+DESCRIPTION:Follow all the action on F1 TV and fiaformula2.com\n\nThe date 
+ and time of this event are to be confirmed.\n\nFollow on the go with F1 TV\
+ nhttps://cal.f2fia.com/f/2b7Gqg/3nNvp\n\nVisit the Race Hub\nhttps://cal.f2
+ fia.com/f/2b7Gqh/3nNvp\n\nFree sign up to F1 Unlocked\nhttps://cal.f2fia.co
+ m/f/2b7Gqj/3nNvp\n\nManage my ECAL\nhttps://cal.f2fia.com/f/2b7Gqm/3nNvp\n\
+ n
+BEGIN:VALARM
+TRIGGER:-PT30M
+ACTION:DISPLAY
+DESCRIPTION:Reminder
+END:VALARM
+BEGIN:VALARM
+TRIGGER:-PT5M
+ACTION:DISPLAY
+DESCRIPTION:Reminder
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+LAST-MODIFIED:20260119T121351Z
+DTSTAMP:20260119T121351Z
+LOCATION:Bahrain
+X-ECAL-SCHEDULE:642bc08b75bca3000d6b659a
+DTSTART;VALUE=DATE:20260411
+DTEND;VALUE=DATE:20260412
+SUMMARY:🏎️ FIA FORMULA 2: The Championship Bahrain 2026 (TBC)
+TRANSP:TRANSPARENT
+SEQUENCE:0
+UID:696a734d647d150002e15c95
+PRIORITY:5
+X-MICROSOFT-CDO-IMPORTANCE:1
+CLASS:PUBLIC
+DESCRIPTION:Follow all the action on F1 TV and fiaformula2.com\n\nThe date 
+ and time of this event are to be confirmed.\n\nFollow on the go with F1 TV\
+ nhttps://cal.f2fia.com/f/2b7Gqn/3nNvp\n\nVisit the Race Hub\nhttps://cal.f2
+ fia.com/f/2b7Gqp/3nNvp\n\nFree sign up to F1 Unlocked\nhttps://cal.f2fia.co
+ m/f/2b7Gqq/3nNvp\n\nManage my ECAL\nhttps://cal.f2fia.com/f/2b7Gqt/3nNvp\n\
+ n
+BEGIN:VALARM
+TRIGGER:-PT30M
+ACTION:DISPLAY
+DESCRIPTION:Reminder
+END:VALARM
+BEGIN:VALARM
+TRIGGER:-PT5M
+ACTION:DISPLAY
+DESCRIPTION:Reminder
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+LAST-MODIFIED:20260119T121351Z
+DTSTAMP:20260119T121351Z
+LOCATION:Bahrain
+X-ECAL-SCHEDULE:642bc08b75bca3000d6b659a
+DTSTART;VALUE=DATE:20260410
+DTEND;VALUE=DATE:20260411
+SUMMARY:🏎️ FIA FORMULA 2: The Championship Bahrain 2026 (TBC)
+TRANSP:TRANSPARENT
+SEQUENCE:0
+UID:696a734d647d150002e15c94
+PRIORITY:5
+X-MICROSOFT-CDO-IMPORTANCE:1
+CLASS:PUBLIC
+DESCRIPTION:Follow all the action on F1 TV and fiaformula2.com\n\nThe date 
+ and time of this event are to be confirmed.\n\nFollow on the go with F1 TV\
+ nhttps://cal.f2fia.com/f/2b7Gqv/3nNvp\n\nVisit the Race Hub\nhttps://cal.f2
+ fia.com/f/2b7Gqw/3nNvp\n\nFree sign up to F1 Unlocked\nhttps://cal.f2fia.co
+ m/f/2b7Gqx/3nNvp\n\nManage my ECAL\nhttps://cal.f2fia.com/f/2b7GqB/3nNvp\n\
+ n
+BEGIN:VALARM
+TRIGGER:-PT30M
+ACTION:DISPLAY
+DESCRIPTION:Reminder
+END:VALARM
+BEGIN:VALARM
+TRIGGER:-PT5M
+ACTION:DISPLAY
+DESCRIPTION:Reminder
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+LAST-MODIFIED:20260119T121351Z
+DTSTAMP:20260119T121351Z
+LOCATION:Australia
+X-ECAL-SCHEDULE:642bc08b75bca3000d6b659a
+DTSTART;VALUE=DATE:20260308
+DTEND;VALUE=DATE:20260309
+SUMMARY:🏎️ FIA FORMULA 2: The Championship Australia 2026 (TBC)
+TRANSP:TRANSPARENT
+SEQUENCE:0
+UID:696a734d647d150002e15c93
+PRIORITY:5
+X-MICROSOFT-CDO-IMPORTANCE:1
+CLASS:PUBLIC
+DESCRIPTION:Follow all the action on F1 TV and fiaformula2.com\n\nThe date 
+ and time of this event are to be confirmed.\n\nFollow on the go with F1 TV\
+ nhttps://cal.f2fia.com/f/2b7GqC/3nNvp\n\nVisit the Race Hub\nhttps://cal.f2
+ fia.com/f/2b7GqD/3nNvp\n\nFree sign up to F1 Unlocked\nhttps://cal.f2fia.co
+ m/f/2b7GqF/3nNvp\n\nManage my ECAL\nhttps://cal.f2fia.com/f/2b7GqJ/3nNvp\n\
+ n
+BEGIN:VALARM
+TRIGGER:-PT30M
+ACTION:DISPLAY
+DESCRIPTION:Reminder
+END:VALARM
+BEGIN:VALARM
+TRIGGER:-PT5M
+ACTION:DISPLAY
+DESCRIPTION:Reminder
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+LAST-MODIFIED:20260119T121351Z
+DTSTAMP:20260119T121351Z
+LOCATION:Australia
+X-ECAL-SCHEDULE:642bc08b75bca3000d6b659a
+DTSTART;VALUE=DATE:20260306
+DTEND;VALUE=DATE:20260307
+SUMMARY:🏎️ FIA FORMULA 2: The Championship Australia 2026 (TBC)
+TRANSP:TRANSPARENT
+SEQUENCE:0
+UID:696a734d647d150002e15c91
+PRIORITY:5
+X-MICROSOFT-CDO-IMPORTANCE:1
+CLASS:PUBLIC
+DESCRIPTION:Follow all the action on F1 TV and fiaformula2.com\n\nThe date 
+ and time of this event are to be confirmed.\n\nFollow on the go with F1 TV\
+ nhttps://cal.f2fia.com/f/2b7GqK/3nNvp\n\nVisit the Race Hub\nhttps://cal.f2
+ fia.com/f/2b7GqL/3nNvp\n\nFree sign up to F1 Unlocked\nhttps://cal.f2fia.co
+ m/f/2b7GqM/3nNvp\n\nManage my ECAL\nhttps://cal.f2fia.com/f/2b7GqQ/3nNvp\n\
+ n
+BEGIN:VALARM
+TRIGGER:-PT30M
+ACTION:DISPLAY
+DESCRIPTION:Reminder
+END:VALARM
+BEGIN:VALARM
+TRIGGER:-PT5M
+ACTION:DISPLAY
+DESCRIPTION:Reminder
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+LAST-MODIFIED:20260119T121351Z
+DTSTAMP:20260119T121351Z
+LOCATION:Australia
+X-ECAL-SCHEDULE:642bc08b75bca3000d6b659a
+DTSTART;VALUE=DATE:20260307
+DTEND;VALUE=DATE:20260308
+SUMMARY:🏎️ FIA FORMULA 2: The Championship Australia 2026 (TBC)
+TRANSP:TRANSPARENT
+SEQUENCE:0
+UID:696a734d647d150002e15c92
+PRIORITY:5
+X-MICROSOFT-CDO-IMPORTANCE:1
+CLASS:PUBLIC
+DESCRIPTION:Follow all the action on F1 TV and fiaformula2.com\n\nThe date 
+ and time of this event are to be confirmed.\n\nFollow on the go with F1 TV\
+ nhttps://cal.f2fia.com/f/2b7GqR/3nNvp\n\nVisit the Race Hub\nhttps://cal.f2
+ fia.com/f/2b7GqS/3nNvp\n\nFree sign up to F1 Unlocked\nhttps://cal.f2fia.co
+ m/f/2b7GqT/3nNvp\n\nManage my ECAL\nhttps://cal.f2fia.com/f/2b7GqX/3nNvp\n\
+ n
+BEGIN:VALARM
+TRIGGER:-PT30M
+ACTION:DISPLAY
+DESCRIPTION:Reminder
+END:VALARM
+BEGIN:VALARM
+TRIGGER:-PT5M
+ACTION:DISPLAY
+DESCRIPTION:Reminder
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+LAST-MODIFIED:20260119T121351Z
+DTSTAMP:20260119T121351Z
+LOCATION:
+X-ECAL-SCHEDULE:696e1ff4fc3a040002d775ab
+DTSTART:20260119T122800Z
+DTEND:20260119T124300Z
+SUMMARY:Formula 2 in your calendar!
+TRANSP:TRANSPARENT
+SEQUENCE:0
+UID:696e1ff4bd9e39000296fb43
+PRIORITY:5
+X-MICROSOFT-CDO-IMPORTANCE:1
+CLASS:PUBLIC
+DESCRIPTION:Stay up to speed with the latest information from Formula 2.\n\
+ nNew season schedule releases\, updates and any changes to race dates\, tim
+ es and details will be made automatically – you don’t have to do anythi
+ ng.\n\nManage your ECAL at https://support.ecal.com\n\nManage my ECAL\nhttp
+ s://cal.f2fia.com/f/2bbzb5/3nNvp\n\n
+BEGIN:VALARM
+TRIGGER:-PT1M
+ACTION:DISPLAY
+DESCRIPTION:Reminder
+END:VALARM
+END:VEVENT
+END:VCALENDAR

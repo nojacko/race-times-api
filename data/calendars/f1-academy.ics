@@ -1,0 +1,683 @@
+BEGIN:VCALENDAR
+PRODID:-//E-DIARY//E-DIARY 1.0//EN
+VERSION:2.0
+METHOD:PUBLISH
+X-WR-CALNAME:F1 Academy
+X-Built-On-Cache-Miss:true
+BEGIN:VEVENT
+LAST-MODIFIED:20260119T121859Z
+DTSTAMP:20260119T121859Z
+LOCATION:Vegas
+X-ECAL-SCHEDULE:642bc2e05f34f7000e47b536
+DTSTART;VALUE=DATE:20261122
+DTEND;VALUE=DATE:20261123
+SUMMARY:🏎️ F1 ACADEMY: The Championship Vegas 2026 (TBC)
+TRANSP:TRANSPARENT
+SEQUENCE:0
+UID:696a757fbaac3d0002a4bc05
+PRIORITY:5
+X-MICROSOFT-CDO-IMPORTANCE:1
+CLASS:PUBLIC
+DESCRIPTION:Follow all the action on F1 TV and f1academy.com\n\nThe date an
+ d time of this event are to be confirmed.\n\nFollow on the go with F1 TV\nh
+ ttps://cal.f1acad.com/f/2b7GDc/3nNvQ\n\nVisit the Race Hub\nhttps://cal.f1a
+ cad.com/f/2b7GDd/3nNvQ\n\nFree sign up to F1 Unlocked\nhttps://cal.f1acad.c
+ om/f/2b7GDf/3nNvQ\n\nManage my ECAL\nhttps://cal.f1acad.com/f/2b7GDl/3nNvQ\
+ n\n
+BEGIN:VALARM
+TRIGGER:-PT30M
+ACTION:DISPLAY
+DESCRIPTION:Reminder
+END:VALARM
+BEGIN:VALARM
+TRIGGER:-PT5M
+ACTION:DISPLAY
+DESCRIPTION:Reminder
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+LAST-MODIFIED:20260119T121859Z
+DTSTAMP:20260119T121859Z
+LOCATION:Vegas
+X-ECAL-SCHEDULE:642bc2e05f34f7000e47b536
+DTSTART;VALUE=DATE:20261121
+DTEND;VALUE=DATE:20261122
+SUMMARY:🏎️ F1 ACADEMY: The Championship Vegas 2026 (TBC)
+TRANSP:TRANSPARENT
+SEQUENCE:0
+UID:696a757fbaac3d0002a4bc04
+PRIORITY:5
+X-MICROSOFT-CDO-IMPORTANCE:1
+CLASS:PUBLIC
+DESCRIPTION:Follow all the action on F1 TV and f1academy.com\n\nThe date an
+ d time of this event are to be confirmed.\n\nFollow on the go with F1 TV\nh
+ ttps://cal.f1acad.com/f/2b7GDn/3nNvQ\n\nVisit the Race Hub\nhttps://cal.f1a
+ cad.com/f/2b7GDp/3nNvQ\n\nFree sign up to F1 Unlocked\nhttps://cal.f1acad.c
+ om/f/2b7GDq/3nNvQ\n\nManage my ECAL\nhttps://cal.f1acad.com/f/2b7GDt/3nNvQ\
+ n\n
+BEGIN:VALARM
+TRIGGER:-PT30M
+ACTION:DISPLAY
+DESCRIPTION:Reminder
+END:VALARM
+BEGIN:VALARM
+TRIGGER:-PT5M
+ACTION:DISPLAY
+DESCRIPTION:Reminder
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+LAST-MODIFIED:20260119T121859Z
+DTSTAMP:20260119T121859Z
+LOCATION:Vegas
+X-ECAL-SCHEDULE:642bc2e05f34f7000e47b536
+DTSTART;VALUE=DATE:20261120
+DTEND;VALUE=DATE:20261121
+SUMMARY:🏎️ F1 ACADEMY: The Championship Vegas 2026 (TBC)
+TRANSP:TRANSPARENT
+SEQUENCE:0
+UID:696a757fbaac3d0002a4bc03
+PRIORITY:5
+X-MICROSOFT-CDO-IMPORTANCE:1
+CLASS:PUBLIC
+DESCRIPTION:Follow all the action on F1 TV and f1academy.com\n\nThe date an
+ d time of this event are to be confirmed.\n\nFollow on the go with F1 TV\nh
+ ttps://cal.f1acad.com/f/2b7GDv/3nNvQ\n\nVisit the Race Hub\nhttps://cal.f1a
+ cad.com/f/2b7GDw/3nNvQ\n\nFree sign up to F1 Unlocked\nhttps://cal.f1acad.c
+ om/f/2b7GDx/3nNvQ\n\nManage my ECAL\nhttps://cal.f1acad.com/f/2b7GDB/3nNvQ\
+ n\n
+BEGIN:VALARM
+TRIGGER:-PT30M
+ACTION:DISPLAY
+DESCRIPTION:Reminder
+END:VALARM
+BEGIN:VALARM
+TRIGGER:-PT5M
+ACTION:DISPLAY
+DESCRIPTION:Reminder
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+LAST-MODIFIED:20260119T121859Z
+DTSTAMP:20260119T121859Z
+LOCATION:Austin
+X-ECAL-SCHEDULE:642bc2e05f34f7000e47b536
+DTSTART;VALUE=DATE:20261025
+DTEND;VALUE=DATE:20261026
+SUMMARY:🏎️ F1 ACADEMY: The Championship Austin 2026 (TBC)
+TRANSP:TRANSPARENT
+SEQUENCE:0
+UID:696a757fbaac3d0002a4bc02
+PRIORITY:5
+X-MICROSOFT-CDO-IMPORTANCE:1
+CLASS:PUBLIC
+DESCRIPTION:Follow all the action on F1 TV and f1academy.com\n\nThe date an
+ d time of this event are to be confirmed.\n\nFollow on the go with F1 TV\nh
+ ttps://cal.f1acad.com/f/2b7GDC/3nNvQ\n\nVisit the Race Hub\nhttps://cal.f1a
+ cad.com/f/2b7GDD/3nNvQ\n\nFree sign up to F1 Unlocked\nhttps://cal.f1acad.c
+ om/f/2b7GDF/3nNvQ\n\nManage my ECAL\nhttps://cal.f1acad.com/f/2b7GDJ/3nNvQ\
+ n\n
+BEGIN:VALARM
+TRIGGER:-PT30M
+ACTION:DISPLAY
+DESCRIPTION:Reminder
+END:VALARM
+BEGIN:VALARM
+TRIGGER:-PT5M
+ACTION:DISPLAY
+DESCRIPTION:Reminder
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+LAST-MODIFIED:20260119T121859Z
+DTSTAMP:20260119T121859Z
+LOCATION:Austin
+X-ECAL-SCHEDULE:642bc2e05f34f7000e47b536
+DTSTART;VALUE=DATE:20261024
+DTEND;VALUE=DATE:20261025
+SUMMARY:🏎️ F1 ACADEMY: The Championship Austin 2026 (TBC)
+TRANSP:TRANSPARENT
+SEQUENCE:0
+UID:696a757fbaac3d0002a4bc01
+PRIORITY:5
+X-MICROSOFT-CDO-IMPORTANCE:1
+CLASS:PUBLIC
+DESCRIPTION:Follow all the action on F1 TV and f1academy.com\n\nThe date an
+ d time of this event are to be confirmed.\n\nFollow on the go with F1 TV\nh
+ ttps://cal.f1acad.com/f/2b7GDK/3nNvQ\n\nVisit the Race Hub\nhttps://cal.f1a
+ cad.com/f/2b7GDL/3nNvQ\n\nFree sign up to F1 Unlocked\nhttps://cal.f1acad.c
+ om/f/2b7GDM/3nNvQ\n\nManage my ECAL\nhttps://cal.f1acad.com/f/2b7GDQ/3nNvQ\
+ n\n
+BEGIN:VALARM
+TRIGGER:-PT30M
+ACTION:DISPLAY
+DESCRIPTION:Reminder
+END:VALARM
+BEGIN:VALARM
+TRIGGER:-PT5M
+ACTION:DISPLAY
+DESCRIPTION:Reminder
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+LAST-MODIFIED:20260119T121859Z
+DTSTAMP:20260119T121859Z
+LOCATION:Austin
+X-ECAL-SCHEDULE:642bc2e05f34f7000e47b536
+DTSTART;VALUE=DATE:20261023
+DTEND;VALUE=DATE:20261024
+SUMMARY:🏎️ F1 ACADEMY: The Championship Austin 2026 (TBC)
+TRANSP:TRANSPARENT
+SEQUENCE:0
+UID:696a757fbaac3d0002a4bc00
+PRIORITY:5
+X-MICROSOFT-CDO-IMPORTANCE:1
+CLASS:PUBLIC
+DESCRIPTION:Follow all the action on F1 TV and f1academy.com\n\nThe date an
+ d time of this event are to be confirmed.\n\nFollow on the go with F1 TV\nh
+ ttps://cal.f1acad.com/f/2b7GDR/3nNvQ\n\nVisit the Race Hub\nhttps://cal.f1a
+ cad.com/f/2b7GDS/3nNvQ\n\nFree sign up to F1 Unlocked\nhttps://cal.f1acad.c
+ om/f/2b7GDT/3nNvQ\n\nManage my ECAL\nhttps://cal.f1acad.com/f/2b7GDX/3nNvQ\
+ n\n
+BEGIN:VALARM
+TRIGGER:-PT30M
+ACTION:DISPLAY
+DESCRIPTION:Reminder
+END:VALARM
+BEGIN:VALARM
+TRIGGER:-PT5M
+ACTION:DISPLAY
+DESCRIPTION:Reminder
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+LAST-MODIFIED:20260119T121859Z
+DTSTAMP:20260119T121859Z
+LOCATION:Netherlands
+X-ECAL-SCHEDULE:642bc2e05f34f7000e47b536
+DTSTART;VALUE=DATE:20260821
+DTEND;VALUE=DATE:20260822
+SUMMARY:🏎️ F1 ACADEMY: The Championship Netherlands 2026 (TBC)
+TRANSP:TRANSPARENT
+SEQUENCE:0
+UID:696a757fbaac3d0002a4bbfd
+PRIORITY:5
+X-MICROSOFT-CDO-IMPORTANCE:1
+CLASS:PUBLIC
+DESCRIPTION:Follow all the action on F1 TV and f1academy.com\n\nThe date an
+ d time of this event are to be confirmed.\n\nFollow on the go with F1 TV\nh
+ ttps://cal.f1acad.com/f/2b7GDY/3nNvQ\n\nVisit the Race Hub\nhttps://cal.f1a
+ cad.com/f/2b7GDZ/3nNvQ\n\nFree sign up to F1 Unlocked\nhttps://cal.f1acad.c
+ om/f/2b7GF1/3nNvQ\n\nManage my ECAL\nhttps://cal.f1acad.com/f/2b7GF4/3nNvQ\
+ n\n
+BEGIN:VALARM
+TRIGGER:-PT30M
+ACTION:DISPLAY
+DESCRIPTION:Reminder
+END:VALARM
+BEGIN:VALARM
+TRIGGER:-PT5M
+ACTION:DISPLAY
+DESCRIPTION:Reminder
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+LAST-MODIFIED:20260119T121859Z
+DTSTAMP:20260119T121859Z
+LOCATION:Netherlands
+X-ECAL-SCHEDULE:642bc2e05f34f7000e47b536
+DTSTART;VALUE=DATE:20260823
+DTEND;VALUE=DATE:20260824
+SUMMARY:🏎️ F1 ACADEMY: The Championship Netherlands 2026 (TBC)
+TRANSP:TRANSPARENT
+SEQUENCE:0
+UID:696a757fbaac3d0002a4bbff
+PRIORITY:5
+X-MICROSOFT-CDO-IMPORTANCE:1
+CLASS:PUBLIC
+DESCRIPTION:Follow all the action on F1 TV and f1academy.com\n\nThe date an
+ d time of this event are to be confirmed.\n\nFollow on the go with F1 TV\nh
+ ttps://cal.f1acad.com/f/2b7GF5/3nNvQ\n\nVisit the Race Hub\nhttps://cal.f1a
+ cad.com/f/2b7GF6/3nNvQ\n\nFree sign up to F1 Unlocked\nhttps://cal.f1acad.c
+ om/f/2b7GF7/3nNvQ\n\nManage my ECAL\nhttps://cal.f1acad.com/f/2b7GFb/3nNvQ\
+ n\n
+BEGIN:VALARM
+TRIGGER:-PT30M
+ACTION:DISPLAY
+DESCRIPTION:Reminder
+END:VALARM
+BEGIN:VALARM
+TRIGGER:-PT5M
+ACTION:DISPLAY
+DESCRIPTION:Reminder
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+LAST-MODIFIED:20260119T121859Z
+DTSTAMP:20260119T121859Z
+LOCATION:Netherlands
+X-ECAL-SCHEDULE:642bc2e05f34f7000e47b536
+DTSTART;VALUE=DATE:20260822
+DTEND;VALUE=DATE:20260823
+SUMMARY:🏎️ F1 ACADEMY: The Championship Netherlands 2026 (TBC)
+TRANSP:TRANSPARENT
+SEQUENCE:0
+UID:696a757fbaac3d0002a4bbfe
+PRIORITY:5
+X-MICROSOFT-CDO-IMPORTANCE:1
+CLASS:PUBLIC
+DESCRIPTION:Follow all the action on F1 TV and f1academy.com\n\nThe date an
+ d time of this event are to be confirmed.\n\nFollow on the go with F1 TV\nh
+ ttps://cal.f1acad.com/f/2b7GFc/3nNvQ\n\nVisit the Race Hub\nhttps://cal.f1a
+ cad.com/f/2b7GFd/3nNvQ\n\nFree sign up to F1 Unlocked\nhttps://cal.f1acad.c
+ om/f/2b7GFf/3nNvQ\n\nManage my ECAL\nhttps://cal.f1acad.com/f/2b7GFj/3nNvQ\
+ n\n
+BEGIN:VALARM
+TRIGGER:-PT30M
+ACTION:DISPLAY
+DESCRIPTION:Reminder
+END:VALARM
+BEGIN:VALARM
+TRIGGER:-PT5M
+ACTION:DISPLAY
+DESCRIPTION:Reminder
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+LAST-MODIFIED:20260119T121859Z
+DTSTAMP:20260119T121859Z
+LOCATION:Great Britain
+X-ECAL-SCHEDULE:642bc2e05f34f7000e47b536
+DTSTART;VALUE=DATE:20260705
+DTEND;VALUE=DATE:20260706
+SUMMARY:🏎️ F1 ACADEMY: The Championship Great Britain 2026 (TBC)
+TRANSP:TRANSPARENT
+SEQUENCE:0
+UID:696a757fbaac3d0002a4bbfc
+PRIORITY:5
+X-MICROSOFT-CDO-IMPORTANCE:1
+CLASS:PUBLIC
+DESCRIPTION:Follow all the action on F1 TV and f1academy.com\n\nThe date an
+ d time of this event are to be confirmed.\n\nFollow on the go with F1 TV\nh
+ ttps://cal.f1acad.com/f/2b7GFk/3nNvQ\n\nVisit the Race Hub\nhttps://cal.f1a
+ cad.com/f/2b7GFl/3nNvQ\n\nFree sign up to F1 Unlocked\nhttps://cal.f1acad.c
+ om/f/2b7GFm/3nNvQ\n\nManage my ECAL\nhttps://cal.f1acad.com/f/2b7GFq/3nNvQ\
+ n\n
+BEGIN:VALARM
+TRIGGER:-PT30M
+ACTION:DISPLAY
+DESCRIPTION:Reminder
+END:VALARM
+BEGIN:VALARM
+TRIGGER:-PT5M
+ACTION:DISPLAY
+DESCRIPTION:Reminder
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+LAST-MODIFIED:20260119T121859Z
+DTSTAMP:20260119T121859Z
+LOCATION:Great Britain
+X-ECAL-SCHEDULE:642bc2e05f34f7000e47b536
+DTSTART;VALUE=DATE:20260704
+DTEND;VALUE=DATE:20260705
+SUMMARY:🏎️ F1 ACADEMY: The Championship Great Britain 2026 (TBC)
+TRANSP:TRANSPARENT
+SEQUENCE:0
+UID:696a757fbaac3d0002a4bbfb
+PRIORITY:5
+X-MICROSOFT-CDO-IMPORTANCE:1
+CLASS:PUBLIC
+DESCRIPTION:Follow all the action on F1 TV and f1academy.com\n\nThe date an
+ d time of this event are to be confirmed.\n\nFollow on the go with F1 TV\nh
+ ttps://cal.f1acad.com/f/2b7GFr/3nNvQ\n\nVisit the Race Hub\nhttps://cal.f1a
+ cad.com/f/2b7GFs/3nNvQ\n\nFree sign up to F1 Unlocked\nhttps://cal.f1acad.c
+ om/f/2b7GFt/3nNvQ\n\nManage my ECAL\nhttps://cal.f1acad.com/f/2b7GFx/3nNvQ\
+ n\n
+BEGIN:VALARM
+TRIGGER:-PT30M
+ACTION:DISPLAY
+DESCRIPTION:Reminder
+END:VALARM
+BEGIN:VALARM
+TRIGGER:-PT5M
+ACTION:DISPLAY
+DESCRIPTION:Reminder
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+LAST-MODIFIED:20260119T121859Z
+DTSTAMP:20260119T121859Z
+LOCATION:Great Britain
+X-ECAL-SCHEDULE:642bc2e05f34f7000e47b536
+DTSTART;VALUE=DATE:20260703
+DTEND;VALUE=DATE:20260704
+SUMMARY:🏎️ F1 ACADEMY: The Championship Great Britain 2026 (TBC)
+TRANSP:TRANSPARENT
+SEQUENCE:0
+UID:696a757fbaac3d0002a4bbfa
+PRIORITY:5
+X-MICROSOFT-CDO-IMPORTANCE:1
+CLASS:PUBLIC
+DESCRIPTION:Follow all the action on F1 TV and f1academy.com\n\nThe date an
+ d time of this event are to be confirmed.\n\nFollow on the go with F1 TV\nh
+ ttps://cal.f1acad.com/f/2b7GFy/3nNvQ\n\nVisit the Race Hub\nhttps://cal.f1a
+ cad.com/f/2b7GFz/3nNvQ\n\nFree sign up to F1 Unlocked\nhttps://cal.f1acad.c
+ om/f/2b7GFB/3nNvQ\n\nManage my ECAL\nhttps://cal.f1acad.com/f/2b7GFF/3nNvQ\
+ n\n
+BEGIN:VALARM
+TRIGGER:-PT30M
+ACTION:DISPLAY
+DESCRIPTION:Reminder
+END:VALARM
+BEGIN:VALARM
+TRIGGER:-PT5M
+ACTION:DISPLAY
+DESCRIPTION:Reminder
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+LAST-MODIFIED:20260119T121859Z
+DTSTAMP:20260119T121859Z
+LOCATION:Canada
+X-ECAL-SCHEDULE:642bc2e05f34f7000e47b536
+DTSTART;VALUE=DATE:20260524
+DTEND;VALUE=DATE:20260525
+SUMMARY:🏎️ F1 ACADEMY: The Championship Canada 2026 (TBC)
+TRANSP:TRANSPARENT
+SEQUENCE:0
+UID:696a757fbaac3d0002a4bbf9
+PRIORITY:5
+X-MICROSOFT-CDO-IMPORTANCE:1
+CLASS:PUBLIC
+DESCRIPTION:Follow all the action on F1 TV and f1academy.com\n\nThe date an
+ d time of this event are to be confirmed.\n\nFollow on the go with F1 TV\nh
+ ttps://cal.f1acad.com/f/2b7GFG/3nNvQ\n\nVisit the Race Hub\nhttps://cal.f1a
+ cad.com/f/2b7GFH/3nNvQ\n\nFree sign up to F1 Unlocked\nhttps://cal.f1acad.c
+ om/f/2b7GFJ/3nNvQ\n\nManage my ECAL\nhttps://cal.f1acad.com/f/2b7GFM/3nNvQ\
+ n\n
+BEGIN:VALARM
+TRIGGER:-PT30M
+ACTION:DISPLAY
+DESCRIPTION:Reminder
+END:VALARM
+BEGIN:VALARM
+TRIGGER:-PT5M
+ACTION:DISPLAY
+DESCRIPTION:Reminder
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+LAST-MODIFIED:20260119T121859Z
+DTSTAMP:20260119T121859Z
+LOCATION:Canada
+X-ECAL-SCHEDULE:642bc2e05f34f7000e47b536
+DTSTART;VALUE=DATE:20260523
+DTEND;VALUE=DATE:20260524
+SUMMARY:🏎️ F1 ACADEMY: The Championship Canada 2026 (TBC)
+TRANSP:TRANSPARENT
+SEQUENCE:0
+UID:696a757fbaac3d0002a4bbf8
+PRIORITY:5
+X-MICROSOFT-CDO-IMPORTANCE:1
+CLASS:PUBLIC
+DESCRIPTION:Follow all the action on F1 TV and f1academy.com\n\nThe date an
+ d time of this event are to be confirmed.\n\nFollow on the go with F1 TV\nh
+ ttps://cal.f1acad.com/f/2b7GFN/3nNvQ\n\nVisit the Race Hub\nhttps://cal.f1a
+ cad.com/f/2b7GFP/3nNvQ\n\nFree sign up to F1 Unlocked\nhttps://cal.f1acad.c
+ om/f/2b7GFQ/3nNvQ\n\nManage my ECAL\nhttps://cal.f1acad.com/f/2b7GFT/3nNvQ\
+ n\n
+BEGIN:VALARM
+TRIGGER:-PT30M
+ACTION:DISPLAY
+DESCRIPTION:Reminder
+END:VALARM
+BEGIN:VALARM
+TRIGGER:-PT5M
+ACTION:DISPLAY
+DESCRIPTION:Reminder
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+LAST-MODIFIED:20260119T121859Z
+DTSTAMP:20260119T121859Z
+LOCATION:Canada
+X-ECAL-SCHEDULE:642bc2e05f34f7000e47b536
+DTSTART;VALUE=DATE:20260522
+DTEND;VALUE=DATE:20260523
+SUMMARY:🏎️ F1 ACADEMY: The Championship Canada 2026 (TBC)
+TRANSP:TRANSPARENT
+SEQUENCE:0
+UID:696a757fbaac3d0002a4bbf7
+PRIORITY:5
+X-MICROSOFT-CDO-IMPORTANCE:1
+CLASS:PUBLIC
+DESCRIPTION:Follow all the action on F1 TV and f1academy.com\n\nThe date an
+ d time of this event are to be confirmed.\n\nFollow on the go with F1 TV\nh
+ ttps://cal.f1acad.com/f/2b7GFV/3nNvQ\n\nVisit the Race Hub\nhttps://cal.f1a
+ cad.com/f/2b7GFW/3nNvQ\n\nFree sign up to F1 Unlocked\nhttps://cal.f1acad.c
+ om/f/2b7GFX/3nNvQ\n\nManage my ECAL\nhttps://cal.f1acad.com/f/2b7GG1/3nNvQ\
+ n\n
+BEGIN:VALARM
+TRIGGER:-PT30M
+ACTION:DISPLAY
+DESCRIPTION:Reminder
+END:VALARM
+BEGIN:VALARM
+TRIGGER:-PT5M
+ACTION:DISPLAY
+DESCRIPTION:Reminder
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+LAST-MODIFIED:20260119T121859Z
+DTSTAMP:20260119T121859Z
+LOCATION:Saudi
+X-ECAL-SCHEDULE:642bc2e05f34f7000e47b536
+DTSTART;VALUE=DATE:20260419
+DTEND;VALUE=DATE:20260420
+SUMMARY:🏎️ F1 ACADEMY: The Championship Saudi 2026 (TBC)
+TRANSP:TRANSPARENT
+SEQUENCE:0
+UID:696a757fbaac3d0002a4bbf6
+PRIORITY:5
+X-MICROSOFT-CDO-IMPORTANCE:1
+CLASS:PUBLIC
+DESCRIPTION:Follow all the action on F1 TV and f1academy.com\n\nThe date an
+ d time of this event are to be confirmed.\n\nFollow on the go with F1 TV\nh
+ ttps://cal.f1acad.com/f/2b7GG2/3nNvQ\n\nVisit the Race Hub\nhttps://cal.f1a
+ cad.com/f/2b7GG3/3nNvQ\n\nFree sign up to F1 Unlocked\nhttps://cal.f1acad.c
+ om/f/2b7GG4/3nNvQ\n\nManage my ECAL\nhttps://cal.f1acad.com/f/2b7GG7/3nNvQ\
+ n\n
+BEGIN:VALARM
+TRIGGER:-PT30M
+ACTION:DISPLAY
+DESCRIPTION:Reminder
+END:VALARM
+BEGIN:VALARM
+TRIGGER:-PT5M
+ACTION:DISPLAY
+DESCRIPTION:Reminder
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+LAST-MODIFIED:20260119T121859Z
+DTSTAMP:20260119T121859Z
+LOCATION:Saudi
+X-ECAL-SCHEDULE:642bc2e05f34f7000e47b536
+DTSTART;VALUE=DATE:20260418
+DTEND;VALUE=DATE:20260419
+SUMMARY:🏎️ F1 ACADEMY: The Championship Saudi 2026 (TBC)
+TRANSP:TRANSPARENT
+SEQUENCE:0
+UID:696a757fbaac3d0002a4bbf5
+PRIORITY:5
+X-MICROSOFT-CDO-IMPORTANCE:1
+CLASS:PUBLIC
+DESCRIPTION:Follow all the action on F1 TV and f1academy.com\n\nThe date an
+ d time of this event are to be confirmed.\n\nFollow on the go with F1 TV\nh
+ ttps://cal.f1acad.com/f/2b7GG8/3nNvQ\n\nVisit the Race Hub\nhttps://cal.f1a
+ cad.com/f/2b7GG9/3nNvQ\n\nFree sign up to F1 Unlocked\nhttps://cal.f1acad.c
+ om/f/2b7GGb/3nNvQ\n\nManage my ECAL\nhttps://cal.f1acad.com/f/2b7GGf/3nNvQ\
+ n\n
+BEGIN:VALARM
+TRIGGER:-PT30M
+ACTION:DISPLAY
+DESCRIPTION:Reminder
+END:VALARM
+BEGIN:VALARM
+TRIGGER:-PT5M
+ACTION:DISPLAY
+DESCRIPTION:Reminder
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+LAST-MODIFIED:20260119T121859Z
+DTSTAMP:20260119T121859Z
+LOCATION:Saudi
+X-ECAL-SCHEDULE:642bc2e05f34f7000e47b536
+DTSTART;VALUE=DATE:20260417
+DTEND;VALUE=DATE:20260418
+SUMMARY:🏎️ F1 ACADEMY: The Championship Saudi 2026 (TBC)
+TRANSP:TRANSPARENT
+SEQUENCE:0
+UID:696a757fbaac3d0002a4bbf4
+PRIORITY:5
+X-MICROSOFT-CDO-IMPORTANCE:1
+CLASS:PUBLIC
+DESCRIPTION:Follow all the action on F1 TV and f1academy.com\n\nThe date an
+ d time of this event are to be confirmed.\n\nFollow on the go with F1 TV\nh
+ ttps://cal.f1acad.com/f/2b7GGg/3nNvQ\n\nVisit the Race Hub\nhttps://cal.f1a
+ cad.com/f/2b7GGh/3nNvQ\n\nFree sign up to F1 Unlocked\nhttps://cal.f1acad.c
+ om/f/2b7GGj/3nNvQ\n\nManage my ECAL\nhttps://cal.f1acad.com/f/2b7GGm/3nNvQ\
+ n\n
+BEGIN:VALARM
+TRIGGER:-PT30M
+ACTION:DISPLAY
+DESCRIPTION:Reminder
+END:VALARM
+BEGIN:VALARM
+TRIGGER:-PT5M
+ACTION:DISPLAY
+DESCRIPTION:Reminder
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+LAST-MODIFIED:20260119T121859Z
+DTSTAMP:20260119T121859Z
+LOCATION:China
+X-ECAL-SCHEDULE:642bc2e05f34f7000e47b536
+DTSTART;VALUE=DATE:20260315
+DTEND;VALUE=DATE:20260316
+SUMMARY:🏎️ F1 ACADEMY: The Championship China 2026 (TBC)
+TRANSP:TRANSPARENT
+SEQUENCE:0
+UID:696a757fbaac3d0002a4bbf3
+PRIORITY:5
+X-MICROSOFT-CDO-IMPORTANCE:1
+CLASS:PUBLIC
+DESCRIPTION:Follow all the action on F1 TV and f1academy.com\n\nThe date an
+ d time of this event are to be confirmed.\n\nFollow on the go with F1 TV\nh
+ ttps://cal.f1acad.com/f/2b7GGn/3nNvQ\n\nVisit the Race Hub\nhttps://cal.f1a
+ cad.com/f/2b7GGp/3nNvQ\n\nFree sign up to F1 Unlocked\nhttps://cal.f1acad.c
+ om/f/2b7GGq/3nNvQ\n\nManage my ECAL\nhttps://cal.f1acad.com/f/2b7GGt/3nNvQ\
+ n\n
+BEGIN:VALARM
+TRIGGER:-PT30M
+ACTION:DISPLAY
+DESCRIPTION:Reminder
+END:VALARM
+BEGIN:VALARM
+TRIGGER:-PT5M
+ACTION:DISPLAY
+DESCRIPTION:Reminder
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+LAST-MODIFIED:20260119T121859Z
+DTSTAMP:20260119T121859Z
+LOCATION:China
+X-ECAL-SCHEDULE:642bc2e05f34f7000e47b536
+DTSTART;VALUE=DATE:20260314
+DTEND;VALUE=DATE:20260315
+SUMMARY:🏎️ F1 ACADEMY: The Championship China 2026 (TBC)
+TRANSP:TRANSPARENT
+SEQUENCE:0
+UID:696a757fbaac3d0002a4bbf2
+PRIORITY:5
+X-MICROSOFT-CDO-IMPORTANCE:1
+CLASS:PUBLIC
+DESCRIPTION:Follow all the action on F1 TV and f1academy.com\n\nThe date an
+ d time of this event are to be confirmed.\n\nFollow on the go with F1 TV\nh
+ ttps://cal.f1acad.com/f/2b7GGv/3nNvQ\n\nVisit the Race Hub\nhttps://cal.f1a
+ cad.com/f/2b7GGw/3nNvQ\n\nFree sign up to F1 Unlocked\nhttps://cal.f1acad.c
+ om/f/2b7GGx/3nNvQ\n\nManage my ECAL\nhttps://cal.f1acad.com/f/2b7GGB/3nNvQ\
+ n\n
+BEGIN:VALARM
+TRIGGER:-PT30M
+ACTION:DISPLAY
+DESCRIPTION:Reminder
+END:VALARM
+BEGIN:VALARM
+TRIGGER:-PT5M
+ACTION:DISPLAY
+DESCRIPTION:Reminder
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+LAST-MODIFIED:20260119T121859Z
+DTSTAMP:20260119T121859Z
+LOCATION:China
+X-ECAL-SCHEDULE:642bc2e05f34f7000e47b536
+DTSTART;VALUE=DATE:20260313
+DTEND;VALUE=DATE:20260314
+SUMMARY:🏎️ F1 ACADEMY: The Championship China 2026 (TBC)
+TRANSP:TRANSPARENT
+SEQUENCE:0
+UID:696a757fbaac3d0002a4bbf1
+PRIORITY:5
+X-MICROSOFT-CDO-IMPORTANCE:1
+CLASS:PUBLIC
+DESCRIPTION:Follow all the action on F1 TV and f1academy.com\n\nThe date an
+ d time of this event are to be confirmed.\n\nFollow on the go with F1 TV\nh
+ ttps://cal.f1acad.com/f/2b7GGN/3nNvQ\n\nVisit the Race Hub\nhttps://cal.f1a
+ cad.com/f/2b7GGP/3nNvQ\n\nFree sign up to F1 Unlocked\nhttps://cal.f1acad.c
+ om/f/2b7GGQ/3nNvQ\n\nManage my ECAL\nhttps://cal.f1acad.com/f/2b7GGT/3nNvQ\
+ n\n
+BEGIN:VALARM
+TRIGGER:-PT30M
+ACTION:DISPLAY
+DESCRIPTION:Reminder
+END:VALARM
+BEGIN:VALARM
+TRIGGER:-PT5M
+ACTION:DISPLAY
+DESCRIPTION:Reminder
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+LAST-MODIFIED:20260119T121859Z
+DTSTAMP:20260119T121859Z
+LOCATION:
+X-ECAL-SCHEDULE:696e20e4fc3a040002d775b4
+DTSTART:20260119T123200Z
+DTEND:20260119T124700Z
+SUMMARY:F1 Academy in your calendar!
+TRANSP:TRANSPARENT
+SEQUENCE:0
+UID:696e20e4bd9e39000296fb4d
+PRIORITY:5
+X-MICROSOFT-CDO-IMPORTANCE:1
+CLASS:PUBLIC
+DESCRIPTION:Stay up to speed with the latest information from F1 Academy.\n
+ \nNew season schedule releases\, updates and any changes to race dates\, ti
+ mes and details will be made automatically – you don’t have to do anyth
+ ing.\n\nManage your ECAL at https://support.ecal.com\n\nManage my ECAL\nhtt
+ ps://cal.f1acad.com/f/2bbzrG/3nNvQ\n\n
+BEGIN:VALARM
+TRIGGER:-PT1M
+ACTION:DISPLAY
+DESCRIPTION:Reminder
+END:VALARM
+END:VEVENT
+END:VCALENDAR
