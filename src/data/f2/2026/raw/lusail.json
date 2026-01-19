@@ -1,0 +1,33 @@
+{
+  "url": "https://www.fiaformula2.com/Results?raceid=1104",
+  "updatedAt": "2026-01-19T14:55:30.117Z",
+  "slug": "lusail",
+  "nameFull": "Lusail",
+  "nameMedium": "Lusail",
+  "data": [
+    {
+      "name": "Free Practice",
+      "localDate": "2026-11-27",
+      "localStartTime": "TBC",
+      "localEndTime": "TBC"
+    },
+    {
+      "name": "Qualifying Session",
+      "localDate": "2026-11-27",
+      "localStartTime": "TBC",
+      "localEndTime": "TBC"
+    },
+    {
+      "name": "Sprint Race",
+      "localDate": "2026-11-28",
+      "localStartTime": "TBC",
+      "localEndTime": "TBC"
+    },
+    {
+      "name": "Feature Race",
+      "localDate": "2026-11-29",
+      "localStartTime": "TBC",
+      "localEndTime": "TBC"
+    }
+  ]
+}

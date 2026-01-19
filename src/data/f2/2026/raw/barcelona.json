@@ -1,0 +1,33 @@
+{
+  "url": "https://www.fiaformula2.com/Results?raceid=1097",
+  "updatedAt": "2026-01-19T14:53:33.119Z",
+  "slug": "barcelona",
+  "nameFull": "Barcelona",
+  "nameMedium": "Barcelona",
+  "data": [
+    {
+      "name": "Free Practice",
+      "localDate": "2026-06-12",
+      "localStartTime": "TBC",
+      "localEndTime": "TBC"
+    },
+    {
+      "name": "Qualifying Session",
+      "localDate": "2026-06-12",
+      "localStartTime": "TBC",
+      "localEndTime": "TBC"
+    },
+    {
+      "name": "Sprint Race",
+      "localDate": "2026-06-13",
+      "localStartTime": "TBC",
+      "localEndTime": "TBC"
+    },
+    {
+      "name": "Feature Race",
+      "localDate": "2026-06-14",
+      "localStartTime": "TBC",
+      "localEndTime": "TBC"
+    }
+  ]
+}

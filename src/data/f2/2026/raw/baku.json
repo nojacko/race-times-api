@@ -1,0 +1,33 @@
+{
+  "url": "https://www.fiaformula2.com/Results?raceid=1103",
+  "updatedAt": "2026-01-19T14:55:17.014Z",
+  "slug": "baku",
+  "nameFull": "Baku",
+  "nameMedium": "Baku",
+  "data": [
+    {
+      "name": "Free Practice",
+      "localDate": "2026-09-24",
+      "localStartTime": "TBC",
+      "localEndTime": "TBC"
+    },
+    {
+      "name": "Qualifying Session",
+      "localDate": "2026-09-24",
+      "localStartTime": "TBC",
+      "localEndTime": "TBC"
+    },
+    {
+      "name": "Sprint Race",
+      "localDate": "2026-09-25",
+      "localStartTime": "TBC",
+      "localEndTime": "TBC"
+    },
+    {
+      "name": "Feature Race",
+      "localDate": "2026-09-26",
+      "localStartTime": "TBC",
+      "localEndTime": "TBC"
+    }
+  ]
+}

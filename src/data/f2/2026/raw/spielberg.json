@@ -1,0 +1,33 @@
+{
+  "url": "https://www.fiaformula2.com/Results?raceid=1096",
+  "updatedAt": "2026-01-19T14:53:48.273Z",
+  "slug": "spielberg",
+  "nameFull": "Spielberg",
+  "nameMedium": "Spielberg",
+  "data": [
+    {
+      "name": "Free Practice",
+      "localDate": "2026-06-26",
+      "localStartTime": "TBC",
+      "localEndTime": "TBC"
+    },
+    {
+      "name": "Qualifying Session",
+      "localDate": "2026-06-26",
+      "localStartTime": "TBC",
+      "localEndTime": "TBC"
+    },
+    {
+      "name": "Sprint Race",
+      "localDate": "2026-06-27",
+      "localStartTime": "TBC",
+      "localEndTime": "TBC"
+    },
+    {
+      "name": "Feature Race",
+      "localDate": "2026-06-28",
+      "localStartTime": "TBC",
+      "localEndTime": "TBC"
+    }
+  ]
+}

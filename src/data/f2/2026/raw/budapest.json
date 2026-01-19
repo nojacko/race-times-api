@@ -1,0 +1,33 @@
+{
+  "url": "https://www.fiaformula2.com/Results?raceid=1100",
+  "updatedAt": "2026-01-19T14:54:31.591Z",
+  "slug": "budapest",
+  "nameFull": "Budapest",
+  "nameMedium": "Budapest",
+  "data": [
+    {
+      "name": "Free Practice",
+      "localDate": "2026-07-24",
+      "localStartTime": "TBC",
+      "localEndTime": "TBC"
+    },
+    {
+      "name": "Qualifying Session",
+      "localDate": "2026-07-24",
+      "localStartTime": "TBC",
+      "localEndTime": "TBC"
+    },
+    {
+      "name": "Sprint Race",
+      "localDate": "2026-07-25",
+      "localStartTime": "TBC",
+      "localEndTime": "TBC"
+    },
+    {
+      "name": "Feature Race",
+      "localDate": "2026-07-26",
+      "localStartTime": "TBC",
+      "localEndTime": "TBC"
+    }
+  ]
+}

@@ -1,0 +1,33 @@
+{
+  "url": "https://www.fiaformula2.com/Results?raceid=1098",
+  "updatedAt": "2026-01-19T14:54:01.374Z",
+  "slug": "silverstone",
+  "nameFull": "Silverstone",
+  "nameMedium": "Silverstone",
+  "data": [
+    {
+      "name": "Free Practice",
+      "localDate": "2026-07-03",
+      "localStartTime": "TBC",
+      "localEndTime": "TBC"
+    },
+    {
+      "name": "Qualifying Session",
+      "localDate": "2026-07-03",
+      "localStartTime": "TBC",
+      "localEndTime": "TBC"
+    },
+    {
+      "name": "Sprint Race",
+      "localDate": "2026-07-04",
+      "localStartTime": "TBC",
+      "localEndTime": "TBC"
+    },
+    {
+      "name": "Feature Race",
+      "localDate": "2026-07-05",
+      "localStartTime": "TBC",
+      "localEndTime": "TBC"
+    }
+  ]
+}

@@ -1,0 +1,120 @@
+{
+  "url": "https://www.fiaformula2.com/Calendar",
+  "updatedAt": "2026-01-19T14:51:08.805Z",
+  "title": "Calendar Formula 2 2026",
+  "year": 2026,
+  "data": [
+    {
+      "url": "https://www.fiaformula2.com/Results?raceid=1092",
+      "slug": "melbourne",
+      "nameFull": "Melbourne",
+      "nameShort": "Melbourne",
+      "displayDate": "06 - 08 March",
+      "type": "ROUND 1"
+    },
+    {
+      "url": "https://www.fiaformula2.com/Results?raceid=1093",
+      "slug": "sakhir",
+      "nameFull": "Sakhir",
+      "nameShort": "Sakhir",
+      "displayDate": "10 - 12 April",
+      "type": "ROUND 2"
+    },
+    {
+      "url": "https://www.fiaformula2.com/Results?raceid=1094",
+      "slug": "jeddah",
+      "nameFull": "Jeddah",
+      "nameShort": "Jeddah",
+      "displayDate": "17 - 19 April",
+      "type": "ROUND 3"
+    },
+    {
+      "url": "https://www.fiaformula2.com/Results?raceid=1095",
+      "slug": "monaco",
+      "nameFull": "Monaco",
+      "nameShort": "Monaco",
+      "displayDate": "04 - 07 June",
+      "type": "ROUND 4"
+    },
+    {
+      "url": "https://www.fiaformula2.com/Results?raceid=1097",
+      "slug": "barcelona",
+      "nameFull": "Barcelona",
+      "nameShort": "Barcelona",
+      "displayDate": "12 - 14 June",
+      "type": "ROUND 5"
+    },
+    {
+      "url": "https://www.fiaformula2.com/Results?raceid=1096",
+      "slug": "spielberg",
+      "nameFull": "Spielberg",
+      "nameShort": "Spielberg",
+      "displayDate": "26 - 28 June",
+      "type": "ROUND 6"
+    },
+    {
+      "url": "https://www.fiaformula2.com/Results?raceid=1098",
+      "slug": "silverstone",
+      "nameFull": "Silverstone",
+      "nameShort": "Silverstone",
+      "displayDate": "03 - 05 July",
+      "type": "ROUND 7"
+    },
+    {
+      "url": "https://www.fiaformula2.com/Results?raceid=1099",
+      "slug": "spa-francorchamps",
+      "nameFull": "Spa-Francorchamps",
+      "nameShort": "Spa-Francorchamps",
+      "displayDate": "17 - 19 July",
+      "type": "ROUND 8"
+    },
+    {
+      "url": "https://www.fiaformula2.com/Results?raceid=1100",
+      "slug": "budapest",
+      "nameFull": "Budapest",
+      "nameShort": "Budapest",
+      "displayDate": "24 - 26 July",
+      "type": "ROUND 9"
+    },
+    {
+      "url": "https://www.fiaformula2.com/Results?raceid=1101",
+      "slug": "monza",
+      "nameFull": "Monza",
+      "nameShort": "Monza",
+      "displayDate": "04 - 06 September",
+      "type": "ROUND 10"
+    },
+    {
+      "url": "https://www.fiaformula2.com/Results?raceid=1102",
+      "slug": "madrid",
+      "nameFull": "Madrid",
+      "nameShort": "Madrid",
+      "displayDate": "11 - 13 September",
+      "type": "ROUND 11"
+    },
+    {
+      "url": "https://www.fiaformula2.com/Results?raceid=1103",
+      "slug": "baku",
+      "nameFull": "Baku",
+      "nameShort": "Baku",
+      "displayDate": "24 - 26 September",
+      "type": "ROUND 12"
+    },
+    {
+      "url": "https://www.fiaformula2.com/Results?raceid=1104",
+      "slug": "lusail",
+      "nameFull": "Lusail",
+      "nameShort": "Lusail",
+      "displayDate": "27 - 29 November",
+      "type": "ROUND 13"
+    },
+    {
+      "url": "https://www.fiaformula2.com/Results?raceid=1105",
+      "slug": "yas-island",
+      "nameFull": "Yas Island",
+      "nameShort": "Yas Island",
+      "displayDate": "04 - 06 December",
+      "type": "ROUND 14"
+    }
+  ]
+}

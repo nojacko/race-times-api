@@ -1,0 +1,39 @@
+{
+  "url": "https://www.fiaformula2.com/Results?raceid=1095",
+  "updatedAt": "2026-01-19T14:53:16.784Z",
+  "slug": "monaco",
+  "nameFull": "Monaco",
+  "nameMedium": "Monaco",
+  "data": [
+    {
+      "name": "Free Practice",
+      "localDate": "2026-06-04",
+      "localStartTime": "TBC",
+      "localEndTime": "TBC"
+    },
+    {
+      "name": "Qualifying Group A",
+      "localDate": "2026-06-05",
+      "localStartTime": "TBC",
+      "localEndTime": "TBC"
+    },
+    {
+      "name": "Qualifying Group B",
+      "localDate": "2026-06-05",
+      "localStartTime": "TBC",
+      "localEndTime": "TBC"
+    },
+    {
+      "name": "Sprint Race",
+      "localDate": "2026-06-06",
+      "localStartTime": "TBC",
+      "localEndTime": "TBC"
+    },
+    {
+      "name": "Feature Race",
+      "localDate": "2026-06-07",
+      "localStartTime": "TBC",
+      "localEndTime": "TBC"
+    }
+  ]
+}

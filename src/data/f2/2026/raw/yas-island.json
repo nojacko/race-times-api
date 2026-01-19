@@ -1,0 +1,33 @@
+{
+  "url": "https://www.fiaformula2.com/Results?raceid=1105",
+  "updatedAt": "2026-01-19T14:56:23.587Z",
+  "slug": "yas-island",
+  "nameFull": "Yas Island",
+  "nameMedium": "Yas Island",
+  "data": [
+    {
+      "name": "Free Practice",
+      "localDate": "2026-12-04",
+      "localStartTime": "TBC",
+      "localEndTime": "TBC"
+    },
+    {
+      "name": "Qualifying Session",
+      "localDate": "2026-12-04",
+      "localStartTime": "TBC",
+      "localEndTime": "TBC"
+    },
+    {
+      "name": "Sprint Race",
+      "localDate": "2026-12-05",
+      "localStartTime": "TBC",
+      "localEndTime": "TBC"
+    },
+    {
+      "name": "Feature Race",
+      "localDate": "2026-12-06",
+      "localStartTime": "TBC",
+      "localEndTime": "TBC"
+    }
+  ]
+}
