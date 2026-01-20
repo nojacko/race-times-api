@@ -1,0 +1,144 @@
+{
+  "url": "https://www.fiaformulae.com/en/calendar",
+  "updatedAt": "2026-01-20T20:00:32.510Z",
+  "title": "Formula E 2025/26 Racing Calendar",
+  "year": "2025-26",
+  "data": [
+    {
+      "url": "https://www.fiaformulae.com/en/calendar/2025-26/r1-sao-paulo",
+      "slug": "sao-paulo",
+      "nameFull": "São Paulo",
+      "nameShort": "São Paulo",
+      "displayDate": "06 Dec",
+      "type": "ROUND 1"
+    },
+    {
+      "url": "https://www.fiaformulae.com/en/calendar/2025-26/r2-mexico-city",
+      "slug": "mexico-city",
+      "nameFull": "Mexico City",
+      "nameShort": "Mexico City",
+      "displayDate": "10 Jan",
+      "type": "ROUND 2"
+    },
+    {
+      "url": "https://www.fiaformulae.com/en/calendar/2025-26/r3-miami",
+      "slug": "miami",
+      "nameFull": "Miami",
+      "nameShort": "Miami",
+      "displayDate": "31 Jan",
+      "type": "ROUND 3"
+    },
+    {
+      "url": "https://www.fiaformulae.com/en/calendar/2025-26/r4-jeddah",
+      "slug": "jeddah-1",
+      "nameFull": "Jeddah",
+      "nameShort": "Jeddah",
+      "displayDate": "13 Feb",
+      "type": "ROUND 4"
+    },
+    {
+      "url": "https://www.fiaformulae.com/en/calendar/2025-26/r5-jeddah",
+      "slug": "jeddah-2",
+      "nameFull": "Jeddah",
+      "nameShort": "Jeddah",
+      "displayDate": "14 Feb",
+      "type": "ROUND 5"
+    },
+    {
+      "url": "https://www.fiaformulae.com/en/calendar/2025-26/r6-madrid",
+      "slug": "madrid",
+      "nameFull": "Madrid",
+      "nameShort": "Madrid",
+      "displayDate": "21 Mar",
+      "type": "ROUND 6"
+    },
+    {
+      "url": "https://www.fiaformulae.com/en/calendar/2025-26/r7-berlin",
+      "slug": "berlin-1",
+      "nameFull": "Berlin",
+      "nameShort": "Berlin",
+      "displayDate": "02 May",
+      "type": "ROUND 7"
+    },
+    {
+      "url": "https://www.fiaformulae.com/en/calendar/2025-26/r8-berlin",
+      "slug": "berlin-2",
+      "nameFull": "Berlin",
+      "nameShort": "Berlin",
+      "displayDate": "03 May",
+      "type": "ROUND 8"
+    },
+    {
+      "url": "https://www.fiaformulae.com/en/calendar/2025-26/r9-monaco",
+      "slug": "monaco-1",
+      "nameFull": "Monaco",
+      "nameShort": "Monaco",
+      "displayDate": "16 May",
+      "type": "ROUND 9"
+    },
+    {
+      "url": "https://www.fiaformulae.com/en/calendar/2025-26/r10-monaco",
+      "slug": "monaco-2",
+      "nameFull": "Monaco",
+      "nameShort": "Monaco",
+      "displayDate": "17 May",
+      "type": "ROUND 10"
+    },
+    {
+      "url": "https://www.fiaformulae.com/en/calendar/2025-26/r11-sanya",
+      "slug": "sanya",
+      "nameFull": "Sanya",
+      "nameShort": "Sanya",
+      "displayDate": "20 Jun",
+      "type": "ROUND 11"
+    },
+    {
+      "url": "https://www.fiaformulae.com/en/calendar/2025-26/r12-shanghai",
+      "slug": "shanghai-1",
+      "nameFull": "Shanghai",
+      "nameShort": "Shanghai",
+      "displayDate": "04 Jul",
+      "type": "ROUND 12"
+    },
+    {
+      "url": "https://www.fiaformulae.com/en/calendar/2025-26/r13-shanghai",
+      "slug": "shanghai-2",
+      "nameFull": "Shanghai",
+      "nameShort": "Shanghai",
+      "displayDate": "05 Jul",
+      "type": "ROUND 13"
+    },
+    {
+      "url": "https://www.fiaformulae.com/en/calendar/2025-26/r14-tokyo",
+      "slug": "tokyo-1",
+      "nameFull": "Tokyo",
+      "nameShort": "Tokyo",
+      "displayDate": "25 Jul",
+      "type": "ROUND 14"
+    },
+    {
+      "url": "https://www.fiaformulae.com/en/calendar/2025-26/r15-tokyo",
+      "slug": "tokyo-2",
+      "nameFull": "Tokyo",
+      "nameShort": "Tokyo",
+      "displayDate": "26 Jul",
+      "type": "ROUND 15"
+    },
+    {
+      "url": "https://www.fiaformulae.com/en/calendar/2025-26/r16-london",
+      "slug": "london-1",
+      "nameFull": "London",
+      "nameShort": "London",
+      "displayDate": "15 Aug",
+      "type": "ROUND 16"
+    },
+    {
+      "url": "https://www.fiaformulae.com/en/calendar/2025-26/r17-london",
+      "slug": "london-2",
+      "nameFull": "London",
+      "nameShort": "London",
+      "displayDate": "16 Aug",
+      "type": "ROUND 17"
+    }
+  ]
+}

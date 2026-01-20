@@ -1,0 +1,32 @@
+{
+  "url": "https://www.fiaformulae.com/en/calendar/2025-26/r7-berlin",
+  "updatedAt": "2026-01-20T21:06:16.603Z",
+  "nameFull": "Berlin E-Prix",
+  "nameMedium": "Berlin",
+  "data": [
+    {
+      "name": "Free Practice 1",
+      "localDate": "2026-05-01",
+      "localStartTime": "16:00",
+      "localEndTime": "16:55"
+    },
+    {
+      "name": "Free Practice 2",
+      "localDate": "2026-05-02",
+      "localStartTime": "09:30",
+      "localEndTime": "10:25"
+    },
+    {
+      "name": "Qualifying",
+      "localDate": "2026-05-02",
+      "localStartTime": "11:40",
+      "localEndTime": "12:48"
+    },
+    {
+      "name": "Race",
+      "localDate": "2026-05-02",
+      "localStartTime": "16:05",
+      "localEndTime": "17:00"
+    }
+  ]
+}

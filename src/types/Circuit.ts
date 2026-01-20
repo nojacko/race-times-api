@@ -23,7 +23,14 @@ export type CircuitSlug =
   | "autodromo-jose-carlos"
   | "las-vegas-strip"
   | "lusail-international-circuit"
-  | "yas-marina-circuit";
+  | "yas-marina-circuit"
+  // Formula E
+  | "sao-paulo-street-circuit"
+  | "flughafen-tempelhof"
+  | "sanya-street-circuit"
+  | "tokyo-street-circuit"
+  | "london-excel-circuit"
+  | "circuito-del-jarama";
 
 export interface Circuit {
   slug: CircuitSlug;

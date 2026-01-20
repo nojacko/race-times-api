@@ -47,12 +47,12 @@ export const FORMULA_E: Formula = {
   name: "Formula E",
   nameFull: "Formula E",
   trademarks: "Formula-E, FIA FORMULA-E CHAMPIONSHIP & E-Prix are trademarks of the FIA.",
-  active: false,
+  active: true,
   primaryColor: "#0000ff",
   logoBgColor: "#0000ff",
   logoTextColor: "#ffffff",
   initials: "FE",
-  years: [],
+  years: ["2025-26"],
   url: "https://fiaformulae.com",
 };
 

@@ -1,0 +1,26 @@
+{
+  "url": "https://www.fiaformulae.com/en/calendar/2025-26/r1-sao-paulo",
+  "updatedAt": "2026-01-20T21:03:52.294Z",
+  "nameFull": "São Paulo E-Prix",
+  "nameMedium": "São Paulo",
+  "data": [
+    {
+      "name": "Free Practice 2",
+      "localDate": "2025-12-06",
+      "localStartTime": "07:10",
+      "localEndTime": "08:25"
+    },
+    {
+      "name": "Qualifying",
+      "localDate": "2025-12-06",
+      "localStartTime": "09:40",
+      "localEndTime": "10:54"
+    },
+    {
+      "name": "Race",
+      "localDate": "2025-12-06",
+      "localStartTime": "14:05",
+      "localEndTime": "15:00"
+    }
+  ]
+}

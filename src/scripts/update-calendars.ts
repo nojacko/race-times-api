@@ -99,7 +99,7 @@ function writeCalendar(slug: string, year: string, calendar: RaceCal) {
   if (!typesImportPath.startsWith(".")) typesImportPath = `./${typesImportPath}`;
 
   const outPath = path.join(targetDir, "calendar.ts");
-  const exportIdent = `${camelCase(slug)}Calendar${year}`;
+  const exportIdent = `${camelCase(slug)}Calendar${camelCase(year)}`;
 
   const content = [
     `// AUTO-GENERATED: do not edit\nimport type { RaceCal } from "${typesImportPath}";`,
@@ -166,7 +166,7 @@ function buildEvent(
     startDateTime: "",
     endDateTime: "",
     nameFull: raw.nameFull,
-    nameMedium: "",
+    nameMedium: raw.nameFull,
     nameShort: raw.nameShort,
     displayDate: raw.displayDate,
     eventType,

@@ -193,6 +193,57 @@ export const circuits: Circuit[] = [
     coords: { lat: 24.4672, lon: 54.6031 },
     timeZone: "Asia/Dubai",
   },
+  {
+    slug: "sao-paulo-street-circuit",
+    name: "São Paulo Street Circuit",
+    location: "São Paulo",
+    country: "BR",
+    coords: {
+      lat: -23.516389,
+      lon: -46.647222,
+    },
+    timeZone: "America/Sao_Paulo",
+  },
+  {
+    slug: "circuito-del-jarama",
+    name: "Circuito Permanente del Jarama",
+    location: "Madrid",
+    country: "ES",
+    coords: { lat: 40.617222, lon: -3.585556 },
+    timeZone: "Europe/Madrid",
+  },
+  {
+    slug: "flughafen-tempelhof",
+    name: "Flughafen Tempelhof",
+    location: "Berlin",
+    country: "DE",
+    coords: { lat: 52.473611, lon: 13.401667 },
+    timeZone: "Europe/Berlin",
+  },
+  {
+    slug: "sanya-street-circuit",
+    name: "Sanya Street Circuit",
+    location: "Haitang Bay, Sanya",
+    country: "CN",
+    coords: { lat: 18.355, lon: 109.736944 },
+    timeZone: "Asia/Shanghai",
+  },
+  {
+    slug: "tokyo-street-circuit",
+    name: "Tokyo Street Circuit",
+    location: "Tokyo",
+    country: "JP",
+    coords: { lat: 35.633333, lon: 139.800556 },
+    timeZone: "Asia/Tokyo",
+  },
+  {
+    slug: "london-excel-circuit",
+    name: "London ExCeL Circuit",
+    location: "London",
+    country: "GB",
+    coords: { lat: 51.508056, lon: 0.028889 },
+    timeZone: "Europe/London",
+  },
 ];
 
 export function getCircuit(slug: string): Circuit | undefined {

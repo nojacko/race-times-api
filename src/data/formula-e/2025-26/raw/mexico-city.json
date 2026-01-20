@@ -1,0 +1,32 @@
+{
+  "url": "https://www.fiaformulae.com/en/calendar/2025-26/r2-mexico-city",
+  "updatedAt": "2026-01-20T21:04:26.843Z",
+  "nameFull": "Mexico City E-Prix",
+  "nameMedium": "Mexico City",
+  "data": [
+    {
+      "name": "Free Practice 1",
+      "localDate": "2026-01-09",
+      "localStartTime": "16:00",
+      "localEndTime": "16:55"
+    },
+    {
+      "name": "Free Practice 2",
+      "localDate": "2026-01-10",
+      "localStartTime": "07:30",
+      "localEndTime": "08:25"
+    },
+    {
+      "name": "Qualifying",
+      "localDate": "2026-01-10",
+      "localStartTime": "09:40",
+      "localEndTime": "10:48"
+    },
+    {
+      "name": "Race",
+      "localDate": "2026-01-10",
+      "localStartTime": "14:05",
+      "localEndTime": "15:00"
+    }
+  ]
+}

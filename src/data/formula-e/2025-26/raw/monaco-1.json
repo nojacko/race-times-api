@@ -1,0 +1,32 @@
+{
+  "url": "https://www.fiaformulae.com/en/calendar/2025-26/r9-monaco",
+  "updatedAt": "2026-01-20T21:06:56.131Z",
+  "nameFull": "Monaco E-Prix",
+  "nameMedium": "Monaco",
+  "data": [
+    {
+      "name": "Free Practice 1",
+      "localDate": "2026-05-16",
+      "localStartTime": "07:30",
+      "localEndTime": "08:15"
+    },
+    {
+      "name": "Free Practice 2",
+      "localDate": "2026-05-16",
+      "localStartTime": "09:10",
+      "localEndTime": "09:45"
+    },
+    {
+      "name": "Qualifying",
+      "localDate": "2026-05-16",
+      "localStartTime": "10:40",
+      "localEndTime": "11:48"
+    },
+    {
+      "name": "Race",
+      "localDate": "2026-05-16",
+      "localStartTime": "15:05",
+      "localEndTime": "16:00"
+    }
+  ]
+}

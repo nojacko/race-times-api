@@ -1,0 +1,32 @@
+{
+  "url": "https://www.fiaformulae.com/en/calendar/2025-26/r12-shanghai",
+  "updatedAt": "2026-01-20T21:07:56.390Z",
+  "nameFull": "Shanghai E-Prix",
+  "nameMedium": "Shanghai",
+  "data": [
+    {
+      "name": "Free Practice 1",
+      "localDate": "2026-07-03",
+      "localStartTime": "16:00",
+      "localEndTime": "16:55"
+    },
+    {
+      "name": "Free Practice 2",
+      "localDate": "2026-07-04",
+      "localStartTime": "08:30",
+      "localEndTime": "09:25"
+    },
+    {
+      "name": "Qualifying",
+      "localDate": "2026-07-04",
+      "localStartTime": "10:40",
+      "localEndTime": "11:48"
+    },
+    {
+      "name": "Race",
+      "localDate": "2026-07-04",
+      "localStartTime": "15:05",
+      "localEndTime": "16:00"
+    }
+  ]
+}

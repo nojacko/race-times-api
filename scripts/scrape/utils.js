@@ -14,10 +14,22 @@
     wait: function (ms) {
       return new Promise((res) => setTimeout(res, ms));
     },
-    slugify: function (str) {
-      if (!window._) {
-        throw new Error("lodash not yet loaded, cannot slugify");
+    tapWait: async function (selector, text) {
+      if (!selector) throw new Error("tapWait: selector is required");
+      const items = Array.from(document.querySelectorAll(selector || ""));
+      const needle = text ? String(text).toLowerCase() : null;
+      const el = items.find((el) => {
+        if (!needle) return true;
+        return el.textContent && el.textContent.trim().toLowerCase().includes(needle);
+      });
+      if (!el) {
+        throw new Error(`tapWait: Element not found for selector "${selector}"${needle ? ` and text "${text}"` : ""}`);
       }
+      // Let any errors (e.g., click) propagate to the caller
+      el.click();
+      await this.wait(100);
+    },
+    slugify: function (str) {
       return window._.chain(str).deburr().kebabCase().toLower().value();
     },
     wrapData: function (data, meta) {
@@ -76,7 +88,7 @@
       });
 
       let copyFileBtn;
-      if (filename) {
+      if (typeof filename === "string" && filename.trim() !== "") {
         copyFileBtn = document.createElement("button");
         copyFileBtn.type = "button";
         copyFileBtn.textContent = `Copy "${filename}"`;

@@ -1,0 +1,32 @@
+{
+  "url": "https://www.fiaformulae.com/en/calendar/2025-26/r4-jeddah",
+  "updatedAt": "2026-01-20T21:05:12.884Z",
+  "nameFull": "Jeddah E-Prix",
+  "nameMedium": "Jeddah",
+  "data": [
+    {
+      "name": "Free Practice 1",
+      "localDate": "2026-02-12",
+      "localStartTime": "20:00",
+      "localEndTime": "20:55"
+    },
+    {
+      "name": "Free Practice 2",
+      "localDate": "2026-02-13",
+      "localStartTime": "13:30",
+      "localEndTime": "14:25"
+    },
+    {
+      "name": "Qualifying",
+      "localDate": "2026-02-13",
+      "localStartTime": "15:40",
+      "localEndTime": "16:48"
+    },
+    {
+      "name": "Race",
+      "localDate": "2026-02-13",
+      "localStartTime": "20:05",
+      "localEndTime": "21:00"
+    }
+  ]
+}

@@ -1,0 +1,32 @@
+{
+  "url": "https://www.fiaformulae.com/en/calendar/2025-26/r6-madrid",
+  "updatedAt": "2026-01-20T21:05:53.860Z",
+  "nameFull": "Madrid E-Prix",
+  "nameMedium": "Madrid",
+  "data": [
+    {
+      "name": "Free Practice 1",
+      "localDate": "2026-03-20",
+      "localStartTime": "16:30",
+      "localEndTime": "17:25"
+    },
+    {
+      "name": "Free Practice 2",
+      "localDate": "2026-03-21",
+      "localStartTime": "09:30",
+      "localEndTime": "10:25"
+    },
+    {
+      "name": "Qualifying",
+      "localDate": "2026-03-21",
+      "localStartTime": "11:40",
+      "localEndTime": "12:48"
+    },
+    {
+      "name": "Race",
+      "localDate": "2026-03-21",
+      "localStartTime": "16:05",
+      "localEndTime": "17:00"
+    }
+  ]
+}
