@@ -1,18 +1,5 @@
 (async function () {
-  // Attempt to click the "Track time" button if present
-  try {
-    const trackBtn = Array.from(document.querySelectorAll("button")).find(
-      (b) => b.textContent && b.textContent.trim().includes("Track time"),
-    );
-    if (trackBtn) {
-      trackBtn.click();
-      await window._UTILS.wait(100);
-    } else {
-      throw new Error("No track time button");
-    }
-  } catch (e) {
-    console.error("Failed to click Track time button", e);
-  }
+  await window._UTILS.tapWait("button.w-full.flex.rounded-full", "Track time");
 
   const h1El = document.querySelector("h1");
   const nameFull = h1El ? h1El.textContent.trim() : null;

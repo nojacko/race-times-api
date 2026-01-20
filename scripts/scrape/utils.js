@@ -20,12 +20,13 @@
       const needle = text ? String(text).toLowerCase() : null;
       const el = items.find((el) => {
         if (!needle) return true;
+        console.log(el.textContent)
         return el.textContent && el.textContent.trim().toLowerCase().includes(needle);
       });
       if (!el) {
         throw new Error(`tapWait: Element not found for selector "${selector}"${needle ? ` and text "${text}"` : ""}`);
       }
-      // Let any errors (e.g., click) propagate to the caller
+
       el.click();
       await this.wait(100);
     },
