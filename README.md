@@ -14,7 +14,8 @@ npm run build
 - Manual update the `/src/data/*/raw/` dirs using the `/scripts/scrape/*` scripts
 
 ```bash
-npx ts-node src/scripts/parse-calendars.ts; npm run format;
+# Prase calendars and format. Sleep as format can console errors
+npx ts-node src/scripts/parse-calendars.ts; sleep 1; npm run format;
 
 npx ts-node src/scripts/update-flags.ts
 npm run format

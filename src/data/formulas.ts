@@ -38,7 +38,7 @@ export const F3: Formula = {
   logoBgColor: "#666666",
   logoTextColor: "#ffffff",
   initials: "F3",
-  years:[],
+  years: [],
   url: "https://www.fiaformula3.com",
 };
 
@@ -52,7 +52,7 @@ export const FORMULA_E: Formula = {
   logoBgColor: "#0000ff",
   logoTextColor: "#ffffff",
   initials: "FE",
-  years:[],
+  years: [],
   url: "https://fiaformulae.com",
 };
 
@@ -66,7 +66,7 @@ export const F1_ACADEMY: Formula = {
   logoBgColor: "#0083d3",
   logoTextColor: "#ffffff",
   initials: "F1",
-  years:[],
+  years: [],
   url: "https://www.f1academy.com",
 };
 

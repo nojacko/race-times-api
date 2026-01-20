@@ -84,6 +84,7 @@ function buildSession(
     formulaSlug: formula.slug,
     year,
     eventSlug: rawEvent.slug,
+    index: i,
     slug: sessionSlug,
     name: s.name,
     startDateTime,
