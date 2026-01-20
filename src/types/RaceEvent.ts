@@ -4,6 +4,7 @@ import type { RaceEventSession } from "./RaceEventSession";
 export type CalendarEventType = "testing" | "round";
 
 export interface RaceEvent {
+  key: string;
   sessions: RaceEventSession[];
   formulaSlug: string;
   year: string;

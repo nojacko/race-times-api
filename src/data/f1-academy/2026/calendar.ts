@@ -2,12 +2,14 @@
 import type { RaceCal } from "../../../types/RaceCal";
 
 export const f1AcademyCalendar2026: RaceCal = {
+  key: "f1-academy_2026",
   formulaSlug: "f1-academy",
   year: "2026",
   url: "https://www.f1academy.com/Racing-Series/Calendar",
   title: "2026 F1 Academy Calendar",
   raceEvents: [
     {
+      key: "f1-academy_2026_shanghai",
       formulaSlug: "f1-academy",
       year: "2026",
       slug: "shanghai",
@@ -23,6 +25,7 @@ export const f1AcademyCalendar2026: RaceCal = {
       round: 1,
       sessions: [
         {
+          key: "f1-academy_2026_shanghai_free-practice",
           formulaSlug: "f1-academy",
           year: "2026",
           eventSlug: "shanghai",
@@ -36,6 +39,7 @@ export const f1AcademyCalendar2026: RaceCal = {
           tbc: true,
         },
         {
+          key: "f1-academy_2026_shanghai_qualifying",
           formulaSlug: "f1-academy",
           year: "2026",
           eventSlug: "shanghai",
@@ -49,6 +53,7 @@ export const f1AcademyCalendar2026: RaceCal = {
           tbc: true,
         },
         {
+          key: "f1-academy_2026_shanghai_race-1",
           formulaSlug: "f1-academy",
           year: "2026",
           eventSlug: "shanghai",
@@ -62,6 +67,7 @@ export const f1AcademyCalendar2026: RaceCal = {
           tbc: true,
         },
         {
+          key: "f1-academy_2026_shanghai_race-2",
           formulaSlug: "f1-academy",
           year: "2026",
           eventSlug: "shanghai",
@@ -78,6 +84,7 @@ export const f1AcademyCalendar2026: RaceCal = {
       updatedAt: "2026-01-20T18:38:08.215Z",
     },
     {
+      key: "f1-academy_2026_jeddah",
       formulaSlug: "f1-academy",
       year: "2026",
       slug: "jeddah",
@@ -93,6 +100,7 @@ export const f1AcademyCalendar2026: RaceCal = {
       round: 2,
       sessions: [
         {
+          key: "f1-academy_2026_jeddah_free-practice",
           formulaSlug: "f1-academy",
           year: "2026",
           eventSlug: "jeddah",
@@ -106,6 +114,7 @@ export const f1AcademyCalendar2026: RaceCal = {
           tbc: true,
         },
         {
+          key: "f1-academy_2026_jeddah_qualifying",
           formulaSlug: "f1-academy",
           year: "2026",
           eventSlug: "jeddah",
@@ -119,6 +128,7 @@ export const f1AcademyCalendar2026: RaceCal = {
           tbc: true,
         },
         {
+          key: "f1-academy_2026_jeddah_race-1",
           formulaSlug: "f1-academy",
           year: "2026",
           eventSlug: "jeddah",
@@ -132,6 +142,7 @@ export const f1AcademyCalendar2026: RaceCal = {
           tbc: true,
         },
         {
+          key: "f1-academy_2026_jeddah_race-2",
           formulaSlug: "f1-academy",
           year: "2026",
           eventSlug: "jeddah",
@@ -148,6 +159,7 @@ export const f1AcademyCalendar2026: RaceCal = {
       updatedAt: "2026-01-20T18:38:08.215Z",
     },
     {
+      key: "f1-academy_2026_montreal",
       formulaSlug: "f1-academy",
       year: "2026",
       slug: "montreal",
@@ -163,6 +175,7 @@ export const f1AcademyCalendar2026: RaceCal = {
       round: 3,
       sessions: [
         {
+          key: "f1-academy_2026_montreal_free-practice",
           formulaSlug: "f1-academy",
           year: "2026",
           eventSlug: "montreal",
@@ -176,6 +189,7 @@ export const f1AcademyCalendar2026: RaceCal = {
           tbc: true,
         },
         {
+          key: "f1-academy_2026_montreal_qualifying",
           formulaSlug: "f1-academy",
           year: "2026",
           eventSlug: "montreal",
@@ -189,6 +203,7 @@ export const f1AcademyCalendar2026: RaceCal = {
           tbc: true,
         },
         {
+          key: "f1-academy_2026_montreal_race-1",
           formulaSlug: "f1-academy",
           year: "2026",
           eventSlug: "montreal",
@@ -202,6 +217,7 @@ export const f1AcademyCalendar2026: RaceCal = {
           tbc: true,
         },
         {
+          key: "f1-academy_2026_montreal_race-2",
           formulaSlug: "f1-academy",
           year: "2026",
           eventSlug: "montreal",
@@ -218,6 +234,7 @@ export const f1AcademyCalendar2026: RaceCal = {
       updatedAt: "2026-01-20T18:38:08.215Z",
     },
     {
+      key: "f1-academy_2026_silverstone",
       formulaSlug: "f1-academy",
       year: "2026",
       slug: "silverstone",
@@ -233,6 +250,7 @@ export const f1AcademyCalendar2026: RaceCal = {
       round: 4,
       sessions: [
         {
+          key: "f1-academy_2026_silverstone_free-practice",
           formulaSlug: "f1-academy",
           year: "2026",
           eventSlug: "silverstone",
@@ -246,6 +264,7 @@ export const f1AcademyCalendar2026: RaceCal = {
           tbc: true,
         },
         {
+          key: "f1-academy_2026_silverstone_qualifying",
           formulaSlug: "f1-academy",
           year: "2026",
           eventSlug: "silverstone",
@@ -259,6 +278,7 @@ export const f1AcademyCalendar2026: RaceCal = {
           tbc: true,
         },
         {
+          key: "f1-academy_2026_silverstone_race-1",
           formulaSlug: "f1-academy",
           year: "2026",
           eventSlug: "silverstone",
@@ -272,6 +292,7 @@ export const f1AcademyCalendar2026: RaceCal = {
           tbc: true,
         },
         {
+          key: "f1-academy_2026_silverstone_race-2",
           formulaSlug: "f1-academy",
           year: "2026",
           eventSlug: "silverstone",
@@ -288,6 +309,7 @@ export const f1AcademyCalendar2026: RaceCal = {
       updatedAt: "2026-01-20T18:38:08.215Z",
     },
     {
+      key: "f1-academy_2026_zandvoort",
       formulaSlug: "f1-academy",
       year: "2026",
       slug: "zandvoort",
@@ -303,6 +325,7 @@ export const f1AcademyCalendar2026: RaceCal = {
       round: 5,
       sessions: [
         {
+          key: "f1-academy_2026_zandvoort_free-practice",
           formulaSlug: "f1-academy",
           year: "2026",
           eventSlug: "zandvoort",
@@ -316,6 +339,7 @@ export const f1AcademyCalendar2026: RaceCal = {
           tbc: true,
         },
         {
+          key: "f1-academy_2026_zandvoort_qualifying",
           formulaSlug: "f1-academy",
           year: "2026",
           eventSlug: "zandvoort",
@@ -329,6 +353,7 @@ export const f1AcademyCalendar2026: RaceCal = {
           tbc: true,
         },
         {
+          key: "f1-academy_2026_zandvoort_race-1",
           formulaSlug: "f1-academy",
           year: "2026",
           eventSlug: "zandvoort",
@@ -342,6 +367,7 @@ export const f1AcademyCalendar2026: RaceCal = {
           tbc: true,
         },
         {
+          key: "f1-academy_2026_zandvoort_race-2",
           formulaSlug: "f1-academy",
           year: "2026",
           eventSlug: "zandvoort",
@@ -358,6 +384,7 @@ export const f1AcademyCalendar2026: RaceCal = {
       updatedAt: "2026-01-20T18:38:08.215Z",
     },
     {
+      key: "f1-academy_2026_austin",
       formulaSlug: "f1-academy",
       year: "2026",
       slug: "austin",
@@ -373,6 +400,7 @@ export const f1AcademyCalendar2026: RaceCal = {
       round: 6,
       sessions: [
         {
+          key: "f1-academy_2026_austin_free-practice",
           formulaSlug: "f1-academy",
           year: "2026",
           eventSlug: "austin",
@@ -386,6 +414,7 @@ export const f1AcademyCalendar2026: RaceCal = {
           tbc: true,
         },
         {
+          key: "f1-academy_2026_austin_qualifying",
           formulaSlug: "f1-academy",
           year: "2026",
           eventSlug: "austin",
@@ -399,6 +428,7 @@ export const f1AcademyCalendar2026: RaceCal = {
           tbc: true,
         },
         {
+          key: "f1-academy_2026_austin_race-1",
           formulaSlug: "f1-academy",
           year: "2026",
           eventSlug: "austin",
@@ -412,6 +442,7 @@ export const f1AcademyCalendar2026: RaceCal = {
           tbc: true,
         },
         {
+          key: "f1-academy_2026_austin_race-2",
           formulaSlug: "f1-academy",
           year: "2026",
           eventSlug: "austin",
@@ -428,6 +459,7 @@ export const f1AcademyCalendar2026: RaceCal = {
       updatedAt: "2026-01-20T18:38:08.215Z",
     },
     {
+      key: "f1-academy_2026_las-vegas",
       formulaSlug: "f1-academy",
       year: "2026",
       slug: "las-vegas",
@@ -443,6 +475,7 @@ export const f1AcademyCalendar2026: RaceCal = {
       round: 7,
       sessions: [
         {
+          key: "f1-academy_2026_las-vegas_free-practice",
           formulaSlug: "f1-academy",
           year: "2026",
           eventSlug: "las-vegas",
@@ -456,6 +489,7 @@ export const f1AcademyCalendar2026: RaceCal = {
           tbc: true,
         },
         {
+          key: "f1-academy_2026_las-vegas_qualifying",
           formulaSlug: "f1-academy",
           year: "2026",
           eventSlug: "las-vegas",
@@ -469,6 +503,7 @@ export const f1AcademyCalendar2026: RaceCal = {
           tbc: true,
         },
         {
+          key: "f1-academy_2026_las-vegas_race-1",
           formulaSlug: "f1-academy",
           year: "2026",
           eventSlug: "las-vegas",
@@ -482,6 +517,7 @@ export const f1AcademyCalendar2026: RaceCal = {
           tbc: true,
         },
         {
+          key: "f1-academy_2026_las-vegas_race-2",
           formulaSlug: "f1-academy",
           year: "2026",
           eventSlug: "las-vegas",

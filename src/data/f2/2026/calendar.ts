@@ -2,12 +2,14 @@
 import type { RaceCal } from "../../../types/RaceCal";
 
 export const f2Calendar2026: RaceCal = {
+  key: "f2_2026",
   formulaSlug: "f2",
   year: "2026",
   url: "https://www.fiaformula2.com/Calendar",
   title: "Calendar Formula 2 2026",
   raceEvents: [
     {
+      key: "f2_2026_melbourne",
       formulaSlug: "f2",
       year: "2026",
       slug: "melbourne",
@@ -23,6 +25,7 @@ export const f2Calendar2026: RaceCal = {
       round: 1,
       sessions: [
         {
+          key: "f2_2026_melbourne_free-practice",
           formulaSlug: "f2",
           year: "2026",
           eventSlug: "melbourne",
@@ -36,6 +39,7 @@ export const f2Calendar2026: RaceCal = {
           tbc: true,
         },
         {
+          key: "f2_2026_melbourne_qualifying-session",
           formulaSlug: "f2",
           year: "2026",
           eventSlug: "melbourne",
@@ -49,6 +53,7 @@ export const f2Calendar2026: RaceCal = {
           tbc: true,
         },
         {
+          key: "f2_2026_melbourne_sprint-race",
           formulaSlug: "f2",
           year: "2026",
           eventSlug: "melbourne",
@@ -62,6 +67,7 @@ export const f2Calendar2026: RaceCal = {
           tbc: true,
         },
         {
+          key: "f2_2026_melbourne_feature-race",
           formulaSlug: "f2",
           year: "2026",
           eventSlug: "melbourne",
@@ -78,6 +84,7 @@ export const f2Calendar2026: RaceCal = {
       updatedAt: "2026-01-20T12:53:34.562Z",
     },
     {
+      key: "f2_2026_sakhir",
       formulaSlug: "f2",
       year: "2026",
       slug: "sakhir",
@@ -93,6 +100,7 @@ export const f2Calendar2026: RaceCal = {
       round: 2,
       sessions: [
         {
+          key: "f2_2026_sakhir_free-practice",
           formulaSlug: "f2",
           year: "2026",
           eventSlug: "sakhir",
@@ -106,6 +114,7 @@ export const f2Calendar2026: RaceCal = {
           tbc: true,
         },
         {
+          key: "f2_2026_sakhir_qualifying-session",
           formulaSlug: "f2",
           year: "2026",
           eventSlug: "sakhir",
@@ -119,6 +128,7 @@ export const f2Calendar2026: RaceCal = {
           tbc: true,
         },
         {
+          key: "f2_2026_sakhir_sprint-race",
           formulaSlug: "f2",
           year: "2026",
           eventSlug: "sakhir",
@@ -132,6 +142,7 @@ export const f2Calendar2026: RaceCal = {
           tbc: true,
         },
         {
+          key: "f2_2026_sakhir_feature-race",
           formulaSlug: "f2",
           year: "2026",
           eventSlug: "sakhir",
@@ -148,6 +159,7 @@ export const f2Calendar2026: RaceCal = {
       updatedAt: "2026-01-20T12:53:34.562Z",
     },
     {
+      key: "f2_2026_jeddah",
       formulaSlug: "f2",
       year: "2026",
       slug: "jeddah",
@@ -163,6 +175,7 @@ export const f2Calendar2026: RaceCal = {
       round: 3,
       sessions: [
         {
+          key: "f2_2026_jeddah_free-practice",
           formulaSlug: "f2",
           year: "2026",
           eventSlug: "jeddah",
@@ -176,6 +189,7 @@ export const f2Calendar2026: RaceCal = {
           tbc: true,
         },
         {
+          key: "f2_2026_jeddah_qualifying-session",
           formulaSlug: "f2",
           year: "2026",
           eventSlug: "jeddah",
@@ -189,6 +203,7 @@ export const f2Calendar2026: RaceCal = {
           tbc: true,
         },
         {
+          key: "f2_2026_jeddah_sprint-race",
           formulaSlug: "f2",
           year: "2026",
           eventSlug: "jeddah",
@@ -202,6 +217,7 @@ export const f2Calendar2026: RaceCal = {
           tbc: true,
         },
         {
+          key: "f2_2026_jeddah_feature-race",
           formulaSlug: "f2",
           year: "2026",
           eventSlug: "jeddah",
@@ -218,6 +234,7 @@ export const f2Calendar2026: RaceCal = {
       updatedAt: "2026-01-20T12:53:34.562Z",
     },
     {
+      key: "f2_2026_monaco",
       formulaSlug: "f2",
       year: "2026",
       slug: "monaco",
@@ -233,6 +250,7 @@ export const f2Calendar2026: RaceCal = {
       round: 4,
       sessions: [
         {
+          key: "f2_2026_monaco_free-practice",
           formulaSlug: "f2",
           year: "2026",
           eventSlug: "monaco",
@@ -246,6 +264,7 @@ export const f2Calendar2026: RaceCal = {
           tbc: true,
         },
         {
+          key: "f2_2026_monaco_qualifying-group-a",
           formulaSlug: "f2",
           year: "2026",
           eventSlug: "monaco",
@@ -259,6 +278,7 @@ export const f2Calendar2026: RaceCal = {
           tbc: true,
         },
         {
+          key: "f2_2026_monaco_qualifying-group-b",
           formulaSlug: "f2",
           year: "2026",
           eventSlug: "monaco",
@@ -272,6 +292,7 @@ export const f2Calendar2026: RaceCal = {
           tbc: true,
         },
         {
+          key: "f2_2026_monaco_sprint-race",
           formulaSlug: "f2",
           year: "2026",
           eventSlug: "monaco",
@@ -285,6 +306,7 @@ export const f2Calendar2026: RaceCal = {
           tbc: true,
         },
         {
+          key: "f2_2026_monaco_feature-race",
           formulaSlug: "f2",
           year: "2026",
           eventSlug: "monaco",
@@ -301,6 +323,7 @@ export const f2Calendar2026: RaceCal = {
       updatedAt: "2026-01-20T12:53:34.562Z",
     },
     {
+      key: "f2_2026_barcelona",
       formulaSlug: "f2",
       year: "2026",
       slug: "barcelona",
@@ -316,6 +339,7 @@ export const f2Calendar2026: RaceCal = {
       round: 5,
       sessions: [
         {
+          key: "f2_2026_barcelona_free-practice",
           formulaSlug: "f2",
           year: "2026",
           eventSlug: "barcelona",
@@ -329,6 +353,7 @@ export const f2Calendar2026: RaceCal = {
           tbc: true,
         },
         {
+          key: "f2_2026_barcelona_qualifying-session",
           formulaSlug: "f2",
           year: "2026",
           eventSlug: "barcelona",
@@ -342,6 +367,7 @@ export const f2Calendar2026: RaceCal = {
           tbc: true,
         },
         {
+          key: "f2_2026_barcelona_sprint-race",
           formulaSlug: "f2",
           year: "2026",
           eventSlug: "barcelona",
@@ -355,6 +381,7 @@ export const f2Calendar2026: RaceCal = {
           tbc: true,
         },
         {
+          key: "f2_2026_barcelona_feature-race",
           formulaSlug: "f2",
           year: "2026",
           eventSlug: "barcelona",
@@ -371,6 +398,7 @@ export const f2Calendar2026: RaceCal = {
       updatedAt: "2026-01-20T12:53:34.562Z",
     },
     {
+      key: "f2_2026_spielberg",
       formulaSlug: "f2",
       year: "2026",
       slug: "spielberg",
@@ -386,6 +414,7 @@ export const f2Calendar2026: RaceCal = {
       round: 6,
       sessions: [
         {
+          key: "f2_2026_spielberg_free-practice",
           formulaSlug: "f2",
           year: "2026",
           eventSlug: "spielberg",
@@ -399,6 +428,7 @@ export const f2Calendar2026: RaceCal = {
           tbc: true,
         },
         {
+          key: "f2_2026_spielberg_qualifying-session",
           formulaSlug: "f2",
           year: "2026",
           eventSlug: "spielberg",
@@ -412,6 +442,7 @@ export const f2Calendar2026: RaceCal = {
           tbc: true,
         },
         {
+          key: "f2_2026_spielberg_sprint-race",
           formulaSlug: "f2",
           year: "2026",
           eventSlug: "spielberg",
@@ -425,6 +456,7 @@ export const f2Calendar2026: RaceCal = {
           tbc: true,
         },
         {
+          key: "f2_2026_spielberg_feature-race",
           formulaSlug: "f2",
           year: "2026",
           eventSlug: "spielberg",
@@ -441,6 +473,7 @@ export const f2Calendar2026: RaceCal = {
       updatedAt: "2026-01-20T12:53:34.562Z",
     },
     {
+      key: "f2_2026_silverstone",
       formulaSlug: "f2",
       year: "2026",
       slug: "silverstone",
@@ -456,6 +489,7 @@ export const f2Calendar2026: RaceCal = {
       round: 7,
       sessions: [
         {
+          key: "f2_2026_silverstone_free-practice",
           formulaSlug: "f2",
           year: "2026",
           eventSlug: "silverstone",
@@ -469,6 +503,7 @@ export const f2Calendar2026: RaceCal = {
           tbc: true,
         },
         {
+          key: "f2_2026_silverstone_qualifying-session",
           formulaSlug: "f2",
           year: "2026",
           eventSlug: "silverstone",
@@ -482,6 +517,7 @@ export const f2Calendar2026: RaceCal = {
           tbc: true,
         },
         {
+          key: "f2_2026_silverstone_sprint-race",
           formulaSlug: "f2",
           year: "2026",
           eventSlug: "silverstone",
@@ -495,6 +531,7 @@ export const f2Calendar2026: RaceCal = {
           tbc: true,
         },
         {
+          key: "f2_2026_silverstone_feature-race",
           formulaSlug: "f2",
           year: "2026",
           eventSlug: "silverstone",
@@ -511,6 +548,7 @@ export const f2Calendar2026: RaceCal = {
       updatedAt: "2026-01-20T12:53:34.562Z",
     },
     {
+      key: "f2_2026_spa-francorchamps",
       formulaSlug: "f2",
       year: "2026",
       slug: "spa-francorchamps",
@@ -526,6 +564,7 @@ export const f2Calendar2026: RaceCal = {
       round: 8,
       sessions: [
         {
+          key: "f2_2026_spa-francorchamps_free-practice",
           formulaSlug: "f2",
           year: "2026",
           eventSlug: "spa-francorchamps",
@@ -539,6 +578,7 @@ export const f2Calendar2026: RaceCal = {
           tbc: true,
         },
         {
+          key: "f2_2026_spa-francorchamps_qualifying-session",
           formulaSlug: "f2",
           year: "2026",
           eventSlug: "spa-francorchamps",
@@ -552,6 +592,7 @@ export const f2Calendar2026: RaceCal = {
           tbc: true,
         },
         {
+          key: "f2_2026_spa-francorchamps_sprint-race",
           formulaSlug: "f2",
           year: "2026",
           eventSlug: "spa-francorchamps",
@@ -565,6 +606,7 @@ export const f2Calendar2026: RaceCal = {
           tbc: true,
         },
         {
+          key: "f2_2026_spa-francorchamps_feature-race",
           formulaSlug: "f2",
           year: "2026",
           eventSlug: "spa-francorchamps",
@@ -581,6 +623,7 @@ export const f2Calendar2026: RaceCal = {
       updatedAt: "2026-01-20T12:53:34.562Z",
     },
     {
+      key: "f2_2026_budapest",
       formulaSlug: "f2",
       year: "2026",
       slug: "budapest",
@@ -596,6 +639,7 @@ export const f2Calendar2026: RaceCal = {
       round: 9,
       sessions: [
         {
+          key: "f2_2026_budapest_free-practice",
           formulaSlug: "f2",
           year: "2026",
           eventSlug: "budapest",
@@ -609,6 +653,7 @@ export const f2Calendar2026: RaceCal = {
           tbc: true,
         },
         {
+          key: "f2_2026_budapest_qualifying-session",
           formulaSlug: "f2",
           year: "2026",
           eventSlug: "budapest",
@@ -622,6 +667,7 @@ export const f2Calendar2026: RaceCal = {
           tbc: true,
         },
         {
+          key: "f2_2026_budapest_sprint-race",
           formulaSlug: "f2",
           year: "2026",
           eventSlug: "budapest",
@@ -635,6 +681,7 @@ export const f2Calendar2026: RaceCal = {
           tbc: true,
         },
         {
+          key: "f2_2026_budapest_feature-race",
           formulaSlug: "f2",
           year: "2026",
           eventSlug: "budapest",
@@ -651,6 +698,7 @@ export const f2Calendar2026: RaceCal = {
       updatedAt: "2026-01-20T12:53:34.562Z",
     },
     {
+      key: "f2_2026_monza",
       formulaSlug: "f2",
       year: "2026",
       slug: "monza",
@@ -666,6 +714,7 @@ export const f2Calendar2026: RaceCal = {
       round: 10,
       sessions: [
         {
+          key: "f2_2026_monza_free-practice",
           formulaSlug: "f2",
           year: "2026",
           eventSlug: "monza",
@@ -679,6 +728,7 @@ export const f2Calendar2026: RaceCal = {
           tbc: true,
         },
         {
+          key: "f2_2026_monza_qualifying-session",
           formulaSlug: "f2",
           year: "2026",
           eventSlug: "monza",
@@ -692,6 +742,7 @@ export const f2Calendar2026: RaceCal = {
           tbc: true,
         },
         {
+          key: "f2_2026_monza_sprint-race",
           formulaSlug: "f2",
           year: "2026",
           eventSlug: "monza",
@@ -705,6 +756,7 @@ export const f2Calendar2026: RaceCal = {
           tbc: true,
         },
         {
+          key: "f2_2026_monza_feature-race",
           formulaSlug: "f2",
           year: "2026",
           eventSlug: "monza",
@@ -721,6 +773,7 @@ export const f2Calendar2026: RaceCal = {
       updatedAt: "2026-01-20T12:53:34.562Z",
     },
     {
+      key: "f2_2026_madrid",
       formulaSlug: "f2",
       year: "2026",
       slug: "madrid",
@@ -736,6 +789,7 @@ export const f2Calendar2026: RaceCal = {
       round: 11,
       sessions: [
         {
+          key: "f2_2026_madrid_free-practice",
           formulaSlug: "f2",
           year: "2026",
           eventSlug: "madrid",
@@ -749,6 +803,7 @@ export const f2Calendar2026: RaceCal = {
           tbc: true,
         },
         {
+          key: "f2_2026_madrid_qualifying-session",
           formulaSlug: "f2",
           year: "2026",
           eventSlug: "madrid",
@@ -762,6 +817,7 @@ export const f2Calendar2026: RaceCal = {
           tbc: true,
         },
         {
+          key: "f2_2026_madrid_sprint-race",
           formulaSlug: "f2",
           year: "2026",
           eventSlug: "madrid",
@@ -775,6 +831,7 @@ export const f2Calendar2026: RaceCal = {
           tbc: true,
         },
         {
+          key: "f2_2026_madrid_feature-race",
           formulaSlug: "f2",
           year: "2026",
           eventSlug: "madrid",
@@ -791,6 +848,7 @@ export const f2Calendar2026: RaceCal = {
       updatedAt: "2026-01-20T12:53:34.562Z",
     },
     {
+      key: "f2_2026_baku",
       formulaSlug: "f2",
       year: "2026",
       slug: "baku",
@@ -806,6 +864,7 @@ export const f2Calendar2026: RaceCal = {
       round: 12,
       sessions: [
         {
+          key: "f2_2026_baku_free-practice",
           formulaSlug: "f2",
           year: "2026",
           eventSlug: "baku",
@@ -819,6 +878,7 @@ export const f2Calendar2026: RaceCal = {
           tbc: true,
         },
         {
+          key: "f2_2026_baku_qualifying-session",
           formulaSlug: "f2",
           year: "2026",
           eventSlug: "baku",
@@ -832,6 +892,7 @@ export const f2Calendar2026: RaceCal = {
           tbc: true,
         },
         {
+          key: "f2_2026_baku_sprint-race",
           formulaSlug: "f2",
           year: "2026",
           eventSlug: "baku",
@@ -845,6 +906,7 @@ export const f2Calendar2026: RaceCal = {
           tbc: true,
         },
         {
+          key: "f2_2026_baku_feature-race",
           formulaSlug: "f2",
           year: "2026",
           eventSlug: "baku",
@@ -861,6 +923,7 @@ export const f2Calendar2026: RaceCal = {
       updatedAt: "2026-01-20T12:53:34.562Z",
     },
     {
+      key: "f2_2026_lusail",
       formulaSlug: "f2",
       year: "2026",
       slug: "lusail",
@@ -876,6 +939,7 @@ export const f2Calendar2026: RaceCal = {
       round: 13,
       sessions: [
         {
+          key: "f2_2026_lusail_free-practice",
           formulaSlug: "f2",
           year: "2026",
           eventSlug: "lusail",
@@ -889,6 +953,7 @@ export const f2Calendar2026: RaceCal = {
           tbc: true,
         },
         {
+          key: "f2_2026_lusail_qualifying-session",
           formulaSlug: "f2",
           year: "2026",
           eventSlug: "lusail",
@@ -902,6 +967,7 @@ export const f2Calendar2026: RaceCal = {
           tbc: true,
         },
         {
+          key: "f2_2026_lusail_sprint-race",
           formulaSlug: "f2",
           year: "2026",
           eventSlug: "lusail",
@@ -915,6 +981,7 @@ export const f2Calendar2026: RaceCal = {
           tbc: true,
         },
         {
+          key: "f2_2026_lusail_feature-race",
           formulaSlug: "f2",
           year: "2026",
           eventSlug: "lusail",
@@ -931,6 +998,7 @@ export const f2Calendar2026: RaceCal = {
       updatedAt: "2026-01-20T12:53:34.562Z",
     },
     {
+      key: "f2_2026_yas-island",
       formulaSlug: "f2",
       year: "2026",
       slug: "yas-island",
@@ -946,6 +1014,7 @@ export const f2Calendar2026: RaceCal = {
       round: 14,
       sessions: [
         {
+          key: "f2_2026_yas-island_free-practice",
           formulaSlug: "f2",
           year: "2026",
           eventSlug: "yas-island",
@@ -959,6 +1028,7 @@ export const f2Calendar2026: RaceCal = {
           tbc: true,
         },
         {
+          key: "f2_2026_yas-island_qualifying-session",
           formulaSlug: "f2",
           year: "2026",
           eventSlug: "yas-island",
@@ -972,6 +1042,7 @@ export const f2Calendar2026: RaceCal = {
           tbc: true,
         },
         {
+          key: "f2_2026_yas-island_sprint-race",
           formulaSlug: "f2",
           year: "2026",
           eventSlug: "yas-island",
@@ -985,6 +1056,7 @@ export const f2Calendar2026: RaceCal = {
           tbc: true,
         },
         {
+          key: "f2_2026_yas-island_feature-race",
           formulaSlug: "f2",
           year: "2026",
           eventSlug: "yas-island",

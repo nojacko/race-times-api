@@ -13,7 +13,7 @@ import { DateTime } from "luxon";
 import { getCircuit } from "../data/circuits";
 import { getCircuitKey, getCircuitSlug } from "../utils/circuit-map";
 import { getFormulasActive } from "../data/formulas";
-import { slugify } from "../utils/strings";
+import { slugify, slugsJoin } from "../utils/strings";
 import { VARS } from "../vars";
 
 const calendarFilename = "_calendar.json";
@@ -75,6 +75,7 @@ function buildSession(
   }
 
   return {
+    key: slugsJoin(formula.slug, year, rawEvent.slug, sessionSlug),
     formulaSlug: formula.slug,
     year,
     eventSlug: rawEvent.slug,
@@ -158,6 +159,7 @@ function buildEvent(
   }
 
   const event: RaceEvent = {
+    key: slugsJoin(formula.slug, year, raw.slug),
     formulaSlug: formula.slug,
     year,
     slug: raw.slug,
@@ -232,6 +234,7 @@ function parseCalendar(): void {
               .filter((ev): ev is RaceEvent => !!ev);
 
             const transformed: RaceCal = {
+              key: slugsJoin(formula.slug, year),
               formulaSlug: formula.slug,
               year: calendarRaw.year,
               url: calendarRaw.url,

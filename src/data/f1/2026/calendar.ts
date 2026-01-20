@@ -2,12 +2,14 @@
 import type { RaceCal } from "../../../types/RaceCal";
 
 export const f1Calendar2026: RaceCal = {
+  key: "f1_2026",
   formulaSlug: "f1",
   year: "2026",
   url: "https://www.formula1.com/en/racing/2026",
   title: "2026 FIA FORMULA ONE WORLD CHAMPIONSHIP™ RACE CALENDAR",
   raceEvents: [
     {
+      key: "f1_2026_pre-season-testing-1",
       formulaSlug: "f1",
       year: "2026",
       slug: "pre-season-testing-1",
@@ -23,6 +25,7 @@ export const f1Calendar2026: RaceCal = {
       round: 0,
       sessions: [
         {
+          key: "f1_2026_pre-season-testing-1_day-1",
           formulaSlug: "f1",
           year: "2026",
           eventSlug: "pre-season-testing-1",
@@ -36,6 +39,7 @@ export const f1Calendar2026: RaceCal = {
           tbc: false,
         },
         {
+          key: "f1_2026_pre-season-testing-1_day-2",
           formulaSlug: "f1",
           year: "2026",
           eventSlug: "pre-season-testing-1",
@@ -49,6 +53,7 @@ export const f1Calendar2026: RaceCal = {
           tbc: false,
         },
         {
+          key: "f1_2026_pre-season-testing-1_day-3",
           formulaSlug: "f1",
           year: "2026",
           eventSlug: "pre-season-testing-1",
@@ -65,6 +70,7 @@ export const f1Calendar2026: RaceCal = {
       updatedAt: "2026-01-20T12:52:14.862Z",
     },
     {
+      key: "f1_2026_pre-season-testing-2",
       formulaSlug: "f1",
       year: "2026",
       slug: "pre-season-testing-2",
@@ -80,6 +86,7 @@ export const f1Calendar2026: RaceCal = {
       round: 0,
       sessions: [
         {
+          key: "f1_2026_pre-season-testing-2_day-1",
           formulaSlug: "f1",
           year: "2026",
           eventSlug: "pre-season-testing-2",
@@ -93,6 +100,7 @@ export const f1Calendar2026: RaceCal = {
           tbc: false,
         },
         {
+          key: "f1_2026_pre-season-testing-2_day-2",
           formulaSlug: "f1",
           year: "2026",
           eventSlug: "pre-season-testing-2",
@@ -106,6 +114,7 @@ export const f1Calendar2026: RaceCal = {
           tbc: false,
         },
         {
+          key: "f1_2026_pre-season-testing-2_day-3",
           formulaSlug: "f1",
           year: "2026",
           eventSlug: "pre-season-testing-2",
@@ -122,6 +131,7 @@ export const f1Calendar2026: RaceCal = {
       updatedAt: "2026-01-20T12:52:14.862Z",
     },
     {
+      key: "f1_2026_australia",
       formulaSlug: "f1",
       year: "2026",
       slug: "australia",
@@ -137,6 +147,7 @@ export const f1Calendar2026: RaceCal = {
       round: 1,
       sessions: [
         {
+          key: "f1_2026_australia_practice-1",
           formulaSlug: "f1",
           year: "2026",
           eventSlug: "australia",
@@ -150,6 +161,7 @@ export const f1Calendar2026: RaceCal = {
           tbc: false,
         },
         {
+          key: "f1_2026_australia_practice-2",
           formulaSlug: "f1",
           year: "2026",
           eventSlug: "australia",
@@ -163,6 +175,7 @@ export const f1Calendar2026: RaceCal = {
           tbc: false,
         },
         {
+          key: "f1_2026_australia_practice-3",
           formulaSlug: "f1",
           year: "2026",
           eventSlug: "australia",
@@ -176,6 +189,7 @@ export const f1Calendar2026: RaceCal = {
           tbc: false,
         },
         {
+          key: "f1_2026_australia_qualifying",
           formulaSlug: "f1",
           year: "2026",
           eventSlug: "australia",
@@ -189,6 +203,7 @@ export const f1Calendar2026: RaceCal = {
           tbc: false,
         },
         {
+          key: "f1_2026_australia_race",
           formulaSlug: "f1",
           year: "2026",
           eventSlug: "australia",
@@ -205,6 +220,7 @@ export const f1Calendar2026: RaceCal = {
       updatedAt: "2026-01-20T12:52:14.862Z",
     },
     {
+      key: "f1_2026_china",
       formulaSlug: "f1",
       year: "2026",
       slug: "china",
@@ -220,6 +236,7 @@ export const f1Calendar2026: RaceCal = {
       round: 2,
       sessions: [
         {
+          key: "f1_2026_china_practice-1",
           formulaSlug: "f1",
           year: "2026",
           eventSlug: "china",
@@ -233,6 +250,7 @@ export const f1Calendar2026: RaceCal = {
           tbc: false,
         },
         {
+          key: "f1_2026_china_sprint-qualifying",
           formulaSlug: "f1",
           year: "2026",
           eventSlug: "china",
@@ -246,6 +264,7 @@ export const f1Calendar2026: RaceCal = {
           tbc: false,
         },
         {
+          key: "f1_2026_china_sprint",
           formulaSlug: "f1",
           year: "2026",
           eventSlug: "china",
@@ -259,6 +278,7 @@ export const f1Calendar2026: RaceCal = {
           tbc: false,
         },
         {
+          key: "f1_2026_china_qualifying",
           formulaSlug: "f1",
           year: "2026",
           eventSlug: "china",
@@ -272,6 +292,7 @@ export const f1Calendar2026: RaceCal = {
           tbc: false,
         },
         {
+          key: "f1_2026_china_race",
           formulaSlug: "f1",
           year: "2026",
           eventSlug: "china",
@@ -288,6 +309,7 @@ export const f1Calendar2026: RaceCal = {
       updatedAt: "2026-01-20T12:52:14.862Z",
     },
     {
+      key: "f1_2026_japan",
       formulaSlug: "f1",
       year: "2026",
       slug: "japan",
@@ -303,6 +325,7 @@ export const f1Calendar2026: RaceCal = {
       round: 3,
       sessions: [
         {
+          key: "f1_2026_japan_practice-1",
           formulaSlug: "f1",
           year: "2026",
           eventSlug: "japan",
@@ -316,6 +339,7 @@ export const f1Calendar2026: RaceCal = {
           tbc: false,
         },
         {
+          key: "f1_2026_japan_practice-2",
           formulaSlug: "f1",
           year: "2026",
           eventSlug: "japan",
@@ -329,6 +353,7 @@ export const f1Calendar2026: RaceCal = {
           tbc: false,
         },
         {
+          key: "f1_2026_japan_practice-3",
           formulaSlug: "f1",
           year: "2026",
           eventSlug: "japan",
@@ -342,6 +367,7 @@ export const f1Calendar2026: RaceCal = {
           tbc: false,
         },
         {
+          key: "f1_2026_japan_qualifying",
           formulaSlug: "f1",
           year: "2026",
           eventSlug: "japan",
@@ -355,6 +381,7 @@ export const f1Calendar2026: RaceCal = {
           tbc: false,
         },
         {
+          key: "f1_2026_japan_race",
           formulaSlug: "f1",
           year: "2026",
           eventSlug: "japan",
@@ -371,6 +398,7 @@ export const f1Calendar2026: RaceCal = {
       updatedAt: "2026-01-20T12:52:14.862Z",
     },
     {
+      key: "f1_2026_bahrain",
       formulaSlug: "f1",
       year: "2026",
       slug: "bahrain",
@@ -386,6 +414,7 @@ export const f1Calendar2026: RaceCal = {
       round: 4,
       sessions: [
         {
+          key: "f1_2026_bahrain_practice-1",
           formulaSlug: "f1",
           year: "2026",
           eventSlug: "bahrain",
@@ -399,6 +428,7 @@ export const f1Calendar2026: RaceCal = {
           tbc: false,
         },
         {
+          key: "f1_2026_bahrain_practice-2",
           formulaSlug: "f1",
           year: "2026",
           eventSlug: "bahrain",
@@ -412,6 +442,7 @@ export const f1Calendar2026: RaceCal = {
           tbc: false,
         },
         {
+          key: "f1_2026_bahrain_practice-3",
           formulaSlug: "f1",
           year: "2026",
           eventSlug: "bahrain",
@@ -425,6 +456,7 @@ export const f1Calendar2026: RaceCal = {
           tbc: false,
         },
         {
+          key: "f1_2026_bahrain_qualifying",
           formulaSlug: "f1",
           year: "2026",
           eventSlug: "bahrain",
@@ -438,6 +470,7 @@ export const f1Calendar2026: RaceCal = {
           tbc: false,
         },
         {
+          key: "f1_2026_bahrain_race",
           formulaSlug: "f1",
           year: "2026",
           eventSlug: "bahrain",
@@ -454,6 +487,7 @@ export const f1Calendar2026: RaceCal = {
       updatedAt: "2026-01-20T12:52:14.862Z",
     },
     {
+      key: "f1_2026_saudi-arabia",
       formulaSlug: "f1",
       year: "2026",
       slug: "saudi-arabia",
@@ -469,6 +503,7 @@ export const f1Calendar2026: RaceCal = {
       round: 5,
       sessions: [
         {
+          key: "f1_2026_saudi-arabia_practice-1",
           formulaSlug: "f1",
           year: "2026",
           eventSlug: "saudi-arabia",
@@ -482,6 +517,7 @@ export const f1Calendar2026: RaceCal = {
           tbc: false,
         },
         {
+          key: "f1_2026_saudi-arabia_practice-2",
           formulaSlug: "f1",
           year: "2026",
           eventSlug: "saudi-arabia",
@@ -495,6 +531,7 @@ export const f1Calendar2026: RaceCal = {
           tbc: false,
         },
         {
+          key: "f1_2026_saudi-arabia_practice-3",
           formulaSlug: "f1",
           year: "2026",
           eventSlug: "saudi-arabia",
@@ -508,6 +545,7 @@ export const f1Calendar2026: RaceCal = {
           tbc: false,
         },
         {
+          key: "f1_2026_saudi-arabia_qualifying",
           formulaSlug: "f1",
           year: "2026",
           eventSlug: "saudi-arabia",
@@ -521,6 +559,7 @@ export const f1Calendar2026: RaceCal = {
           tbc: false,
         },
         {
+          key: "f1_2026_saudi-arabia_race",
           formulaSlug: "f1",
           year: "2026",
           eventSlug: "saudi-arabia",
@@ -537,6 +576,7 @@ export const f1Calendar2026: RaceCal = {
       updatedAt: "2026-01-20T12:52:14.862Z",
     },
     {
+      key: "f1_2026_miami",
       formulaSlug: "f1",
       year: "2026",
       slug: "miami",
@@ -552,6 +592,7 @@ export const f1Calendar2026: RaceCal = {
       round: 6,
       sessions: [
         {
+          key: "f1_2026_miami_practice-1",
           formulaSlug: "f1",
           year: "2026",
           eventSlug: "miami",
@@ -565,6 +606,7 @@ export const f1Calendar2026: RaceCal = {
           tbc: false,
         },
         {
+          key: "f1_2026_miami_sprint-qualifying",
           formulaSlug: "f1",
           year: "2026",
           eventSlug: "miami",
@@ -578,6 +620,7 @@ export const f1Calendar2026: RaceCal = {
           tbc: false,
         },
         {
+          key: "f1_2026_miami_sprint",
           formulaSlug: "f1",
           year: "2026",
           eventSlug: "miami",
@@ -591,6 +634,7 @@ export const f1Calendar2026: RaceCal = {
           tbc: false,
         },
         {
+          key: "f1_2026_miami_qualifying",
           formulaSlug: "f1",
           year: "2026",
           eventSlug: "miami",
@@ -604,6 +648,7 @@ export const f1Calendar2026: RaceCal = {
           tbc: false,
         },
         {
+          key: "f1_2026_miami_race",
           formulaSlug: "f1",
           year: "2026",
           eventSlug: "miami",
@@ -620,6 +665,7 @@ export const f1Calendar2026: RaceCal = {
       updatedAt: "2026-01-20T12:52:14.862Z",
     },
     {
+      key: "f1_2026_canada",
       formulaSlug: "f1",
       year: "2026",
       slug: "canada",
@@ -635,6 +681,7 @@ export const f1Calendar2026: RaceCal = {
       round: 7,
       sessions: [
         {
+          key: "f1_2026_canada_practice-1",
           formulaSlug: "f1",
           year: "2026",
           eventSlug: "canada",
@@ -648,6 +695,7 @@ export const f1Calendar2026: RaceCal = {
           tbc: false,
         },
         {
+          key: "f1_2026_canada_sprint-qualifying",
           formulaSlug: "f1",
           year: "2026",
           eventSlug: "canada",
@@ -661,6 +709,7 @@ export const f1Calendar2026: RaceCal = {
           tbc: false,
         },
         {
+          key: "f1_2026_canada_sprint",
           formulaSlug: "f1",
           year: "2026",
           eventSlug: "canada",
@@ -674,6 +723,7 @@ export const f1Calendar2026: RaceCal = {
           tbc: false,
         },
         {
+          key: "f1_2026_canada_qualifying",
           formulaSlug: "f1",
           year: "2026",
           eventSlug: "canada",
@@ -687,6 +737,7 @@ export const f1Calendar2026: RaceCal = {
           tbc: false,
         },
         {
+          key: "f1_2026_canada_race",
           formulaSlug: "f1",
           year: "2026",
           eventSlug: "canada",
@@ -703,6 +754,7 @@ export const f1Calendar2026: RaceCal = {
       updatedAt: "2026-01-20T12:52:14.862Z",
     },
     {
+      key: "f1_2026_monaco",
       formulaSlug: "f1",
       year: "2026",
       slug: "monaco",
@@ -718,6 +770,7 @@ export const f1Calendar2026: RaceCal = {
       round: 8,
       sessions: [
         {
+          key: "f1_2026_monaco_practice-1",
           formulaSlug: "f1",
           year: "2026",
           eventSlug: "monaco",
@@ -731,6 +784,7 @@ export const f1Calendar2026: RaceCal = {
           tbc: false,
         },
         {
+          key: "f1_2026_monaco_practice-2",
           formulaSlug: "f1",
           year: "2026",
           eventSlug: "monaco",
@@ -744,6 +798,7 @@ export const f1Calendar2026: RaceCal = {
           tbc: false,
         },
         {
+          key: "f1_2026_monaco_practice-3",
           formulaSlug: "f1",
           year: "2026",
           eventSlug: "monaco",
@@ -757,6 +812,7 @@ export const f1Calendar2026: RaceCal = {
           tbc: false,
         },
         {
+          key: "f1_2026_monaco_qualifying",
           formulaSlug: "f1",
           year: "2026",
           eventSlug: "monaco",
@@ -770,6 +826,7 @@ export const f1Calendar2026: RaceCal = {
           tbc: false,
         },
         {
+          key: "f1_2026_monaco_race",
           formulaSlug: "f1",
           year: "2026",
           eventSlug: "monaco",
@@ -786,6 +843,7 @@ export const f1Calendar2026: RaceCal = {
       updatedAt: "2026-01-20T12:52:14.862Z",
     },
     {
+      key: "f1_2026_barcelona-catalunya",
       formulaSlug: "f1",
       year: "2026",
       slug: "barcelona-catalunya",
@@ -801,6 +859,7 @@ export const f1Calendar2026: RaceCal = {
       round: 9,
       sessions: [
         {
+          key: "f1_2026_barcelona-catalunya_practice-1",
           formulaSlug: "f1",
           year: "2026",
           eventSlug: "barcelona-catalunya",
@@ -814,6 +873,7 @@ export const f1Calendar2026: RaceCal = {
           tbc: false,
         },
         {
+          key: "f1_2026_barcelona-catalunya_practice-2",
           formulaSlug: "f1",
           year: "2026",
           eventSlug: "barcelona-catalunya",
@@ -827,6 +887,7 @@ export const f1Calendar2026: RaceCal = {
           tbc: false,
         },
         {
+          key: "f1_2026_barcelona-catalunya_practice-3",
           formulaSlug: "f1",
           year: "2026",
           eventSlug: "barcelona-catalunya",
@@ -840,6 +901,7 @@ export const f1Calendar2026: RaceCal = {
           tbc: false,
         },
         {
+          key: "f1_2026_barcelona-catalunya_qualifying",
           formulaSlug: "f1",
           year: "2026",
           eventSlug: "barcelona-catalunya",
@@ -853,6 +915,7 @@ export const f1Calendar2026: RaceCal = {
           tbc: false,
         },
         {
+          key: "f1_2026_barcelona-catalunya_race",
           formulaSlug: "f1",
           year: "2026",
           eventSlug: "barcelona-catalunya",
@@ -869,6 +932,7 @@ export const f1Calendar2026: RaceCal = {
       updatedAt: "2026-01-20T12:52:14.862Z",
     },
     {
+      key: "f1_2026_austria",
       formulaSlug: "f1",
       year: "2026",
       slug: "austria",
@@ -884,6 +948,7 @@ export const f1Calendar2026: RaceCal = {
       round: 10,
       sessions: [
         {
+          key: "f1_2026_austria_practice-1",
           formulaSlug: "f1",
           year: "2026",
           eventSlug: "austria",
@@ -897,6 +962,7 @@ export const f1Calendar2026: RaceCal = {
           tbc: false,
         },
         {
+          key: "f1_2026_austria_practice-2",
           formulaSlug: "f1",
           year: "2026",
           eventSlug: "austria",
@@ -910,6 +976,7 @@ export const f1Calendar2026: RaceCal = {
           tbc: false,
         },
         {
+          key: "f1_2026_austria_practice-3",
           formulaSlug: "f1",
           year: "2026",
           eventSlug: "austria",
@@ -923,6 +990,7 @@ export const f1Calendar2026: RaceCal = {
           tbc: false,
         },
         {
+          key: "f1_2026_austria_qualifying",
           formulaSlug: "f1",
           year: "2026",
           eventSlug: "austria",
@@ -936,6 +1004,7 @@ export const f1Calendar2026: RaceCal = {
           tbc: false,
         },
         {
+          key: "f1_2026_austria_race",
           formulaSlug: "f1",
           year: "2026",
           eventSlug: "austria",
@@ -952,6 +1021,7 @@ export const f1Calendar2026: RaceCal = {
       updatedAt: "2026-01-20T12:52:14.862Z",
     },
     {
+      key: "f1_2026_great-britain",
       formulaSlug: "f1",
       year: "2026",
       slug: "great-britain",
@@ -967,6 +1037,7 @@ export const f1Calendar2026: RaceCal = {
       round: 11,
       sessions: [
         {
+          key: "f1_2026_great-britain_practice-1",
           formulaSlug: "f1",
           year: "2026",
           eventSlug: "great-britain",
@@ -980,6 +1051,7 @@ export const f1Calendar2026: RaceCal = {
           tbc: false,
         },
         {
+          key: "f1_2026_great-britain_sprint-qualifying",
           formulaSlug: "f1",
           year: "2026",
           eventSlug: "great-britain",
@@ -993,6 +1065,7 @@ export const f1Calendar2026: RaceCal = {
           tbc: false,
         },
         {
+          key: "f1_2026_great-britain_sprint",
           formulaSlug: "f1",
           year: "2026",
           eventSlug: "great-britain",
@@ -1006,6 +1079,7 @@ export const f1Calendar2026: RaceCal = {
           tbc: false,
         },
         {
+          key: "f1_2026_great-britain_qualifying",
           formulaSlug: "f1",
           year: "2026",
           eventSlug: "great-britain",
@@ -1019,6 +1093,7 @@ export const f1Calendar2026: RaceCal = {
           tbc: false,
         },
         {
+          key: "f1_2026_great-britain_race",
           formulaSlug: "f1",
           year: "2026",
           eventSlug: "great-britain",
@@ -1035,6 +1110,7 @@ export const f1Calendar2026: RaceCal = {
       updatedAt: "2026-01-20T12:52:14.862Z",
     },
     {
+      key: "f1_2026_belgium",
       formulaSlug: "f1",
       year: "2026",
       slug: "belgium",
@@ -1050,6 +1126,7 @@ export const f1Calendar2026: RaceCal = {
       round: 12,
       sessions: [
         {
+          key: "f1_2026_belgium_practice-1",
           formulaSlug: "f1",
           year: "2026",
           eventSlug: "belgium",
@@ -1063,6 +1140,7 @@ export const f1Calendar2026: RaceCal = {
           tbc: false,
         },
         {
+          key: "f1_2026_belgium_practice-2",
           formulaSlug: "f1",
           year: "2026",
           eventSlug: "belgium",
@@ -1076,6 +1154,7 @@ export const f1Calendar2026: RaceCal = {
           tbc: false,
         },
         {
+          key: "f1_2026_belgium_practice-3",
           formulaSlug: "f1",
           year: "2026",
           eventSlug: "belgium",
@@ -1089,6 +1168,7 @@ export const f1Calendar2026: RaceCal = {
           tbc: false,
         },
         {
+          key: "f1_2026_belgium_qualifying",
           formulaSlug: "f1",
           year: "2026",
           eventSlug: "belgium",
@@ -1102,6 +1182,7 @@ export const f1Calendar2026: RaceCal = {
           tbc: false,
         },
         {
+          key: "f1_2026_belgium_race",
           formulaSlug: "f1",
           year: "2026",
           eventSlug: "belgium",
@@ -1118,6 +1199,7 @@ export const f1Calendar2026: RaceCal = {
       updatedAt: "2026-01-20T12:52:14.862Z",
     },
     {
+      key: "f1_2026_hungary",
       formulaSlug: "f1",
       year: "2026",
       slug: "hungary",
@@ -1133,6 +1215,7 @@ export const f1Calendar2026: RaceCal = {
       round: 13,
       sessions: [
         {
+          key: "f1_2026_hungary_practice-1",
           formulaSlug: "f1",
           year: "2026",
           eventSlug: "hungary",
@@ -1146,6 +1229,7 @@ export const f1Calendar2026: RaceCal = {
           tbc: false,
         },
         {
+          key: "f1_2026_hungary_practice-2",
           formulaSlug: "f1",
           year: "2026",
           eventSlug: "hungary",
@@ -1159,6 +1243,7 @@ export const f1Calendar2026: RaceCal = {
           tbc: false,
         },
         {
+          key: "f1_2026_hungary_practice-3",
           formulaSlug: "f1",
           year: "2026",
           eventSlug: "hungary",
@@ -1172,6 +1257,7 @@ export const f1Calendar2026: RaceCal = {
           tbc: false,
         },
         {
+          key: "f1_2026_hungary_qualifying",
           formulaSlug: "f1",
           year: "2026",
           eventSlug: "hungary",
@@ -1185,6 +1271,7 @@ export const f1Calendar2026: RaceCal = {
           tbc: false,
         },
         {
+          key: "f1_2026_hungary_race",
           formulaSlug: "f1",
           year: "2026",
           eventSlug: "hungary",
@@ -1201,6 +1288,7 @@ export const f1Calendar2026: RaceCal = {
       updatedAt: "2026-01-20T12:52:14.862Z",
     },
     {
+      key: "f1_2026_netherlands",
       formulaSlug: "f1",
       year: "2026",
       slug: "netherlands",
@@ -1216,6 +1304,7 @@ export const f1Calendar2026: RaceCal = {
       round: 14,
       sessions: [
         {
+          key: "f1_2026_netherlands_practice-1",
           formulaSlug: "f1",
           year: "2026",
           eventSlug: "netherlands",
@@ -1229,6 +1318,7 @@ export const f1Calendar2026: RaceCal = {
           tbc: false,
         },
         {
+          key: "f1_2026_netherlands_sprint-qualifying",
           formulaSlug: "f1",
           year: "2026",
           eventSlug: "netherlands",
@@ -1242,6 +1332,7 @@ export const f1Calendar2026: RaceCal = {
           tbc: false,
         },
         {
+          key: "f1_2026_netherlands_sprint",
           formulaSlug: "f1",
           year: "2026",
           eventSlug: "netherlands",
@@ -1255,6 +1346,7 @@ export const f1Calendar2026: RaceCal = {
           tbc: false,
         },
         {
+          key: "f1_2026_netherlands_qualifying",
           formulaSlug: "f1",
           year: "2026",
           eventSlug: "netherlands",
@@ -1268,6 +1360,7 @@ export const f1Calendar2026: RaceCal = {
           tbc: false,
         },
         {
+          key: "f1_2026_netherlands_race",
           formulaSlug: "f1",
           year: "2026",
           eventSlug: "netherlands",
@@ -1284,6 +1377,7 @@ export const f1Calendar2026: RaceCal = {
       updatedAt: "2026-01-20T12:52:14.862Z",
     },
     {
+      key: "f1_2026_italy",
       formulaSlug: "f1",
       year: "2026",
       slug: "italy",
@@ -1299,6 +1393,7 @@ export const f1Calendar2026: RaceCal = {
       round: 15,
       sessions: [
         {
+          key: "f1_2026_italy_practice-1",
           formulaSlug: "f1",
           year: "2026",
           eventSlug: "italy",
@@ -1312,6 +1407,7 @@ export const f1Calendar2026: RaceCal = {
           tbc: false,
         },
         {
+          key: "f1_2026_italy_practice-2",
           formulaSlug: "f1",
           year: "2026",
           eventSlug: "italy",
@@ -1325,6 +1421,7 @@ export const f1Calendar2026: RaceCal = {
           tbc: false,
         },
         {
+          key: "f1_2026_italy_practice-3",
           formulaSlug: "f1",
           year: "2026",
           eventSlug: "italy",
@@ -1338,6 +1435,7 @@ export const f1Calendar2026: RaceCal = {
           tbc: false,
         },
         {
+          key: "f1_2026_italy_qualifying",
           formulaSlug: "f1",
           year: "2026",
           eventSlug: "italy",
@@ -1351,6 +1449,7 @@ export const f1Calendar2026: RaceCal = {
           tbc: false,
         },
         {
+          key: "f1_2026_italy_race",
           formulaSlug: "f1",
           year: "2026",
           eventSlug: "italy",
@@ -1367,6 +1466,7 @@ export const f1Calendar2026: RaceCal = {
       updatedAt: "2026-01-20T12:52:14.862Z",
     },
     {
+      key: "f1_2026_spain",
       formulaSlug: "f1",
       year: "2026",
       slug: "spain",
@@ -1382,6 +1482,7 @@ export const f1Calendar2026: RaceCal = {
       round: 16,
       sessions: [
         {
+          key: "f1_2026_spain_practice-1",
           formulaSlug: "f1",
           year: "2026",
           eventSlug: "spain",
@@ -1395,6 +1496,7 @@ export const f1Calendar2026: RaceCal = {
           tbc: false,
         },
         {
+          key: "f1_2026_spain_practice-2",
           formulaSlug: "f1",
           year: "2026",
           eventSlug: "spain",
@@ -1408,6 +1510,7 @@ export const f1Calendar2026: RaceCal = {
           tbc: false,
         },
         {
+          key: "f1_2026_spain_practice-3",
           formulaSlug: "f1",
           year: "2026",
           eventSlug: "spain",
@@ -1421,6 +1524,7 @@ export const f1Calendar2026: RaceCal = {
           tbc: false,
         },
         {
+          key: "f1_2026_spain_qualifying",
           formulaSlug: "f1",
           year: "2026",
           eventSlug: "spain",
@@ -1434,6 +1538,7 @@ export const f1Calendar2026: RaceCal = {
           tbc: false,
         },
         {
+          key: "f1_2026_spain_race",
           formulaSlug: "f1",
           year: "2026",
           eventSlug: "spain",
@@ -1450,6 +1555,7 @@ export const f1Calendar2026: RaceCal = {
       updatedAt: "2026-01-20T12:52:14.862Z",
     },
     {
+      key: "f1_2026_azerbaijan",
       formulaSlug: "f1",
       year: "2026",
       slug: "azerbaijan",
@@ -1465,6 +1571,7 @@ export const f1Calendar2026: RaceCal = {
       round: 17,
       sessions: [
         {
+          key: "f1_2026_azerbaijan_practice-1",
           formulaSlug: "f1",
           year: "2026",
           eventSlug: "azerbaijan",
@@ -1478,6 +1585,7 @@ export const f1Calendar2026: RaceCal = {
           tbc: false,
         },
         {
+          key: "f1_2026_azerbaijan_practice-2",
           formulaSlug: "f1",
           year: "2026",
           eventSlug: "azerbaijan",
@@ -1491,6 +1599,7 @@ export const f1Calendar2026: RaceCal = {
           tbc: false,
         },
         {
+          key: "f1_2026_azerbaijan_practice-3",
           formulaSlug: "f1",
           year: "2026",
           eventSlug: "azerbaijan",
@@ -1504,6 +1613,7 @@ export const f1Calendar2026: RaceCal = {
           tbc: false,
         },
         {
+          key: "f1_2026_azerbaijan_qualifying",
           formulaSlug: "f1",
           year: "2026",
           eventSlug: "azerbaijan",
@@ -1517,6 +1627,7 @@ export const f1Calendar2026: RaceCal = {
           tbc: false,
         },
         {
+          key: "f1_2026_azerbaijan_race",
           formulaSlug: "f1",
           year: "2026",
           eventSlug: "azerbaijan",
@@ -1533,6 +1644,7 @@ export const f1Calendar2026: RaceCal = {
       updatedAt: "2026-01-20T12:52:14.862Z",
     },
     {
+      key: "f1_2026_singapore",
       formulaSlug: "f1",
       year: "2026",
       slug: "singapore",
@@ -1548,6 +1660,7 @@ export const f1Calendar2026: RaceCal = {
       round: 18,
       sessions: [
         {
+          key: "f1_2026_singapore_practice-1",
           formulaSlug: "f1",
           year: "2026",
           eventSlug: "singapore",
@@ -1561,6 +1674,7 @@ export const f1Calendar2026: RaceCal = {
           tbc: false,
         },
         {
+          key: "f1_2026_singapore_sprint-qualifying",
           formulaSlug: "f1",
           year: "2026",
           eventSlug: "singapore",
@@ -1574,6 +1688,7 @@ export const f1Calendar2026: RaceCal = {
           tbc: false,
         },
         {
+          key: "f1_2026_singapore_sprint",
           formulaSlug: "f1",
           year: "2026",
           eventSlug: "singapore",
@@ -1587,6 +1702,7 @@ export const f1Calendar2026: RaceCal = {
           tbc: false,
         },
         {
+          key: "f1_2026_singapore_qualifying",
           formulaSlug: "f1",
           year: "2026",
           eventSlug: "singapore",
@@ -1600,6 +1716,7 @@ export const f1Calendar2026: RaceCal = {
           tbc: false,
         },
         {
+          key: "f1_2026_singapore_race",
           formulaSlug: "f1",
           year: "2026",
           eventSlug: "singapore",
@@ -1616,6 +1733,7 @@ export const f1Calendar2026: RaceCal = {
       updatedAt: "2026-01-20T12:52:14.862Z",
     },
     {
+      key: "f1_2026_united-states",
       formulaSlug: "f1",
       year: "2026",
       slug: "united-states",
@@ -1631,6 +1749,7 @@ export const f1Calendar2026: RaceCal = {
       round: 19,
       sessions: [
         {
+          key: "f1_2026_united-states_practice-1",
           formulaSlug: "f1",
           year: "2026",
           eventSlug: "united-states",
@@ -1644,6 +1763,7 @@ export const f1Calendar2026: RaceCal = {
           tbc: false,
         },
         {
+          key: "f1_2026_united-states_practice-2",
           formulaSlug: "f1",
           year: "2026",
           eventSlug: "united-states",
@@ -1657,6 +1777,7 @@ export const f1Calendar2026: RaceCal = {
           tbc: false,
         },
         {
+          key: "f1_2026_united-states_practice-3",
           formulaSlug: "f1",
           year: "2026",
           eventSlug: "united-states",
@@ -1670,6 +1791,7 @@ export const f1Calendar2026: RaceCal = {
           tbc: false,
         },
         {
+          key: "f1_2026_united-states_qualifying",
           formulaSlug: "f1",
           year: "2026",
           eventSlug: "united-states",
@@ -1683,6 +1805,7 @@ export const f1Calendar2026: RaceCal = {
           tbc: false,
         },
         {
+          key: "f1_2026_united-states_race",
           formulaSlug: "f1",
           year: "2026",
           eventSlug: "united-states",
@@ -1699,6 +1822,7 @@ export const f1Calendar2026: RaceCal = {
       updatedAt: "2026-01-20T12:52:14.862Z",
     },
     {
+      key: "f1_2026_mexico",
       formulaSlug: "f1",
       year: "2026",
       slug: "mexico",
@@ -1714,6 +1838,7 @@ export const f1Calendar2026: RaceCal = {
       round: 20,
       sessions: [
         {
+          key: "f1_2026_mexico_practice-1",
           formulaSlug: "f1",
           year: "2026",
           eventSlug: "mexico",
@@ -1727,6 +1852,7 @@ export const f1Calendar2026: RaceCal = {
           tbc: false,
         },
         {
+          key: "f1_2026_mexico_practice-2",
           formulaSlug: "f1",
           year: "2026",
           eventSlug: "mexico",
@@ -1740,6 +1866,7 @@ export const f1Calendar2026: RaceCal = {
           tbc: false,
         },
         {
+          key: "f1_2026_mexico_practice-3",
           formulaSlug: "f1",
           year: "2026",
           eventSlug: "mexico",
@@ -1753,6 +1880,7 @@ export const f1Calendar2026: RaceCal = {
           tbc: false,
         },
         {
+          key: "f1_2026_mexico_qualifying",
           formulaSlug: "f1",
           year: "2026",
           eventSlug: "mexico",
@@ -1766,6 +1894,7 @@ export const f1Calendar2026: RaceCal = {
           tbc: false,
         },
         {
+          key: "f1_2026_mexico_race",
           formulaSlug: "f1",
           year: "2026",
           eventSlug: "mexico",
@@ -1782,6 +1911,7 @@ export const f1Calendar2026: RaceCal = {
       updatedAt: "2026-01-20T12:52:14.862Z",
     },
     {
+      key: "f1_2026_brazil",
       formulaSlug: "f1",
       year: "2026",
       slug: "brazil",
@@ -1797,6 +1927,7 @@ export const f1Calendar2026: RaceCal = {
       round: 21,
       sessions: [
         {
+          key: "f1_2026_brazil_practice-1",
           formulaSlug: "f1",
           year: "2026",
           eventSlug: "brazil",
@@ -1810,6 +1941,7 @@ export const f1Calendar2026: RaceCal = {
           tbc: false,
         },
         {
+          key: "f1_2026_brazil_practice-2",
           formulaSlug: "f1",
           year: "2026",
           eventSlug: "brazil",
@@ -1823,6 +1955,7 @@ export const f1Calendar2026: RaceCal = {
           tbc: false,
         },
         {
+          key: "f1_2026_brazil_practice-3",
           formulaSlug: "f1",
           year: "2026",
           eventSlug: "brazil",
@@ -1836,6 +1969,7 @@ export const f1Calendar2026: RaceCal = {
           tbc: false,
         },
         {
+          key: "f1_2026_brazil_qualifying",
           formulaSlug: "f1",
           year: "2026",
           eventSlug: "brazil",
@@ -1849,6 +1983,7 @@ export const f1Calendar2026: RaceCal = {
           tbc: false,
         },
         {
+          key: "f1_2026_brazil_race",
           formulaSlug: "f1",
           year: "2026",
           eventSlug: "brazil",
@@ -1865,6 +2000,7 @@ export const f1Calendar2026: RaceCal = {
       updatedAt: "2026-01-20T12:52:14.862Z",
     },
     {
+      key: "f1_2026_las-vegas",
       formulaSlug: "f1",
       year: "2026",
       slug: "las-vegas",
@@ -1880,6 +2016,7 @@ export const f1Calendar2026: RaceCal = {
       round: 22,
       sessions: [
         {
+          key: "f1_2026_las-vegas_practice-1",
           formulaSlug: "f1",
           year: "2026",
           eventSlug: "las-vegas",
@@ -1893,6 +2030,7 @@ export const f1Calendar2026: RaceCal = {
           tbc: false,
         },
         {
+          key: "f1_2026_las-vegas_practice-2",
           formulaSlug: "f1",
           year: "2026",
           eventSlug: "las-vegas",
@@ -1906,6 +2044,7 @@ export const f1Calendar2026: RaceCal = {
           tbc: false,
         },
         {
+          key: "f1_2026_las-vegas_practice-3",
           formulaSlug: "f1",
           year: "2026",
           eventSlug: "las-vegas",
@@ -1919,6 +2058,7 @@ export const f1Calendar2026: RaceCal = {
           tbc: false,
         },
         {
+          key: "f1_2026_las-vegas_qualifying",
           formulaSlug: "f1",
           year: "2026",
           eventSlug: "las-vegas",
@@ -1932,6 +2072,7 @@ export const f1Calendar2026: RaceCal = {
           tbc: false,
         },
         {
+          key: "f1_2026_las-vegas_race",
           formulaSlug: "f1",
           year: "2026",
           eventSlug: "las-vegas",
@@ -1948,6 +2089,7 @@ export const f1Calendar2026: RaceCal = {
       updatedAt: "2026-01-20T12:52:14.862Z",
     },
     {
+      key: "f1_2026_qatar",
       formulaSlug: "f1",
       year: "2026",
       slug: "qatar",
@@ -1963,6 +2105,7 @@ export const f1Calendar2026: RaceCal = {
       round: 23,
       sessions: [
         {
+          key: "f1_2026_qatar_practice-1",
           formulaSlug: "f1",
           year: "2026",
           eventSlug: "qatar",
@@ -1976,6 +2119,7 @@ export const f1Calendar2026: RaceCal = {
           tbc: false,
         },
         {
+          key: "f1_2026_qatar_practice-2",
           formulaSlug: "f1",
           year: "2026",
           eventSlug: "qatar",
@@ -1989,6 +2133,7 @@ export const f1Calendar2026: RaceCal = {
           tbc: false,
         },
         {
+          key: "f1_2026_qatar_practice-3",
           formulaSlug: "f1",
           year: "2026",
           eventSlug: "qatar",
@@ -2002,6 +2147,7 @@ export const f1Calendar2026: RaceCal = {
           tbc: false,
         },
         {
+          key: "f1_2026_qatar_qualifying",
           formulaSlug: "f1",
           year: "2026",
           eventSlug: "qatar",
@@ -2015,6 +2161,7 @@ export const f1Calendar2026: RaceCal = {
           tbc: false,
         },
         {
+          key: "f1_2026_qatar_race",
           formulaSlug: "f1",
           year: "2026",
           eventSlug: "qatar",
@@ -2031,6 +2178,7 @@ export const f1Calendar2026: RaceCal = {
       updatedAt: "2026-01-20T12:52:14.862Z",
     },
     {
+      key: "f1_2026_united-arab-emirates",
       formulaSlug: "f1",
       year: "2026",
       slug: "united-arab-emirates",
@@ -2046,6 +2194,7 @@ export const f1Calendar2026: RaceCal = {
       round: 24,
       sessions: [
         {
+          key: "f1_2026_united-arab-emirates_practice-1",
           formulaSlug: "f1",
           year: "2026",
           eventSlug: "united-arab-emirates",
@@ -2059,6 +2208,7 @@ export const f1Calendar2026: RaceCal = {
           tbc: false,
         },
         {
+          key: "f1_2026_united-arab-emirates_practice-2",
           formulaSlug: "f1",
           year: "2026",
           eventSlug: "united-arab-emirates",
@@ -2072,6 +2222,7 @@ export const f1Calendar2026: RaceCal = {
           tbc: false,
         },
         {
+          key: "f1_2026_united-arab-emirates_practice-3",
           formulaSlug: "f1",
           year: "2026",
           eventSlug: "united-arab-emirates",
@@ -2085,6 +2236,7 @@ export const f1Calendar2026: RaceCal = {
           tbc: false,
         },
         {
+          key: "f1_2026_united-arab-emirates_qualifying",
           formulaSlug: "f1",
           year: "2026",
           eventSlug: "united-arab-emirates",
@@ -2098,6 +2250,7 @@ export const f1Calendar2026: RaceCal = {
           tbc: false,
         },
         {
+          key: "f1_2026_united-arab-emirates_race",
           formulaSlug: "f1",
           year: "2026",
           eventSlug: "united-arab-emirates",

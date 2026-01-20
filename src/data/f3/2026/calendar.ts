@@ -2,12 +2,14 @@
 import type { RaceCal } from "../../../types/RaceCal";
 
 export const f3Calendar2026: RaceCal = {
+  key: "f3_2026",
   formulaSlug: "f3",
   year: "2026",
   url: "https://www.fiaformula3.com/Calendar",
   title: "Calendar Formula 3 2026",
   raceEvents: [
     {
+      key: "f3_2026_melbourne",
       formulaSlug: "f3",
       year: "2026",
       slug: "melbourne",
@@ -23,6 +25,7 @@ export const f3Calendar2026: RaceCal = {
       round: 1,
       sessions: [
         {
+          key: "f3_2026_melbourne_practice",
           formulaSlug: "f3",
           year: "2026",
           eventSlug: "melbourne",
@@ -36,6 +39,7 @@ export const f3Calendar2026: RaceCal = {
           tbc: true,
         },
         {
+          key: "f3_2026_melbourne_qualifying",
           formulaSlug: "f3",
           year: "2026",
           eventSlug: "melbourne",
@@ -49,6 +53,7 @@ export const f3Calendar2026: RaceCal = {
           tbc: true,
         },
         {
+          key: "f3_2026_melbourne_sprint-race",
           formulaSlug: "f3",
           year: "2026",
           eventSlug: "melbourne",
@@ -62,6 +67,7 @@ export const f3Calendar2026: RaceCal = {
           tbc: true,
         },
         {
+          key: "f3_2026_melbourne_feature-race",
           formulaSlug: "f3",
           year: "2026",
           eventSlug: "melbourne",
@@ -78,6 +84,7 @@ export const f3Calendar2026: RaceCal = {
       updatedAt: "2026-01-20T17:27:33.037Z",
     },
     {
+      key: "f3_2026_sakhir",
       formulaSlug: "f3",
       year: "2026",
       slug: "sakhir",
@@ -93,6 +100,7 @@ export const f3Calendar2026: RaceCal = {
       round: 2,
       sessions: [
         {
+          key: "f3_2026_sakhir_practice",
           formulaSlug: "f3",
           year: "2026",
           eventSlug: "sakhir",
@@ -106,6 +114,7 @@ export const f3Calendar2026: RaceCal = {
           tbc: true,
         },
         {
+          key: "f3_2026_sakhir_qualifying",
           formulaSlug: "f3",
           year: "2026",
           eventSlug: "sakhir",
@@ -119,6 +128,7 @@ export const f3Calendar2026: RaceCal = {
           tbc: true,
         },
         {
+          key: "f3_2026_sakhir_sprint-race",
           formulaSlug: "f3",
           year: "2026",
           eventSlug: "sakhir",
@@ -132,6 +142,7 @@ export const f3Calendar2026: RaceCal = {
           tbc: true,
         },
         {
+          key: "f3_2026_sakhir_feature-race",
           formulaSlug: "f3",
           year: "2026",
           eventSlug: "sakhir",
@@ -148,6 +159,7 @@ export const f3Calendar2026: RaceCal = {
       updatedAt: "2026-01-20T17:27:33.037Z",
     },
     {
+      key: "f3_2026_monaco",
       formulaSlug: "f3",
       year: "2026",
       slug: "monaco",
@@ -163,6 +175,7 @@ export const f3Calendar2026: RaceCal = {
       round: 3,
       sessions: [
         {
+          key: "f3_2026_monaco_practice",
           formulaSlug: "f3",
           year: "2026",
           eventSlug: "monaco",
@@ -176,6 +189,7 @@ export const f3Calendar2026: RaceCal = {
           tbc: true,
         },
         {
+          key: "f3_2026_monaco_qualifying-group-a",
           formulaSlug: "f3",
           year: "2026",
           eventSlug: "monaco",
@@ -189,6 +203,7 @@ export const f3Calendar2026: RaceCal = {
           tbc: true,
         },
         {
+          key: "f3_2026_monaco_qualifying-group-b",
           formulaSlug: "f3",
           year: "2026",
           eventSlug: "monaco",
@@ -202,6 +217,7 @@ export const f3Calendar2026: RaceCal = {
           tbc: true,
         },
         {
+          key: "f3_2026_monaco_sprint-race",
           formulaSlug: "f3",
           year: "2026",
           eventSlug: "monaco",
@@ -215,6 +231,7 @@ export const f3Calendar2026: RaceCal = {
           tbc: true,
         },
         {
+          key: "f3_2026_monaco_feature-race",
           formulaSlug: "f3",
           year: "2026",
           eventSlug: "monaco",
@@ -231,6 +248,7 @@ export const f3Calendar2026: RaceCal = {
       updatedAt: "2026-01-20T17:27:33.037Z",
     },
     {
+      key: "f3_2026_barcelona",
       formulaSlug: "f3",
       year: "2026",
       slug: "barcelona",
@@ -246,6 +264,7 @@ export const f3Calendar2026: RaceCal = {
       round: 4,
       sessions: [
         {
+          key: "f3_2026_barcelona_practice",
           formulaSlug: "f3",
           year: "2026",
           eventSlug: "barcelona",
@@ -259,6 +278,7 @@ export const f3Calendar2026: RaceCal = {
           tbc: true,
         },
         {
+          key: "f3_2026_barcelona_qualifying",
           formulaSlug: "f3",
           year: "2026",
           eventSlug: "barcelona",
@@ -272,6 +292,7 @@ export const f3Calendar2026: RaceCal = {
           tbc: true,
         },
         {
+          key: "f3_2026_barcelona_sprint-race",
           formulaSlug: "f3",
           year: "2026",
           eventSlug: "barcelona",
@@ -285,6 +306,7 @@ export const f3Calendar2026: RaceCal = {
           tbc: true,
         },
         {
+          key: "f3_2026_barcelona_feature-race",
           formulaSlug: "f3",
           year: "2026",
           eventSlug: "barcelona",
@@ -301,6 +323,7 @@ export const f3Calendar2026: RaceCal = {
       updatedAt: "2026-01-20T17:27:33.037Z",
     },
     {
+      key: "f3_2026_spielberg",
       formulaSlug: "f3",
       year: "2026",
       slug: "spielberg",
@@ -316,6 +339,7 @@ export const f3Calendar2026: RaceCal = {
       round: 5,
       sessions: [
         {
+          key: "f3_2026_spielberg_practice",
           formulaSlug: "f3",
           year: "2026",
           eventSlug: "spielberg",
@@ -329,6 +353,7 @@ export const f3Calendar2026: RaceCal = {
           tbc: true,
         },
         {
+          key: "f3_2026_spielberg_qualifying",
           formulaSlug: "f3",
           year: "2026",
           eventSlug: "spielberg",
@@ -342,6 +367,7 @@ export const f3Calendar2026: RaceCal = {
           tbc: true,
         },
         {
+          key: "f3_2026_spielberg_sprint-race",
           formulaSlug: "f3",
           year: "2026",
           eventSlug: "spielberg",
@@ -355,6 +381,7 @@ export const f3Calendar2026: RaceCal = {
           tbc: true,
         },
         {
+          key: "f3_2026_spielberg_feature-race",
           formulaSlug: "f3",
           year: "2026",
           eventSlug: "spielberg",
@@ -371,6 +398,7 @@ export const f3Calendar2026: RaceCal = {
       updatedAt: "2026-01-20T17:27:33.037Z",
     },
     {
+      key: "f3_2026_silverstone",
       formulaSlug: "f3",
       year: "2026",
       slug: "silverstone",
@@ -386,6 +414,7 @@ export const f3Calendar2026: RaceCal = {
       round: 6,
       sessions: [
         {
+          key: "f3_2026_silverstone_practice",
           formulaSlug: "f3",
           year: "2026",
           eventSlug: "silverstone",
@@ -399,6 +428,7 @@ export const f3Calendar2026: RaceCal = {
           tbc: true,
         },
         {
+          key: "f3_2026_silverstone_qualifying",
           formulaSlug: "f3",
           year: "2026",
           eventSlug: "silverstone",
@@ -412,6 +442,7 @@ export const f3Calendar2026: RaceCal = {
           tbc: true,
         },
         {
+          key: "f3_2026_silverstone_sprint-race",
           formulaSlug: "f3",
           year: "2026",
           eventSlug: "silverstone",
@@ -425,6 +456,7 @@ export const f3Calendar2026: RaceCal = {
           tbc: true,
         },
         {
+          key: "f3_2026_silverstone_feature-race",
           formulaSlug: "f3",
           year: "2026",
           eventSlug: "silverstone",
@@ -441,6 +473,7 @@ export const f3Calendar2026: RaceCal = {
       updatedAt: "2026-01-20T17:27:33.037Z",
     },
     {
+      key: "f3_2026_spa-francorchamps",
       formulaSlug: "f3",
       year: "2026",
       slug: "spa-francorchamps",
@@ -456,6 +489,7 @@ export const f3Calendar2026: RaceCal = {
       round: 7,
       sessions: [
         {
+          key: "f3_2026_spa-francorchamps_practice",
           formulaSlug: "f3",
           year: "2026",
           eventSlug: "spa-francorchamps",
@@ -469,6 +503,7 @@ export const f3Calendar2026: RaceCal = {
           tbc: true,
         },
         {
+          key: "f3_2026_spa-francorchamps_qualifying",
           formulaSlug: "f3",
           year: "2026",
           eventSlug: "spa-francorchamps",
@@ -482,6 +517,7 @@ export const f3Calendar2026: RaceCal = {
           tbc: true,
         },
         {
+          key: "f3_2026_spa-francorchamps_sprint-race",
           formulaSlug: "f3",
           year: "2026",
           eventSlug: "spa-francorchamps",
@@ -495,6 +531,7 @@ export const f3Calendar2026: RaceCal = {
           tbc: true,
         },
         {
+          key: "f3_2026_spa-francorchamps_feature-race",
           formulaSlug: "f3",
           year: "2026",
           eventSlug: "spa-francorchamps",
@@ -511,6 +548,7 @@ export const f3Calendar2026: RaceCal = {
       updatedAt: "2026-01-20T17:27:33.037Z",
     },
     {
+      key: "f3_2026_budapest",
       formulaSlug: "f3",
       year: "2026",
       slug: "budapest",
@@ -526,6 +564,7 @@ export const f3Calendar2026: RaceCal = {
       round: 8,
       sessions: [
         {
+          key: "f3_2026_budapest_practice",
           formulaSlug: "f3",
           year: "2026",
           eventSlug: "budapest",
@@ -539,6 +578,7 @@ export const f3Calendar2026: RaceCal = {
           tbc: true,
         },
         {
+          key: "f3_2026_budapest_qualifying",
           formulaSlug: "f3",
           year: "2026",
           eventSlug: "budapest",
@@ -552,6 +592,7 @@ export const f3Calendar2026: RaceCal = {
           tbc: true,
         },
         {
+          key: "f3_2026_budapest_sprint-race",
           formulaSlug: "f3",
           year: "2026",
           eventSlug: "budapest",
@@ -565,6 +606,7 @@ export const f3Calendar2026: RaceCal = {
           tbc: true,
         },
         {
+          key: "f3_2026_budapest_feature-race",
           formulaSlug: "f3",
           year: "2026",
           eventSlug: "budapest",
@@ -581,6 +623,7 @@ export const f3Calendar2026: RaceCal = {
       updatedAt: "2026-01-20T17:27:33.037Z",
     },
     {
+      key: "f3_2026_monza",
       formulaSlug: "f3",
       year: "2026",
       slug: "monza",
@@ -596,6 +639,7 @@ export const f3Calendar2026: RaceCal = {
       round: 9,
       sessions: [
         {
+          key: "f3_2026_monza_practice",
           formulaSlug: "f3",
           year: "2026",
           eventSlug: "monza",
@@ -609,6 +653,7 @@ export const f3Calendar2026: RaceCal = {
           tbc: true,
         },
         {
+          key: "f3_2026_monza_qualifying-group-a",
           formulaSlug: "f3",
           year: "2026",
           eventSlug: "monza",
@@ -622,6 +667,7 @@ export const f3Calendar2026: RaceCal = {
           tbc: true,
         },
         {
+          key: "f3_2026_monza_qualifying-group-b",
           formulaSlug: "f3",
           year: "2026",
           eventSlug: "monza",
@@ -635,6 +681,7 @@ export const f3Calendar2026: RaceCal = {
           tbc: true,
         },
         {
+          key: "f3_2026_monza_sprint-race",
           formulaSlug: "f3",
           year: "2026",
           eventSlug: "monza",
@@ -648,6 +695,7 @@ export const f3Calendar2026: RaceCal = {
           tbc: true,
         },
         {
+          key: "f3_2026_monza_feature-race",
           formulaSlug: "f3",
           year: "2026",
           eventSlug: "monza",
@@ -664,6 +712,7 @@ export const f3Calendar2026: RaceCal = {
       updatedAt: "2026-01-20T17:27:33.037Z",
     },
     {
+      key: "f3_2026_madrid",
       formulaSlug: "f3",
       year: "2026",
       slug: "madrid",
@@ -679,6 +728,7 @@ export const f3Calendar2026: RaceCal = {
       round: 10,
       sessions: [
         {
+          key: "f3_2026_madrid_practice",
           formulaSlug: "f3",
           year: "2026",
           eventSlug: "madrid",
@@ -692,6 +742,7 @@ export const f3Calendar2026: RaceCal = {
           tbc: true,
         },
         {
+          key: "f3_2026_madrid_qualifying",
           formulaSlug: "f3",
           year: "2026",
           eventSlug: "madrid",
@@ -705,6 +756,7 @@ export const f3Calendar2026: RaceCal = {
           tbc: true,
         },
         {
+          key: "f3_2026_madrid_sprint-race",
           formulaSlug: "f3",
           year: "2026",
           eventSlug: "madrid",
@@ -718,6 +770,7 @@ export const f3Calendar2026: RaceCal = {
           tbc: true,
         },
         {
+          key: "f3_2026_madrid_feature-race",
           formulaSlug: "f3",
           year: "2026",
           eventSlug: "madrid",

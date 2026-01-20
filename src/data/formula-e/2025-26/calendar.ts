@@ -2,12 +2,14 @@
 import type { RaceCal } from "../../../types/RaceCal";
 
 export const formulaECalendar202526: RaceCal = {
+  key: "formula-e_2025-26",
   formulaSlug: "formula-e",
   year: "2025-26",
   url: "https://www.fiaformulae.com/en/calendar",
   title: "Formula E 2025/26 Racing Calendar",
   raceEvents: [
     {
+      key: "formula-e_2025-26_sao-paulo",
       formulaSlug: "formula-e",
       year: "2025-26",
       slug: "sao-paulo",
@@ -23,6 +25,7 @@ export const formulaECalendar202526: RaceCal = {
       round: 1,
       sessions: [
         {
+          key: "formula-e_2025-26_sao-paulo_free-practice-2",
           formulaSlug: "formula-e",
           year: "2025-26",
           eventSlug: "sao-paulo",
@@ -36,6 +39,7 @@ export const formulaECalendar202526: RaceCal = {
           tbc: false,
         },
         {
+          key: "formula-e_2025-26_sao-paulo_qualifying",
           formulaSlug: "formula-e",
           year: "2025-26",
           eventSlug: "sao-paulo",
@@ -49,6 +53,7 @@ export const formulaECalendar202526: RaceCal = {
           tbc: false,
         },
         {
+          key: "formula-e_2025-26_sao-paulo_race",
           formulaSlug: "formula-e",
           year: "2025-26",
           eventSlug: "sao-paulo",
@@ -65,6 +70,7 @@ export const formulaECalendar202526: RaceCal = {
       updatedAt: "2026-01-20T20:00:32.510Z",
     },
     {
+      key: "formula-e_2025-26_mexico-city",
       formulaSlug: "formula-e",
       year: "2025-26",
       slug: "mexico-city",
@@ -80,6 +86,7 @@ export const formulaECalendar202526: RaceCal = {
       round: 2,
       sessions: [
         {
+          key: "formula-e_2025-26_mexico-city_free-practice-1",
           formulaSlug: "formula-e",
           year: "2025-26",
           eventSlug: "mexico-city",
@@ -93,6 +100,7 @@ export const formulaECalendar202526: RaceCal = {
           tbc: false,
         },
         {
+          key: "formula-e_2025-26_mexico-city_free-practice-2",
           formulaSlug: "formula-e",
           year: "2025-26",
           eventSlug: "mexico-city",
@@ -106,6 +114,7 @@ export const formulaECalendar202526: RaceCal = {
           tbc: false,
         },
         {
+          key: "formula-e_2025-26_mexico-city_qualifying",
           formulaSlug: "formula-e",
           year: "2025-26",
           eventSlug: "mexico-city",
@@ -119,6 +128,7 @@ export const formulaECalendar202526: RaceCal = {
           tbc: false,
         },
         {
+          key: "formula-e_2025-26_mexico-city_race",
           formulaSlug: "formula-e",
           year: "2025-26",
           eventSlug: "mexico-city",
@@ -135,6 +145,7 @@ export const formulaECalendar202526: RaceCal = {
       updatedAt: "2026-01-20T20:00:32.510Z",
     },
     {
+      key: "formula-e_2025-26_miami",
       formulaSlug: "formula-e",
       year: "2025-26",
       slug: "miami",
@@ -150,6 +161,7 @@ export const formulaECalendar202526: RaceCal = {
       round: 3,
       sessions: [
         {
+          key: "formula-e_2025-26_miami_free-practice-1",
           formulaSlug: "formula-e",
           year: "2025-26",
           eventSlug: "miami",
@@ -163,6 +175,7 @@ export const formulaECalendar202526: RaceCal = {
           tbc: false,
         },
         {
+          key: "formula-e_2025-26_miami_free-practice-2",
           formulaSlug: "formula-e",
           year: "2025-26",
           eventSlug: "miami",
@@ -176,6 +189,7 @@ export const formulaECalendar202526: RaceCal = {
           tbc: false,
         },
         {
+          key: "formula-e_2025-26_miami_qualifying",
           formulaSlug: "formula-e",
           year: "2025-26",
           eventSlug: "miami",
@@ -189,6 +203,7 @@ export const formulaECalendar202526: RaceCal = {
           tbc: false,
         },
         {
+          key: "formula-e_2025-26_miami_race",
           formulaSlug: "formula-e",
           year: "2025-26",
           eventSlug: "miami",
@@ -205,6 +220,7 @@ export const formulaECalendar202526: RaceCal = {
       updatedAt: "2026-01-20T20:00:32.510Z",
     },
     {
+      key: "formula-e_2025-26_jeddah-1",
       formulaSlug: "formula-e",
       year: "2025-26",
       slug: "jeddah-1",
@@ -220,6 +236,7 @@ export const formulaECalendar202526: RaceCal = {
       round: 4,
       sessions: [
         {
+          key: "formula-e_2025-26_jeddah-1_free-practice-1",
           formulaSlug: "formula-e",
           year: "2025-26",
           eventSlug: "jeddah-1",
@@ -233,6 +250,7 @@ export const formulaECalendar202526: RaceCal = {
           tbc: false,
         },
         {
+          key: "formula-e_2025-26_jeddah-1_free-practice-2",
           formulaSlug: "formula-e",
           year: "2025-26",
           eventSlug: "jeddah-1",
@@ -246,6 +264,7 @@ export const formulaECalendar202526: RaceCal = {
           tbc: false,
         },
         {
+          key: "formula-e_2025-26_jeddah-1_qualifying",
           formulaSlug: "formula-e",
           year: "2025-26",
           eventSlug: "jeddah-1",
@@ -259,6 +278,7 @@ export const formulaECalendar202526: RaceCal = {
           tbc: false,
         },
         {
+          key: "formula-e_2025-26_jeddah-1_race",
           formulaSlug: "formula-e",
           year: "2025-26",
           eventSlug: "jeddah-1",
@@ -275,6 +295,7 @@ export const formulaECalendar202526: RaceCal = {
       updatedAt: "2026-01-20T20:00:32.510Z",
     },
     {
+      key: "formula-e_2025-26_jeddah-2",
       formulaSlug: "formula-e",
       year: "2025-26",
       slug: "jeddah-2",
@@ -290,6 +311,7 @@ export const formulaECalendar202526: RaceCal = {
       round: 5,
       sessions: [
         {
+          key: "formula-e_2025-26_jeddah-2_free-practice-3",
           formulaSlug: "formula-e",
           year: "2025-26",
           eventSlug: "jeddah-2",
@@ -303,6 +325,7 @@ export const formulaECalendar202526: RaceCal = {
           tbc: false,
         },
         {
+          key: "formula-e_2025-26_jeddah-2_qualifying",
           formulaSlug: "formula-e",
           year: "2025-26",
           eventSlug: "jeddah-2",
@@ -316,6 +339,7 @@ export const formulaECalendar202526: RaceCal = {
           tbc: false,
         },
         {
+          key: "formula-e_2025-26_jeddah-2_race",
           formulaSlug: "formula-e",
           year: "2025-26",
           eventSlug: "jeddah-2",
@@ -332,6 +356,7 @@ export const formulaECalendar202526: RaceCal = {
       updatedAt: "2026-01-20T20:00:32.510Z",
     },
     {
+      key: "formula-e_2025-26_madrid",
       formulaSlug: "formula-e",
       year: "2025-26",
       slug: "madrid",
@@ -347,6 +372,7 @@ export const formulaECalendar202526: RaceCal = {
       round: 6,
       sessions: [
         {
+          key: "formula-e_2025-26_madrid_free-practice-1",
           formulaSlug: "formula-e",
           year: "2025-26",
           eventSlug: "madrid",
@@ -360,6 +386,7 @@ export const formulaECalendar202526: RaceCal = {
           tbc: false,
         },
         {
+          key: "formula-e_2025-26_madrid_free-practice-2",
           formulaSlug: "formula-e",
           year: "2025-26",
           eventSlug: "madrid",
@@ -373,6 +400,7 @@ export const formulaECalendar202526: RaceCal = {
           tbc: false,
         },
         {
+          key: "formula-e_2025-26_madrid_qualifying",
           formulaSlug: "formula-e",
           year: "2025-26",
           eventSlug: "madrid",
@@ -386,6 +414,7 @@ export const formulaECalendar202526: RaceCal = {
           tbc: false,
         },
         {
+          key: "formula-e_2025-26_madrid_race",
           formulaSlug: "formula-e",
           year: "2025-26",
           eventSlug: "madrid",
@@ -402,6 +431,7 @@ export const formulaECalendar202526: RaceCal = {
       updatedAt: "2026-01-20T20:00:32.510Z",
     },
     {
+      key: "formula-e_2025-26_berlin-1",
       formulaSlug: "formula-e",
       year: "2025-26",
       slug: "berlin-1",
@@ -417,6 +447,7 @@ export const formulaECalendar202526: RaceCal = {
       round: 7,
       sessions: [
         {
+          key: "formula-e_2025-26_berlin-1_free-practice-1",
           formulaSlug: "formula-e",
           year: "2025-26",
           eventSlug: "berlin-1",
@@ -430,6 +461,7 @@ export const formulaECalendar202526: RaceCal = {
           tbc: false,
         },
         {
+          key: "formula-e_2025-26_berlin-1_free-practice-2",
           formulaSlug: "formula-e",
           year: "2025-26",
           eventSlug: "berlin-1",
@@ -443,6 +475,7 @@ export const formulaECalendar202526: RaceCal = {
           tbc: false,
         },
         {
+          key: "formula-e_2025-26_berlin-1_qualifying",
           formulaSlug: "formula-e",
           year: "2025-26",
           eventSlug: "berlin-1",
@@ -456,6 +489,7 @@ export const formulaECalendar202526: RaceCal = {
           tbc: false,
         },
         {
+          key: "formula-e_2025-26_berlin-1_race",
           formulaSlug: "formula-e",
           year: "2025-26",
           eventSlug: "berlin-1",
@@ -472,6 +506,7 @@ export const formulaECalendar202526: RaceCal = {
       updatedAt: "2026-01-20T20:00:32.510Z",
     },
     {
+      key: "formula-e_2025-26_berlin-2",
       formulaSlug: "formula-e",
       year: "2025-26",
       slug: "berlin-2",
@@ -487,6 +522,7 @@ export const formulaECalendar202526: RaceCal = {
       round: 8,
       sessions: [
         {
+          key: "formula-e_2025-26_berlin-2_free-practice-3",
           formulaSlug: "formula-e",
           year: "2025-26",
           eventSlug: "berlin-2",
@@ -500,6 +536,7 @@ export const formulaECalendar202526: RaceCal = {
           tbc: false,
         },
         {
+          key: "formula-e_2025-26_berlin-2_qualifying",
           formulaSlug: "formula-e",
           year: "2025-26",
           eventSlug: "berlin-2",
@@ -513,6 +550,7 @@ export const formulaECalendar202526: RaceCal = {
           tbc: false,
         },
         {
+          key: "formula-e_2025-26_berlin-2_race",
           formulaSlug: "formula-e",
           year: "2025-26",
           eventSlug: "berlin-2",
@@ -529,6 +567,7 @@ export const formulaECalendar202526: RaceCal = {
       updatedAt: "2026-01-20T20:00:32.510Z",
     },
     {
+      key: "formula-e_2025-26_monaco-1",
       formulaSlug: "formula-e",
       year: "2025-26",
       slug: "monaco-1",
@@ -544,6 +583,7 @@ export const formulaECalendar202526: RaceCal = {
       round: 9,
       sessions: [
         {
+          key: "formula-e_2025-26_monaco-1_free-practice-1",
           formulaSlug: "formula-e",
           year: "2025-26",
           eventSlug: "monaco-1",
@@ -557,6 +597,7 @@ export const formulaECalendar202526: RaceCal = {
           tbc: false,
         },
         {
+          key: "formula-e_2025-26_monaco-1_free-practice-2",
           formulaSlug: "formula-e",
           year: "2025-26",
           eventSlug: "monaco-1",
@@ -570,6 +611,7 @@ export const formulaECalendar202526: RaceCal = {
           tbc: false,
         },
         {
+          key: "formula-e_2025-26_monaco-1_qualifying",
           formulaSlug: "formula-e",
           year: "2025-26",
           eventSlug: "monaco-1",
@@ -583,6 +625,7 @@ export const formulaECalendar202526: RaceCal = {
           tbc: false,
         },
         {
+          key: "formula-e_2025-26_monaco-1_race",
           formulaSlug: "formula-e",
           year: "2025-26",
           eventSlug: "monaco-1",
@@ -599,6 +642,7 @@ export const formulaECalendar202526: RaceCal = {
       updatedAt: "2026-01-20T20:00:32.510Z",
     },
     {
+      key: "formula-e_2025-26_monaco-2",
       formulaSlug: "formula-e",
       year: "2025-26",
       slug: "monaco-2",
@@ -614,6 +658,7 @@ export const formulaECalendar202526: RaceCal = {
       round: 10,
       sessions: [
         {
+          key: "formula-e_2025-26_monaco-2_free-practice-3",
           formulaSlug: "formula-e",
           year: "2025-26",
           eventSlug: "monaco-2",
@@ -627,6 +672,7 @@ export const formulaECalendar202526: RaceCal = {
           tbc: false,
         },
         {
+          key: "formula-e_2025-26_monaco-2_qualifying",
           formulaSlug: "formula-e",
           year: "2025-26",
           eventSlug: "monaco-2",
@@ -640,6 +686,7 @@ export const formulaECalendar202526: RaceCal = {
           tbc: false,
         },
         {
+          key: "formula-e_2025-26_monaco-2_race",
           formulaSlug: "formula-e",
           year: "2025-26",
           eventSlug: "monaco-2",
@@ -656,6 +703,7 @@ export const formulaECalendar202526: RaceCal = {
       updatedAt: "2026-01-20T20:00:32.510Z",
     },
     {
+      key: "formula-e_2025-26_sanya",
       formulaSlug: "formula-e",
       year: "2025-26",
       slug: "sanya",
@@ -671,6 +719,7 @@ export const formulaECalendar202526: RaceCal = {
       round: 11,
       sessions: [
         {
+          key: "formula-e_2025-26_sanya_free-practice-1",
           formulaSlug: "formula-e",
           year: "2025-26",
           eventSlug: "sanya",
@@ -684,6 +733,7 @@ export const formulaECalendar202526: RaceCal = {
           tbc: false,
         },
         {
+          key: "formula-e_2025-26_sanya_free-practice-2",
           formulaSlug: "formula-e",
           year: "2025-26",
           eventSlug: "sanya",
@@ -697,6 +747,7 @@ export const formulaECalendar202526: RaceCal = {
           tbc: false,
         },
         {
+          key: "formula-e_2025-26_sanya_qualifying",
           formulaSlug: "formula-e",
           year: "2025-26",
           eventSlug: "sanya",
@@ -710,6 +761,7 @@ export const formulaECalendar202526: RaceCal = {
           tbc: false,
         },
         {
+          key: "formula-e_2025-26_sanya_race",
           formulaSlug: "formula-e",
           year: "2025-26",
           eventSlug: "sanya",
@@ -726,6 +778,7 @@ export const formulaECalendar202526: RaceCal = {
       updatedAt: "2026-01-20T20:00:32.510Z",
     },
     {
+      key: "formula-e_2025-26_shanghai-1",
       formulaSlug: "formula-e",
       year: "2025-26",
       slug: "shanghai-1",
@@ -741,6 +794,7 @@ export const formulaECalendar202526: RaceCal = {
       round: 12,
       sessions: [
         {
+          key: "formula-e_2025-26_shanghai-1_free-practice-1",
           formulaSlug: "formula-e",
           year: "2025-26",
           eventSlug: "shanghai-1",
@@ -754,6 +808,7 @@ export const formulaECalendar202526: RaceCal = {
           tbc: false,
         },
         {
+          key: "formula-e_2025-26_shanghai-1_free-practice-2",
           formulaSlug: "formula-e",
           year: "2025-26",
           eventSlug: "shanghai-1",
@@ -767,6 +822,7 @@ export const formulaECalendar202526: RaceCal = {
           tbc: false,
         },
         {
+          key: "formula-e_2025-26_shanghai-1_qualifying",
           formulaSlug: "formula-e",
           year: "2025-26",
           eventSlug: "shanghai-1",
@@ -780,6 +836,7 @@ export const formulaECalendar202526: RaceCal = {
           tbc: false,
         },
         {
+          key: "formula-e_2025-26_shanghai-1_race",
           formulaSlug: "formula-e",
           year: "2025-26",
           eventSlug: "shanghai-1",
@@ -796,6 +853,7 @@ export const formulaECalendar202526: RaceCal = {
       updatedAt: "2026-01-20T20:00:32.510Z",
     },
     {
+      key: "formula-e_2025-26_shanghai-2",
       formulaSlug: "formula-e",
       year: "2025-26",
       slug: "shanghai-2",
@@ -811,6 +869,7 @@ export const formulaECalendar202526: RaceCal = {
       round: 13,
       sessions: [
         {
+          key: "formula-e_2025-26_shanghai-2_free-practice-3",
           formulaSlug: "formula-e",
           year: "2025-26",
           eventSlug: "shanghai-2",
@@ -824,6 +883,7 @@ export const formulaECalendar202526: RaceCal = {
           tbc: false,
         },
         {
+          key: "formula-e_2025-26_shanghai-2_qualifying",
           formulaSlug: "formula-e",
           year: "2025-26",
           eventSlug: "shanghai-2",
@@ -837,6 +897,7 @@ export const formulaECalendar202526: RaceCal = {
           tbc: false,
         },
         {
+          key: "formula-e_2025-26_shanghai-2_race",
           formulaSlug: "formula-e",
           year: "2025-26",
           eventSlug: "shanghai-2",
@@ -853,6 +914,7 @@ export const formulaECalendar202526: RaceCal = {
       updatedAt: "2026-01-20T20:00:32.510Z",
     },
     {
+      key: "formula-e_2025-26_tokyo-1",
       formulaSlug: "formula-e",
       year: "2025-26",
       slug: "tokyo-1",
@@ -869,6 +931,7 @@ export const formulaECalendar202526: RaceCal = {
       updatedAt: "2026-01-20T20:00:32.510Z",
     },
     {
+      key: "formula-e_2025-26_tokyo-2",
       formulaSlug: "formula-e",
       year: "2025-26",
       slug: "tokyo-2",
@@ -885,6 +948,7 @@ export const formulaECalendar202526: RaceCal = {
       updatedAt: "2026-01-20T20:00:32.510Z",
     },
     {
+      key: "formula-e_2025-26_london-1",
       formulaSlug: "formula-e",
       year: "2025-26",
       slug: "london-1",
@@ -900,6 +964,7 @@ export const formulaECalendar202526: RaceCal = {
       round: 16,
       sessions: [
         {
+          key: "formula-e_2025-26_london-1_free-practice-1",
           formulaSlug: "formula-e",
           year: "2025-26",
           eventSlug: "london-1",
@@ -913,6 +978,7 @@ export const formulaECalendar202526: RaceCal = {
           tbc: false,
         },
         {
+          key: "formula-e_2025-26_london-1_free-practice-2",
           formulaSlug: "formula-e",
           year: "2025-26",
           eventSlug: "london-1",
@@ -926,6 +992,7 @@ export const formulaECalendar202526: RaceCal = {
           tbc: false,
         },
         {
+          key: "formula-e_2025-26_london-1_qualifying",
           formulaSlug: "formula-e",
           year: "2025-26",
           eventSlug: "london-1",
@@ -939,6 +1006,7 @@ export const formulaECalendar202526: RaceCal = {
           tbc: false,
         },
         {
+          key: "formula-e_2025-26_london-1_race",
           formulaSlug: "formula-e",
           year: "2025-26",
           eventSlug: "london-1",
@@ -955,6 +1023,7 @@ export const formulaECalendar202526: RaceCal = {
       updatedAt: "2026-01-20T20:00:32.510Z",
     },
     {
+      key: "formula-e_2025-26_london-2",
       formulaSlug: "formula-e",
       year: "2025-26",
       slug: "london-2",
@@ -970,6 +1039,7 @@ export const formulaECalendar202526: RaceCal = {
       round: 17,
       sessions: [
         {
+          key: "formula-e_2025-26_london-2_free-practice-3",
           formulaSlug: "formula-e",
           year: "2025-26",
           eventSlug: "london-2",
@@ -983,6 +1053,7 @@ export const formulaECalendar202526: RaceCal = {
           tbc: false,
         },
         {
+          key: "formula-e_2025-26_london-2_qualifying",
           formulaSlug: "formula-e",
           year: "2025-26",
           eventSlug: "london-2",
@@ -996,6 +1067,7 @@ export const formulaECalendar202526: RaceCal = {
           tbc: false,
         },
         {
+          key: "formula-e_2025-26_london-2_race",
           formulaSlug: "formula-e",
           year: "2025-26",
           eventSlug: "london-2",
