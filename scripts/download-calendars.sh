@@ -13,6 +13,7 @@ mkdir -p "$TARGET_DIR"
 
 echo "Downloading calendar files to $TARGET_DIR"
 
+
 curl -fsSL "https://ics.ecal.com/ecal-sub/696e20de670f6200022adbee/Formula%201.ics" -o "$TARGET_DIR/formula-1.ics"
 echo "✓ Formula 1 calendar downloaded"
 
@@ -24,5 +25,8 @@ echo "✓ Formula 3 calendar downloaded"
 
 curl -fsSL "https://ics.ecal.com/ecal-sub/696e20e3670f6200022adbef/F1%20Academy.ics" -o "$TARGET_DIR/f1-academy.ics"
 echo "✓ F1 Academy calendar downloaded"
+
+curl -fsSL "https://files-fe.motorsportcalendars.com/fe-calendar_p1_p2_p3_qualifying_race.ics" -o "$TARGET_DIR/formula-e.ics"
+echo "✓ Formula E calendar downloaded"
 
 echo "All calendar files downloaded successfully"
