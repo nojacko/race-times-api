@@ -17,6 +17,16 @@ import type { RawRaceEventSession } from "src/types/RawRaceEventSession";
 
 const calendarFilename = "_calendar.json";
 
+function createEmptyJsonFile(filePath: string, msgOk: string, msgError: string): void {
+  try {
+    fs.mkdirSync(path.dirname(filePath), { recursive: true });
+    fs.writeFileSync(filePath, "{}", "utf8");
+    console.log(msgOk);
+  } catch (err) {
+    console.warn(`${msgError} ${filePath}:`, err);
+  }
+}
+
 function buildSession(
   session: RawRaceEventSession,
   i: number,
@@ -180,13 +190,7 @@ function buildEvent(
         );
       }
     } else {
-      try {
-        fs.mkdirSync(path.dirname(eventRawPath), { recursive: true });
-        fs.writeFileSync(eventRawPath, "{}", "utf8");
-        console.log(`- ${year}: created missing raw event file for ${raw.slug}`);
-      } catch (err) {
-        console.warn(`Failed to create missing event raw file ${eventRawPath}:`, err);
-      }
+      createEmptyJsonFile(eventRawPath, `- ${year}: created ${eventRawPath}`, `- ${year}: failed to create ${eventRawPath}`);
     }
   } catch (e) {
     // if anything fails, leave sessions empty
@@ -214,7 +218,6 @@ function parseCalendar(): void {
     if (Array.isArray(formula.years) && formula.years.length) {
       formula.years.forEach((year) => {
         const calendarJsonPath = path.join(VARS.DIR_DATA, formula.slug, year, "raw", calendarFilename);
-
         if (fs.existsSync(calendarJsonPath)) {
           try {
             const raw = fs.readFileSync(calendarJsonPath, "utf8");
@@ -249,7 +252,11 @@ function parseCalendar(): void {
             console.warn(`- ${year}: ${calendarFilename} loaded but failed to parse`);
           }
         } else {
-          console.warn(`- ${year}: ${calendarFilename} missing`);
+          createEmptyJsonFile(
+            calendarJsonPath,
+            `- ${year}: created ${calendarJsonPath}`,
+            `- ${year}: failed to create ${calendarJsonPath}`,
+          );
         }
       });
     } else {
