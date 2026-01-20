@@ -4,7 +4,7 @@ import { VARS } from "../vars";
 import { slugify } from "../utils/strings";
 import { DateTime } from "luxon";
 import { getCircuit } from "../data/circuits";
-import type { RawRaceEvent } from "../types/RawRaceEvent";
+import type { RawRaceEvent, RawRaceEventSummary } from "../types/RawRaceEvent";
 import { getFormulasActive } from "../data/formulas";
 import type { Formula } from "../types/Formula";
 import type { RawRaceCal } from "../types/RawRaceCal";
@@ -12,32 +12,14 @@ import type { RaceCal } from "../types/RaceCal";
 import type { RaceEvent, CalendarEventType } from "../types/RaceEvent";
 import type { RaceEventSession } from "../types/RaceEventSession";
 import { getCircuitKey, getCircuitSlug } from "../utils/circuit-map";
+import type { RawRaceEventSession } from "src/types/RawRaceEventSession";
 
 const calendarFilename = "_calendar.json";
 
-function parseDateTime(day: string, month: string, time: string | null, year: number, timeZone: string): string | null {
-  if (!day || !month || !time) return "";
-  const dayNum = parseInt(day, 10);
-  const [hh = "0", mm = "0"] = time.split(":");
-
-  // try to parse month name to number using Luxon, fallback to Date
-  let monthNum = DateTime.fromFormat(month, "LLLL").month;
-  if (!monthNum) {
-    const tmp = new Date(`${month} 1, ${year}`);
-    monthNum = isNaN(tmp.getTime()) ? 1 : tmp.getMonth() + 1;
-  }
-
-  const dt = DateTime.fromObject(
-    { year, month: monthNum, day: dayNum, hour: parseInt(hh, 10), minute: parseInt(mm, 10) },
-    { zone: timeZone },
-  );
-  return dt.isValid ? dt.toISO() : null;
-}
-
 function buildSession(
-  s: any,
+  session: RawRaceEventSession,
   i: number,
-  rawEvent: any,
+  rawEvent: RawRaceEventSummary,
   formula: Formula,
   year: string,
   calendarKey: string,
@@ -45,17 +27,17 @@ function buildSession(
   errors: string[],
 ): RaceEventSession {
   // Check if times are TBC
-  const startTimeTBC = s.localStartTime === "TBC" || !s.localStartTime;
-  const endTimeTBC = s.localEndTime === "TBC" || !s.localEndTime;
+  const startTimeTBC = session.localStartTime === "TBC" || !session.localStartTime;
+  const endTimeTBC = session.localEndTime === "TBC" || !session.localEndTime;
   const tbc = startTimeTBC || endTimeTBC;
 
-  // Use 12:00 as default for TBC times
-  const startTime = startTimeTBC ? "12:00" : s.localStartTime;
-  const endTime = endTimeTBC ? "12:00" : s.localEndTime;
+  // Use 12:00/12:30 as default for TBC times
+  const startTime = startTimeTBC ? "12:00" : session.localStartTime;
+  const endTime = endTimeTBC ? "12:30" : session.localEndTime;
 
   // Parse localDate and times using Luxon
-  const startDt = DateTime.fromFormat(`${s.localDate} ${startTime}`, "yyyy-MM-dd HH:mm", { zone: timeZone });
-  const endDt = DateTime.fromFormat(`${s.localDate} ${endTime}`, "yyyy-MM-dd HH:mm", { zone: timeZone });
+  const startDt = DateTime.fromFormat(`${session.localDate} ${startTime}`, "yyyy-MM-dd HH:mm", { zone: timeZone });
+  const endDt = DateTime.fromFormat(`${session.localDate} ${endTime}`, "yyyy-MM-dd HH:mm", { zone: timeZone });
 
   let startDateTime = startDt.isValid ? startDt.toUTC().toISO() : null;
   let endDateTime = endDt.isValid ? endDt.toUTC().toISO() : null;
@@ -69,7 +51,7 @@ function buildSession(
     endDateTime = endLocal.toUTC().toISO();
   }
 
-  const sessionSlug = slugify(s.name);
+  const sessionSlug = slugify(session.name);
 
   // report missing date/time values to the shared errors array
   const sessionId = `${calendarKey} => ${rawEvent.slug} => ${sessionSlug || `#${i}`}`;
@@ -86,7 +68,7 @@ function buildSession(
     eventSlug: rawEvent.slug,
     index: i,
     slug: sessionSlug,
-    name: s.name,
+    name: session.name,
     startDateTime,
     endDateTime,
     localStartTime,
@@ -119,15 +101,22 @@ function writeCalendar(slug: string, year: string, calendar: RaceCal) {
   console.log(`- ${year}: calendar.ts written`);
 }
 
+function getDate(dates: string[], opt: "min" | "max"): string {
+  const parsed = dates.map((d) => Date.parse(d)).filter((n) => !Number.isNaN(n));
+  if (!parsed.length) return "";
+  const value = opt === "min" ? Math.min(...parsed) : Math.max(...parsed);
+  return new Date(value).toISOString();
+}
+
 function buildEvent(
-  raw: any,
+  raw: RawRaceEventSummary,
   formula: Formula,
   year: string,
   calendarKey: string,
   calendarRaw: RawRaceCal,
   errors: string[],
 ): RaceEvent | null {
-  const typeRaw = (raw.type || "").toString().trim();
+  const typeRaw = raw.type.toString().trim();
   let eventType: CalendarEventType;
   let round = 0;
 
@@ -164,11 +153,13 @@ function buildEvent(
     year,
     slug: raw.slug,
     circuitSlug: circuit.slug,
-    url: raw.url || "",
-    nameFull: raw.nameFull || "",
-    nameMedium: raw.nameMedium ?? "",
-    nameShort: raw.nameShort ?? "",
-    displayDate: raw.displayDate ?? "",
+    url: raw.url,
+    startDateTime: "",
+    endDateTime: "",
+    nameFull: raw.nameFull,
+    nameMedium: "",
+    nameShort: raw.nameShort,
+    displayDate: raw.displayDate,
     eventType,
     round,
     sessions: [],
@@ -183,7 +174,9 @@ function buildEvent(
       const eventRaw = JSON.parse(rawContent) as RawRaceEvent;
       event.nameMedium = eventRaw.nameMedium;
       if (Array.isArray(eventRaw.data)) {
-        event.sessions = eventRaw.data.map((s, i) => buildSession(s, i, raw, formula, year, calendarKey, circuit.timeZone, errors));
+        event.sessions = eventRaw.data.map((session, i) =>
+          buildSession(session, i, raw, formula, year, calendarKey, circuit.timeZone, errors),
+        );
       }
     } else {
       try {
@@ -198,6 +191,16 @@ function buildEvent(
     // if anything fails, leave sessions empty
     console.warn(`Failed to load event raw for ${raw.slug}:`, e);
   }
+
+  // compute event-level start/end from session times (ISO UTC)
+  event.startDateTime = getDate(
+    event.sessions.map((s) => s.startDateTime),
+    "min",
+  );
+  event.endDateTime = getDate(
+    event.sessions.map((s) => s.endDateTime),
+    "max",
+  );
 
   return event;
 }
@@ -219,8 +222,8 @@ function parseCalendar(): void {
             const calendarKey = `${formula.slug}_${year}`;
 
             const errors: string[] = [];
-            const events = (calendarRaw.data || [])
-              .map((e: any) => {
+            const events = calendarRaw.data
+              .map((e: RawRaceEventSummary) => {
                 const ev = buildEvent(e, formula, year, calendarKey, calendarRaw, errors);
                 return ev;
               })

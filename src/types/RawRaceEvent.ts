@@ -17,5 +17,3 @@ export interface RawRaceEvent {
   nameMedium: string;
   data: RawRaceEventSession[];
 }
-
-export default RawRaceEvent;

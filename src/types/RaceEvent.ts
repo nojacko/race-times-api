@@ -10,6 +10,8 @@ export interface RaceEvent {
   slug: string;
   circuitSlug: CircuitSlug;
   url: string;
+  startDateTime: string;
+  endDateTime: string;
   nameFull: string;
   nameMedium: string;
   nameShort: string;
