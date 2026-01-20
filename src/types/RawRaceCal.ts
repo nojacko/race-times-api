@@ -1,9 +1,9 @@
-import type { RawRaceEventSummary } from "./RawRaceEvent";
+import type { RawRaceCalEvent } from "./RawRaceCalEvent";
 
 export interface RawRaceCal {
   url: string;
   updatedAt: string;
   title: string;
   year: string;
-  data: RawRaceEventSummary[];
+  data: RawRaceCalEvent[];
 }

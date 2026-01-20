@@ -4,7 +4,8 @@ import { VARS } from "../vars";
 import { slugify } from "../utils/strings";
 import { DateTime } from "luxon";
 import { getCircuit } from "../data/circuits";
-import type { RawRaceEvent, RawRaceEventSummary } from "../types/RawRaceEvent";
+import type { RawRaceEvent } from "../types/RawRaceEvent";
+import type { RawRaceCalEvent } from "../types/RawRaceCalEvent";
 import { getFormulasActive } from "../data/formulas";
 import type { Formula } from "../types/Formula";
 import type { RawRaceCal } from "../types/RawRaceCal";
@@ -19,7 +20,7 @@ const calendarFilename = "_calendar.json";
 function buildSession(
   session: RawRaceEventSession,
   i: number,
-  rawEvent: RawRaceEventSummary,
+  rawEvent: RawRaceCalEvent,
   formula: Formula,
   year: string,
   calendarKey: string,
@@ -109,7 +110,7 @@ function getDate(dates: string[], opt: "min" | "max"): string {
 }
 
 function buildEvent(
-  raw: RawRaceEventSummary,
+  raw: RawRaceCalEvent,
   formula: Formula,
   year: string,
   calendarKey: string,
@@ -223,7 +224,7 @@ function parseCalendar(): void {
 
             const errors: string[] = [];
             const events = calendarRaw.data
-              .map((e: RawRaceEventSummary) => {
+              .map((e: RawRaceCalEvent) => {
                 const ev = buildEvent(e, formula, year, calendarKey, calendarRaw, errors);
                 return ev;
               })
