@@ -1,0 +1,33 @@
+{
+  "url": "https://www.f1academy.com/Racing-Series/Results?raceid=23",
+  "updatedAt": "2026-01-20T18:44:57.404Z",
+  "slug": "jeddah",
+  "nameFull": "Jeddah",
+  "nameMedium": "Jeddah",
+  "data": [
+    {
+      "name": "Free Practice",
+      "localDate": "2026-04-17",
+      "localStartTime": "TBC",
+      "localEndTime": "TBC"
+    },
+    {
+      "name": "Qualifying",
+      "localDate": "2026-04-17",
+      "localStartTime": "TBC",
+      "localEndTime": "TBC"
+    },
+    {
+      "name": "Race 1",
+      "localDate": "2026-04-18",
+      "localStartTime": "TBC",
+      "localEndTime": "TBC"
+    },
+    {
+      "name": "Race 2",
+      "localDate": "2026-04-19",
+      "localStartTime": "TBC",
+      "localEndTime": "TBC"
+    }
+  ]
+}

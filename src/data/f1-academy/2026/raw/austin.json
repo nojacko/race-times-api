@@ -1,0 +1,33 @@
+{
+  "url": "https://www.f1academy.com/Racing-Series/Results?raceid=27",
+  "updatedAt": "2026-01-20T18:46:40.256Z",
+  "slug": "austin",
+  "nameFull": "Austin",
+  "nameMedium": "Austin",
+  "data": [
+    {
+      "name": "Free Practice",
+      "localDate": "2026-10-23",
+      "localStartTime": "TBC",
+      "localEndTime": "TBC"
+    },
+    {
+      "name": "Qualifying",
+      "localDate": "2026-10-23",
+      "localStartTime": "TBC",
+      "localEndTime": "TBC"
+    },
+    {
+      "name": "Race 1",
+      "localDate": "2026-10-24",
+      "localStartTime": "TBC",
+      "localEndTime": "TBC"
+    },
+    {
+      "name": "Race 2",
+      "localDate": "2026-10-25",
+      "localStartTime": "TBC",
+      "localEndTime": "TBC"
+    }
+  ]
+}

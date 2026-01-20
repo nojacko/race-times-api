@@ -1,0 +1,64 @@
+{
+  "url": "https://www.f1academy.com/Racing-Series/Calendar",
+  "updatedAt": "2026-01-20T18:38:08.215Z",
+  "title": "2026 F1 Academy Calendar",
+  "year": "2026",
+  "data": [
+    {
+      "url": "https://www.f1academy.com/Racing-Series/Results?raceid=22",
+      "slug": "shanghai",
+      "nameFull": "Shanghai",
+      "nameShort": "Shanghai",
+      "displayDate": "13 - 15 March",
+      "type": "ROUND 1"
+    },
+    {
+      "url": "https://www.f1academy.com/Racing-Series/Results?raceid=23",
+      "slug": "jeddah",
+      "nameFull": "Jeddah",
+      "nameShort": "Jeddah",
+      "displayDate": "17 - 19 April",
+      "type": "ROUND 2"
+    },
+    {
+      "url": "https://www.f1academy.com/Racing-Series/Results?raceid=24",
+      "slug": "montreal",
+      "nameFull": "Montreal",
+      "nameShort": "Montreal",
+      "displayDate": "22 - 24 May",
+      "type": "ROUND 3"
+    },
+    {
+      "url": "https://www.f1academy.com/Racing-Series/Results?raceid=25",
+      "slug": "silverstone",
+      "nameFull": "Silverstone",
+      "nameShort": "Silverstone",
+      "displayDate": "03 - 05 July",
+      "type": "ROUND 4"
+    },
+    {
+      "url": "https://www.f1academy.com/Racing-Series/Results?raceid=26",
+      "slug": "zandvoort",
+      "nameFull": "Zandvoort",
+      "nameShort": "Zandvoort",
+      "displayDate": "21 - 23 August",
+      "type": "ROUND 5"
+    },
+    {
+      "url": "https://www.f1academy.com/Racing-Series/Results?raceid=27",
+      "slug": "austin",
+      "nameFull": "Austin",
+      "nameShort": "Austin",
+      "displayDate": "23 - 25 October",
+      "type": "ROUND 6"
+    },
+    {
+      "url": "https://www.f1academy.com/Racing-Series/Results?raceid=28",
+      "slug": "las-vegas",
+      "nameFull": "Las Vegas",
+      "nameShort": "Las Vegas",
+      "displayDate": "19 - 21 November",
+      "type": "ROUND 7"
+    }
+  ]
+}

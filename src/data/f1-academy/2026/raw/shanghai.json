@@ -1,0 +1,33 @@
+{
+  "url": "https://www.f1academy.com/Racing-Series/Results?raceid=22",
+  "updatedAt": "2026-01-20T18:44:43.059Z",
+  "slug": "shanghai",
+  "nameFull": "Shanghai",
+  "nameMedium": "Shanghai",
+  "data": [
+    {
+      "name": "Free Practice",
+      "localDate": "2026-03-13",
+      "localStartTime": "TBC",
+      "localEndTime": "TBC"
+    },
+    {
+      "name": "Qualifying",
+      "localDate": "2026-03-13",
+      "localStartTime": "TBC",
+      "localEndTime": "TBC"
+    },
+    {
+      "name": "Race 1",
+      "localDate": "2026-03-14",
+      "localStartTime": "TBC",
+      "localEndTime": "TBC"
+    },
+    {
+      "name": "Race 2",
+      "localDate": "2026-03-15",
+      "localStartTime": "TBC",
+      "localEndTime": "TBC"
+    }
+  ]
+}

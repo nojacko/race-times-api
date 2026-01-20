@@ -1,0 +1,33 @@
+{
+  "url": "https://www.f1academy.com/Racing-Series/Results?raceid=24",
+  "updatedAt": "2026-01-20T18:45:24.226Z",
+  "slug": "montreal",
+  "nameFull": "Montreal",
+  "nameMedium": "Montreal",
+  "data": [
+    {
+      "name": "Free Practice",
+      "localDate": "2026-05-22",
+      "localStartTime": "TBC",
+      "localEndTime": "TBC"
+    },
+    {
+      "name": "Qualifying",
+      "localDate": "2026-05-22",
+      "localStartTime": "TBC",
+      "localEndTime": "TBC"
+    },
+    {
+      "name": "Race 1",
+      "localDate": "2026-05-23",
+      "localStartTime": "TBC",
+      "localEndTime": "TBC"
+    },
+    {
+      "name": "Race 2",
+      "localDate": "2026-05-24",
+      "localStartTime": "TBC",
+      "localEndTime": "TBC"
+    }
+  ]
+}

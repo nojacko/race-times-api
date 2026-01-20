@@ -1,19 +1,20 @@
 import * as fs from "fs";
 import * as path from "path";
-import { VARS } from "../vars";
-import { slugify } from "../utils/strings";
-import { DateTime } from "luxon";
-import { getCircuit } from "../data/circuits";
-import type { RawRaceEvent } from "../types/RawRaceEvent";
-import type { RawRaceCalEvent } from "../types/RawRaceCalEvent";
-import { getFormulasActive } from "../data/formulas";
 import type { Formula } from "../types/Formula";
-import type { RawRaceCal } from "../types/RawRaceCal";
 import type { RaceCal } from "../types/RaceCal";
 import type { RaceEvent, CalendarEventType } from "../types/RaceEvent";
 import type { RaceEventSession } from "../types/RaceEventSession";
-import { getCircuitKey, getCircuitSlug } from "../utils/circuit-map";
+import type { RawRaceCal } from "../types/RawRaceCal";
+import type { RawRaceCalEvent } from "../types/RawRaceCalEvent";
+import type { RawRaceEvent } from "../types/RawRaceEvent";
 import type { RawRaceEventSession } from "src/types/RawRaceEventSession";
+import { camelCase } from "lodash/string";
+import { DateTime } from "luxon";
+import { getCircuit } from "../data/circuits";
+import { getCircuitKey, getCircuitSlug } from "../utils/circuit-map";
+import { getFormulasActive } from "../data/formulas";
+import { slugify } from "../utils/strings";
+import { VARS } from "../vars";
 
 const calendarFilename = "_calendar.json";
 
@@ -98,10 +99,7 @@ function writeCalendar(slug: string, year: string, calendar: RaceCal) {
   if (!typesImportPath.startsWith(".")) typesImportPath = `./${typesImportPath}`;
 
   const outPath = path.join(targetDir, "calendar.ts");
-  // build a safe identifier from the slug for a named export
-  let safeSlug = slug.replace(/[^a-zA-Z0-9_$]/g, "_");
-  if (/^[0-9]/.test(safeSlug)) safeSlug = `_${safeSlug}`;
-  const exportIdent = `${safeSlug}Calendar${year}`;
+  const exportIdent = `${camelCase(slug)}Calendar${year}`;
 
   const content = [
     `// AUTO-GENERATED: do not edit\nimport type { RaceCal } from "${typesImportPath}";`,
@@ -143,9 +141,9 @@ function buildEvent(
   const circuitSlug = getCircuitSlug(circuitKey);
   const circuit = circuitSlug ? getCircuit(circuitSlug) : undefined;
   const eventName = raw.nameShort || raw.slug || "(unknown)";
-  const errorData = `${eventName} - "${circuitKey}": "${circuitSlug || ""}",`;
+  const errorData = `${eventName} - "${circuitKey}" "${circuitSlug}"`;
   if (!circuit) {
-    errors.push(`missing circuit: ${errorData}`);
+    errors.push(`missing circuit: "${circuitKey}": "${circuitSlug || ""}",`);
     return null;
   }
 

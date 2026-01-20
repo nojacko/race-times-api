@@ -49,6 +49,7 @@ npm start
 ### Process
 
 - Ensure `src/data/formulas.ts` has the right `years` for each formula.
+- Update `scripts/copy-files.sh`
 - Run `update-calendars.ts` (see "Scripts").
 - Go to each of the source:
   - <https://www.formula1.com/en/racing.html>
@@ -59,7 +60,7 @@ npm start
 - Open console
 - Paste in `scripts/scrape/utils.js`.
 - Paste in the appropriate `*-calendar.js`.
-  - "f2" and "f3" share `f2-calendar.js`.
+  - f2, f3, f1 academy share `f2-calendar.js`.
 - Copy the JSON into the correct `raw/_calendar.json` file.
 - Run `update-calendars.ts` (see "Scripts").
 - If missing circuits:

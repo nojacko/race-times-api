@@ -61,12 +61,12 @@ export const F1_ACADEMY: Formula = {
   name: "F1 Academy",
   nameFull: "F1 Academy",
   trademarks: "F1 Academy, Formula One, Formula 1, F1 & Grand Prix are trademarks of Formula One Licensing BV.",
-  active: false,
+  active: true,
   primaryColor: "#0083d3",
   logoBgColor: "#0083d3",
   logoTextColor: "#ffffff",
   initials: "F1",
-  years: [],
+  years: ["2026"],
   url: "https://www.f1academy.com",
 };
 

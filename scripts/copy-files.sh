@@ -14,6 +14,7 @@ mkdir -p "$DIR_WEB/src/lib/data"
 mkdir -p "$DIR_WEB/src/lib/data/f1/2026"
 mkdir -p "$DIR_WEB/src/lib/data/f2/2026"
 mkdir -p "$DIR_WEB/src/lib/data/f3/2026"
+mkdir -p "$DIR_WEB/src/lib/data/f1-academy/2026"
 mkdir -p "$DIR_WEB/src/lib/types"
 
 # copy helper: copy src to dest (file or directory) if src exists, otherwise warn
@@ -42,6 +43,7 @@ done
 copy_if_exists "$DIR_API/src/data/f1/2026/calendar.ts" "$DIR_WEB/src/lib/data/f1/2026/calendar.ts"
 copy_if_exists "$DIR_API/src/data/f2/2026/calendar.ts" "$DIR_WEB/src/lib/data/f2/2026/calendar.ts"
 copy_if_exists "$DIR_API/src/data/f3/2026/calendar.ts" "$DIR_WEB/src/lib/data/f3/2026/calendar.ts"
+copy_if_exists "$DIR_API/src/data/f1-academy/2026/calendar.ts" "$DIR_WEB/src/lib/data/f1-academy/2026/calendar.ts"
 
 echo "- Copying types to $DIR_WEB/src/lib/types"
 type_files=(

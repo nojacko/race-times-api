@@ -55,6 +55,14 @@ export const raceToCircuit: { [key: string]: CircuitSlug } = {
   "f3_budapest": "hungaroring",
   "f3_monza": "autodromo-nazionale-monza",
   "f3_madrid": "circuito-de-madring",
+  // F1 Acadamy
+  "f1-academy_shanghai": "shanghai-international-circuit",
+  "f1-academy_jeddah": "jeddah-corniche-circuit",
+  "f1-academy_montreal": "circuit-gilles-villeneuve",
+  "f1-academy_silverstone": "silverstone-circuit",
+  "f1-academy_zandvoort": "circuit-zandvoort",
+  "f1-academy_austin": "circuit-of-the-americas",
+  "f1-academy_las-vegas": "las-vegas-strip",
 };
 
 export function getCircuitKey(formulaSlug: string, eventSlug: string): string {
