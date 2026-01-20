@@ -4,6 +4,6 @@ export interface RawRaceCal {
   url: string;
   updatedAt: string;
   title: string;
-  year: number;
+  year: string;
   data: RawRaceEventSummary[];
 }

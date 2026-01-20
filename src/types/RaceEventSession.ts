@@ -1,6 +1,6 @@
 export interface RaceEventSession {
   formulaSlug: string;
-  year: number;
+  year: string;
   eventSlug: string;
   name: string;
   startDateTime: string;

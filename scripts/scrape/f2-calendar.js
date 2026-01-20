@@ -28,7 +28,7 @@
     const titleEl = document.querySelector("h1");
     const title = titleEl ? titleEl.textContent.trim() : null;
     const yearMatch = title ? title.match(/\b(\d{4})\b/) : null;
-    const year = yearMatch ? parseInt(yearMatch[1]) : null;
+    const year = yearMatch ? yearMatch[1] : null;
     const meta = { title, year };
     const out = window._UTILS.wrapData(data, meta);
     window._UTILS.showOverlayJson(out, "_calendar.json");

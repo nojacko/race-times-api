@@ -4,10 +4,10 @@ export interface Formula {
   url: string;
   trademarks: string;
   active: boolean;
-  primaryColor?: string;
-  logoBgColor?: string;
-  logoTextColor?: string;
-  initials?: string;
-  nameLong?: string;
-  years?: number[];
+  primaryColor: string;
+  logoBgColor: string;
+  logoTextColor: string;
+  initials: string;
+  nameFull: string;
+  years: string[];
 }

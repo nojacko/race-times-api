@@ -39,7 +39,7 @@ function buildSession(
   i: number,
   rawEvent: any,
   formula: Formula,
-  year: number,
+  year: string,
   calendarKey: string,
   timeZone: string,
   errors: string[],
@@ -94,8 +94,8 @@ function buildSession(
   };
 }
 
-function writeCalendar(slug: string, year: number, calendar: RaceCal) {
-  const targetDir = path.join(VARS.DIR_DATA, slug, String(year));
+function writeCalendar(slug: string, year: string, calendar: RaceCal) {
+  const targetDir = path.join(VARS.DIR_DATA, slug, year);
   fs.mkdirSync(targetDir, { recursive: true });
 
   // compute relative import path from the generated file to the types file
@@ -121,7 +121,7 @@ function writeCalendar(slug: string, year: number, calendar: RaceCal) {
 function buildEvent(
   raw: any,
   formula: Formula,
-  year: number,
+  year: string,
   calendarKey: string,
   calendarRaw: RawRaceCal,
   errors: string[],
@@ -176,7 +176,7 @@ function buildEvent(
 
   // attempt to load raw event file (`<eventSlug>.json`) from the raw dir
   try {
-    const eventRawPath = path.join(VARS.DIR_DATA, formula.slug, String(year), "raw", `${raw.slug}.json`);
+    const eventRawPath = path.join(VARS.DIR_DATA, formula.slug, year, "raw", `${raw.slug}.json`);
     if (fs.existsSync(eventRawPath)) {
       const rawContent = fs.readFileSync(eventRawPath, "utf8");
       const eventRaw = JSON.parse(rawContent) as RawRaceEvent;
@@ -208,7 +208,7 @@ function parseCalendar(): void {
 
     if (Array.isArray(formula.years) && formula.years.length) {
       formula.years.forEach((year) => {
-        const calendarJsonPath = path.join(VARS.DIR_DATA, formula.slug, String(year), "raw", calendarFilename);
+        const calendarJsonPath = path.join(VARS.DIR_DATA, formula.slug, year, "raw", calendarFilename);
 
         if (fs.existsSync(calendarJsonPath)) {
           try {

@@ -6,7 +6,7 @@ export type CalendarEventType = "testing" | "round";
 export interface RaceEvent {
   sessions: RaceEventSession[];
   formulaSlug: string;
-  year: number;
+  year: string;
   slug: string;
   circuitSlug: CircuitSlug;
   url: string;

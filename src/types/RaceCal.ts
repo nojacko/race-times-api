@@ -2,7 +2,7 @@ import type { RaceEvent } from "./RaceEvent";
 
 export interface RaceCal {
   formulaSlug: string;
-  year: number;
+  year: string;
   url: string;
   title: string;
   raceEvents: RaceEvent[];
