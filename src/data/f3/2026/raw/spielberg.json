@@ -1,0 +1,33 @@
+{
+  "url": "https://www.fiaformula3.com/Results?raceid=1073",
+  "updatedAt": "2026-01-20T17:41:11.951Z",
+  "slug": "spielberg",
+  "nameFull": "Spielberg",
+  "nameMedium": "Spielberg",
+  "data": [
+    {
+      "name": "Practice",
+      "localDate": "2026-06-26",
+      "localStartTime": "TBC",
+      "localEndTime": "TBC"
+    },
+    {
+      "name": "Qualifying",
+      "localDate": "2026-06-26",
+      "localStartTime": "TBC",
+      "localEndTime": "TBC"
+    },
+    {
+      "name": "Sprint Race",
+      "localDate": "2026-06-27",
+      "localStartTime": "TBC",
+      "localEndTime": "TBC"
+    },
+    {
+      "name": "Feature Race",
+      "localDate": "2026-06-28",
+      "localStartTime": "TBC",
+      "localEndTime": "TBC"
+    }
+  ]
+}

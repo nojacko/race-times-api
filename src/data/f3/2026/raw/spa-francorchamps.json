@@ -1,0 +1,33 @@
+{
+  "url": "https://www.fiaformula3.com/Results?raceid=1075",
+  "updatedAt": "2026-01-20T17:41:32.382Z",
+  "slug": "spa-francorchamps",
+  "nameFull": "Spa-Francorchamps",
+  "nameMedium": "Spa-Francorchamps",
+  "data": [
+    {
+      "name": "Practice",
+      "localDate": "2026-07-17",
+      "localStartTime": "TBC",
+      "localEndTime": "TBC"
+    },
+    {
+      "name": "Qualifying",
+      "localDate": "2026-07-17",
+      "localStartTime": "TBC",
+      "localEndTime": "TBC"
+    },
+    {
+      "name": "Sprint Race",
+      "localDate": "2026-07-18",
+      "localStartTime": "TBC",
+      "localEndTime": "TBC"
+    },
+    {
+      "name": "Feature Race",
+      "localDate": "2026-07-19",
+      "localStartTime": "TBC",
+      "localEndTime": "TBC"
+    }
+  ]
+}

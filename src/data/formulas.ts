@@ -33,12 +33,12 @@ export const F3: Formula = {
   name: "F3",
   nameFull: "Formula 3",
   trademarks: "FIA FORMULA 3 CHAMPIONSHIP, FIA FORMULA 3, FORMULA 3, F3 are trademarks of the FIA.",
-  active: false,
+  active: true,
   primaryColor: "#666666",
   logoBgColor: "#666666",
   logoTextColor: "#ffffff",
   initials: "F3",
-  years: [],
+  years: ["2026"],
   url: "https://www.fiaformula3.com",
 };
 

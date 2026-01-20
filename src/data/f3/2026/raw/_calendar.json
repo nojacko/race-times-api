@@ -1,0 +1,88 @@
+{
+  "url": "https://www.fiaformula3.com/Calendar",
+  "updatedAt": "2026-01-20T17:27:33.037Z",
+  "title": "Calendar Formula 3 2026",
+  "year": "2026",
+  "data": [
+    {
+      "url": "https://www.fiaformula3.com/Results?raceid=1069",
+      "slug": "melbourne",
+      "nameFull": "Melbourne",
+      "nameShort": "Melbourne",
+      "displayDate": "06 - 08 March",
+      "type": "ROUND 1"
+    },
+    {
+      "url": "https://www.fiaformula3.com/Results?raceid=1070",
+      "slug": "sakhir",
+      "nameFull": "Sakhir",
+      "nameShort": "Sakhir",
+      "displayDate": "10 - 12 April",
+      "type": "ROUND 2"
+    },
+    {
+      "url": "https://www.fiaformula3.com/Results?raceid=1071",
+      "slug": "monaco",
+      "nameFull": "Monaco",
+      "nameShort": "Monaco",
+      "displayDate": "04 - 07 June",
+      "type": "ROUND 3"
+    },
+    {
+      "url": "https://www.fiaformula3.com/Results?raceid=1072",
+      "slug": "barcelona",
+      "nameFull": "Barcelona",
+      "nameShort": "Barcelona",
+      "displayDate": "12 - 14 June",
+      "type": "ROUND 4"
+    },
+    {
+      "url": "https://www.fiaformula3.com/Results?raceid=1073",
+      "slug": "spielberg",
+      "nameFull": "Spielberg",
+      "nameShort": "Spielberg",
+      "displayDate": "26 - 28 June",
+      "type": "ROUND 5"
+    },
+    {
+      "url": "https://www.fiaformula3.com/Results?raceid=1074",
+      "slug": "silverstone",
+      "nameFull": "Silverstone",
+      "nameShort": "Silverstone",
+      "displayDate": "03 - 05 July",
+      "type": "ROUND 6"
+    },
+    {
+      "url": "https://www.fiaformula3.com/Results?raceid=1075",
+      "slug": "spa-francorchamps",
+      "nameFull": "Spa-Francorchamps",
+      "nameShort": "Spa-Francorchamps",
+      "displayDate": "17 - 19 July",
+      "type": "ROUND 7"
+    },
+    {
+      "url": "https://www.fiaformula3.com/Results?raceid=1076",
+      "slug": "budapest",
+      "nameFull": "Budapest",
+      "nameShort": "Budapest",
+      "displayDate": "24 - 26 July",
+      "type": "ROUND 8"
+    },
+    {
+      "url": "https://www.fiaformula3.com/Results?raceid=1077",
+      "slug": "monza",
+      "nameFull": "Monza",
+      "nameShort": "Monza",
+      "displayDate": "04 - 06 September",
+      "type": "ROUND 9"
+    },
+    {
+      "url": "https://www.fiaformula3.com/Results?raceid=1078",
+      "slug": "madrid",
+      "nameFull": "Madrid",
+      "nameShort": "Madrid",
+      "displayDate": "11 - 13 September",
+      "type": "ROUND 10"
+    }
+  ]
+}

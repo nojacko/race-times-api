@@ -1,0 +1,39 @@
+{
+  "url": "https://www.fiaformula3.com/Results?raceid=1077",
+  "updatedAt": "2026-01-20T17:41:53.010Z",
+  "slug": "monza",
+  "nameFull": "Monza",
+  "nameMedium": "Monza",
+  "data": [
+    {
+      "name": "Practice",
+      "localDate": "2026-09-04",
+      "localStartTime": "TBC",
+      "localEndTime": "TBC"
+    },
+    {
+      "name": "Qualifying Group A",
+      "localDate": "2026-09-04",
+      "localStartTime": "TBC",
+      "localEndTime": "TBC"
+    },
+    {
+      "name": "Qualifying Group B",
+      "localDate": "2026-09-04",
+      "localStartTime": "TBC",
+      "localEndTime": "TBC"
+    },
+    {
+      "name": "Sprint Race",
+      "localDate": "2026-09-05",
+      "localStartTime": "TBC",
+      "localEndTime": "TBC"
+    },
+    {
+      "name": "Feature Race",
+      "localDate": "2026-09-06",
+      "localStartTime": "TBC",
+      "localEndTime": "TBC"
+    }
+  ]
+}

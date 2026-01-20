@@ -44,6 +44,17 @@ export const raceToCircuit: { [key: string]: CircuitSlug } = {
   "f2_baku": "baku-city-circuit",
   "f2_lusail": "lusail-international-circuit",
   "f2_yas-island": "yas-marina-circuit",
+  // F3
+  "f3_melbourne": "albert-park-circuit",
+  "f3_sakhir": "bahrain-international-circuit",
+  "f3_monaco": "circuit-de-monaco",
+  "f3_barcelona": "circuit-de-barcelona-catalunya",
+  "f3_spielberg": "red-bull-ring",
+  "f3_silverstone": "silverstone-circuit",
+  "f3_spa-francorchamps": "circuit-de-spa-francorchamps",
+  "f3_budapest": "hungaroring",
+  "f3_monza": "autodromo-nazionale-monza",
+  "f3_madrid": "circuito-de-madring",
 };
 
 export function getCircuitKey(formulaSlug: string, eventSlug: string): string {
