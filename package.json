@@ -7,7 +7,7 @@
     "build": "tsc",
     "start": "node dist/main.js",
     "dev": "ts-node src/main.ts",
-    "format": "prettier --write \"**/*.{ts,js}\"",
+    "format": "prettier --write \"**/*.{ts,js}\" --log-level=warn",
     "lint": "eslint \"**/*.ts\" --fix"
   },
   "author": "",
