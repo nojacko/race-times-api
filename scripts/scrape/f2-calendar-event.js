@@ -42,7 +42,6 @@
   const countryCircuitDiv = articleEl ? articleEl.querySelector("div.country-circuit p") : null;
   const nameFull = countryCircuitDiv ? countryCircuitDiv.textContent.trim() : null;
   const nameMedium = nameFull;
-  const slug = nameFull ? window._UTILS.slugify(nameFull) : null;
 
   const scheduleSpan = document.querySelector("div.schedule span:nth-of-type(2)");
   const scheduleText = scheduleSpan ? scheduleSpan.textContent.trim() : "";
@@ -90,10 +89,9 @@
 
   const meta = {
     url: window.location.href,
-    slug,
     nameFull: nameFull || "",
     nameMedium: nameMedium || "",
   };
   const out = window._UTILS.wrapData(data, meta);
-  window._UTILS.showOverlayJson(out, `${slug}.json`);
+  window._UTILS.showOverlayJson(out);
 })();

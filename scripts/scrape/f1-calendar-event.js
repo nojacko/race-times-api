@@ -13,16 +13,9 @@
   const year = yearFromTitle || yearFromH1;
 
   const data = [];
-  const url = window.location.href;
-  const parts = url.split("/").filter(Boolean);
-  const slug = parts.length ? parts[parts.length - 1] : null;
 
-  // For pre-season pages, ensure nameMedium uses 'Pre-season Test ' prefix
-  if (slug && slug.startsWith("pre-season") && nameMedium) {
-    nameMedium = nameMedium.replace(/\bTest\s+/i, "Pre-season Test ");
-  }
-
-  if (slug && slug.startsWith("pre-season") && docTitle) {
+  const isPreSeasonTest = nameFull.includes("RE-SEASON TESTING");
+  if (isPreSeasonTest) {
     const parts = docTitle.split("-");
     const last = parts.length ? parts[parts.length - 1].trim() : null;
     if (last) {
@@ -69,7 +62,7 @@
     });
   }
 
-  const meta = { url, slug, nameFull, nameMedium };
+  const meta = { nameFull, nameMedium };
   const out = window._UTILS.wrapData(data, meta);
-  window._UTILS.showOverlayJson(out, `${slug}.json`);
+  window._UTILS.showOverlayJson(out);
 })();

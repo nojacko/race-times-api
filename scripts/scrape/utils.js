@@ -20,7 +20,7 @@
       const needle = text ? String(text).toLowerCase() : null;
       const el = items.find((el) => {
         if (!needle) return true;
-        console.log(el.textContent)
+        console.log(el.textContent);
         return el.textContent && el.textContent.trim().toLowerCase().includes(needle);
       });
       if (!el) {
