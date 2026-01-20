@@ -39,6 +39,10 @@ npm start
 
 ## Data
 
+## Regular Jobs
+
+- Run to see if anything has changed: `sh scripts/download-calendars.sh`
+
 ### Info
 
 - `src/data/formulas.ts`: Hard coded. Different supported Formulas i.e F1, F2, F3, F1 Acadamy, IndyCar...
