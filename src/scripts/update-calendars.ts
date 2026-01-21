@@ -183,7 +183,7 @@ function buildEvent(
     if (fs.existsSync(eventRawPath)) {
       const rawContent = fs.readFileSync(eventRawPath, "utf8");
       const eventRaw = JSON.parse(rawContent) as RawRaceEvent;
-      event.nameMedium = eventRaw.nameMedium;
+      event.nameMedium = eventRaw.nameMedium || raw.nameShort || event.nameFull;
       if (Array.isArray(eventRaw.data)) {
         event.sessions = eventRaw.data.map((session, i) =>
           buildSession(session, i, raw, formula, year, calendarKey, circuit.timeZone, errors),
