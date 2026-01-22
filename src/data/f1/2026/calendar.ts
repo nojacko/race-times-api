@@ -34,8 +34,6 @@ export const f1Calendar2026: RaceCal = {
           name: "Day 1",
           startDateTime: "2026-02-11T07:00:00.000Z",
           endDateTime: "2026-02-11T16:00:00.000Z",
-          localStartTime: "2026-02-11T10:00:00.000+03:00",
-          localEndTime: "2026-02-11T19:00:00.000+03:00",
           tbc: false,
         },
         {
@@ -48,8 +46,6 @@ export const f1Calendar2026: RaceCal = {
           name: "Day 2",
           startDateTime: "2026-02-12T07:00:00.000Z",
           endDateTime: "2026-02-12T16:00:00.000Z",
-          localStartTime: "2026-02-12T10:00:00.000+03:00",
-          localEndTime: "2026-02-12T19:00:00.000+03:00",
           tbc: false,
         },
         {
@@ -62,8 +58,6 @@ export const f1Calendar2026: RaceCal = {
           name: "Day 3",
           startDateTime: "2026-02-13T07:00:00.000Z",
           endDateTime: "2026-02-13T16:00:00.000Z",
-          localStartTime: "2026-02-13T10:00:00.000+03:00",
-          localEndTime: "2026-02-13T19:00:00.000+03:00",
           tbc: false,
         },
       ],
@@ -95,8 +89,6 @@ export const f1Calendar2026: RaceCal = {
           name: "Day 1",
           startDateTime: "2026-02-18T07:00:00.000Z",
           endDateTime: "2026-02-18T16:00:00.000Z",
-          localStartTime: "2026-02-18T10:00:00.000+03:00",
-          localEndTime: "2026-02-18T19:00:00.000+03:00",
           tbc: false,
         },
         {
@@ -109,8 +101,6 @@ export const f1Calendar2026: RaceCal = {
           name: "Day 2",
           startDateTime: "2026-02-19T07:00:00.000Z",
           endDateTime: "2026-02-19T16:00:00.000Z",
-          localStartTime: "2026-02-19T10:00:00.000+03:00",
-          localEndTime: "2026-02-19T19:00:00.000+03:00",
           tbc: false,
         },
         {
@@ -123,8 +113,6 @@ export const f1Calendar2026: RaceCal = {
           name: "Day 3",
           startDateTime: "2026-02-20T07:00:00.000Z",
           endDateTime: "2026-02-20T16:00:00.000Z",
-          localStartTime: "2026-02-20T10:00:00.000+03:00",
-          localEndTime: "2026-02-20T19:00:00.000+03:00",
           tbc: false,
         },
       ],
@@ -156,8 +144,6 @@ export const f1Calendar2026: RaceCal = {
           name: "Practice 1",
           startDateTime: "2026-03-06T01:30:00.000Z",
           endDateTime: "2026-03-06T02:30:00.000Z",
-          localStartTime: "2026-03-06T12:30:00.000+11:00",
-          localEndTime: "2026-03-06T13:30:00.000+11:00",
           tbc: false,
         },
         {
@@ -170,8 +156,6 @@ export const f1Calendar2026: RaceCal = {
           name: "Practice 2",
           startDateTime: "2026-03-06T05:00:00.000Z",
           endDateTime: "2026-03-06T06:00:00.000Z",
-          localStartTime: "2026-03-06T16:00:00.000+11:00",
-          localEndTime: "2026-03-06T17:00:00.000+11:00",
           tbc: false,
         },
         {
@@ -184,8 +168,6 @@ export const f1Calendar2026: RaceCal = {
           name: "Practice 3",
           startDateTime: "2026-03-07T01:30:00.000Z",
           endDateTime: "2026-03-07T02:30:00.000Z",
-          localStartTime: "2026-03-07T12:30:00.000+11:00",
-          localEndTime: "2026-03-07T13:30:00.000+11:00",
           tbc: false,
         },
         {
@@ -198,8 +180,6 @@ export const f1Calendar2026: RaceCal = {
           name: "Qualifying",
           startDateTime: "2026-03-07T05:00:00.000Z",
           endDateTime: "2026-03-07T06:00:00.000Z",
-          localStartTime: "2026-03-07T16:00:00.000+11:00",
-          localEndTime: "2026-03-07T17:00:00.000+11:00",
           tbc: false,
         },
         {
@@ -212,8 +192,6 @@ export const f1Calendar2026: RaceCal = {
           name: "Race",
           startDateTime: "2026-03-08T04:00:00.000Z",
           endDateTime: "2026-03-08T01:30:00.000Z",
-          localStartTime: "2026-03-08T15:00:00.000+11:00",
-          localEndTime: "2026-03-08T12:30:00.000+11:00",
           tbc: true,
         },
       ],
@@ -245,8 +223,6 @@ export const f1Calendar2026: RaceCal = {
           name: "Practice 1",
           startDateTime: "2026-03-13T03:30:00.000Z",
           endDateTime: "2026-03-13T04:30:00.000Z",
-          localStartTime: "2026-03-13T11:30:00.000+08:00",
-          localEndTime: "2026-03-13T12:30:00.000+08:00",
           tbc: false,
         },
         {
@@ -259,8 +235,6 @@ export const f1Calendar2026: RaceCal = {
           name: "Sprint Qualifying",
           startDateTime: "2026-03-13T07:30:00.000Z",
           endDateTime: "2026-03-13T08:14:00.000Z",
-          localStartTime: "2026-03-13T15:30:00.000+08:00",
-          localEndTime: "2026-03-13T16:14:00.000+08:00",
           tbc: false,
         },
         {
@@ -273,8 +247,6 @@ export const f1Calendar2026: RaceCal = {
           name: "Sprint",
           startDateTime: "2026-03-14T03:00:00.000Z",
           endDateTime: "2026-03-14T04:00:00.000Z",
-          localStartTime: "2026-03-14T11:00:00.000+08:00",
-          localEndTime: "2026-03-14T12:00:00.000+08:00",
           tbc: false,
         },
         {
@@ -287,8 +259,6 @@ export const f1Calendar2026: RaceCal = {
           name: "Qualifying",
           startDateTime: "2026-03-14T07:00:00.000Z",
           endDateTime: "2026-03-14T08:00:00.000Z",
-          localStartTime: "2026-03-14T15:00:00.000+08:00",
-          localEndTime: "2026-03-14T16:00:00.000+08:00",
           tbc: false,
         },
         {
@@ -301,8 +271,6 @@ export const f1Calendar2026: RaceCal = {
           name: "Race",
           startDateTime: "2026-03-15T07:00:00.000Z",
           endDateTime: "2026-03-15T04:30:00.000Z",
-          localStartTime: "2026-03-15T15:00:00.000+08:00",
-          localEndTime: "2026-03-15T12:30:00.000+08:00",
           tbc: true,
         },
       ],
@@ -334,8 +302,6 @@ export const f1Calendar2026: RaceCal = {
           name: "Practice 1",
           startDateTime: "2026-03-27T02:30:00.000Z",
           endDateTime: "2026-03-27T03:30:00.000Z",
-          localStartTime: "2026-03-27T11:30:00.000+09:00",
-          localEndTime: "2026-03-27T12:30:00.000+09:00",
           tbc: false,
         },
         {
@@ -348,8 +314,6 @@ export const f1Calendar2026: RaceCal = {
           name: "Practice 2",
           startDateTime: "2026-03-27T06:00:00.000Z",
           endDateTime: "2026-03-27T07:00:00.000Z",
-          localStartTime: "2026-03-27T15:00:00.000+09:00",
-          localEndTime: "2026-03-27T16:00:00.000+09:00",
           tbc: false,
         },
         {
@@ -362,8 +326,6 @@ export const f1Calendar2026: RaceCal = {
           name: "Practice 3",
           startDateTime: "2026-03-28T02:30:00.000Z",
           endDateTime: "2026-03-28T03:30:00.000Z",
-          localStartTime: "2026-03-28T11:30:00.000+09:00",
-          localEndTime: "2026-03-28T12:30:00.000+09:00",
           tbc: false,
         },
         {
@@ -376,8 +338,6 @@ export const f1Calendar2026: RaceCal = {
           name: "Qualifying",
           startDateTime: "2026-03-28T06:00:00.000Z",
           endDateTime: "2026-03-28T07:00:00.000Z",
-          localStartTime: "2026-03-28T15:00:00.000+09:00",
-          localEndTime: "2026-03-28T16:00:00.000+09:00",
           tbc: false,
         },
         {
@@ -390,8 +350,6 @@ export const f1Calendar2026: RaceCal = {
           name: "Race",
           startDateTime: "2026-03-29T05:00:00.000Z",
           endDateTime: "2026-03-29T03:30:00.000Z",
-          localStartTime: "2026-03-29T14:00:00.000+09:00",
-          localEndTime: "2026-03-29T12:30:00.000+09:00",
           tbc: true,
         },
       ],
@@ -423,8 +381,6 @@ export const f1Calendar2026: RaceCal = {
           name: "Practice 1",
           startDateTime: "2026-04-10T11:30:00.000Z",
           endDateTime: "2026-04-10T12:30:00.000Z",
-          localStartTime: "2026-04-10T14:30:00.000+03:00",
-          localEndTime: "2026-04-10T15:30:00.000+03:00",
           tbc: false,
         },
         {
@@ -437,8 +393,6 @@ export const f1Calendar2026: RaceCal = {
           name: "Practice 2",
           startDateTime: "2026-04-10T15:00:00.000Z",
           endDateTime: "2026-04-10T16:00:00.000Z",
-          localStartTime: "2026-04-10T18:00:00.000+03:00",
-          localEndTime: "2026-04-10T19:00:00.000+03:00",
           tbc: false,
         },
         {
@@ -451,8 +405,6 @@ export const f1Calendar2026: RaceCal = {
           name: "Practice 3",
           startDateTime: "2026-04-11T12:30:00.000Z",
           endDateTime: "2026-04-11T13:30:00.000Z",
-          localStartTime: "2026-04-11T15:30:00.000+03:00",
-          localEndTime: "2026-04-11T16:30:00.000+03:00",
           tbc: false,
         },
         {
@@ -465,8 +417,6 @@ export const f1Calendar2026: RaceCal = {
           name: "Qualifying",
           startDateTime: "2026-04-11T16:00:00.000Z",
           endDateTime: "2026-04-11T17:00:00.000Z",
-          localStartTime: "2026-04-11T19:00:00.000+03:00",
-          localEndTime: "2026-04-11T20:00:00.000+03:00",
           tbc: false,
         },
         {
@@ -479,8 +429,6 @@ export const f1Calendar2026: RaceCal = {
           name: "Race",
           startDateTime: "2026-04-12T15:00:00.000Z",
           endDateTime: "2026-04-12T09:30:00.000Z",
-          localStartTime: "2026-04-12T18:00:00.000+03:00",
-          localEndTime: "2026-04-12T12:30:00.000+03:00",
           tbc: true,
         },
       ],
@@ -512,8 +460,6 @@ export const f1Calendar2026: RaceCal = {
           name: "Practice 1",
           startDateTime: "2026-04-17T13:30:00.000Z",
           endDateTime: "2026-04-17T14:30:00.000Z",
-          localStartTime: "2026-04-17T16:30:00.000+03:00",
-          localEndTime: "2026-04-17T17:30:00.000+03:00",
           tbc: false,
         },
         {
@@ -526,8 +472,6 @@ export const f1Calendar2026: RaceCal = {
           name: "Practice 2",
           startDateTime: "2026-04-17T17:00:00.000Z",
           endDateTime: "2026-04-17T18:00:00.000Z",
-          localStartTime: "2026-04-17T20:00:00.000+03:00",
-          localEndTime: "2026-04-17T21:00:00.000+03:00",
           tbc: false,
         },
         {
@@ -540,8 +484,6 @@ export const f1Calendar2026: RaceCal = {
           name: "Practice 3",
           startDateTime: "2026-04-18T13:30:00.000Z",
           endDateTime: "2026-04-18T14:30:00.000Z",
-          localStartTime: "2026-04-18T16:30:00.000+03:00",
-          localEndTime: "2026-04-18T17:30:00.000+03:00",
           tbc: false,
         },
         {
@@ -554,8 +496,6 @@ export const f1Calendar2026: RaceCal = {
           name: "Qualifying",
           startDateTime: "2026-04-18T17:00:00.000Z",
           endDateTime: "2026-04-18T18:00:00.000Z",
-          localStartTime: "2026-04-18T20:00:00.000+03:00",
-          localEndTime: "2026-04-18T21:00:00.000+03:00",
           tbc: false,
         },
         {
@@ -568,8 +508,6 @@ export const f1Calendar2026: RaceCal = {
           name: "Race",
           startDateTime: "2026-04-19T17:00:00.000Z",
           endDateTime: "2026-04-19T09:30:00.000Z",
-          localStartTime: "2026-04-19T20:00:00.000+03:00",
-          localEndTime: "2026-04-19T12:30:00.000+03:00",
           tbc: true,
         },
       ],
@@ -601,8 +539,6 @@ export const f1Calendar2026: RaceCal = {
           name: "Practice 1",
           startDateTime: "2026-05-01T16:30:00.000Z",
           endDateTime: "2026-05-01T17:30:00.000Z",
-          localStartTime: "2026-05-01T12:30:00.000-04:00",
-          localEndTime: "2026-05-01T13:30:00.000-04:00",
           tbc: false,
         },
         {
@@ -615,8 +551,6 @@ export const f1Calendar2026: RaceCal = {
           name: "Sprint Qualifying",
           startDateTime: "2026-05-01T20:30:00.000Z",
           endDateTime: "2026-05-01T21:14:00.000Z",
-          localStartTime: "2026-05-01T16:30:00.000-04:00",
-          localEndTime: "2026-05-01T17:14:00.000-04:00",
           tbc: false,
         },
         {
@@ -629,8 +563,6 @@ export const f1Calendar2026: RaceCal = {
           name: "Sprint",
           startDateTime: "2026-05-02T16:00:00.000Z",
           endDateTime: "2026-05-02T17:00:00.000Z",
-          localStartTime: "2026-05-02T12:00:00.000-04:00",
-          localEndTime: "2026-05-02T13:00:00.000-04:00",
           tbc: false,
         },
         {
@@ -643,8 +575,6 @@ export const f1Calendar2026: RaceCal = {
           name: "Qualifying",
           startDateTime: "2026-05-02T20:00:00.000Z",
           endDateTime: "2026-05-02T21:00:00.000Z",
-          localStartTime: "2026-05-02T16:00:00.000-04:00",
-          localEndTime: "2026-05-02T17:00:00.000-04:00",
           tbc: false,
         },
         {
@@ -657,8 +587,6 @@ export const f1Calendar2026: RaceCal = {
           name: "Race",
           startDateTime: "2026-05-03T20:00:00.000Z",
           endDateTime: "2026-05-03T16:30:00.000Z",
-          localStartTime: "2026-05-03T16:00:00.000-04:00",
-          localEndTime: "2026-05-03T12:30:00.000-04:00",
           tbc: true,
         },
       ],
@@ -690,8 +618,6 @@ export const f1Calendar2026: RaceCal = {
           name: "Practice 1",
           startDateTime: "2026-05-22T16:30:00.000Z",
           endDateTime: "2026-05-22T17:30:00.000Z",
-          localStartTime: "2026-05-22T12:30:00.000-04:00",
-          localEndTime: "2026-05-22T13:30:00.000-04:00",
           tbc: false,
         },
         {
@@ -704,8 +630,6 @@ export const f1Calendar2026: RaceCal = {
           name: "Sprint Qualifying",
           startDateTime: "2026-05-22T20:30:00.000Z",
           endDateTime: "2026-05-22T21:14:00.000Z",
-          localStartTime: "2026-05-22T16:30:00.000-04:00",
-          localEndTime: "2026-05-22T17:14:00.000-04:00",
           tbc: false,
         },
         {
@@ -718,8 +642,6 @@ export const f1Calendar2026: RaceCal = {
           name: "Sprint",
           startDateTime: "2026-05-23T16:00:00.000Z",
           endDateTime: "2026-05-23T17:00:00.000Z",
-          localStartTime: "2026-05-23T12:00:00.000-04:00",
-          localEndTime: "2026-05-23T13:00:00.000-04:00",
           tbc: false,
         },
         {
@@ -732,8 +654,6 @@ export const f1Calendar2026: RaceCal = {
           name: "Qualifying",
           startDateTime: "2026-05-23T20:00:00.000Z",
           endDateTime: "2026-05-23T21:00:00.000Z",
-          localStartTime: "2026-05-23T16:00:00.000-04:00",
-          localEndTime: "2026-05-23T17:00:00.000-04:00",
           tbc: false,
         },
         {
@@ -746,8 +666,6 @@ export const f1Calendar2026: RaceCal = {
           name: "Race",
           startDateTime: "2026-05-24T20:00:00.000Z",
           endDateTime: "2026-05-24T16:30:00.000Z",
-          localStartTime: "2026-05-24T16:00:00.000-04:00",
-          localEndTime: "2026-05-24T12:30:00.000-04:00",
           tbc: true,
         },
       ],
@@ -779,8 +697,6 @@ export const f1Calendar2026: RaceCal = {
           name: "Practice 1",
           startDateTime: "2026-06-05T11:30:00.000Z",
           endDateTime: "2026-06-05T12:30:00.000Z",
-          localStartTime: "2026-06-05T13:30:00.000+02:00",
-          localEndTime: "2026-06-05T14:30:00.000+02:00",
           tbc: false,
         },
         {
@@ -793,8 +709,6 @@ export const f1Calendar2026: RaceCal = {
           name: "Practice 2",
           startDateTime: "2026-06-05T15:00:00.000Z",
           endDateTime: "2026-06-05T16:00:00.000Z",
-          localStartTime: "2026-06-05T17:00:00.000+02:00",
-          localEndTime: "2026-06-05T18:00:00.000+02:00",
           tbc: false,
         },
         {
@@ -807,8 +721,6 @@ export const f1Calendar2026: RaceCal = {
           name: "Practice 3",
           startDateTime: "2026-06-06T10:30:00.000Z",
           endDateTime: "2026-06-06T11:30:00.000Z",
-          localStartTime: "2026-06-06T12:30:00.000+02:00",
-          localEndTime: "2026-06-06T13:30:00.000+02:00",
           tbc: false,
         },
         {
@@ -821,8 +733,6 @@ export const f1Calendar2026: RaceCal = {
           name: "Qualifying",
           startDateTime: "2026-06-06T14:00:00.000Z",
           endDateTime: "2026-06-06T15:00:00.000Z",
-          localStartTime: "2026-06-06T16:00:00.000+02:00",
-          localEndTime: "2026-06-06T17:00:00.000+02:00",
           tbc: false,
         },
         {
@@ -835,8 +745,6 @@ export const f1Calendar2026: RaceCal = {
           name: "Race",
           startDateTime: "2026-06-07T13:00:00.000Z",
           endDateTime: "2026-06-07T10:30:00.000Z",
-          localStartTime: "2026-06-07T15:00:00.000+02:00",
-          localEndTime: "2026-06-07T12:30:00.000+02:00",
           tbc: true,
         },
       ],
@@ -868,8 +776,6 @@ export const f1Calendar2026: RaceCal = {
           name: "Practice 1",
           startDateTime: "2026-06-12T11:30:00.000Z",
           endDateTime: "2026-06-12T12:30:00.000Z",
-          localStartTime: "2026-06-12T13:30:00.000+02:00",
-          localEndTime: "2026-06-12T14:30:00.000+02:00",
           tbc: false,
         },
         {
@@ -882,8 +788,6 @@ export const f1Calendar2026: RaceCal = {
           name: "Practice 2",
           startDateTime: "2026-06-12T15:00:00.000Z",
           endDateTime: "2026-06-12T16:00:00.000Z",
-          localStartTime: "2026-06-12T17:00:00.000+02:00",
-          localEndTime: "2026-06-12T18:00:00.000+02:00",
           tbc: false,
         },
         {
@@ -896,8 +800,6 @@ export const f1Calendar2026: RaceCal = {
           name: "Practice 3",
           startDateTime: "2026-06-13T10:30:00.000Z",
           endDateTime: "2026-06-13T11:30:00.000Z",
-          localStartTime: "2026-06-13T12:30:00.000+02:00",
-          localEndTime: "2026-06-13T13:30:00.000+02:00",
           tbc: false,
         },
         {
@@ -910,8 +812,6 @@ export const f1Calendar2026: RaceCal = {
           name: "Qualifying",
           startDateTime: "2026-06-13T14:00:00.000Z",
           endDateTime: "2026-06-13T15:00:00.000Z",
-          localStartTime: "2026-06-13T16:00:00.000+02:00",
-          localEndTime: "2026-06-13T17:00:00.000+02:00",
           tbc: false,
         },
         {
@@ -924,8 +824,6 @@ export const f1Calendar2026: RaceCal = {
           name: "Race",
           startDateTime: "2026-06-14T13:00:00.000Z",
           endDateTime: "2026-06-14T10:30:00.000Z",
-          localStartTime: "2026-06-14T15:00:00.000+02:00",
-          localEndTime: "2026-06-14T12:30:00.000+02:00",
           tbc: true,
         },
       ],
@@ -957,8 +855,6 @@ export const f1Calendar2026: RaceCal = {
           name: "Practice 1",
           startDateTime: "2026-06-26T11:30:00.000Z",
           endDateTime: "2026-06-26T12:30:00.000Z",
-          localStartTime: "2026-06-26T13:30:00.000+02:00",
-          localEndTime: "2026-06-26T14:30:00.000+02:00",
           tbc: false,
         },
         {
@@ -971,8 +867,6 @@ export const f1Calendar2026: RaceCal = {
           name: "Practice 2",
           startDateTime: "2026-06-26T15:00:00.000Z",
           endDateTime: "2026-06-26T16:00:00.000Z",
-          localStartTime: "2026-06-26T17:00:00.000+02:00",
-          localEndTime: "2026-06-26T18:00:00.000+02:00",
           tbc: false,
         },
         {
@@ -985,8 +879,6 @@ export const f1Calendar2026: RaceCal = {
           name: "Practice 3",
           startDateTime: "2026-06-27T10:30:00.000Z",
           endDateTime: "2026-06-27T11:30:00.000Z",
-          localStartTime: "2026-06-27T12:30:00.000+02:00",
-          localEndTime: "2026-06-27T13:30:00.000+02:00",
           tbc: false,
         },
         {
@@ -999,8 +891,6 @@ export const f1Calendar2026: RaceCal = {
           name: "Qualifying",
           startDateTime: "2026-06-27T14:00:00.000Z",
           endDateTime: "2026-06-27T15:00:00.000Z",
-          localStartTime: "2026-06-27T16:00:00.000+02:00",
-          localEndTime: "2026-06-27T17:00:00.000+02:00",
           tbc: false,
         },
         {
@@ -1013,8 +903,6 @@ export const f1Calendar2026: RaceCal = {
           name: "Race",
           startDateTime: "2026-06-28T13:00:00.000Z",
           endDateTime: "2026-06-28T10:30:00.000Z",
-          localStartTime: "2026-06-28T15:00:00.000+02:00",
-          localEndTime: "2026-06-28T12:30:00.000+02:00",
           tbc: true,
         },
       ],
@@ -1046,8 +934,6 @@ export const f1Calendar2026: RaceCal = {
           name: "Practice 1",
           startDateTime: "2026-07-03T11:30:00.000Z",
           endDateTime: "2026-07-03T12:30:00.000Z",
-          localStartTime: "2026-07-03T12:30:00.000+01:00",
-          localEndTime: "2026-07-03T13:30:00.000+01:00",
           tbc: false,
         },
         {
@@ -1060,8 +946,6 @@ export const f1Calendar2026: RaceCal = {
           name: "Sprint Qualifying",
           startDateTime: "2026-07-03T15:30:00.000Z",
           endDateTime: "2026-07-03T16:14:00.000Z",
-          localStartTime: "2026-07-03T16:30:00.000+01:00",
-          localEndTime: "2026-07-03T17:14:00.000+01:00",
           tbc: false,
         },
         {
@@ -1074,8 +958,6 @@ export const f1Calendar2026: RaceCal = {
           name: "Sprint",
           startDateTime: "2026-07-04T11:00:00.000Z",
           endDateTime: "2026-07-04T12:00:00.000Z",
-          localStartTime: "2026-07-04T12:00:00.000+01:00",
-          localEndTime: "2026-07-04T13:00:00.000+01:00",
           tbc: false,
         },
         {
@@ -1088,8 +970,6 @@ export const f1Calendar2026: RaceCal = {
           name: "Qualifying",
           startDateTime: "2026-07-04T15:00:00.000Z",
           endDateTime: "2026-07-04T16:00:00.000Z",
-          localStartTime: "2026-07-04T16:00:00.000+01:00",
-          localEndTime: "2026-07-04T17:00:00.000+01:00",
           tbc: false,
         },
         {
@@ -1102,8 +982,6 @@ export const f1Calendar2026: RaceCal = {
           name: "Race",
           startDateTime: "2026-07-05T14:00:00.000Z",
           endDateTime: "2026-07-05T11:30:00.000Z",
-          localStartTime: "2026-07-05T15:00:00.000+01:00",
-          localEndTime: "2026-07-05T12:30:00.000+01:00",
           tbc: true,
         },
       ],
@@ -1135,8 +1013,6 @@ export const f1Calendar2026: RaceCal = {
           name: "Practice 1",
           startDateTime: "2026-07-17T11:30:00.000Z",
           endDateTime: "2026-07-17T12:30:00.000Z",
-          localStartTime: "2026-07-17T13:30:00.000+02:00",
-          localEndTime: "2026-07-17T14:30:00.000+02:00",
           tbc: false,
         },
         {
@@ -1149,8 +1025,6 @@ export const f1Calendar2026: RaceCal = {
           name: "Practice 2",
           startDateTime: "2026-07-17T15:00:00.000Z",
           endDateTime: "2026-07-17T16:00:00.000Z",
-          localStartTime: "2026-07-17T17:00:00.000+02:00",
-          localEndTime: "2026-07-17T18:00:00.000+02:00",
           tbc: false,
         },
         {
@@ -1163,8 +1037,6 @@ export const f1Calendar2026: RaceCal = {
           name: "Practice 3",
           startDateTime: "2026-07-18T10:30:00.000Z",
           endDateTime: "2026-07-18T11:30:00.000Z",
-          localStartTime: "2026-07-18T12:30:00.000+02:00",
-          localEndTime: "2026-07-18T13:30:00.000+02:00",
           tbc: false,
         },
         {
@@ -1177,8 +1049,6 @@ export const f1Calendar2026: RaceCal = {
           name: "Qualifying",
           startDateTime: "2026-07-18T14:00:00.000Z",
           endDateTime: "2026-07-18T15:00:00.000Z",
-          localStartTime: "2026-07-18T16:00:00.000+02:00",
-          localEndTime: "2026-07-18T17:00:00.000+02:00",
           tbc: false,
         },
         {
@@ -1191,8 +1061,6 @@ export const f1Calendar2026: RaceCal = {
           name: "Race",
           startDateTime: "2026-07-19T13:00:00.000Z",
           endDateTime: "2026-07-19T10:30:00.000Z",
-          localStartTime: "2026-07-19T15:00:00.000+02:00",
-          localEndTime: "2026-07-19T12:30:00.000+02:00",
           tbc: true,
         },
       ],
@@ -1224,8 +1092,6 @@ export const f1Calendar2026: RaceCal = {
           name: "Practice 1",
           startDateTime: "2026-07-24T11:30:00.000Z",
           endDateTime: "2026-07-24T12:30:00.000Z",
-          localStartTime: "2026-07-24T13:30:00.000+02:00",
-          localEndTime: "2026-07-24T14:30:00.000+02:00",
           tbc: false,
         },
         {
@@ -1238,8 +1104,6 @@ export const f1Calendar2026: RaceCal = {
           name: "Practice 2",
           startDateTime: "2026-07-24T15:00:00.000Z",
           endDateTime: "2026-07-24T16:00:00.000Z",
-          localStartTime: "2026-07-24T17:00:00.000+02:00",
-          localEndTime: "2026-07-24T18:00:00.000+02:00",
           tbc: false,
         },
         {
@@ -1252,8 +1116,6 @@ export const f1Calendar2026: RaceCal = {
           name: "Practice 3",
           startDateTime: "2026-07-25T10:30:00.000Z",
           endDateTime: "2026-07-25T11:30:00.000Z",
-          localStartTime: "2026-07-25T12:30:00.000+02:00",
-          localEndTime: "2026-07-25T13:30:00.000+02:00",
           tbc: false,
         },
         {
@@ -1266,8 +1128,6 @@ export const f1Calendar2026: RaceCal = {
           name: "Qualifying",
           startDateTime: "2026-07-25T14:00:00.000Z",
           endDateTime: "2026-07-25T15:00:00.000Z",
-          localStartTime: "2026-07-25T16:00:00.000+02:00",
-          localEndTime: "2026-07-25T17:00:00.000+02:00",
           tbc: false,
         },
         {
@@ -1280,8 +1140,6 @@ export const f1Calendar2026: RaceCal = {
           name: "Race",
           startDateTime: "2026-07-26T13:00:00.000Z",
           endDateTime: "2026-07-26T10:30:00.000Z",
-          localStartTime: "2026-07-26T15:00:00.000+02:00",
-          localEndTime: "2026-07-26T12:30:00.000+02:00",
           tbc: true,
         },
       ],
@@ -1313,8 +1171,6 @@ export const f1Calendar2026: RaceCal = {
           name: "Practice 1",
           startDateTime: "2026-08-21T10:30:00.000Z",
           endDateTime: "2026-08-21T11:30:00.000Z",
-          localStartTime: "2026-08-21T12:30:00.000+02:00",
-          localEndTime: "2026-08-21T13:30:00.000+02:00",
           tbc: false,
         },
         {
@@ -1327,8 +1183,6 @@ export const f1Calendar2026: RaceCal = {
           name: "Sprint Qualifying",
           startDateTime: "2026-08-21T14:30:00.000Z",
           endDateTime: "2026-08-21T15:14:00.000Z",
-          localStartTime: "2026-08-21T16:30:00.000+02:00",
-          localEndTime: "2026-08-21T17:14:00.000+02:00",
           tbc: false,
         },
         {
@@ -1341,8 +1195,6 @@ export const f1Calendar2026: RaceCal = {
           name: "Sprint",
           startDateTime: "2026-08-22T10:00:00.000Z",
           endDateTime: "2026-08-22T11:00:00.000Z",
-          localStartTime: "2026-08-22T12:00:00.000+02:00",
-          localEndTime: "2026-08-22T13:00:00.000+02:00",
           tbc: false,
         },
         {
@@ -1355,8 +1207,6 @@ export const f1Calendar2026: RaceCal = {
           name: "Qualifying",
           startDateTime: "2026-08-22T14:00:00.000Z",
           endDateTime: "2026-08-22T15:00:00.000Z",
-          localStartTime: "2026-08-22T16:00:00.000+02:00",
-          localEndTime: "2026-08-22T17:00:00.000+02:00",
           tbc: false,
         },
         {
@@ -1369,8 +1219,6 @@ export const f1Calendar2026: RaceCal = {
           name: "Race",
           startDateTime: "2026-08-23T13:00:00.000Z",
           endDateTime: "2026-08-23T10:30:00.000Z",
-          localStartTime: "2026-08-23T15:00:00.000+02:00",
-          localEndTime: "2026-08-23T12:30:00.000+02:00",
           tbc: true,
         },
       ],
@@ -1402,8 +1250,6 @@ export const f1Calendar2026: RaceCal = {
           name: "Practice 1",
           startDateTime: "2026-09-04T10:30:00.000Z",
           endDateTime: "2026-09-04T11:30:00.000Z",
-          localStartTime: "2026-09-04T12:30:00.000+02:00",
-          localEndTime: "2026-09-04T13:30:00.000+02:00",
           tbc: false,
         },
         {
@@ -1416,8 +1262,6 @@ export const f1Calendar2026: RaceCal = {
           name: "Practice 2",
           startDateTime: "2026-09-04T14:00:00.000Z",
           endDateTime: "2026-09-04T15:00:00.000Z",
-          localStartTime: "2026-09-04T16:00:00.000+02:00",
-          localEndTime: "2026-09-04T17:00:00.000+02:00",
           tbc: false,
         },
         {
@@ -1430,8 +1274,6 @@ export const f1Calendar2026: RaceCal = {
           name: "Practice 3",
           startDateTime: "2026-09-05T10:30:00.000Z",
           endDateTime: "2026-09-05T11:30:00.000Z",
-          localStartTime: "2026-09-05T12:30:00.000+02:00",
-          localEndTime: "2026-09-05T13:30:00.000+02:00",
           tbc: false,
         },
         {
@@ -1444,8 +1286,6 @@ export const f1Calendar2026: RaceCal = {
           name: "Qualifying",
           startDateTime: "2026-09-05T14:00:00.000Z",
           endDateTime: "2026-09-05T15:00:00.000Z",
-          localStartTime: "2026-09-05T16:00:00.000+02:00",
-          localEndTime: "2026-09-05T17:00:00.000+02:00",
           tbc: false,
         },
         {
@@ -1458,8 +1298,6 @@ export const f1Calendar2026: RaceCal = {
           name: "Race",
           startDateTime: "2026-09-06T13:00:00.000Z",
           endDateTime: "2026-09-06T10:30:00.000Z",
-          localStartTime: "2026-09-06T15:00:00.000+02:00",
-          localEndTime: "2026-09-06T12:30:00.000+02:00",
           tbc: true,
         },
       ],
@@ -1491,8 +1329,6 @@ export const f1Calendar2026: RaceCal = {
           name: "Practice 1",
           startDateTime: "2026-09-11T11:30:00.000Z",
           endDateTime: "2026-09-11T12:30:00.000Z",
-          localStartTime: "2026-09-11T13:30:00.000+02:00",
-          localEndTime: "2026-09-11T14:30:00.000+02:00",
           tbc: false,
         },
         {
@@ -1505,8 +1341,6 @@ export const f1Calendar2026: RaceCal = {
           name: "Practice 2",
           startDateTime: "2026-09-11T15:00:00.000Z",
           endDateTime: "2026-09-11T16:00:00.000Z",
-          localStartTime: "2026-09-11T17:00:00.000+02:00",
-          localEndTime: "2026-09-11T18:00:00.000+02:00",
           tbc: false,
         },
         {
@@ -1519,8 +1353,6 @@ export const f1Calendar2026: RaceCal = {
           name: "Practice 3",
           startDateTime: "2026-09-12T10:30:00.000Z",
           endDateTime: "2026-09-12T11:30:00.000Z",
-          localStartTime: "2026-09-12T12:30:00.000+02:00",
-          localEndTime: "2026-09-12T13:30:00.000+02:00",
           tbc: false,
         },
         {
@@ -1533,8 +1365,6 @@ export const f1Calendar2026: RaceCal = {
           name: "Qualifying",
           startDateTime: "2026-09-12T14:00:00.000Z",
           endDateTime: "2026-09-12T15:00:00.000Z",
-          localStartTime: "2026-09-12T16:00:00.000+02:00",
-          localEndTime: "2026-09-12T17:00:00.000+02:00",
           tbc: false,
         },
         {
@@ -1547,8 +1377,6 @@ export const f1Calendar2026: RaceCal = {
           name: "Race",
           startDateTime: "2026-09-13T13:00:00.000Z",
           endDateTime: "2026-09-13T10:30:00.000Z",
-          localStartTime: "2026-09-13T15:00:00.000+02:00",
-          localEndTime: "2026-09-13T12:30:00.000+02:00",
           tbc: true,
         },
       ],
@@ -1580,8 +1408,6 @@ export const f1Calendar2026: RaceCal = {
           name: "Practice 1",
           startDateTime: "2026-09-24T08:30:00.000Z",
           endDateTime: "2026-09-24T09:30:00.000Z",
-          localStartTime: "2026-09-24T12:30:00.000+04:00",
-          localEndTime: "2026-09-24T13:30:00.000+04:00",
           tbc: false,
         },
         {
@@ -1594,8 +1420,6 @@ export const f1Calendar2026: RaceCal = {
           name: "Practice 2",
           startDateTime: "2026-09-24T12:00:00.000Z",
           endDateTime: "2026-09-24T13:00:00.000Z",
-          localStartTime: "2026-09-24T16:00:00.000+04:00",
-          localEndTime: "2026-09-24T17:00:00.000+04:00",
           tbc: false,
         },
         {
@@ -1608,8 +1432,6 @@ export const f1Calendar2026: RaceCal = {
           name: "Practice 3",
           startDateTime: "2026-09-25T08:30:00.000Z",
           endDateTime: "2026-09-25T09:30:00.000Z",
-          localStartTime: "2026-09-25T12:30:00.000+04:00",
-          localEndTime: "2026-09-25T13:30:00.000+04:00",
           tbc: false,
         },
         {
@@ -1622,8 +1444,6 @@ export const f1Calendar2026: RaceCal = {
           name: "Qualifying",
           startDateTime: "2026-09-25T12:00:00.000Z",
           endDateTime: "2026-09-25T13:00:00.000Z",
-          localStartTime: "2026-09-25T16:00:00.000+04:00",
-          localEndTime: "2026-09-25T17:00:00.000+04:00",
           tbc: false,
         },
         {
@@ -1636,8 +1456,6 @@ export const f1Calendar2026: RaceCal = {
           name: "Race",
           startDateTime: "2026-09-26T11:00:00.000Z",
           endDateTime: "2026-09-26T08:30:00.000Z",
-          localStartTime: "2026-09-26T15:00:00.000+04:00",
-          localEndTime: "2026-09-26T12:30:00.000+04:00",
           tbc: true,
         },
       ],
@@ -1669,8 +1487,6 @@ export const f1Calendar2026: RaceCal = {
           name: "Practice 1",
           startDateTime: "2026-10-09T09:30:00.000Z",
           endDateTime: "2026-10-09T10:30:00.000Z",
-          localStartTime: "2026-10-09T17:30:00.000+08:00",
-          localEndTime: "2026-10-09T18:30:00.000+08:00",
           tbc: false,
         },
         {
@@ -1683,8 +1499,6 @@ export const f1Calendar2026: RaceCal = {
           name: "Sprint Qualifying",
           startDateTime: "2026-10-09T12:30:00.000Z",
           endDateTime: "2026-10-09T13:14:00.000Z",
-          localStartTime: "2026-10-09T20:30:00.000+08:00",
-          localEndTime: "2026-10-09T21:14:00.000+08:00",
           tbc: false,
         },
         {
@@ -1697,8 +1511,6 @@ export const f1Calendar2026: RaceCal = {
           name: "Sprint",
           startDateTime: "2026-10-10T09:00:00.000Z",
           endDateTime: "2026-10-10T10:00:00.000Z",
-          localStartTime: "2026-10-10T17:00:00.000+08:00",
-          localEndTime: "2026-10-10T18:00:00.000+08:00",
           tbc: false,
         },
         {
@@ -1711,8 +1523,6 @@ export const f1Calendar2026: RaceCal = {
           name: "Qualifying",
           startDateTime: "2026-10-10T13:00:00.000Z",
           endDateTime: "2026-10-10T14:00:00.000Z",
-          localStartTime: "2026-10-10T21:00:00.000+08:00",
-          localEndTime: "2026-10-10T22:00:00.000+08:00",
           tbc: false,
         },
         {
@@ -1725,8 +1535,6 @@ export const f1Calendar2026: RaceCal = {
           name: "Race",
           startDateTime: "2026-10-11T12:00:00.000Z",
           endDateTime: "2026-10-11T04:30:00.000Z",
-          localStartTime: "2026-10-11T20:00:00.000+08:00",
-          localEndTime: "2026-10-11T12:30:00.000+08:00",
           tbc: true,
         },
       ],
@@ -1758,8 +1566,6 @@ export const f1Calendar2026: RaceCal = {
           name: "Practice 1",
           startDateTime: "2026-10-23T17:30:00.000Z",
           endDateTime: "2026-10-23T18:30:00.000Z",
-          localStartTime: "2026-10-23T12:30:00.000-05:00",
-          localEndTime: "2026-10-23T13:30:00.000-05:00",
           tbc: false,
         },
         {
@@ -1772,8 +1578,6 @@ export const f1Calendar2026: RaceCal = {
           name: "Practice 2",
           startDateTime: "2026-10-23T21:00:00.000Z",
           endDateTime: "2026-10-23T22:00:00.000Z",
-          localStartTime: "2026-10-23T16:00:00.000-05:00",
-          localEndTime: "2026-10-23T17:00:00.000-05:00",
           tbc: false,
         },
         {
@@ -1786,8 +1590,6 @@ export const f1Calendar2026: RaceCal = {
           name: "Practice 3",
           startDateTime: "2026-10-24T17:30:00.000Z",
           endDateTime: "2026-10-24T18:30:00.000Z",
-          localStartTime: "2026-10-24T12:30:00.000-05:00",
-          localEndTime: "2026-10-24T13:30:00.000-05:00",
           tbc: false,
         },
         {
@@ -1800,8 +1602,6 @@ export const f1Calendar2026: RaceCal = {
           name: "Qualifying",
           startDateTime: "2026-10-24T21:00:00.000Z",
           endDateTime: "2026-10-24T22:00:00.000Z",
-          localStartTime: "2026-10-24T16:00:00.000-05:00",
-          localEndTime: "2026-10-24T17:00:00.000-05:00",
           tbc: false,
         },
         {
@@ -1814,8 +1614,6 @@ export const f1Calendar2026: RaceCal = {
           name: "Race",
           startDateTime: "2026-10-25T20:00:00.000Z",
           endDateTime: "2026-10-25T17:30:00.000Z",
-          localStartTime: "2026-10-25T15:00:00.000-05:00",
-          localEndTime: "2026-10-25T12:30:00.000-05:00",
           tbc: true,
         },
       ],
@@ -1847,8 +1645,6 @@ export const f1Calendar2026: RaceCal = {
           name: "Practice 1",
           startDateTime: "2026-10-30T18:30:00.000Z",
           endDateTime: "2026-10-30T19:30:00.000Z",
-          localStartTime: "2026-10-30T12:30:00.000-06:00",
-          localEndTime: "2026-10-30T13:30:00.000-06:00",
           tbc: false,
         },
         {
@@ -1861,8 +1657,6 @@ export const f1Calendar2026: RaceCal = {
           name: "Practice 2",
           startDateTime: "2026-10-30T22:00:00.000Z",
           endDateTime: "2026-10-30T23:00:00.000Z",
-          localStartTime: "2026-10-30T16:00:00.000-06:00",
-          localEndTime: "2026-10-30T17:00:00.000-06:00",
           tbc: false,
         },
         {
@@ -1875,8 +1669,6 @@ export const f1Calendar2026: RaceCal = {
           name: "Practice 3",
           startDateTime: "2026-10-31T17:30:00.000Z",
           endDateTime: "2026-10-31T18:30:00.000Z",
-          localStartTime: "2026-10-31T11:30:00.000-06:00",
-          localEndTime: "2026-10-31T12:30:00.000-06:00",
           tbc: false,
         },
         {
@@ -1889,8 +1681,6 @@ export const f1Calendar2026: RaceCal = {
           name: "Qualifying",
           startDateTime: "2026-10-31T21:00:00.000Z",
           endDateTime: "2026-10-31T22:00:00.000Z",
-          localStartTime: "2026-10-31T15:00:00.000-06:00",
-          localEndTime: "2026-10-31T16:00:00.000-06:00",
           tbc: false,
         },
         {
@@ -1903,8 +1693,6 @@ export const f1Calendar2026: RaceCal = {
           name: "Race",
           startDateTime: "2026-11-01T20:00:00.000Z",
           endDateTime: "2026-11-01T18:30:00.000Z",
-          localStartTime: "2026-11-01T14:00:00.000-06:00",
-          localEndTime: "2026-11-01T12:30:00.000-06:00",
           tbc: true,
         },
       ],
@@ -1936,8 +1724,6 @@ export const f1Calendar2026: RaceCal = {
           name: "Practice 1",
           startDateTime: "2026-11-06T15:30:00.000Z",
           endDateTime: "2026-11-06T16:30:00.000Z",
-          localStartTime: "2026-11-06T12:30:00.000-03:00",
-          localEndTime: "2026-11-06T13:30:00.000-03:00",
           tbc: false,
         },
         {
@@ -1950,8 +1736,6 @@ export const f1Calendar2026: RaceCal = {
           name: "Practice 2",
           startDateTime: "2026-11-06T19:00:00.000Z",
           endDateTime: "2026-11-06T20:00:00.000Z",
-          localStartTime: "2026-11-06T16:00:00.000-03:00",
-          localEndTime: "2026-11-06T17:00:00.000-03:00",
           tbc: false,
         },
         {
@@ -1964,8 +1748,6 @@ export const f1Calendar2026: RaceCal = {
           name: "Practice 3",
           startDateTime: "2026-11-07T14:30:00.000Z",
           endDateTime: "2026-11-07T15:30:00.000Z",
-          localStartTime: "2026-11-07T11:30:00.000-03:00",
-          localEndTime: "2026-11-07T12:30:00.000-03:00",
           tbc: false,
         },
         {
@@ -1978,8 +1760,6 @@ export const f1Calendar2026: RaceCal = {
           name: "Qualifying",
           startDateTime: "2026-11-07T18:00:00.000Z",
           endDateTime: "2026-11-07T19:00:00.000Z",
-          localStartTime: "2026-11-07T15:00:00.000-03:00",
-          localEndTime: "2026-11-07T16:00:00.000-03:00",
           tbc: false,
         },
         {
@@ -1992,8 +1772,6 @@ export const f1Calendar2026: RaceCal = {
           name: "Race",
           startDateTime: "2026-11-08T17:00:00.000Z",
           endDateTime: "2026-11-08T15:30:00.000Z",
-          localStartTime: "2026-11-08T14:00:00.000-03:00",
-          localEndTime: "2026-11-08T12:30:00.000-03:00",
           tbc: true,
         },
       ],
@@ -2025,8 +1803,6 @@ export const f1Calendar2026: RaceCal = {
           name: "Practice 1",
           startDateTime: "2026-11-20T00:30:00.000Z",
           endDateTime: "2026-11-20T01:30:00.000Z",
-          localStartTime: "2026-11-19T16:30:00.000-08:00",
-          localEndTime: "2026-11-19T17:30:00.000-08:00",
           tbc: false,
         },
         {
@@ -2039,8 +1815,6 @@ export const f1Calendar2026: RaceCal = {
           name: "Practice 2",
           startDateTime: "2026-11-20T04:00:00.000Z",
           endDateTime: "2026-11-20T05:00:00.000Z",
-          localStartTime: "2026-11-19T20:00:00.000-08:00",
-          localEndTime: "2026-11-19T21:00:00.000-08:00",
           tbc: false,
         },
         {
@@ -2053,8 +1827,6 @@ export const f1Calendar2026: RaceCal = {
           name: "Practice 3",
           startDateTime: "2026-11-21T00:30:00.000Z",
           endDateTime: "2026-11-21T01:30:00.000Z",
-          localStartTime: "2026-11-20T16:30:00.000-08:00",
-          localEndTime: "2026-11-20T17:30:00.000-08:00",
           tbc: false,
         },
         {
@@ -2067,8 +1839,6 @@ export const f1Calendar2026: RaceCal = {
           name: "Qualifying",
           startDateTime: "2026-11-21T04:00:00.000Z",
           endDateTime: "2026-11-21T05:00:00.000Z",
-          localStartTime: "2026-11-20T20:00:00.000-08:00",
-          localEndTime: "2026-11-20T21:00:00.000-08:00",
           tbc: false,
         },
         {
@@ -2081,8 +1851,6 @@ export const f1Calendar2026: RaceCal = {
           name: "Race",
           startDateTime: "2026-11-22T04:00:00.000Z",
           endDateTime: "2026-11-21T20:30:00.000Z",
-          localStartTime: "2026-11-21T20:00:00.000-08:00",
-          localEndTime: "2026-11-21T12:30:00.000-08:00",
           tbc: true,
         },
       ],
@@ -2114,8 +1882,6 @@ export const f1Calendar2026: RaceCal = {
           name: "Practice 1",
           startDateTime: "2026-11-27T13:30:00.000Z",
           endDateTime: "2026-11-27T14:30:00.000Z",
-          localStartTime: "2026-11-27T16:30:00.000+03:00",
-          localEndTime: "2026-11-27T17:30:00.000+03:00",
           tbc: false,
         },
         {
@@ -2128,8 +1894,6 @@ export const f1Calendar2026: RaceCal = {
           name: "Practice 2",
           startDateTime: "2026-11-27T17:00:00.000Z",
           endDateTime: "2026-11-27T18:00:00.000Z",
-          localStartTime: "2026-11-27T20:00:00.000+03:00",
-          localEndTime: "2026-11-27T21:00:00.000+03:00",
           tbc: false,
         },
         {
@@ -2142,8 +1906,6 @@ export const f1Calendar2026: RaceCal = {
           name: "Practice 3",
           startDateTime: "2026-11-28T14:30:00.000Z",
           endDateTime: "2026-11-28T15:30:00.000Z",
-          localStartTime: "2026-11-28T17:30:00.000+03:00",
-          localEndTime: "2026-11-28T18:30:00.000+03:00",
           tbc: false,
         },
         {
@@ -2156,8 +1918,6 @@ export const f1Calendar2026: RaceCal = {
           name: "Qualifying",
           startDateTime: "2026-11-28T18:00:00.000Z",
           endDateTime: "2026-11-28T19:00:00.000Z",
-          localStartTime: "2026-11-28T21:00:00.000+03:00",
-          localEndTime: "2026-11-28T22:00:00.000+03:00",
           tbc: false,
         },
         {
@@ -2170,8 +1930,6 @@ export const f1Calendar2026: RaceCal = {
           name: "Race",
           startDateTime: "2026-11-29T16:00:00.000Z",
           endDateTime: "2026-11-29T09:30:00.000Z",
-          localStartTime: "2026-11-29T19:00:00.000+03:00",
-          localEndTime: "2026-11-29T12:30:00.000+03:00",
           tbc: true,
         },
       ],
@@ -2203,8 +1961,6 @@ export const f1Calendar2026: RaceCal = {
           name: "Practice 1",
           startDateTime: "2026-12-04T09:30:00.000Z",
           endDateTime: "2026-12-04T10:30:00.000Z",
-          localStartTime: "2026-12-04T13:30:00.000+04:00",
-          localEndTime: "2026-12-04T14:30:00.000+04:00",
           tbc: false,
         },
         {
@@ -2217,8 +1973,6 @@ export const f1Calendar2026: RaceCal = {
           name: "Practice 2",
           startDateTime: "2026-12-04T13:00:00.000Z",
           endDateTime: "2026-12-04T14:00:00.000Z",
-          localStartTime: "2026-12-04T17:00:00.000+04:00",
-          localEndTime: "2026-12-04T18:00:00.000+04:00",
           tbc: false,
         },
         {
@@ -2231,8 +1985,6 @@ export const f1Calendar2026: RaceCal = {
           name: "Practice 3",
           startDateTime: "2026-12-05T10:30:00.000Z",
           endDateTime: "2026-12-05T11:30:00.000Z",
-          localStartTime: "2026-12-05T14:30:00.000+04:00",
-          localEndTime: "2026-12-05T15:30:00.000+04:00",
           tbc: false,
         },
         {
@@ -2245,8 +1997,6 @@ export const f1Calendar2026: RaceCal = {
           name: "Qualifying",
           startDateTime: "2026-12-05T14:00:00.000Z",
           endDateTime: "2026-12-05T15:00:00.000Z",
-          localStartTime: "2026-12-05T18:00:00.000+04:00",
-          localEndTime: "2026-12-05T19:00:00.000+04:00",
           tbc: false,
         },
         {
@@ -2259,8 +2009,6 @@ export const f1Calendar2026: RaceCal = {
           name: "Race",
           startDateTime: "2026-12-06T13:00:00.000Z",
           endDateTime: "2026-12-06T08:30:00.000Z",
-          localStartTime: "2026-12-06T17:00:00.000+04:00",
-          localEndTime: "2026-12-06T12:30:00.000+04:00",
           tbc: true,
         },
       ],

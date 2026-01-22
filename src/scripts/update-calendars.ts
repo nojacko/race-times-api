@@ -53,13 +53,10 @@ function buildSession(
 
   let startDateTime = startDt.isValid ? startDt.toUTC().toISO() : null;
   let endDateTime = endDt.isValid ? endDt.toUTC().toISO() : null;
-  let localStartTime = startDt.isValid ? startDt.toISO() : null;
-  let localEndTime = endDt.isValid ? endDt.toISO() : null;
 
   // if end times are missing but start exists, default end = start + 2 hours
   if (startDateTime && !endDateTime) {
     const endLocal = startDt.plus({ hours: 2 });
-    localEndTime = endLocal.toISO();
     endDateTime = endLocal.toUTC().toISO();
   }
 
@@ -69,9 +66,6 @@ function buildSession(
   const sessionId = `${calendarKey} => ${rawEvent.slug} => ${sessionSlug || `#${i}`}`;
   if (!startDateTime) {
     errors.push(`missing startDateTime: ${sessionId}`);
-  }
-  if (!localStartTime) {
-    errors.push(`missing localStartTime: ${sessionId}`);
   }
 
   return {
@@ -84,8 +78,6 @@ function buildSession(
     name: session.name,
     startDateTime,
     endDateTime,
-    localStartTime,
-    localEndTime,
     tbc: tbc,
   };
 }
