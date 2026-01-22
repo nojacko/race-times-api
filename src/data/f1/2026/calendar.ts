@@ -7,6 +7,7 @@ export const f1Calendar2026: RaceCal = {
   year: "2026",
   url: "https://www.formula1.com/en/racing/2026",
   title: "2026 FIA FORMULA ONE WORLD CHAMPIONSHIP™ RACE CALENDAR",
+  roundsCount: 24,
   raceEvents: [
     {
       key: "f1_2026_pre-season-testing-1",

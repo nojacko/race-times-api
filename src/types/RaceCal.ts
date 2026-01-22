@@ -7,5 +7,6 @@ export interface RaceCal {
   url: string;
   title: string;
   raceEvents: RaceEvent[];
+  roundsCount: number;
   updatedAt: string;
 }

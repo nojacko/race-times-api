@@ -7,6 +7,7 @@ export const f1AcademyCalendar2026: RaceCal = {
   year: "2026",
   url: "https://www.f1academy.com/Racing-Series/Calendar",
   title: "2026 F1 Academy Calendar",
+  roundsCount: 7,
   raceEvents: [
     {
       key: "f1-academy_2026_shanghai",

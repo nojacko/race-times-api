@@ -231,6 +231,7 @@ function parseCalendar(): void {
               year: calendarRaw.year,
               url: calendarRaw.url,
               title: calendarRaw.title,
+              roundsCount: events.filter((e) => e.eventType === "round").length,
               raceEvents: events,
               updatedAt: calendarRaw.updatedAt,
             };

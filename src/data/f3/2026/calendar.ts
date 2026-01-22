@@ -7,6 +7,7 @@ export const f3Calendar2026: RaceCal = {
   year: "2026",
   url: "https://www.fiaformula3.com/Calendar",
   title: "Calendar Formula 3 2026",
+  roundsCount: 10,
   raceEvents: [
     {
       key: "f3_2026_melbourne",

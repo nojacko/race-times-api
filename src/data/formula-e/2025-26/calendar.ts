@@ -7,6 +7,7 @@ export const formulaECalendar202526: RaceCal = {
   year: "2025-26",
   url: "https://www.fiaformulae.com/en/calendar",
   title: "Formula E 2025/26 Racing Calendar",
+  roundsCount: 17,
   raceEvents: [
     {
       key: "formula-e_2025-26_sao-paulo",

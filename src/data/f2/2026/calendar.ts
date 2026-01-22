@@ -7,6 +7,7 @@ export const f2Calendar2026: RaceCal = {
   year: "2026",
   url: "https://www.fiaformula2.com/Calendar",
   title: "Calendar Formula 2 2026",
+  roundsCount: 14,
   raceEvents: [
     {
       key: "f2_2026_melbourne",
