@@ -14,11 +14,11 @@ async function main() {
       const p = path.join(destDir, entry);
       try {
         await fs.unlink(p);
-      } catch (e) {
+      } catch (_err) {
         // ignore unlink errors for non-file entries or permission issues
       }
     }
-  } catch (e) {
+  } catch (_err) {
     // if readdir fails, ignore and continue (dir may not exist yet)
   }
 

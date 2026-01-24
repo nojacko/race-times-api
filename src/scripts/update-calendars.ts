@@ -12,7 +12,7 @@ import { camelCase } from "lodash/string";
 import { DateTime } from "luxon";
 import { getCircuit } from "../data/circuits";
 import { getCircuitKey, getCircuitSlug } from "../utils/circuit-map";
-import { getFormulasActive } from "../data/formulas";
+import { F1, getFormulasActive } from "../data/formulas";
 import { slugify, slugsJoin } from "../utils/strings";
 import { VARS } from "../vars";
 
@@ -41,11 +41,26 @@ function buildSession(
   // Check if times are TBC
   const startTimeTBC = session.localStartTime === "TBC" || !session.localStartTime;
   const endTimeTBC = session.localEndTime === "TBC" || !session.localEndTime;
-  const tbc = startTimeTBC || endTimeTBC;
 
   // Use 12:00/12:30 as default for TBC times
   const startTime = startTimeTBC ? "12:00" : session.localStartTime;
-  const endTime = endTimeTBC ? "12:30" : session.localEndTime;
+
+  let endTime: string;
+  if (endTimeTBC) {
+    if (formula.slug === F1.slug && !startTimeTBC) {
+      // For F1, if localEndTime is null but start time exists, calculate end = start + 2 hours
+      const startDtLocal = DateTime.fromFormat(`${session.localDate} ${startTime}`, "yyyy-MM-dd HH:mm", { zone: timeZone });
+      if (startDtLocal.isValid) {
+        endTime = startDtLocal.plus({ hours: 2 }).toFormat("HH:mm");
+      } else {
+        endTime = "12:30";
+      }
+    } else {
+      endTime = "12:30";
+    }
+  } else {
+    endTime = session.localEndTime;
+  }
 
   // Parse localDate and times using Luxon
   const startDt = DateTime.fromFormat(`${session.localDate} ${startTime}`, "yyyy-MM-dd HH:mm", { zone: timeZone });
@@ -78,7 +93,7 @@ function buildSession(
     name: session.name,
     startDateTime,
     endDateTime,
-    tbc: tbc,
+    tbc: startTimeTBC,
   };
 }
 
@@ -242,7 +257,7 @@ function parseCalendar(): void {
               errors.forEach((m) => console.log(`  - ${m}`));
             }
             writeCalendar(formula.slug, year, transformed);
-          } catch (err) {
+          } catch (_err) {
             console.warn(`- ${year}: ${calendarFilename} loaded but failed to parse`);
           }
         } else {
